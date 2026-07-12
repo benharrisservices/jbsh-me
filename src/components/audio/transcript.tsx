@@ -60,7 +60,7 @@ export function Transcript({
             key={i}
             ref={isActive ? activeRef : null}
             initial={{ opacity: 0, y: 8 }}
-            whileInView={{ opacity: 0.48, y: 0 }}
+            whileInView={{ y: 0 }}
             viewport={{ once: true, margin: "-40px" }}
             animate={{ opacity }}
             transition={{
