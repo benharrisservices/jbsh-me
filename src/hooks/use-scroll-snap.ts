@@ -84,8 +84,21 @@ export function useScrollSnap() {
 
     // The current chapter itself still has content to reveal in this direction.
     const sectionCanScroll = (dir: number) => {
-      const rect = sections[currentIndex()]?.getBoundingClientRect();
-      if (!rect) return false;
+      const el = sections[currentIndex()];
+      if (!el) return false;
+
+      const style = getComputedStyle(el);
+      const hasInternalScroll =
+        /(auto|scroll)/.test(style.overflowY) &&
+        el.scrollHeight > el.clientHeight + 1;
+
+      const rect = el.getBoundingClientRect();
+      const aligned = rect.top >= -2 && rect.top <= 2;
+
+      // Snapped chapters without internal scroll advance on the next gesture,
+      // even when credentials push the section a few pixels past the viewport.
+      if (!hasInternalScroll && aligned) return false;
+
       if (dir > 0) return rect.bottom > window.innerHeight + 2;
       return rect.top < -2;
     };
