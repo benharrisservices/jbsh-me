@@ -34,14 +34,12 @@ export function NarratedSection({
     <section
       id={id}
       className={cn(
-        "chapter-scene relative snap-start snap-always px-6 md:px-12 lg:px-24",
-        scrollable
-          ? "chapter-scene--scrollable min-h-dvh py-20 md:py-24"
-          : "flex min-h-dvh flex-col justify-center py-16 md:py-20",
+        "chapter-scene chapter-scene--scrollable relative flex min-h-dvh snap-start snap-always flex-col px-6 md:px-12 lg:px-24",
+        scrollable ? "py-20 md:py-24" : "py-16 md:py-20",
         className,
       )}
     >
-      <div className="mx-auto w-full max-w-3xl">
+      <div className={cn("mx-auto w-full max-w-3xl", !scrollable && "my-auto")}>
         <motion.header
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}

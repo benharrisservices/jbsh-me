@@ -37,9 +37,9 @@ export function FinalLetterSection() {
     <>
       <section
         id="letter"
-        className="chapter-scene relative flex min-h-dvh snap-start snap-always flex-col justify-center px-6 py-32 md:px-12 md:py-40 lg:px-24"
+        className="chapter-scene chapter-scene--scrollable relative flex min-h-dvh snap-start snap-always flex-col px-6 py-32 md:px-12 md:py-40 lg:px-24"
       >
-        <div className="mx-auto w-full max-w-2xl">
+        <div className="mx-auto my-auto w-full max-w-2xl">
           <motion.header
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

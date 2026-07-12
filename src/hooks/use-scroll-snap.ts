@@ -92,12 +92,20 @@ export function useScrollSnap() {
         /(auto|scroll)/.test(style.overflowY) &&
         el.scrollHeight > el.clientHeight + 1;
 
+      // Chapters clamp to the viewport and reveal any overflow through their
+      // own scroll before the next gesture advances.
+      if (hasInternalScroll) {
+        if (dir > 0)
+          return el.scrollTop + el.clientHeight < el.scrollHeight - 1;
+        return el.scrollTop > 1;
+      }
+
       const rect = el.getBoundingClientRect();
       const aligned = rect.top >= -2 && rect.top <= 2;
 
-      // Snapped chapters without internal scroll advance on the next gesture,
-      // even when credentials push the section a few pixels past the viewport.
-      if (!hasInternalScroll && aligned) return false;
+      // A snapped chapter with no internal scroll advances on the next gesture,
+      // even when its content sits a few pixels past the viewport.
+      if (aligned) return false;
 
       if (dir > 0) return rect.bottom > window.innerHeight + 2;
       return rect.top < -2;
@@ -138,8 +146,31 @@ export function useScrollSnap() {
       else if (e.key === "ArrowUp" || e.key === "PageUp") dir = -1;
       else return;
 
-      if (nestedCanScroll(document.activeElement, dir) || sectionCanScroll(dir))
-        return;
+      // Keyboard focus usually rests on the body, so scroll a chapter's own
+      // overflow directly before allowing the gesture to advance. This keeps
+      // every line reachable without a pointer.
+      const el = sections[currentIndex()];
+      if (el) {
+        const style = getComputedStyle(el);
+        const canInternal =
+          /(auto|scroll)/.test(style.overflowY) &&
+          el.scrollHeight > el.clientHeight + 1;
+        if (canInternal) {
+          const atEnd =
+            el.scrollTop + el.clientHeight >= el.scrollHeight - 1;
+          const atStart = el.scrollTop <= 1;
+          if ((dir > 0 && !atEnd) || (dir < 0 && !atStart)) {
+            e.preventDefault();
+            el.scrollBy({
+              top: dir * window.innerHeight * 0.85,
+              behavior: reduceMotion ? "auto" : "smooth",
+            });
+            return;
+          }
+        }
+      }
+
+      if (nestedCanScroll(document.activeElement, dir)) return;
       e.preventDefault();
       if (!locked) goTo(currentIndex() + dir);
     };
