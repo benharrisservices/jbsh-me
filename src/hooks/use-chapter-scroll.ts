@@ -26,10 +26,8 @@ export function useChapterScroll() {
         if (!visible.length) return;
 
         const id = visible[0].target.id;
-        if (id === "welcome") return;
-
         setActiveChapter(id);
-        unlockPlayer();
+        if (id !== "welcome") unlockPlayer();
       },
       { threshold: [0.35, 0.5, 0.65], rootMargin: "-10% 0px -10% 0px" },
     );

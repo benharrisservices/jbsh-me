@@ -3,25 +3,14 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { chapters } from "@/content/sections";
+import { useAudio } from "@/components/providers/audio-provider";
 
 export function Navigation() {
-  const [activeSection, setActiveSection] = useState("welcome");
+  const { activeChapterId } = useAudio();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setVisible(window.scrollY > 300);
-
-      const anchor = window.innerHeight * 0.4;
-      for (const ch of [...chapters].reverse()) {
-        const el = document.getElementById(ch.id);
-        if (el && el.getBoundingClientRect().top <= anchor) {
-          setActiveSection(ch.id);
-          break;
-        }
-      }
-    };
-
+    const handleScroll = () => setVisible(window.scrollY > 300);
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
@@ -40,7 +29,7 @@ export function Navigation() {
       aria-label="Chapters"
     >
       {chapters.map((chapter) => {
-        const active = activeSection === chapter.id;
+        const active = activeChapterId === chapter.id;
         return (
           <button
             key={chapter.id}

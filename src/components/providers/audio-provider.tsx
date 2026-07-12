@@ -9,6 +9,7 @@ import {
   useState,
 } from "react";
 import {
+  getChapter,
   getChapterAudioSrc,
   getChapterTitle,
   getNextAudioChapterId,
@@ -44,7 +45,7 @@ function scrollToChapter(id: string) {
 export function AudioProvider({ children }: { children: React.ReactNode }) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [audioEl, setAudioEl] = useState<HTMLAudioElement | null>(null);
-  const [activeChapterId, setActiveChapterId] = useState("identity");
+  const [activeChapterId, setActiveChapterId] = useState("welcome");
   const [playerVisible, setPlayerVisible] = useState(false);
   const [playing, setPlaying] = useState(false);
   const [ready, setReady] = useState(false);
@@ -126,11 +127,18 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     };
   }, [audioEl]);
 
+  // Pause on the hero; it has no narration track.
+  useEffect(() => {
+    if (activeChapterId !== "welcome") return;
+    audioRef.current?.pause();
+  }, [activeChapterId]);
+
   // Swap the source whenever the active chapter changes. An auto-advance
   // keeps playing; a manual navigation follows whatever was already playing.
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
+    if (!getChapter(activeChapterId)?.hasAudio) return;
 
     const src = getChapterAudioSrc(activeChapterId);
     const current = audio.getAttribute("src") ?? "";

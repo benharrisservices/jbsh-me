@@ -14,6 +14,7 @@ function formatTime(seconds: number): string {
 
 export function GlobalPlayer() {
   const {
+    activeChapterId,
     playerVisible,
     chapterTitle,
     playing,
@@ -25,6 +26,8 @@ export function GlobalPlayer() {
     levels,
     missing,
   } = useAudio();
+
+  const canPlay = activeChapterId !== "welcome" && !missing;
 
   return (
     <>
@@ -39,9 +42,15 @@ export function GlobalPlayer() {
           <motion.button
             onClick={toggle}
             whileTap={{ scale: 0.94 }}
-            disabled={missing}
+            disabled={!canPlay}
             className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-foreground/70 transition-colors hover:text-foreground disabled:opacity-30"
-            aria-label={playing ? `Pause ${chapterTitle}` : `Play ${chapterTitle}`}
+            aria-label={
+              canPlay
+                ? playing
+                  ? `Pause ${chapterTitle}`
+                  : `Play ${chapterTitle}`
+                : chapterTitle
+            }
           >
             {playing ? (
               <Pause className="h-3 w-3" />
