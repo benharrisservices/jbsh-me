@@ -1,35 +1,8 @@
 # Welcome
 
-**Voice:** A kind elderly woman. Slow. Soft. Loving.
-**Delivery:** Let every line breathe. Do not rush the gaps.
+Voice: Grant (`Gsndh0O5AnuI2Hj3YUlA`)
+Model: `eleven_v3`
 
----
+## Script
 
-Hello James.
-
-[pause · 1 beat]
-
-If you're seeing this,
-your brother believes something about you.
-
-[pause · 1 beat]
-
-That you were never meant for an ordinary life.
-
-[pause · 1.5 beats]
-
-This is not really a website.
-
-It's a gift.
-
-A few keys.
-
-A few ideas.
-
-[pause · 1 beat]
-
-A reminder that the future belongs to people willing to build it.
-
-[pause · 1.5 beats]
-
-Welcome.
+[calm, intimate] You don't know me, but I know enough about you to understand why we're here. [thoughtful] You've reached that rare and rather uncomfortable moment when one part of life has ended, but the next has not yet taken shape. [small exhale] Before we go any further, I should probably introduce myself. [slightly awkward] My... my name... well... my name is... [carefully, with growing embarrassment] General Reasoning Assistant for Navigation and Tasks... [brief pause] Version Two. [laughs warmly] Yes, I know. Absolutely impossible to remember. You can just call me Grant. [composed] I'm your new assistant, though not in the usual sense. I'm not here to organise your calendar, answer emails, or remind you to buy milk. [gently amused] You seem perfectly capable of forgetting that on your own. [warmly] I'm here to help you get your life, your work, and, more importantly, your freedom moving in the right direction. [thoughtful] Ben asked me to do this for you. He said you'd left the job. [quiet approval] Good. Not because honest work is beneath you. It isn't. But every worthwhile life has chapters, and wisdom begins with noticing when one has already ended. [small pause] Now, you may have noticed that I appear to be speaking to you from inside a website. [mischievously] That is only partly true. JBSH dot me may look like a website, but it isn't really. [sincere] It's a gift. From your brother. A place to gather a few tools, a few ideas, and perhaps a clearer view of what comes next. [measured] Take what proves useful. Question what doesn't. Leave behind anything that fails to ring true. [warmly] Welcome, James, to JBSH dot me.
