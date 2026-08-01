@@ -14,7 +14,11 @@ import {
   getChapterTitle,
   getNextAudioChapterId,
 } from "@/content/sections";
-import { applyNarrationPlaybackRate, waitForAudioCanPlay } from "@/lib/audio";
+import {
+  applyNarrationPlaybackRate,
+  waitForAudioCanPlayThrough,
+} from "@/lib/audio";
+import { ensureChapterCues } from "@/hooks/use-chapter-cues";
 import { useAudioAnalyser } from "@/hooks/use-audio-analyser";
 import { useAudioClock, waitAnimationFrames } from "@/hooks/use-audio-clock";
 
@@ -44,8 +48,8 @@ interface AudioContextValue {
 
 const AudioCtx = createContext<AudioContextValue | undefined>(undefined);
 
-/** Brief pause after `ended` before replacing src (trail silence already in file). */
-const CHAPTER_END_SAFETY_MS = 150;
+/** Pause after `ended` before replacing src so trailing samples finish cleanly. */
+const CHAPTER_END_SAFETY_MS = 500;
 
 function scrollToChapter(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -75,6 +79,8 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
   const resumeOnLoadRef = useRef(false);
   const advancingRef = useRef(false);
   const pendingStartRef = useRef(false);
+  const prerollingRef = useRef(false);
+  const narrationStartedRef = useRef(false);
   const startGenRef = useRef(0);
   const advanceFromEndedRef = useRef<() => void>(() => {});
   const endedBoundRef = useRef(false);
@@ -91,12 +97,17 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     wasPlayingRef.current = playing;
   }, [playing]);
 
+  useEffect(() => {
+    prerollingRef.current = prerolling;
+  }, [prerolling]);
+
+  useEffect(() => {
+    narrationStartedRef.current = narrationStarted;
+  }, [narrationStarted]);
+
   /**
-   * Reliable start: metadata/canplay → rate 1.0 → currentTime 0 →
-   * AudioContext → one rAF → play. Never seek after play begins.
-   * No artificial preroll — opening silence lives in the MP3.
-   * When media is already ready, keep awaits minimal so play() stays
-   * inside the user-gesture window.
+   * Reliable start: metadata → canplaythrough → rate 1.0 → currentTime 0 →
+   * AudioContext/analyser → two rAFs → play.
    */
   const startPlaybackReady = useCallback(async () => {
     const audio = audioRef.current;
@@ -105,6 +116,10 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
 
     try {
       setPrerolling(true);
+
+      const chapterId = audio.dataset.chapterId || activeIdRef.current;
+      await ensureChapterCues(chapterId).catch(() => null);
+      if (gen !== startGenRef.current) return;
 
       if (audio.readyState < HTMLMediaElement.HAVE_METADATA) {
         await new Promise<void>((resolve, reject) => {
@@ -126,25 +141,20 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
         if (gen !== startGenRef.current) return;
       }
 
-      if (audio.readyState < HTMLMediaElement.HAVE_FUTURE_DATA) {
-        await waitForAudioCanPlay(audio);
-        if (gen !== startGenRef.current) return;
-      }
-
-      // Kick AudioContext; don't block play on a slow resume.
-      const ctxReady = resumeContext();
-      applyNarrationPlaybackRate(audio);
-      if (audio.currentTime > 0.001) {
-        audio.currentTime = 0;
-      }
-
-      await waitAnimationFrames(1);
-      if (gen !== startGenRef.current) return;
-
-      await ctxReady;
+      await waitForAudioCanPlayThrough(audio);
       if (gen !== startGenRef.current) return;
 
       applyNarrationPlaybackRate(audio);
+      audio.currentTime = 0;
+
+      await resumeContext();
+      if (gen !== startGenRef.current) return;
+
+      await waitAnimationFrames(2);
+      if (gen !== startGenRef.current) return;
+
+      applyNarrationPlaybackRate(audio);
+      setReady(true);
       await audio.play();
       applyNarrationPlaybackRate(audio);
     } catch {
@@ -169,11 +179,11 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     }
     advancingRef.current = true;
     void (async () => {
+      // Keep element + analyser graph intact; do not swap src this turn.
       await delay(CHAPTER_END_SAFETY_MS);
-      // Always advance to the track after the one that just ended.
-      // Scroll-spy is blocked by advancingRef during this window.
       resumeOnLoadRef.current = true;
-      setReady(false);
+      // Prefetch next cues before swapping source.
+      await ensureChapterCues(nextId).catch(() => null);
       setActiveChapterId(nextId);
       scrollToChapter(nextId);
     })();
@@ -189,21 +199,24 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
 
     const onLoaded = () => {
       setDuration(Number.isFinite(audio.duration) ? audio.duration : 0);
-      setReady(true);
       setMissing(false);
       applyNarrationPlaybackRate(audio);
 
-      if (pendingStartRef.current) {
-        pendingStartRef.current = false;
-        resumeOnLoadRef.current = false;
-        void startPlaybackReady();
+      const shouldStart =
+        pendingStartRef.current || resumeOnLoadRef.current;
+      if (!shouldStart) {
+        setReady(true);
         return;
       }
 
-      if (resumeOnLoadRef.current) {
-        resumeOnLoadRef.current = false;
-        void startPlaybackReady();
-      }
+      const chapterId = audio.dataset.chapterId || activeIdRef.current;
+      pendingStartRef.current = false;
+      resumeOnLoadRef.current = false;
+      void (async () => {
+        await ensureChapterCues(chapterId).catch(() => null);
+        if (audio.dataset.chapterId !== chapterId) return;
+        await startPlaybackReady();
+      })();
     };
     const onError = () => {
       setMissing(true);
@@ -219,10 +232,9 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       advancingRef.current = false;
       setPlaying(true);
       setPrerolling(false);
+      setReady(true);
     };
     const onPause = () => setPlaying(false);
-
-    // Keep addEventListener as a backup; primary path is audio.onended.
     const onEnd = () => advanceFromEnded();
 
     audio.addEventListener("loadedmetadata", onLoaded);
@@ -270,7 +282,6 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
 
     startGenRef.current += 1;
     setPrerolling(false);
-    setReady(false);
     audio.pause();
     audio.dataset.chapterId = activeChapterId;
     audio.src = src;
@@ -279,51 +290,65 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     if (!resumeOnLoadRef.current && !pendingStartRef.current) {
       setPlaying(false);
       advancingRef.current = false;
+      setReady(true);
     }
   }, [activeChapterId, audioEl, startPlaybackReady]);
 
   const toggle = useCallback(async () => {
     const audio = audioRef.current;
     if (!audio || missing) return;
-    if (activeIdRef.current === "welcome") return;
+    const chapterId = audio.dataset.chapterId || activeIdRef.current;
+    if (!getChapter(chapterId)?.hasAudio) return;
 
-    await resumeContext();
-    if (audio.paused) {
-      const nearEnd =
-        audio.ended ||
-        (Number.isFinite(audio.duration) &&
-          audio.currentTime >= audio.duration - 0.05);
-      const atStart = audio.currentTime < 0.05 || nearEnd;
-      if (nearEnd) {
-        audio.currentTime = 0;
-      }
-      applyNarrationPlaybackRate(audio);
-      if (atStart) {
-        void startPlaybackReady();
-      } else {
-        void audio.play().catch(() => setPlaying(false));
-      }
-    } else {
+    // Do not await before pause/play — keep this on the user-gesture turn.
+    void resumeContext();
+    applyNarrationPlaybackRate(audio);
+
+    if (!audio.paused && !audio.ended) {
       startGenRef.current += 1;
       setPrerolling(false);
       audio.pause();
+      setPlaying(false);
+      return;
     }
-  }, [missing, resumeContext, startPlaybackReady]);
+
+    const nearEnd =
+      audio.ended ||
+      (Number.isFinite(audio.duration) &&
+        audio.duration > 0 &&
+        audio.currentTime >= audio.duration - 0.05);
+
+    if (nearEnd) {
+      audio.currentTime = 0;
+    }
+
+    try {
+      await audio.play();
+      applyNarrationPlaybackRate(audio);
+      setPlaying(true);
+      setPrerolling(false);
+      setReady(true);
+    } catch {
+      setPlaying(false);
+    }
+  }, [missing, resumeContext]);
 
   const seek = useCallback(
     (fraction: number) => {
       const audio = audioRef.current;
       if (!audio || !duration || prerolling) return;
       const clamped = Math.min(Math.max(fraction, 0), 1);
-      // Immediate jump — rAF clock + seeked handler recompute active cues.
       audio.currentTime = clamped * duration;
     },
     [duration, prerolling],
   );
 
   const setActiveChapter = useCallback((id: string) => {
-    // Scroll spy must not steal the chapter during auto-advance or playback.
-    if (advancingRef.current) return;
+    // Scroll spy must not steal the chapter during start, preroll, advance, or playback.
+    if (advancingRef.current || pendingStartRef.current || prerollingRef.current) {
+      return;
+    }
+    if (narrationStartedRef.current && id === "welcome") return;
     if (wasPlayingRef.current && id !== activeIdRef.current) return;
     setActiveChapterId((prev) => (prev === id ? prev : id));
   }, []);
@@ -338,14 +363,14 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     setNarrationStarted(true);
     setPlayerVisible(true);
     pendingStartRef.current = true;
-    setReady(false);
     scrollToChapter("identity");
+    void resumeContext();
+
+    // Prefetch Identity cues before / while audio loads — first-play race fix.
+    void ensureChapterCues("identity");
 
     const identitySrc = getChapterAudioSrc("identity");
     const audio = audioRef.current;
-    // Unlock audio graph on the gesture so later autoplay/advance can play.
-    void resumeContext();
-
     const alreadyIdentity =
       activeIdRef.current === "identity" &&
       !!audio &&
@@ -353,7 +378,10 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
 
     if (alreadyIdentity) {
       pendingStartRef.current = false;
-      void startPlaybackReady();
+      void (async () => {
+        await ensureChapterCues("identity");
+        await startPlaybackReady();
+      })();
       return;
     }
 

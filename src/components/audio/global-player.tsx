@@ -30,6 +30,11 @@ export function GlobalPlayer() {
 
   const canPlay = activeChapterId !== "welcome" && !missing;
   const live = playing || prerolling;
+  const label = !canPlay
+    ? chapterTitle
+    : live
+      ? `Pause ${chapterTitle}`
+      : `Play ${chapterTitle}`;
 
   return (
     <>
@@ -38,28 +43,24 @@ export function GlobalPlayer() {
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
-          className="fixed bottom-5 right-5 z-50 flex items-center gap-3 rounded-full border border-foreground/[0.06] bg-background/70 px-3 py-2 shadow-[0_8px_32px_rgba(0,0,0,0.12)] backdrop-blur-xl dark:shadow-[0_8px_32px_rgba(0,0,0,0.4)]"
+          className="pointer-events-auto fixed bottom-5 right-5 z-[70] flex items-center gap-3 rounded-full border border-foreground/[0.06] bg-background/70 px-3 py-2 shadow-[0_8px_32px_rgba(0,0,0,0.12)] backdrop-blur-xl dark:shadow-[0_8px_32px_rgba(0,0,0,0.4)]"
           aria-label="Chapter narration"
         >
-          <motion.button
-            onClick={toggle}
-            whileTap={{ scale: 0.94 }}
+          <button
+            type="button"
+            onClick={() => {
+              void toggle();
+            }}
             disabled={!canPlay}
             className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-foreground/70 transition-colors hover:text-foreground disabled:opacity-30"
-            aria-label={
-              canPlay
-                ? live
-                  ? `Pause ${chapterTitle}`
-                  : `Play ${chapterTitle}`
-                : chapterTitle
-            }
+            aria-label={label}
           >
             {live ? (
-              <Pause className="h-3 w-3" />
+              <Pause className="h-3 w-3" aria-hidden />
             ) : (
-              <Play className="h-3 w-3 translate-x-[0.5px]" />
+              <Play className="h-3 w-3 translate-x-[0.5px]" aria-hidden />
             )}
-          </motion.button>
+          </button>
 
           <div className="hidden min-w-0 sm:block">
             <p className="truncate text-[10px] tracking-[0.12em] text-foreground/50 uppercase">

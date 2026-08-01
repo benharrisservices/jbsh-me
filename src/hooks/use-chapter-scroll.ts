@@ -6,9 +6,7 @@ import { useAudio } from "@/components/providers/audio-provider";
 
 /**
  * Tracks which chapter is in view and keeps the global audio player in sync.
- * Exactly one chapter is active at any time. The player is revealed only after
- * the reader starts narration from the hero play control.
- * While narration is playing, audio owns the active chapter (scroll cannot steal it).
+ * While narration is starting or playing, audio owns the active chapter.
  */
 export function useChapterScroll() {
   const {
@@ -34,8 +32,12 @@ export function useChapterScroll() {
 
         const id = visible[0].target.id;
         if (narrationStarted && id !== "welcome") unlockPlayer();
-        // Audio owns chapter selection during playback / preroll transitions.
-        if (playing || prerolling) return;
+        // Audio owns chapter selection during playback / start / preroll.
+        if (playing || prerolling || narrationStarted) {
+          // Still allow manual paused navigation between audio chapters.
+          if (playing || prerolling) return;
+          if (id === "welcome") return;
+        }
         setActiveChapter(id);
       },
       { threshold: [0.35, 0.5, 0.65], rootMargin: "-10% 0px -10% 0px" },

@@ -21,16 +21,16 @@ export function useAudioClock(
       return () => cancelAnimationFrame(id);
     }
 
-    const publish = () => {
+    const publish = (force = false) => {
       const t = audio.currentTime;
-      if (Math.abs(t - lastRef.current) >= 0.008) {
+      if (force || Math.abs(t - lastRef.current) >= 0.008) {
         lastRef.current = t;
         setCurrentTime(t);
       }
     };
 
     const boot = requestAnimationFrame(() => {
-      publish();
+      publish(true);
       if (!playing) return;
       const tick = () => {
         publish();
@@ -47,19 +47,19 @@ export function useAudioClock(
 
   useEffect(() => {
     if (!audio) return;
-    const onSeeked = () => {
-      lastRef.current = -1;
-      setCurrentTime(audio.currentTime);
-    };
-    const onLoaded = () => {
+    const reset = () => {
       lastRef.current = -1;
       setCurrentTime(audio.currentTime || 0);
     };
-    audio.addEventListener("seeked", onSeeked);
-    audio.addEventListener("loadedmetadata", onLoaded);
+    audio.addEventListener("seeked", reset);
+    audio.addEventListener("loadedmetadata", reset);
+    audio.addEventListener("loadstart", reset);
+    audio.addEventListener("emptied", reset);
     return () => {
-      audio.removeEventListener("seeked", onSeeked);
-      audio.removeEventListener("loadedmetadata", onLoaded);
+      audio.removeEventListener("seeked", reset);
+      audio.removeEventListener("loadedmetadata", reset);
+      audio.removeEventListener("loadstart", reset);
+      audio.removeEventListener("emptied", reset);
     };
   }, [audio]);
 

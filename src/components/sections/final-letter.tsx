@@ -12,8 +12,8 @@ import {
 import { cn } from "@/lib/utils";
 
 export function FinalLetterSection() {
-  const { activeChapterId, currentTime, reachedEnd, ready } = useAudio();
-  const isActive = activeChapterId === "letter" && ready;
+  const { activeChapterId, currentTime, reachedEnd } = useAudio();
+  const isActive = activeChapterId === "letter";
   const { cues } = useChapterCues("letter");
   const [showClosing, setShowClosing] = useState(false);
   const triggeredRef = useRef(false);

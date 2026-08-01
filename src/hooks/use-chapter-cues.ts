@@ -6,6 +6,7 @@ import { hasProductionLineCues, normalizeChapterCues } from "@/lib/cues";
 import { narrationCueSrc } from "@/lib/audio";
 
 const cache = new Map<string, ChapterCues | null>();
+const inflight = new Map<string, Promise<ChapterCues | null>>();
 
 interface CueHookState {
   chapterId: string;
@@ -21,6 +22,40 @@ function initialState(chapterId: string): CueHookState {
     loading: !cache.has(chapterId),
     error: null,
   };
+}
+
+async function fetchChapterCues(chapterId: string): Promise<ChapterCues | null> {
+  if (cache.has(chapterId)) return cache.get(chapterId) ?? null;
+  const existing = inflight.get(chapterId);
+  if (existing) return existing;
+
+  const promise = (async () => {
+    const res = await fetch(narrationCueSrc(chapterId));
+    if (res.status === 404) {
+      cache.set(chapterId, null);
+      return null;
+    }
+    if (!res.ok) throw new Error(`Cue load failed (${res.status})`);
+    const data = normalizeChapterCues(await res.json());
+    if (!data || data.status === "unavailable" || !hasProductionLineCues(data)) {
+      cache.set(chapterId, null);
+      return null;
+    }
+    cache.set(chapterId, data);
+    return data;
+  })().finally(() => {
+    inflight.delete(chapterId);
+  });
+
+  inflight.set(chapterId, promise);
+  return promise;
+}
+
+/** Prefetch + await production cues before starting a chapter. */
+export function ensureChapterCues(
+  chapterId: string,
+): Promise<ChapterCues | null> {
+  return fetchChapterCues(chapterId);
 }
 
 export interface ChapterCueState {
@@ -42,60 +77,33 @@ export function useChapterCues(chapterId: string): ChapterCueState {
   }
 
   useEffect(() => {
-    if (cache.has(chapterId)) return;
-
     let cancelled = false;
 
-    fetch(narrationCueSrc(chapterId))
-      .then(async (res) => {
-        if (cancelled) return;
-        if (res.status === 404) {
-          cache.set(chapterId, null);
-          setState((prev) =>
-            prev.chapterId === chapterId
-              ? { ...prev, cues: null, loading: false }
-              : prev,
-          );
-          return;
-        }
-        if (!res.ok) {
-          throw new Error(`Cue load failed (${res.status})`);
-        }
-        const data = normalizeChapterCues(await res.json());
-        if (!data || data.status === "unavailable" || !hasProductionLineCues(data)) {
-          cache.set(chapterId, null);
-          setState((prev) =>
-            prev.chapterId === chapterId
-              ? {
-                  ...prev,
-                  cues: null,
-                  loading: false,
-                  error: data?.reason ?? "Production cues unavailable",
-                }
-              : prev,
-          );
-          return;
-        }
-        cache.set(chapterId, data);
-        setState((prev) =>
-          prev.chapterId === chapterId
-            ? { ...prev, cues: data, loading: false, error: null }
-            : prev,
-        );
-      })
+    const apply = (data: ChapterCues | null, error: string | null = null) => {
+      if (cancelled) return;
+      setState({
+        chapterId,
+        cues: data,
+        loading: false,
+        error,
+      });
+    };
+
+    if (cache.has(chapterId)) {
+      const id = requestAnimationFrame(() => {
+        apply(cache.get(chapterId) ?? null);
+      });
+      return () => {
+        cancelled = true;
+        cancelAnimationFrame(id);
+      };
+    }
+
+    fetchChapterCues(chapterId)
+      .then((data) => apply(data, data ? null : "Production cues unavailable"))
       .catch((err: unknown) => {
-        if (cancelled) return;
         cache.set(chapterId, null);
-        setState((prev) =>
-          prev.chapterId === chapterId
-            ? {
-                ...prev,
-                cues: null,
-                loading: false,
-                error: err instanceof Error ? err.message : "Cue load failed",
-              }
-            : prev,
-        );
+        apply(null, err instanceof Error ? err.message : "Cue load failed");
       });
 
     return () => {

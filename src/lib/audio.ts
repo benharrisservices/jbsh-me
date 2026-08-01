@@ -108,3 +108,38 @@ export function waitForAudioCanPlay(
     audio.addEventListener("error", onError, { once: true });
   });
 }
+
+/** Prefer canplaythrough when the engine will emit it. */
+export function waitForAudioCanPlayThrough(
+  audio: HTMLAudioElement,
+  timeoutMs = 10000,
+): Promise<void> {
+  if (audio.readyState >= HTMLMediaElement.HAVE_ENOUGH_DATA) {
+    return Promise.resolve();
+  }
+  return new Promise((resolve, reject) => {
+    const onReady = () => {
+      cleanup();
+      resolve();
+    };
+    const onError = () => {
+      cleanup();
+      reject(new Error("Audio failed to load"));
+    };
+    const timer = window.setTimeout(() => {
+      cleanup();
+      // Fall back: enough data to begin is acceptable.
+      if (audio.readyState >= HTMLMediaElement.HAVE_FUTURE_DATA) resolve();
+      else reject(new Error("Audio canplaythrough timeout"));
+    }, timeoutMs);
+    const cleanup = () => {
+      window.clearTimeout(timer);
+      audio.removeEventListener("canplaythrough", onReady);
+      audio.removeEventListener("canplay", onReady);
+      audio.removeEventListener("error", onError);
+    };
+    audio.addEventListener("canplaythrough", onReady, { once: true });
+    audio.addEventListener("canplay", onReady, { once: true });
+    audio.addEventListener("error", onError, { once: true });
+  });
+}

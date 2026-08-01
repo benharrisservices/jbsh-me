@@ -28,8 +28,8 @@ export function NarratedSection({
   className,
   scrollable = false,
 }: NarratedSectionProps) {
-  const { activeChapterId, progress, playing, currentTime, ready } = useAudio();
-  const isActive = activeChapterId === id && ready;
+  const { activeChapterId, progress, playing, currentTime } = useAudio();
+  const isChapter = activeChapterId === id;
   const { cues } = useChapterCues(id);
 
   return (
@@ -64,11 +64,11 @@ export function NarratedSection({
 
         <Transcript
           lines={lines}
-          currentTime={isActive ? currentTime : 0}
-          cues={isActive ? cues : null}
-          progress={isActive ? progress : 0}
-          playing={isActive && playing}
-          active={isActive}
+          currentTime={isChapter ? currentTime : 0}
+          cues={cues}
+          progress={isChapter ? progress : 0}
+          playing={isChapter && playing}
+          active={isChapter}
         />
 
         {children && <div className="mt-16">{children}</div>}
