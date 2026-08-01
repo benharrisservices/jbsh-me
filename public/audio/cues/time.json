@@ -1,0 +1,928 @@
+{
+  "id": "time",
+  "audio": "/audio/time.mp3",
+  "duration": 72.1,
+  "wordCount": 143,
+  "lineCount": 5,
+  "words": [
+    {
+      "word": "You",
+      "start": 1.24,
+      "end": 1.36,
+      "loss": 0.8026864528656006
+    },
+    {
+      "word": "have",
+      "start": 1.399,
+      "end": 1.519,
+      "loss": 0.00035774707794189453
+    },
+    {
+      "word": "left",
+      "start": 1.599,
+      "end": 1.819,
+      "loss": 0.0003218650817871094
+    },
+    {
+      "word": "employment,",
+      "start": 1.899,
+      "end": 2.46,
+      "loss": 0.031809698451649056
+    },
+    {
+      "word": "but",
+      "start": 2.879,
+      "end": 2.96,
+      "loss": 0.001175244649251302
+    },
+    {
+      "word": "that",
+      "start": 3.0,
+      "end": 3.139,
+      "loss": 0.00021767616271972656
+    },
+    {
+      "word": "does",
+      "start": 3.179,
+      "end": 3.339,
+      "loss": 0.0003466308116912842
+    },
+    {
+      "word": "not",
+      "start": 3.379,
+      "end": 3.539,
+      "loss": 0.00015322367350260416
+    },
+    {
+      "word": "automatically",
+      "start": 3.699,
+      "end": 4.359,
+      "loss": 0.00023192625779371994
+    },
+    {
+      "word": "make",
+      "start": 4.46,
+      "end": 4.619,
+      "loss": 0.0001493394374847412
+    },
+    {
+      "word": "you",
+      "start": 4.679,
+      "end": 4.819,
+      "loss": 0.0001719792683919271
+    },
+    {
+      "word": "free.",
+      "start": 4.88,
+      "end": 5.179,
+      "loss": 0.08031742572784424
+    },
+    {
+      "word": "Freedom",
+      "start": 6.379,
+      "end": 6.699,
+      "loss": 0.0009597029004778181
+    },
+    {
+      "word": "is",
+      "start": 6.759,
+      "end": 6.839,
+      "loss": 0.000125885009765625
+    },
+    {
+      "word": "not",
+      "start": 6.96,
+      "end": 7.139,
+      "loss": 0.00013025601704915365
+    },
+    {
+      "word": "the",
+      "start": 7.179,
+      "end": 7.259,
+      "loss": 0.0003018379211425781
+    },
+    {
+      "word": "absence",
+      "start": 7.44,
+      "end": 7.879,
+      "loss": 0.00024311883108956472
+    },
+    {
+      "word": "of",
+      "start": 7.94,
+      "end": 8.0,
+      "loss": 8.988380432128906e-05
+    },
+    {
+      "word": "a",
+      "start": 8.039,
+      "end": 8.059,
+      "loss": 0.00133514404296875
+    },
+    {
+      "word": "manager.",
+      "start": 8.199,
+      "end": 8.699,
+      "loss": 0.047097980976104736
+    },
+    {
+      "word": "It",
+      "start": 9.239,
+      "end": 9.3,
+      "loss": 0.0004425048828125
+    },
+    {
+      "word": "is",
+      "start": 9.359,
+      "end": 9.46,
+      "loss": 6.473064422607422e-05
+    },
+    {
+      "word": "the",
+      "start": 9.519,
+      "end": 9.579,
+      "loss": 8.0108642578125e-05
+    },
+    {
+      "word": "ability",
+      "start": 9.699,
+      "end": 10.039,
+      "loss": 9.228502001081194e-05
+    },
+    {
+      "word": "to",
+      "start": 10.119,
+      "end": 10.179,
+      "loss": 0.00013488531112670898
+    },
+    {
+      "word": "decide",
+      "start": 10.239,
+      "end": 10.719,
+      "loss": 5.720059076944987e-05
+    },
+    {
+      "word": "what",
+      "start": 10.779,
+      "end": 10.96,
+      "loss": 0.00019350647926330566
+    },
+    {
+      "word": "deserves",
+      "start": 11.039,
+      "end": 11.46,
+      "loss": 0.0016789287328720093
+    },
+    {
+      "word": "your",
+      "start": 11.519,
+      "end": 11.679,
+      "loss": 0.00023922324180603027
+    },
+    {
+      "word": "time,",
+      "start": 11.739,
+      "end": 12.059,
+      "loss": 0.028558564186096192
+    },
+    {
+      "word": "then",
+      "start": 12.439,
+      "end": 12.699,
+      "loss": 0.00020867586135864258
+    },
+    {
+      "word": "having",
+      "start": 13.019,
+      "end": 13.199,
+      "loss": 0.00026746590932210285
+    },
+    {
+      "word": "the",
+      "start": 13.239,
+      "end": 13.319,
+      "loss": 0.0002665519714355469
+    },
+    {
+      "word": "discipline",
+      "start": 13.42,
+      "end": 13.859,
+      "loss": 0.00012671947479248047
+    },
+    {
+      "word": "to",
+      "start": 13.899,
+      "end": 13.979,
+      "loss": 0.0002818107604980469
+    },
+    {
+      "word": "honour",
+      "start": 14.139,
+      "end": 14.38,
+      "loss": 0.0965258280436198
+    },
+    {
+      "word": "that",
+      "start": 14.439,
+      "end": 14.579,
+      "loss": 0.00047767162322998047
+    },
+    {
+      "word": "decision.",
+      "start": 14.659,
+      "end": 15.179,
+      "loss": 0.008804029888576932
+    },
+    {
+      "word": "When",
+      "start": 15.88,
+      "end": 16.0,
+      "loss": 0.04717177152633667
+    },
+    {
+      "word": "somebody",
+      "start": 16.1,
+      "end": 16.379,
+      "loss": 0.0008351057767868042
+    },
+    {
+      "word": "else",
+      "start": 16.44,
+      "end": 16.579,
+      "loss": 0.0002575516700744629
+    },
+    {
+      "word": "controlled",
+      "start": 16.659,
+      "end": 17.12,
+      "loss": 0.00035489797592163085
+    },
+    {
+      "word": "your",
+      "start": 17.18,
+      "end": 17.34,
+      "loss": 0.0003095865249633789
+    },
+    {
+      "word": "calendar,",
+      "start": 17.42,
+      "end": 17.84,
+      "loss": 0.008636779255337186
+    },
+    {
+      "word": "wasted",
+      "start": 18.26,
+      "end": 18.699,
+      "loss": 0.001851956049601237
+    },
+    {
+      "word": "hours",
+      "start": 18.779,
+      "end": 19.119,
+      "loss": 0.001052093505859375
+    },
+    {
+      "word": "were",
+      "start": 19.18,
+      "end": 19.319,
+      "loss": 0.0006029009819030762
+    },
+    {
+      "word": "partly",
+      "start": 19.379,
+      "end": 19.779,
+      "loss": 0.00033795833587646484
+    },
+    {
+      "word": "their",
+      "start": 19.899,
+      "end": 20.1,
+      "loss": 0.0010359048843383788
+    },
+    {
+      "word": "responsibility.",
+      "start": 20.159,
+      "end": 21.059,
+      "loss": 0.008329073588053385
+    },
+    {
+      "word": "Now",
+      "start": 21.76,
+      "end": 22.26,
+      "loss": 0.0018717447916666667
+    },
+    {
+      "word": "they",
+      "start": 22.319,
+      "end": 22.42,
+      "loss": 0.00018271803855895996
+    },
+    {
+      "word": "are",
+      "start": 22.5,
+      "end": 22.6,
+      "loss": 0.00014408429463704428
+    },
+    {
+      "word": "entirely",
+      "start": 22.659,
+      "end": 23.439,
+      "loss": 0.0002937912940979004
+    },
+    {
+      "word": "yours.",
+      "start": 23.5,
+      "end": 23.979,
+      "loss": 0.03627904256184896
+    },
+    {
+      "word": "That",
+      "start": 24.539,
+      "end": 25.119,
+      "loss": 0.0024479329586029053
+    },
+    {
+      "word": "is",
+      "start": 25.199,
+      "end": 25.34,
+      "loss": 0.0004711151123046875
+    },
+    {
+      "word": "the",
+      "start": 25.379,
+      "end": 25.439,
+      "loss": 0.0009483496348063151
+    },
+    {
+      "word": "privilege.",
+      "start": 25.559,
+      "end": 26.099,
+      "loss": 0.007886803150177002
+    },
+    {
+      "word": "It",
+      "start": 26.959,
+      "end": 27.019,
+      "loss": 0.002094268798828125
+    },
+    {
+      "word": "is",
+      "start": 27.079,
+      "end": 27.18,
+      "loss": 0.000446319580078125
+    },
+    {
+      "word": "also",
+      "start": 27.26,
+      "end": 27.579,
+      "loss": 0.0002847015857696533
+    },
+    {
+      "word": "the",
+      "start": 27.619,
+      "end": 27.699,
+      "loss": 0.001016696294148763
+    },
+    {
+      "word": "burden.",
+      "start": 27.819,
+      "end": 28.26,
+      "loss": 0.00482865742274693
+    },
+    {
+      "word": "Give",
+      "start": 29.459,
+      "end": 29.679,
+      "loss": 0.19051703810691833
+    },
+    {
+      "word": "your",
+      "start": 29.739,
+      "end": 29.939,
+      "loss": 0.00026041269302368164
+    },
+    {
+      "word": "days",
+      "start": 30.019,
+      "end": 30.379,
+      "loss": 0.38712525367736816
+    },
+    {
+      "word": "structure",
+      "start": 30.459,
+      "end": 31.299,
+      "loss": 0.0004075368245442708
+    },
+    {
+      "word": "before",
+      "start": 31.359,
+      "end": 31.599,
+      "loss": 0.00026357173919677734
+    },
+    {
+      "word": "the",
+      "start": 31.659,
+      "end": 31.759,
+      "loss": 0.00033656756083170575
+    },
+    {
+      "word": "world",
+      "start": 31.84,
+      "end": 32.259,
+      "loss": 0.0002919673919677734
+    },
+    {
+      "word": "gives",
+      "start": 32.299,
+      "end": 32.479,
+      "loss": 0.00028667449951171877
+    },
+    {
+      "word": "them",
+      "start": 32.52,
+      "end": 32.659,
+      "loss": 0.00016176700592041016
+    },
+    {
+      "word": "distraction.",
+      "start": 32.779,
+      "end": 33.559,
+      "loss": 0.0043660302956899
+    },
+    {
+      "word": "Decide",
+      "start": 34.059,
+      "end": 34.799,
+      "loss": 0.0011431177457173665
+    },
+    {
+      "word": "when",
+      "start": 34.86,
+      "end": 35.02,
+      "loss": 0.0003822445869445801
+    },
+    {
+      "word": "you",
+      "start": 35.079,
+      "end": 35.239,
+      "loss": 0.00013375282287597656
+    },
+    {
+      "word": "work.",
+      "start": 35.319,
+      "end": 35.659,
+      "loss": 0.26733014583587644
+    },
+    {
+      "word": "Decide",
+      "start": 35.959,
+      "end": 36.559,
+      "loss": 0.0007586081822713217
+    },
+    {
+      "word": "when",
+      "start": 36.639,
+      "end": 36.799,
+      "loss": 0.0005777478218078613
+    },
+    {
+      "word": "you",
+      "start": 36.86,
+      "end": 37.079,
+      "loss": 0.00026039282480875653
+    },
+    {
+      "word": "train.",
+      "start": 37.18,
+      "end": 37.639,
+      "loss": 0.015912969907124836
+    },
+    {
+      "word": "Decide",
+      "start": 37.979,
+      "end": 38.68,
+      "loss": 0.0005064010620117188
+    },
+    {
+      "word": "when",
+      "start": 38.919,
+      "end": 39.079,
+      "loss": 0.0011999309062957764
+    },
+    {
+      "word": "you",
+      "start": 39.159,
+      "end": 39.319,
+      "loss": 0.00019077459971110025
+    },
+    {
+      "word": "think.",
+      "start": 39.439,
+      "end": 39.779,
+      "loss": 0.012844542662302652
+    },
+    {
+      "word": "Decide",
+      "start": 40.34,
+      "end": 41.059,
+      "loss": 0.0008737643559773763
+    },
+    {
+      "word": "when",
+      "start": 41.299,
+      "end": 41.479,
+      "loss": 0.0011879801750183105
+    },
+    {
+      "word": "you",
+      "start": 41.559,
+      "end": 41.759,
+      "loss": 0.00033541520436604816
+    },
+    {
+      "word": "stop.",
+      "start": 41.84,
+      "end": 42.279,
+      "loss": 0.010390758514404297
+    },
+    {
+      "word": "Protect",
+      "start": 43.0,
+      "end": 43.7,
+      "loss": 0.0012793881552559988
+    },
+    {
+      "word": "long,",
+      "start": 43.899,
+      "end": 44.279,
+      "loss": 0.11623468399047851
+    },
+    {
+      "word": "uninterrupted",
+      "start": 44.659,
+      "end": 45.579,
+      "loss": 0.0019728587223933293
+    },
+    {
+      "word": "hours",
+      "start": 45.659,
+      "end": 46.239,
+      "loss": 0.0007055044174194336
+    },
+    {
+      "word": "for",
+      "start": 46.319,
+      "end": 46.439,
+      "loss": 0.0009981791178385417
+    },
+    {
+      "word": "difficult",
+      "start": 46.619,
+      "end": 47.139,
+      "loss": 0.001078910297817654
+    },
+    {
+      "word": "work.",
+      "start": 47.219,
+      "end": 47.52,
+      "loss": 0.00799560546875
+    },
+    {
+      "word": "Leave",
+      "start": 48.059,
+      "end": 48.239,
+      "loss": 0.0011351585388183593
+    },
+    {
+      "word": "enough",
+      "start": 48.34,
+      "end": 48.579,
+      "loss": 0.0002645254135131836
+    },
+    {
+      "word": "space",
+      "start": 48.639,
+      "end": 49.339,
+      "loss": 0.00030891895294189454
+    },
+    {
+      "word": "to",
+      "start": 49.379,
+      "end": 49.479,
+      "loss": 0.0005898475646972656
+    },
+    {
+      "word": "remain",
+      "start": 49.539,
+      "end": 50.059,
+      "loss": 0.00027102231979370117
+    },
+    {
+      "word": "human.",
+      "start": 50.159,
+      "end": 50.579,
+      "loss": 0.0023491382598876953
+    },
+    {
+      "word": "A",
+      "start": 51.86,
+      "end": 51.939,
+      "loss": 1.5859375
+    },
+    {
+      "word": "calendar",
+      "start": 52.039,
+      "end": 52.579,
+      "loss": 0.001158788800239563
+    },
+    {
+      "word": "is",
+      "start": 52.659,
+      "end": 52.799,
+      "loss": 0.00022029876708984375
+    },
+    {
+      "word": "not",
+      "start": 52.86,
+      "end": 53.04,
+      "loss": 0.00011901060740152995
+    },
+    {
+      "word": "merely",
+      "start": 53.139,
+      "end": 53.5,
+      "loss": 0.0001472632090250651
+    },
+    {
+      "word": "a",
+      "start": 53.579,
+      "end": 53.719,
+      "loss": 0.0009918212890625
+    },
+    {
+      "word": "schedule.",
+      "start": 53.779,
+      "end": 54.219,
+      "loss": 0.09145425425635444
+    },
+    {
+      "word": "It",
+      "start": 54.779,
+      "end": 54.86,
+      "loss": 0.02672576904296875
+    },
+    {
+      "word": "is",
+      "start": 54.919,
+      "end": 55.02,
+      "loss": 0.0005388259887695312
+    },
+    {
+      "word": "a",
+      "start": 55.059,
+      "end": 55.219,
+      "loss": 0.001068115234375
+    },
+    {
+      "word": "record",
+      "start": 55.279,
+      "end": 55.759,
+      "loss": 0.00044147173563639325
+    },
+    {
+      "word": "of",
+      "start": 55.799,
+      "end": 55.919,
+      "loss": 0.0012798309326171875
+    },
+    {
+      "word": "what",
+      "start": 55.979,
+      "end": 56.159,
+      "loss": 0.0003292560577392578
+    },
+    {
+      "word": "you",
+      "start": 56.219,
+      "end": 56.34,
+      "loss": 0.0003878275553385417
+    },
+    {
+      "word": "believe",
+      "start": 56.399,
+      "end": 57.099,
+      "loss": 0.0005641664777483259
+    },
+    {
+      "word": "matters.",
+      "start": 57.279,
+      "end": 57.759,
+      "loss": 0.004398465156555176
+    },
+    {
+      "word": "If",
+      "start": 58.52,
+      "end": 58.619,
+      "loss": 0.0015897750854492188
+    },
+    {
+      "word": "your",
+      "start": 58.659,
+      "end": 58.919,
+      "loss": 0.009341299533843994
+    },
+    {
+      "word": "stated",
+      "start": 59.039,
+      "end": 59.479,
+      "loss": 0.0019065539042154949
+    },
+    {
+      "word": "values",
+      "start": 59.539,
+      "end": 60.079,
+      "loss": 0.0005347530047098795
+    },
+    {
+      "word": "and",
+      "start": 60.099,
+      "end": 60.219,
+      "loss": 0.006092230478922526
+    },
+    {
+      "word": "your",
+      "start": 60.279,
+      "end": 60.479,
+      "loss": 0.0006647109985351562
+    },
+    {
+      "word": "actual",
+      "start": 60.579,
+      "end": 61.119,
+      "loss": 0.0009388923645019531
+    },
+    {
+      "word": "time",
+      "start": 61.199,
+      "end": 61.619,
+      "loss": 0.0005790591239929199
+    },
+    {
+      "word": "do",
+      "start": 61.659,
+      "end": 61.799,
+      "loss": 0.0055084228515625
+    },
+    {
+      "word": "not",
+      "start": 61.84,
+      "end": 61.979,
+      "loss": 0.00040070215861002606
+    },
+    {
+      "word": "agree,",
+      "start": 62.119,
+      "end": 62.52,
+      "loss": 0.006536006927490234
+    },
+    {
+      "word": "trust",
+      "start": 63.239,
+      "end": 63.799,
+      "loss": 0.0015734434127807617
+    },
+    {
+      "word": "the",
+      "start": 63.859,
+      "end": 63.979,
+      "loss": 0.0008409818013509115
+    },
+    {
+      "word": "calendar.",
+      "start": 64.08,
+      "end": 64.58,
+      "loss": 0.005519204669528537
+    },
+    {
+      "word": "You",
+      "start": 65.739,
+      "end": 65.919,
+      "loss": 0.18672307332356772
+    },
+    {
+      "word": "finally",
+      "start": 66.08,
+      "end": 66.699,
+      "loss": 0.0005038295473371233
+    },
+    {
+      "word": "own",
+      "start": 66.819,
+      "end": 67.179,
+      "loss": 0.0013445218404134114
+    },
+    {
+      "word": "your",
+      "start": 67.239,
+      "end": 67.5,
+      "loss": 0.00030606985092163086
+    },
+    {
+      "word": "day.",
+      "start": 67.58,
+      "end": 67.939,
+      "loss": 0.18610382080078125
+    },
+    {
+      "word": "Treat",
+      "start": 68.68,
+      "end": 68.919,
+      "loss": 0.004406642913818359
+    },
+    {
+      "word": "it",
+      "start": 68.959,
+      "end": 69.299,
+      "loss": 0.0034332275390625
+    },
+    {
+      "word": "as",
+      "start": 69.379,
+      "end": 69.5,
+      "loss": 0.00357818603515625
+    },
+    {
+      "word": "something",
+      "start": 69.559,
+      "end": 69.959,
+      "loss": 0.00017548931969536675
+    },
+    {
+      "word": "valuable.",
+      "start": 70.159,
+      "end": 70.579,
+      "loss": 0.034386793772379555
+    }
+  ],
+  "lines": [
+    {
+      "text": "You have left employment, but that does not automatically make you free. Freedom is not the absence of a manager. It is the ability to decide what deserves your time, then having the discipline to honour that decision.",
+      "start": 1.24,
+      "end": 15.179,
+      "wordStart": 0,
+      "wordEnd": 37
+    },
+    {
+      "text": "When somebody else controlled your calendar, wasted hours were partly their responsibility. Now they are entirely yours. That is the privilege. It is also the burden.",
+      "start": 15.88,
+      "end": 28.26,
+      "wordStart": 38,
+      "wordEnd": 63
+    },
+    {
+      "text": "Give your days structure before the world gives them distraction. Decide when you work. Decide when you train. Decide when you think. Decide when you stop. Protect long, uninterrupted hours for difficult work. Leave enough space to remain human.",
+      "start": 29.459,
+      "end": 50.579,
+      "wordStart": 64,
+      "wordEnd": 102
+    },
+    {
+      "text": "A calendar is not merely a schedule. It is a record of what you believe matters. If your stated values and your actual time do not agree, trust the calendar.",
+      "start": 51.86,
+      "end": 64.58,
+      "wordStart": 103,
+      "wordEnd": 132
+    },
+    {
+      "text": "You finally own your day. Treat it as something valuable.",
+      "start": 65.739,
+      "end": 70.579,
+      "wordStart": 133,
+      "wordEnd": 142
+    }
+  ],
+  "coverage": {
+    "ok": true,
+    "expected_word_count": 143,
+    "aligned_word_count": 143,
+    "missing_normalized": [],
+    "in_order_matched": true,
+    "count_match": true,
+    "strictly_increasing_words": true,
+    "strictly_increasing_lines": true,
+    "no_overlap_invalid": true,
+    "line_count_match": true,
+    "consecutive_same_tokens": []
+  },
+  "pad_lead_s": 1.0,
+  "pad_trail_s": 1.5,
+  "source": "elevenlabs_forced_alignment",
+  "model_id": "eleven_v3",
+  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
+  "source_text_hash": "cf1248efd6bc139db2a46ae6352f0429a024ddf750e1c42a986ecdf3124d9f6b",
+  "playback_rate": 1.0,
+  "loudness": {
+    "integrated_lufs": -16.75,
+    "true_peak_dbtp": -1.76
+  }
+}

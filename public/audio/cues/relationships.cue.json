@@ -1,0 +1,768 @@
+{
+  "id": "relationships",
+  "version": 1,
+  "source": "elevenlabs_forced_alignment",
+  "model_id": "eleven_v3",
+  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
+  "playback_rate": 1.0,
+  "pad_lead_s": 1.0,
+  "pad_trail_s": 1.5,
+  "source_text_hash": "102c3cfb528f537b685f18e1a358edf1b6f28bc5dd6f43b5876efd6ddc1cb4a3",
+  "transcript": [
+    "Sovereignty does not mean isolation. The quality of your life will be shaped by the quality of the people around you.",
+    "Choose friends who are pleased when you grow. Find builders, teachers, thoughtful critics, and people who keep their word. Spend less time with cynics who mistake resignation for intelligence.",
+    "Call your family. Show up when it matters. Say the kind thing while the person is still present to hear it. Ambition is a poor excuse for neglect.",
+    "Your environment quietly becomes your standard. Courage spreads. Discipline spreads. So do excuses. Be careful what you allow to become normal.",
+    "Build a life that has room for people. Success experienced alone becomes surprisingly small."
+  ],
+  "alignment_loss": 0.05471036619686599,
+  "words": [
+    {
+      "text": "Sovereignty",
+      "start": 1.12,
+      "end": 1.579,
+      "loss": 0.19547389854084363
+    },
+    {
+      "text": "does",
+      "start": 1.74,
+      "end": 1.899,
+      "loss": 0.0014721453189849854
+    },
+    {
+      "text": "not",
+      "start": 2.039,
+      "end": 2.299,
+      "loss": 0.000686486562093099
+    },
+    {
+      "text": "mean",
+      "start": 2.48,
+      "end": 2.659,
+      "loss": 0.00017175078392028809
+    },
+    {
+      "text": "isolation.",
+      "start": 2.839,
+      "end": 3.439,
+      "loss": 0.047078847885131836
+    },
+    {
+      "text": "The",
+      "start": 4.0,
+      "end": 4.079,
+      "loss": 0.0009264945983886719
+    },
+    {
+      "text": "quality",
+      "start": 4.139,
+      "end": 4.48,
+      "loss": 8.770397731236049e-05
+    },
+    {
+      "text": "of",
+      "start": 4.519,
+      "end": 4.599,
+      "loss": 0.00013107061386108398
+    },
+    {
+      "text": "your",
+      "start": 4.639,
+      "end": 4.719,
+      "loss": 0.00016951560974121094
+    },
+    {
+      "text": "life",
+      "start": 4.799,
+      "end": 5.139,
+      "loss": 0.00017765164375305176
+    },
+    {
+      "text": "will",
+      "start": 5.179,
+      "end": 5.259,
+      "loss": 0.0003375411033630371
+    },
+    {
+      "text": "be",
+      "start": 5.299,
+      "end": 5.44,
+      "loss": 0.00020235776901245117
+    },
+    {
+      "text": "shaped",
+      "start": 5.5,
+      "end": 5.92,
+      "loss": 0.0001068115234375
+    },
+    {
+      "text": "by",
+      "start": 5.96,
+      "end": 6.039,
+      "loss": 0.0003142356872558594
+    },
+    {
+      "text": "the",
+      "start": 6.079,
+      "end": 6.159,
+      "loss": 9.822845458984375e-05
+    },
+    {
+      "text": "quality",
+      "start": 6.239,
+      "end": 6.659,
+      "loss": 0.00010672637394496373
+    },
+    {
+      "text": "of",
+      "start": 6.759,
+      "end": 6.819,
+      "loss": 0.0002237558364868164
+    },
+    {
+      "text": "the",
+      "start": 6.879,
+      "end": 6.919,
+      "loss": 0.0002619822820027669
+    },
+    {
+      "text": "people",
+      "start": 7.0,
+      "end": 7.239,
+      "loss": 3.9478143056233726e-05
+    },
+    {
+      "text": "around",
+      "start": 7.319,
+      "end": 7.639,
+      "loss": 4.935264587402344e-05
+    },
+    {
+      "text": "you.",
+      "start": 7.719,
+      "end": 7.839,
+      "loss": 0.05866646766662598
+    },
+    {
+      "text": "Choose",
+      "start": 8.8,
+      "end": 9.079,
+      "loss": 0.10555511713027954
+    },
+    {
+      "text": "friends",
+      "start": 9.159,
+      "end": 9.5,
+      "loss": 0.00016948154994419644
+    },
+    {
+      "text": "who",
+      "start": 9.539,
+      "end": 9.599,
+      "loss": 0.00020778179168701172
+    },
+    {
+      "text": "are",
+      "start": 9.639,
+      "end": 9.739,
+      "loss": 0.00030553340911865234
+    },
+    {
+      "text": "pleased",
+      "start": 9.8,
+      "end": 10.239,
+      "loss": 0.0001340763909476144
+    },
+    {
+      "text": "when",
+      "start": 10.279,
+      "end": 10.42,
+      "loss": 8.422136306762695e-05
+    },
+    {
+      "text": "you",
+      "start": 10.46,
+      "end": 10.599,
+      "loss": 0.00011261304219563802
+    },
+    {
+      "text": "grow.",
+      "start": 10.659,
+      "end": 11.079,
+      "loss": 0.20005109310150146
+    },
+    {
+      "text": "Find",
+      "start": 11.739,
+      "end": 11.92,
+      "loss": 0.012062311172485352
+    },
+    {
+      "text": "builders,",
+      "start": 12.039,
+      "end": 12.5,
+      "loss": 0.0038195980919731986
+    },
+    {
+      "text": "teachers,",
+      "start": 12.639,
+      "end": 13.039,
+      "loss": 0.0013353162341647679
+    },
+    {
+      "text": "thoughtful",
+      "start": 13.34,
+      "end": 13.719,
+      "loss": 0.00016684532165527343
+    },
+    {
+      "text": "critics,",
+      "start": 13.859,
+      "end": 14.239,
+      "loss": 0.09213444590568542
+    },
+    {
+      "text": "and",
+      "start": 14.5,
+      "end": 14.619,
+      "loss": 0.0006106297175089518
+    },
+    {
+      "text": "people",
+      "start": 14.679,
+      "end": 14.92,
+      "loss": 3.4332275390625e-05
+    },
+    {
+      "text": "who",
+      "start": 15.0,
+      "end": 15.199,
+      "loss": 0.00022915999094645181
+    },
+    {
+      "text": "keep",
+      "start": 15.279,
+      "end": 15.519,
+      "loss": 0.0005327463150024414
+    },
+    {
+      "text": "their",
+      "start": 15.619,
+      "end": 15.799,
+      "loss": 0.0002661228179931641
+    },
+    {
+      "text": "word.",
+      "start": 15.899,
+      "end": 16.319,
+      "loss": 0.03297243118286133
+    },
+    {
+      "text": "Spend",
+      "start": 17.059,
+      "end": 17.299,
+      "loss": 0.0002236604690551758
+    },
+    {
+      "text": "less",
+      "start": 17.359,
+      "end": 17.559,
+      "loss": 0.0007089674472808838
+    },
+    {
+      "text": "time",
+      "start": 17.619,
+      "end": 17.879,
+      "loss": 0.00017157196998596191
+    },
+    {
+      "text": "with",
+      "start": 17.94,
+      "end": 18.079,
+      "loss": 0.0001342296600341797
+    },
+    {
+      "text": "cynics",
+      "start": 18.239,
+      "end": 18.76,
+      "loss": 0.003128210703531901
+    },
+    {
+      "text": "who",
+      "start": 18.979,
+      "end": 19.079,
+      "loss": 0.0003274281819661458
+    },
+    {
+      "text": "mistake",
+      "start": 19.139,
+      "end": 19.579,
+      "loss": 0.00013799326760428294
+    },
+    {
+      "text": "resignation",
+      "start": 19.68,
+      "end": 20.439,
+      "loss": 0.0001517751000144265
+    },
+    {
+      "text": "for",
+      "start": 20.699,
+      "end": 20.799,
+      "loss": 0.0003121296564737956
+    },
+    {
+      "text": "intelligence.",
+      "start": 20.859,
+      "end": 21.639,
+      "loss": 0.0030565812037541317
+    },
+    {
+      "text": "Call",
+      "start": 22.899,
+      "end": 23.219,
+      "loss": 0.3558720350265503
+    },
+    {
+      "text": "your",
+      "start": 23.299,
+      "end": 23.479,
+      "loss": 0.00013947486877441406
+    },
+    {
+      "text": "family.",
+      "start": 23.579,
+      "end": 23.999,
+      "loss": 0.23787059102739608
+    },
+    {
+      "text": "Show",
+      "start": 24.539,
+      "end": 24.739,
+      "loss": 0.001333475112915039
+    },
+    {
+      "text": "up",
+      "start": 24.84,
+      "end": 25.039,
+      "loss": 0.0002791881561279297
+    },
+    {
+      "text": "when",
+      "start": 25.159,
+      "end": 25.26,
+      "loss": 0.00012689828872680664
+    },
+    {
+      "text": "it",
+      "start": 25.319,
+      "end": 25.42,
+      "loss": 0.00022208690643310547
+    },
+    {
+      "text": "matters.",
+      "start": 25.5,
+      "end": 25.939,
+      "loss": 0.030840232968330383
+    },
+    {
+      "text": "Say",
+      "start": 26.559,
+      "end": 26.719,
+      "loss": 0.00046316782633463543
+    },
+    {
+      "text": "the",
+      "start": 26.779,
+      "end": 26.92,
+      "loss": 0.0018491744995117188
+    },
+    {
+      "text": "kind",
+      "start": 27.0,
+      "end": 27.42,
+      "loss": 0.0022602081298828125
+    },
+    {
+      "text": "thing",
+      "start": 27.479,
+      "end": 28.079,
+      "loss": 0.00034763813018798826
+    },
+    {
+      "text": "while",
+      "start": 28.139,
+      "end": 28.279,
+      "loss": 0.0003691434860229492
+    },
+    {
+      "text": "the",
+      "start": 28.319,
+      "end": 28.419,
+      "loss": 0.00028443336486816406
+    },
+    {
+      "text": "person",
+      "start": 28.479,
+      "end": 28.819,
+      "loss": 0.00023843844731648764
+    },
+    {
+      "text": "is",
+      "start": 28.879,
+      "end": 29.019,
+      "loss": 0.0005295276641845703
+    },
+    {
+      "text": "still",
+      "start": 29.079,
+      "end": 29.459,
+      "loss": 0.0002902030944824219
+    },
+    {
+      "text": "present",
+      "start": 29.539,
+      "end": 29.959,
+      "loss": 0.00020723683493477956
+    },
+    {
+      "text": "to",
+      "start": 30.0,
+      "end": 30.119,
+      "loss": 0.00036776065826416016
+    },
+    {
+      "text": "hear",
+      "start": 30.199,
+      "end": 30.399,
+      "loss": 0.00014472007751464844
+    },
+    {
+      "text": "it.",
+      "start": 30.459,
+      "end": 30.619,
+      "loss": 0.005728721618652344
+    },
+    {
+      "text": "Ambition",
+      "start": 31.659,
+      "end": 32.279,
+      "loss": 0.0024224966764450073
+    },
+    {
+      "text": "is",
+      "start": 32.579,
+      "end": 32.659,
+      "loss": 0.0005644559860229492
+    },
+    {
+      "text": "a",
+      "start": 32.739,
+      "end": 32.899,
+      "loss": 0.001068115234375
+    },
+    {
+      "text": "poor",
+      "start": 32.979,
+      "end": 33.279,
+      "loss": 0.0008417665958404541
+    },
+    {
+      "text": "excuse",
+      "start": 33.399,
+      "end": 34.079,
+      "loss": 0.00018854935963948569
+    },
+    {
+      "text": "for",
+      "start": 34.139,
+      "end": 34.219,
+      "loss": 0.000421603520711263
+    },
+    {
+      "text": "neglect.",
+      "start": 34.299,
+      "end": 34.88,
+      "loss": 0.002694562077522278
+    },
+    {
+      "text": "Your",
+      "start": 36.099,
+      "end": 36.219,
+      "loss": 0.06871938705444336
+    },
+    {
+      "text": "environment",
+      "start": 36.279,
+      "end": 37.319,
+      "loss": 0.0001271963119506836
+    },
+    {
+      "text": "quietly",
+      "start": 37.439,
+      "end": 37.979,
+      "loss": 0.0004303966249738421
+    },
+    {
+      "text": "becomes",
+      "start": 38.02,
+      "end": 38.739,
+      "loss": 0.0004983288901192802
+    },
+    {
+      "text": "your",
+      "start": 38.799,
+      "end": 39.039,
+      "loss": 0.00038763880729675293
+    },
+    {
+      "text": "standard.",
+      "start": 39.139,
+      "end": 39.779,
+      "loss": 0.009174598587883843
+    },
+    {
+      "text": "Courage",
+      "start": 40.419,
+      "end": 41.199,
+      "loss": 0.0007972206388201032
+    },
+    {
+      "text": "spreads.",
+      "start": 41.279,
+      "end": 41.879,
+      "loss": 0.217133566737175
+    },
+    {
+      "text": "Discipline",
+      "start": 42.159,
+      "end": 42.979,
+      "loss": 0.0013746023178100586
+    },
+    {
+      "text": "spreads.",
+      "start": 43.119,
+      "end": 43.819,
+      "loss": 0.02542904019355774
+    },
+    {
+      "text": "So",
+      "start": 44.659,
+      "end": 44.759,
+      "loss": 0.001079559326171875
+    },
+    {
+      "text": "do",
+      "start": 44.84,
+      "end": 44.919,
+      "loss": 0.001338958740234375
+    },
+    {
+      "text": "excuses.",
+      "start": 45.02,
+      "end": 45.819,
+      "loss": 0.004965871572494507
+    },
+    {
+      "text": "Be",
+      "start": 46.599,
+      "end": 46.759,
+      "loss": 0.0029735565185546875
+    },
+    {
+      "text": "careful",
+      "start": 46.86,
+      "end": 47.619,
+      "loss": 0.00021348680768694197
+    },
+    {
+      "text": "what",
+      "start": 47.659,
+      "end": 47.86,
+      "loss": 0.001960575580596924
+    },
+    {
+      "text": "you",
+      "start": 47.899,
+      "end": 47.979,
+      "loss": 0.0005745093027750651
+    },
+    {
+      "text": "allow",
+      "start": 48.059,
+      "end": 48.499,
+      "loss": 0.0003352165222167969
+    },
+    {
+      "text": "to",
+      "start": 48.539,
+      "end": 48.619,
+      "loss": 0.0005153417587280273
+    },
+    {
+      "text": "become",
+      "start": 48.68,
+      "end": 49.519,
+      "loss": 0.00029154618581136066
+    },
+    {
+      "text": "normal.",
+      "start": 49.68,
+      "end": 50.159,
+      "loss": 0.007714578083583287
+    },
+    {
+      "text": "Build",
+      "start": 51.52,
+      "end": 51.759,
+      "loss": 0.015656375885009767
+    },
+    {
+      "text": "a",
+      "start": 51.84,
+      "end": 51.919,
+      "loss": 0.080078125
+    },
+    {
+      "text": "life",
+      "start": 52.0,
+      "end": 52.68,
+      "loss": 0.0003001987934112549
+    },
+    {
+      "text": "that",
+      "start": 52.719,
+      "end": 52.879,
+      "loss": 0.0001398324966430664
+    },
+    {
+      "text": "has",
+      "start": 52.939,
+      "end": 53.179,
+      "loss": 0.0001508792241414388
+    },
+    {
+      "text": "room",
+      "start": 53.259,
+      "end": 53.68,
+      "loss": 0.0002276301383972168
+    },
+    {
+      "text": "for",
+      "start": 53.739,
+      "end": 53.939,
+      "loss": 0.00011551380157470703
+    },
+    {
+      "text": "people.",
+      "start": 54.02,
+      "end": 54.459,
+      "loss": 0.005866238049098423
+    },
+    {
+      "text": "Success",
+      "start": 55.279,
+      "end": 55.779,
+      "loss": 0.0002319812774658203
+    },
+    {
+      "text": "experienced",
+      "start": 55.899,
+      "end": 56.579,
+      "loss": 0.0002947070381858132
+    },
+    {
+      "text": "alone",
+      "start": 56.619,
+      "end": 57.539,
+      "loss": 0.0004286050796508789
+    },
+    {
+      "text": "becomes",
+      "start": 57.599,
+      "end": 58.099,
+      "loss": 0.0017440148762294225
+    },
+    {
+      "text": "surprisingly",
+      "start": 58.159,
+      "end": 59.019,
+      "loss": 0.0004991193612416586
+    },
+    {
+      "text": "small.",
+      "start": 59.099,
+      "end": 59.5,
+      "loss": 0.06952540079752605
+    }
+  ],
+  "lines": [
+    {
+      "text": "Sovereignty does not mean isolation. The quality of your life will be shaped by the quality of the people around you.",
+      "start": 1.12,
+      "end": 7.839,
+      "word_start": 0,
+      "word_end": 20
+    },
+    {
+      "text": "Choose friends who are pleased when you grow. Find builders, teachers, thoughtful critics, and people who keep their word. Spend less time with cynics who mistake resignation for intelligence.",
+      "start": 8.8,
+      "end": 21.639,
+      "word_start": 21,
+      "word_end": 49
+    },
+    {
+      "text": "Call your family. Show up when it matters. Say the kind thing while the person is still present to hear it. Ambition is a poor excuse for neglect.",
+      "start": 22.899,
+      "end": 34.88,
+      "word_start": 50,
+      "word_end": 77
+    },
+    {
+      "text": "Your environment quietly becomes your standard. Courage spreads. Discipline spreads. So do excuses. Be careful what you allow to become normal.",
+      "start": 36.099,
+      "end": 50.159,
+      "word_start": 78,
+      "word_end": 98
+    },
+    {
+      "text": "Build a life that has room for people. Success experienced alone becomes surprisingly small.",
+      "start": 51.52,
+      "end": 59.5,
+      "word_start": 99,
+      "word_end": 112
+    }
+  ],
+  "coverage": {
+    "ok": true,
+    "expected_word_count": 113,
+    "aligned_word_count": 113,
+    "missing_normalized": [],
+    "in_order_matched": true,
+    "count_match": true,
+    "strictly_increasing_words": true,
+    "strictly_increasing_lines": true,
+    "no_overlap_invalid": true,
+    "line_count_match": true,
+    "consecutive_same_tokens": []
+  },
+  "audio": "/audio/relationships.mp3",
+  "duration": 61.06,
+  "loudness": {
+    "integrated_lufs": -16.69,
+    "true_peak_dbtp": -1.78
+  },
+  "edge": {
+    "opening_silence_s": 1.015,
+    "closing_silence_s": 1.5,
+    "peak_linear": 0.8142,
+    "avg_dbfs": -17.55,
+    "clipping_ratio": 0.0,
+    "opening_ok": true,
+    "ending_ok": true,
+    "no_clip": true,
+    "has_speech": true
+  },
+  "frozen_text": "Sovereignty does not mean isolation. The quality of your life will be shaped by the quality of the people around you.\nChoose friends who are pleased when you grow. Find builders, teachers, thoughtful critics, and people who keep their word. Spend less time with cynics who mistake resignation for intelligence.\nCall your family. Show up when it matters. Say the kind thing while the person is still present to hear it. Ambition is a poor excuse for neglect.\nYour environment quietly becomes your standard. Courage spreads. Discipline spreads. So do excuses. Be careful what you allow to become normal.\nBuild a life that has room for people. Success experienced alone becomes surprisingly small.",
+  "generation_text": "[gentle] Sovereignty does not mean isolation. The quality of your life will be shaped by the quality of the people around you.\n\n[thoughtful] Choose friends who are pleased when you grow. Find builders, teachers, thoughtful critics, and people who keep their word. Spend less time with cynics who mistake resignation for intelligence.\n\n[firmer] Call your family. Show up when it matters. Say the kind thing while the person is still present to hear it. Ambition is a poor excuse for neglect.\n\n[measured] Your environment quietly becomes your standard. Courage spreads. Discipline spreads. So do excuses. Be careful what you allow to become normal.\n\n[warmly] Build a life that has room for people. Success experienced alone becomes surprisingly small."
+}

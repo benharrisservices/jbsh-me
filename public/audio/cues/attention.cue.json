@@ -1,0 +1,1116 @@
+{
+  "id": "attention",
+  "version": 1,
+  "source": "elevenlabs_forced_alignment",
+  "model_id": "eleven_v3",
+  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
+  "playback_rate": 1.0,
+  "pad_lead_s": 1.0,
+  "pad_trail_s": 1.5,
+  "source_text_hash": "b6b5a51ee4ba1f64b4ff9496bd88fdc32e8e58148fc250d8b594eed2e8048664",
+  "transcript": [
+    "The most valuable thing you own is not your money. It is not your house. It is not even your skill. It is your attention. Whatever consistently receives your attention eventually becomes your life.",
+    "Most people do not lose control all at once. They lose it a minute at a time. A notification here. A headline there. Another email. Another video. Another opinion from somebody they will never meet. By evening, their attention has been spent on everything except the life they intended to build.",
+    "Guard your attention as carefully as you would guard your front door. Be deliberate about what you read, who you listen to, who you argue with, and who you admire. Each one is quietly shaping the person you become.",
+    "Leave room for silence. Walk without headphones. Sit with your thoughts. Be bored occasionally. Good ideas need somewhere to arrive.",
+    "Your attention is your life in its most concentrated form. Spend it deliberately. Somebody always profits from where you choose to look. Make certain it is you."
+  ],
+  "alignment_loss": 0.04452370871564823,
+  "words": [
+    {
+      "text": "The",
+      "start": 1.079,
+      "end": 1.179,
+      "loss": 0.5673166910807291
+    },
+    {
+      "text": "most",
+      "start": 1.24,
+      "end": 1.48,
+      "loss": 0.0012077689170837402
+    },
+    {
+      "text": "valuable",
+      "start": 1.599,
+      "end": 1.979,
+      "loss": 0.00029334425926208496
+    },
+    {
+      "text": "thing",
+      "start": 2.139,
+      "end": 2.379,
+      "loss": 0.00011751651763916015
+    },
+    {
+      "text": "you",
+      "start": 2.519,
+      "end": 2.74,
+      "loss": 0.0005353291829427084
+    },
+    {
+      "text": "own",
+      "start": 2.839,
+      "end": 3.179,
+      "loss": 0.0006195704142252604
+    },
+    {
+      "text": "is",
+      "start": 3.919,
+      "end": 4.039,
+      "loss": 0.0006351470947265625
+    },
+    {
+      "text": "not",
+      "start": 4.119,
+      "end": 4.259,
+      "loss": 0.00010665257771809895
+    },
+    {
+      "text": "your",
+      "start": 4.339,
+      "end": 4.42,
+      "loss": 0.0002872943878173828
+    },
+    {
+      "text": "money.",
+      "start": 4.48,
+      "end": 4.759,
+      "loss": 0.0579951802889506
+    },
+    {
+      "text": "It",
+      "start": 5.759,
+      "end": 5.799,
+      "loss": 0.0023212432861328125
+    },
+    {
+      "text": "is",
+      "start": 5.859,
+      "end": 5.92,
+      "loss": 2.8967857360839844e-05
+    },
+    {
+      "text": "not",
+      "start": 5.98,
+      "end": 6.099,
+      "loss": 6.278355916341145e-05
+    },
+    {
+      "text": "your",
+      "start": 6.139,
+      "end": 6.219,
+      "loss": 0.00020748376846313477
+    },
+    {
+      "text": "house.",
+      "start": 6.299,
+      "end": 6.679,
+      "loss": 0.11736879746119182
+    },
+    {
+      "text": "It",
+      "start": 7.44,
+      "end": 7.5,
+      "loss": 0.0008542537689208984
+    },
+    {
+      "text": "is",
+      "start": 7.539,
+      "end": 7.619,
+      "loss": 4.297494888305664e-05
+    },
+    {
+      "text": "not",
+      "start": 7.679,
+      "end": 7.779,
+      "loss": 8.849302927652995e-05
+    },
+    {
+      "text": "even",
+      "start": 7.859,
+      "end": 8.039,
+      "loss": 0.00016349554061889648
+    },
+    {
+      "text": "your",
+      "start": 8.119,
+      "end": 8.279,
+      "loss": 8.33272933959961e-05
+    },
+    {
+      "text": "skill.",
+      "start": 8.42,
+      "end": 8.92,
+      "loss": 0.01942590872446696
+    },
+    {
+      "text": "It",
+      "start": 10.099,
+      "end": 10.159,
+      "loss": 0.00030303001403808594
+    },
+    {
+      "text": "is",
+      "start": 10.219,
+      "end": 10.319,
+      "loss": 2.3245811462402344e-05
+    },
+    {
+      "text": "your",
+      "start": 10.399,
+      "end": 10.559,
+      "loss": 0.00013113021850585938
+    },
+    {
+      "text": "attention.",
+      "start": 10.719,
+      "end": 11.399,
+      "loss": 0.010234427452087403
+    },
+    {
+      "text": "Whatever",
+      "start": 12.619,
+      "end": 12.96,
+      "loss": 0.00048129260540008545
+    },
+    {
+      "text": "consistently",
+      "start": 13.019,
+      "end": 13.819,
+      "loss": 6.730357805887859e-05
+    },
+    {
+      "text": "receives",
+      "start": 13.88,
+      "end": 14.359,
+      "loss": 6.648898124694824e-05
+    },
+    {
+      "text": "your",
+      "start": 14.439,
+      "end": 14.539,
+      "loss": 9.813904762268066e-05
+    },
+    {
+      "text": "attention",
+      "start": 14.599,
+      "end": 15.139,
+      "loss": 5.0081147087944875e-05
+    },
+    {
+      "text": "eventually",
+      "start": 15.699,
+      "end": 16.319,
+      "loss": 0.0012469887733459473
+    },
+    {
+      "text": "becomes",
+      "start": 16.779,
+      "end": 17.18,
+      "loss": 0.00034199442182268413
+    },
+    {
+      "text": "your",
+      "start": 17.239,
+      "end": 17.379,
+      "loss": 0.00022369623184204102
+    },
+    {
+      "text": "life.",
+      "start": 17.5,
+      "end": 17.879,
+      "loss": 0.006202197074890137
+    },
+    {
+      "text": "Most",
+      "start": 19.319,
+      "end": 19.52,
+      "loss": 0.09040659666061401
+    },
+    {
+      "text": "people",
+      "start": 19.619,
+      "end": 19.819,
+      "loss": 0.00016552209854125977
+    },
+    {
+      "text": "do",
+      "start": 19.899,
+      "end": 19.979,
+      "loss": 0.0002040863037109375
+    },
+    {
+      "text": "not",
+      "start": 20.02,
+      "end": 20.159,
+      "loss": 8.650620778401692e-05
+    },
+    {
+      "text": "lose",
+      "start": 20.26,
+      "end": 20.519,
+      "loss": 0.00027185678482055664
+    },
+    {
+      "text": "control",
+      "start": 20.559,
+      "end": 21.18,
+      "loss": 8.428096771240234e-05
+    },
+    {
+      "text": "all",
+      "start": 21.379,
+      "end": 21.479,
+      "loss": 0.0028394063313802085
+    },
+    {
+      "text": "at",
+      "start": 21.539,
+      "end": 21.639,
+      "loss": 0.0004074573516845703
+    },
+    {
+      "text": "once.",
+      "start": 21.739,
+      "end": 22.159,
+      "loss": 0.09902386665344239
+    },
+    {
+      "text": "They",
+      "start": 22.76,
+      "end": 22.899,
+      "loss": 0.0015310049057006836
+    },
+    {
+      "text": "lose",
+      "start": 22.979,
+      "end": 23.18,
+      "loss": 0.0005766153335571289
+    },
+    {
+      "text": "it",
+      "start": 23.239,
+      "end": 23.619,
+      "loss": 0.0006003379821777344
+    },
+    {
+      "text": "a",
+      "start": 23.699,
+      "end": 23.799,
+      "loss": 0.00286865234375
+    },
+    {
+      "text": "minute",
+      "start": 23.879,
+      "end": 24.26,
+      "loss": 0.00026996930440266925
+    },
+    {
+      "text": "at",
+      "start": 24.319,
+      "end": 24.399,
+      "loss": 0.00035190582275390625
+    },
+    {
+      "text": "a",
+      "start": 24.459,
+      "end": 24.519,
+      "loss": 0.00109100341796875
+    },
+    {
+      "text": "time.",
+      "start": 24.6,
+      "end": 25.019,
+      "loss": 0.023862171173095702
+    },
+    {
+      "text": "A",
+      "start": 25.859,
+      "end": 25.899,
+      "loss": 0.00543212890625
+    },
+    {
+      "text": "notification",
+      "start": 25.959,
+      "end": 26.679,
+      "loss": 0.00043526291847229004
+    },
+    {
+      "text": "here.",
+      "start": 26.76,
+      "end": 27.039,
+      "loss": 0.21915922164916993
+    },
+    {
+      "text": "A",
+      "start": 27.559,
+      "end": 27.579,
+      "loss": 0.008056640625
+    },
+    {
+      "text": "headline",
+      "start": 27.659,
+      "end": 28.219,
+      "loss": 0.0005246102809906006
+    },
+    {
+      "text": "there.",
+      "start": 28.26,
+      "end": 28.639,
+      "loss": 0.020159562428792317
+    },
+    {
+      "text": "Another",
+      "start": 29.0,
+      "end": 29.279,
+      "loss": 0.000548039163861956
+    },
+    {
+      "text": "email.",
+      "start": 29.399,
+      "end": 29.779,
+      "loss": 0.1299139459927877
+    },
+    {
+      "text": "Another",
+      "start": 29.979,
+      "end": 30.219,
+      "loss": 0.0010469130107334682
+    },
+    {
+      "text": "video.",
+      "start": 30.359,
+      "end": 30.819,
+      "loss": 0.04415657122929891
+    },
+    {
+      "text": "Another",
+      "start": 31.119,
+      "end": 31.379,
+      "loss": 0.0004470688956124442
+    },
+    {
+      "text": "opinion",
+      "start": 31.459,
+      "end": 32.079,
+      "loss": 0.0016932487487792969
+    },
+    {
+      "text": "from",
+      "start": 32.159,
+      "end": 32.279,
+      "loss": 0.0004369020462036133
+    },
+    {
+      "text": "somebody",
+      "start": 32.38,
+      "end": 32.7,
+      "loss": 0.001800626516342163
+    },
+    {
+      "text": "they",
+      "start": 32.739,
+      "end": 32.819,
+      "loss": 0.0004729628562927246
+    },
+    {
+      "text": "will",
+      "start": 32.86,
+      "end": 33.0,
+      "loss": 0.0003349483013153076
+    },
+    {
+      "text": "never",
+      "start": 33.2,
+      "end": 33.479,
+      "loss": 0.0005157470703125
+    },
+    {
+      "text": "meet.",
+      "start": 33.54,
+      "end": 33.86,
+      "loss": 0.0021162033081054688
+    },
+    {
+      "text": "By",
+      "start": 34.819,
+      "end": 34.979,
+      "loss": 0.0022177696228027344
+    },
+    {
+      "text": "evening,",
+      "start": 35.079,
+      "end": 35.419,
+      "loss": 0.08755174279212952
+    },
+    {
+      "text": "their",
+      "start": 35.899,
+      "end": 36.02,
+      "loss": 0.00027697086334228517
+    },
+    {
+      "text": "attention",
+      "start": 36.079,
+      "end": 36.52,
+      "loss": 0.00022836526234944662
+    },
+    {
+      "text": "has",
+      "start": 36.579,
+      "end": 36.68,
+      "loss": 0.0003408988316853841
+    },
+    {
+      "text": "been",
+      "start": 36.719,
+      "end": 36.88,
+      "loss": 0.0003420412540435791
+    },
+    {
+      "text": "spent",
+      "start": 36.939,
+      "end": 37.2,
+      "loss": 0.0003576755523681641
+    },
+    {
+      "text": "on",
+      "start": 37.259,
+      "end": 37.479,
+      "loss": 0.00048470497131347656
+    },
+    {
+      "text": "everything",
+      "start": 37.579,
+      "end": 38.399,
+      "loss": 0.00014232397079467775
+    },
+    {
+      "text": "except",
+      "start": 38.5,
+      "end": 38.819,
+      "loss": 0.00022101402282714844
+    },
+    {
+      "text": "the",
+      "start": 38.879,
+      "end": 39.0,
+      "loss": 0.0007996161778767904
+    },
+    {
+      "text": "life",
+      "start": 39.059,
+      "end": 39.399,
+      "loss": 0.0005042850971221924
+    },
+    {
+      "text": "they",
+      "start": 39.68,
+      "end": 39.779,
+      "loss": 0.00036829710006713867
+    },
+    {
+      "text": "intended",
+      "start": 39.84,
+      "end": 40.539,
+      "loss": 0.00027723610401153564
+    },
+    {
+      "text": "to",
+      "start": 40.579,
+      "end": 40.68,
+      "loss": 0.0001589655876159668
+    },
+    {
+      "text": "build.",
+      "start": 40.739,
+      "end": 41.139,
+      "loss": 0.0013018051783243816
+    },
+    {
+      "text": "Guard",
+      "start": 42.34,
+      "end": 42.659,
+      "loss": 0.10597870349884034
+    },
+    {
+      "text": "your",
+      "start": 42.719,
+      "end": 42.819,
+      "loss": 0.00023296475410461426
+    },
+    {
+      "text": "attention",
+      "start": 42.939,
+      "end": 43.36,
+      "loss": 9.31157006157769e-05
+    },
+    {
+      "text": "as",
+      "start": 43.419,
+      "end": 43.579,
+      "loss": 0.00033795833587646484
+    },
+    {
+      "text": "carefully",
+      "start": 43.659,
+      "end": 44.079,
+      "loss": 5.1829550001356336e-05
+    },
+    {
+      "text": "as",
+      "start": 44.119,
+      "end": 44.2,
+      "loss": 0.0005609989166259766
+    },
+    {
+      "text": "you",
+      "start": 44.239,
+      "end": 44.299,
+      "loss": 8.149941762288411e-05
+    },
+    {
+      "text": "would",
+      "start": 44.34,
+      "end": 44.5,
+      "loss": 0.00022783279418945313
+    },
+    {
+      "text": "guard",
+      "start": 44.559,
+      "end": 44.84,
+      "loss": 0.0004060983657836914
+    },
+    {
+      "text": "your",
+      "start": 44.899,
+      "end": 45.099,
+      "loss": 0.0001582503318786621
+    },
+    {
+      "text": "front",
+      "start": 45.159,
+      "end": 45.479,
+      "loss": 0.00015125274658203124
+    },
+    {
+      "text": "door.",
+      "start": 45.559,
+      "end": 45.939,
+      "loss": 0.004024958610534668
+    },
+    {
+      "text": "Be",
+      "start": 46.68,
+      "end": 46.779,
+      "loss": 0.00080108642578125
+    },
+    {
+      "text": "deliberate",
+      "start": 46.84,
+      "end": 47.319,
+      "loss": 0.0001022934913635254
+    },
+    {
+      "text": "about",
+      "start": 47.399,
+      "end": 47.599,
+      "loss": 0.00029311180114746096
+    },
+    {
+      "text": "what",
+      "start": 47.639,
+      "end": 47.779,
+      "loss": 0.00016954541206359863
+    },
+    {
+      "text": "you",
+      "start": 47.84,
+      "end": 47.959,
+      "loss": 0.00013430913289388022
+    },
+    {
+      "text": "read,",
+      "start": 48.039,
+      "end": 48.459,
+      "loss": 0.0020988941192626952
+    },
+    {
+      "text": "who",
+      "start": 48.719,
+      "end": 48.84,
+      "loss": 0.00011559327443440755
+    },
+    {
+      "text": "you",
+      "start": 48.879,
+      "end": 49.0,
+      "loss": 0.00015461444854736328
+    },
+    {
+      "text": "listen",
+      "start": 49.059,
+      "end": 49.399,
+      "loss": 0.00012413660685221353
+    },
+    {
+      "text": "to,",
+      "start": 49.459,
+      "end": 49.779,
+      "loss": 0.0012859503428141277
+    },
+    {
+      "text": "who",
+      "start": 49.84,
+      "end": 49.959,
+      "loss": 0.0003546873728434245
+    },
+    {
+      "text": "you",
+      "start": 50.0,
+      "end": 50.199,
+      "loss": 0.0001464684804280599
+    },
+    {
+      "text": "argue",
+      "start": 50.319,
+      "end": 50.7,
+      "loss": 0.0004033565521240234
+    },
+    {
+      "text": "with,",
+      "start": 50.759,
+      "end": 50.979,
+      "loss": 0.04122776985168457
+    },
+    {
+      "text": "and",
+      "start": 51.419,
+      "end": 51.539,
+      "loss": 0.0010758241017659504
+    },
+    {
+      "text": "who",
+      "start": 51.579,
+      "end": 51.719,
+      "loss": 0.0001529057820638021
+    },
+    {
+      "text": "you",
+      "start": 51.759,
+      "end": 51.84,
+      "loss": 8.567174275716145e-05
+    },
+    {
+      "text": "admire.",
+      "start": 51.899,
+      "end": 52.52,
+      "loss": 0.0017847844532557897
+    },
+    {
+      "text": "Each",
+      "start": 53.579,
+      "end": 53.799,
+      "loss": 0.0006303191184997559
+    },
+    {
+      "text": "one",
+      "start": 53.899,
+      "end": 54.379,
+      "loss": 0.0006472269694010416
+    },
+    {
+      "text": "is",
+      "start": 54.439,
+      "end": 54.599,
+      "loss": 0.0003085136413574219
+    },
+    {
+      "text": "quietly",
+      "start": 54.68,
+      "end": 55.139,
+      "loss": 0.00026091507502964566
+    },
+    {
+      "text": "shaping",
+      "start": 55.219,
+      "end": 55.559,
+      "loss": 0.00020960399082728794
+    },
+    {
+      "text": "the",
+      "start": 55.619,
+      "end": 55.739,
+      "loss": 0.0002695719401041667
+    },
+    {
+      "text": "person",
+      "start": 55.799,
+      "end": 56.199,
+      "loss": 0.0003643433252970378
+    },
+    {
+      "text": "you",
+      "start": 56.279,
+      "end": 56.36,
+      "loss": 0.0002562204996744792
+    },
+    {
+      "text": "become.",
+      "start": 56.399,
+      "end": 56.939,
+      "loss": 0.0038256474903651644
+    },
+    {
+      "text": "Leave",
+      "start": 58.199,
+      "end": 58.399,
+      "loss": 0.3268265247344971
+    },
+    {
+      "text": "room",
+      "start": 58.479,
+      "end": 58.719,
+      "loss": 0.00034821033477783203
+    },
+    {
+      "text": "for",
+      "start": 58.779,
+      "end": 58.919,
+      "loss": 2.8769175211588543e-05
+    },
+    {
+      "text": "silence.",
+      "start": 59.0,
+      "end": 59.579,
+      "loss": 0.037433624267578125
+    },
+    {
+      "text": "Walk",
+      "start": 60.259,
+      "end": 60.52,
+      "loss": 0.0009932518005371094
+    },
+    {
+      "text": "without",
+      "start": 60.559,
+      "end": 60.859,
+      "loss": 0.00027680397033691406
+    },
+    {
+      "text": "headphones.",
+      "start": 60.919,
+      "end": 61.779,
+      "loss": 0.13050101020119406
+    },
+    {
+      "text": "Sit",
+      "start": 61.879,
+      "end": 62.079,
+      "loss": 0.0036514600118001304
+    },
+    {
+      "text": "with",
+      "start": 62.139,
+      "end": 62.259,
+      "loss": 0.000377655029296875
+    },
+    {
+      "text": "your",
+      "start": 62.279,
+      "end": 62.479,
+      "loss": 0.0009766817092895508
+    },
+    {
+      "text": "thoughts.",
+      "start": 62.539,
+      "end": 63.339,
+      "loss": 0.01499644915262858
+    },
+    {
+      "text": "Be",
+      "start": 63.399,
+      "end": 63.52,
+      "loss": 0.0122222900390625
+    },
+    {
+      "text": "bored",
+      "start": 63.619,
+      "end": 64.059,
+      "loss": 0.0011739730834960938
+    },
+    {
+      "text": "occasionally.",
+      "start": 64.139,
+      "end": 64.779,
+      "loss": 0.008191631390498234
+    },
+    {
+      "text": "Good",
+      "start": 65.379,
+      "end": 65.519,
+      "loss": 0.001060187816619873
+    },
+    {
+      "text": "ideas",
+      "start": 65.659,
+      "end": 66.099,
+      "loss": 0.00039925575256347654
+    },
+    {
+      "text": "need",
+      "start": 66.199,
+      "end": 66.4,
+      "loss": 0.000318676233291626
+    },
+    {
+      "text": "somewhere",
+      "start": 66.439,
+      "end": 66.759,
+      "loss": 0.000358528561062283
+    },
+    {
+      "text": "to",
+      "start": 66.799,
+      "end": 66.899,
+      "loss": 0.0002570152282714844
+    },
+    {
+      "text": "arrive.",
+      "start": 66.939,
+      "end": 67.619,
+      "loss": 0.0025093896048409598
+    },
+    {
+      "text": "Your",
+      "start": 68.839,
+      "end": 68.959,
+      "loss": 0.21837234497070312
+    },
+    {
+      "text": "attention",
+      "start": 69.08,
+      "end": 69.979,
+      "loss": 0.0006075302759806315
+    },
+    {
+      "text": "is",
+      "start": 70.059,
+      "end": 70.179,
+      "loss": 0.0009279251098632812
+    },
+    {
+      "text": "your",
+      "start": 70.239,
+      "end": 70.399,
+      "loss": 0.00051116943359375
+    },
+    {
+      "text": "life",
+      "start": 70.459,
+      "end": 70.9,
+      "loss": 0.0007650852203369141
+    },
+    {
+      "text": "in",
+      "start": 70.939,
+      "end": 71.019,
+      "loss": 0.0008373260498046875
+    },
+    {
+      "text": "its",
+      "start": 71.059,
+      "end": 71.199,
+      "loss": 0.0008285840352376302
+    },
+    {
+      "text": "most",
+      "start": 71.26,
+      "end": 71.559,
+      "loss": 0.0004741847515106201
+    },
+    {
+      "text": "concentrated",
+      "start": 71.619,
+      "end": 72.419,
+      "loss": 0.0009657939275105795
+    },
+    {
+      "text": "form.",
+      "start": 72.479,
+      "end": 72.86,
+      "loss": 0.016834425926208495
+    },
+    {
+      "text": "Spend",
+      "start": 73.519,
+      "end": 73.839,
+      "loss": 0.00339508056640625
+    },
+    {
+      "text": "it",
+      "start": 73.9,
+      "end": 74.259,
+      "loss": 0.0043621063232421875
+    },
+    {
+      "text": "deliberately.",
+      "start": 74.339,
+      "end": 75.079,
+      "loss": 0.002860436072716346
+    },
+    {
+      "text": "Somebody",
+      "start": 75.979,
+      "end": 76.439,
+      "loss": 0.005507722496986389
+    },
+    {
+      "text": "always",
+      "start": 76.58,
+      "end": 77.04,
+      "loss": 0.001297454039255778
+    },
+    {
+      "text": "profits",
+      "start": 77.099,
+      "end": 77.519,
+      "loss": 0.0034588405064174105
+    },
+    {
+      "text": "from",
+      "start": 77.599,
+      "end": 77.819,
+      "loss": 0.0008897781372070312
+    },
+    {
+      "text": "where",
+      "start": 77.86,
+      "end": 78.099,
+      "loss": 0.000977325439453125
+    },
+    {
+      "text": "you",
+      "start": 78.159,
+      "end": 78.359,
+      "loss": 0.0002745787302652995
+    },
+    {
+      "text": "choose",
+      "start": 78.4,
+      "end": 78.699,
+      "loss": 0.000613709290822347
+    },
+    {
+      "text": "to",
+      "start": 78.739,
+      "end": 78.899,
+      "loss": 0.00032520294189453125
+    },
+    {
+      "text": "look.",
+      "start": 78.959,
+      "end": 79.259,
+      "loss": 0.017888641357421874
+    },
+    {
+      "text": "Make",
+      "start": 80.22,
+      "end": 80.419,
+      "loss": 0.0015845298767089844
+    },
+    {
+      "text": "certain",
+      "start": 80.5,
+      "end": 80.779,
+      "loss": 0.00045617989131382534
+    },
+    {
+      "text": "it",
+      "start": 80.819,
+      "end": 80.899,
+      "loss": 0.00324249267578125
+    },
+    {
+      "text": "is",
+      "start": 80.959,
+      "end": 81.099,
+      "loss": 0.0006716251373291016
+    },
+    {
+      "text": "you.",
+      "start": 81.259,
+      "end": 81.439,
+      "loss": 0.22107934951782227
+    }
+  ],
+  "lines": [
+    {
+      "text": "The most valuable thing you own is not your money. It is not your house. It is not even your skill. It is your attention. Whatever consistently receives your attention eventually becomes your life.",
+      "start": 1.079,
+      "end": 17.879,
+      "word_start": 0,
+      "word_end": 33
+    },
+    {
+      "text": "Most people do not lose control all at once. They lose it a minute at a time. A notification here. A headline there. Another email. Another video. Another opinion from somebody they will never meet. By evening, their attention has been spent on everything except the life they intended to build.",
+      "start": 19.319,
+      "end": 41.139,
+      "word_start": 34,
+      "word_end": 84
+    },
+    {
+      "text": "Guard your attention as carefully as you would guard your front door. Be deliberate about what you read, who you listen to, who you argue with, and who you admire. Each one is quietly shaping the person you become.",
+      "start": 42.34,
+      "end": 56.939,
+      "word_start": 85,
+      "word_end": 123
+    },
+    {
+      "text": "Leave room for silence. Walk without headphones. Sit with your thoughts. Be bored occasionally. Good ideas need somewhere to arrive.",
+      "start": 58.199,
+      "end": 67.619,
+      "word_start": 124,
+      "word_end": 143
+    },
+    {
+      "text": "Your attention is your life in its most concentrated form. Spend it deliberately. Somebody always profits from where you choose to look. Make certain it is you.",
+      "start": 68.839,
+      "end": 81.439,
+      "word_start": 144,
+      "word_end": 170
+    }
+  ],
+  "coverage": {
+    "ok": true,
+    "expected_word_count": 171,
+    "aligned_word_count": 171,
+    "missing_normalized": [],
+    "in_order_matched": true,
+    "count_match": true,
+    "strictly_increasing_words": true,
+    "strictly_increasing_lines": true,
+    "no_overlap_invalid": true,
+    "line_count_match": true,
+    "consecutive_same_tokens": []
+  },
+  "audio": "/audio/attention.mp3",
+  "duration": 82.98,
+  "loudness": {
+    "integrated_lufs": -16.44,
+    "true_peak_dbtp": -1.87
+  },
+  "edge": {
+    "opening_silence_s": 1.095,
+    "closing_silence_s": 1.513,
+    "peak_linear": 0.8061,
+    "avg_dbfs": -17.38,
+    "clipping_ratio": 0.0,
+    "opening_ok": true,
+    "ending_ok": true,
+    "no_clip": true,
+    "has_speech": true
+  },
+  "frozen_text": "The most valuable thing you own is not your money. It is not your house. It is not even your skill. It is your attention. Whatever consistently receives your attention eventually becomes your life.\nMost people do not lose control all at once. They lose it a minute at a time. A notification here. A headline there. Another email. Another video. Another opinion from somebody they will never meet. By evening, their attention has been spent on everything except the life they intended to build.\nGuard your attention as carefully as you would guard your front door. Be deliberate about what you read, who you listen to, who you argue with, and who you admire. Each one is quietly shaping the person you become.\nLeave room for silence. Walk without headphones. Sit with your thoughts. Be bored occasionally. Good ideas need somewhere to arrive.\nYour attention is your life in its most concentrated form. Spend it deliberately. Somebody always profits from where you choose to look. Make certain it is you.",
+  "generation_text": "[composed] The most valuable thing you own is not your money. It is not your house. It is not even your skill. It is your attention. Whatever consistently receives your attention eventually becomes your life.\n\n[thoughtful] Most people do not lose control all at once. They lose it a minute at a time. A notification here. A headline there. Another email. Another video. Another opinion from somebody they will never meet. By evening, their attention has been spent on everything except the life they intended to build.\n\n[firmer] Guard your attention as carefully as you would guard your front door. Be deliberate about what you read, who you listen to, who you argue with, and who you admire. Each one is quietly shaping the person you become.\n\n[gentle] Leave room for silence. Walk without headphones. Sit with your thoughts. Be bored occasionally. Good ideas need somewhere to arrive.\n\n[measured] Your attention is your life in its most concentrated form. Spend it deliberately. Somebody always profits from where you choose to look. Make certain it is you."
+}

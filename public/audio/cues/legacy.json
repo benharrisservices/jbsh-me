@@ -1,0 +1,766 @@
+{
+  "id": "legacy",
+  "audio": "/audio/legacy.mp3",
+  "duration": 55.14,
+  "wordCount": 116,
+  "lineCount": 5,
+  "words": [
+    {
+      "word": "Eventually,",
+      "start": 1.12,
+      "end": 1.699,
+      "loss": 0.11342112584547563
+    },
+    {
+      "word": "every",
+      "start": 2.22,
+      "end": 2.519,
+      "loss": 0.0036157608032226563
+    },
+    {
+      "word": "serious",
+      "start": 2.679,
+      "end": 3.079,
+      "loss": 0.00027934142521449497
+    },
+    {
+      "word": "ambition",
+      "start": 3.159,
+      "end": 3.679,
+      "loss": 0.0001300126314163208
+    },
+    {
+      "word": "becomes",
+      "start": 3.959,
+      "end": 4.219,
+      "loss": 0.00014036042349679128
+    },
+    {
+      "word": "a",
+      "start": 4.259,
+      "end": 4.299,
+      "loss": 0.000640869140625
+    },
+    {
+      "word": "question",
+      "start": 4.36,
+      "end": 4.679,
+      "loss": 8.815526962280273e-05
+    },
+    {
+      "word": "of",
+      "start": 4.719,
+      "end": 4.779,
+      "loss": 5.066394805908203e-05
+    },
+    {
+      "word": "service.",
+      "start": 4.9,
+      "end": 5.38,
+      "loss": 0.054492563009262085
+    },
+    {
+      "word": "What",
+      "start": 6.379,
+      "end": 6.519,
+      "loss": 0.0020574331283569336
+    },
+    {
+      "word": "did",
+      "start": 6.559,
+      "end": 6.699,
+      "loss": 0.0002848307291666667
+    },
+    {
+      "word": "you",
+      "start": 6.759,
+      "end": 6.839,
+      "loss": 0.00014090538024902344
+    },
+    {
+      "word": "improve?",
+      "start": 6.899,
+      "end": 7.559,
+      "loss": 0.0011161565780639648
+    },
+    {
+      "word": "Who",
+      "start": 8.239,
+      "end": 8.36,
+      "loss": 0.0005636215209960938
+    },
+    {
+      "word": "became",
+      "start": 8.42,
+      "end": 8.78,
+      "loss": 0.0004858970642089844
+    },
+    {
+      "word": "stronger",
+      "start": 8.899,
+      "end": 9.38,
+      "loss": 0.00016707181930541992
+    },
+    {
+      "word": "because",
+      "start": 9.439,
+      "end": 9.699,
+      "loss": 0.00013390609196254184
+    },
+    {
+      "word": "you",
+      "start": 9.819,
+      "end": 9.939,
+      "loss": 0.00027306874593098957
+    },
+    {
+      "word": "were",
+      "start": 10.0,
+      "end": 10.119,
+      "loss": 0.00019291043281555176
+    },
+    {
+      "word": "here?",
+      "start": 10.179,
+      "end": 10.479,
+      "loss": 0.011260151863098145
+    },
+    {
+      "word": "What",
+      "start": 11.279,
+      "end": 11.46,
+      "loss": 0.00038674473762512207
+    },
+    {
+      "word": "continues",
+      "start": 11.539,
+      "end": 12.139,
+      "loss": 0.00010763274298773872
+    },
+    {
+      "word": "working",
+      "start": 12.199,
+      "end": 12.639,
+      "loss": 0.00017276832035609653
+    },
+    {
+      "word": "after",
+      "start": 12.979,
+      "end": 13.219,
+      "loss": 0.0001791238784790039
+    },
+    {
+      "word": "you",
+      "start": 13.299,
+      "end": 13.399,
+      "loss": 0.00011587142944335938
+    },
+    {
+      "word": "leave",
+      "start": 13.46,
+      "end": 13.659,
+      "loss": 0.0001345396041870117
+    },
+    {
+      "word": "the",
+      "start": 13.719,
+      "end": 13.759,
+      "loss": 8.598963419596355e-05
+    },
+    {
+      "word": "room?",
+      "start": 13.859,
+      "end": 14.139,
+      "loss": 0.01478726863861084
+    },
+    {
+      "word": "Legacy",
+      "start": 15.5,
+      "end": 15.859,
+      "loss": 0.1297454833984375
+    },
+    {
+      "word": "is",
+      "start": 15.92,
+      "end": 16.039,
+      "loss": 0.0005571842193603516
+    },
+    {
+      "word": "not",
+      "start": 16.1,
+      "end": 16.279,
+      "loss": 0.00030549367268880207
+    },
+    {
+      "word": "fame.",
+      "start": 16.42,
+      "end": 16.779,
+      "loss": 0.08778619766235352
+    },
+    {
+      "word": "Most",
+      "start": 17.279,
+      "end": 17.479,
+      "loss": 0.0005958080291748047
+    },
+    {
+      "word": "famous",
+      "start": 17.579,
+      "end": 17.84,
+      "loss": 0.0003275275230407715
+    },
+    {
+      "word": "people",
+      "start": 17.94,
+      "end": 18.119,
+      "loss": 0.00010995070139567058
+    },
+    {
+      "word": "are",
+      "start": 18.159,
+      "end": 18.239,
+      "loss": 0.01507107416788737
+    },
+    {
+      "word": "soon",
+      "start": 18.319,
+      "end": 18.459,
+      "loss": 0.00037482380867004395
+    },
+    {
+      "word": "forgotten.",
+      "start": 18.539,
+      "end": 18.959,
+      "loss": 0.031998395919799805
+    },
+    {
+      "word": "Legacy",
+      "start": 19.399,
+      "end": 19.899,
+      "loss": 0.000766913096110026
+    },
+    {
+      "word": "is",
+      "start": 19.979,
+      "end": 20.079,
+      "loss": 0.0006399154663085938
+    },
+    {
+      "word": "usefulness",
+      "start": 20.279,
+      "end": 21.0,
+      "loss": 0.0009061694145202637
+    },
+    {
+      "word": "that",
+      "start": 21.26,
+      "end": 21.379,
+      "loss": 0.0004544556140899658
+    },
+    {
+      "word": "survives",
+      "start": 21.459,
+      "end": 21.939,
+      "loss": 0.00018887221813201904
+    },
+    {
+      "word": "its",
+      "start": 21.979,
+      "end": 22.12,
+      "loss": 0.000793298085530599
+    },
+    {
+      "word": "creator.",
+      "start": 22.219,
+      "end": 22.739,
+      "loss": 0.030926480889320374
+    },
+    {
+      "word": "A",
+      "start": 23.439,
+      "end": 23.479,
+      "loss": 0.0123291015625
+    },
+    {
+      "word": "company",
+      "start": 23.559,
+      "end": 23.859,
+      "loss": 0.0002380439213344029
+    },
+    {
+      "word": "that",
+      "start": 23.899,
+      "end": 24.019,
+      "loss": 0.0005629062652587891
+    },
+    {
+      "word": "treats",
+      "start": 24.079,
+      "end": 24.34,
+      "loss": 0.00012890497843424478
+    },
+    {
+      "word": "people",
+      "start": 24.399,
+      "end": 24.699,
+      "loss": 0.00011098384857177734
+    },
+    {
+      "word": "well.",
+      "start": 24.76,
+      "end": 25.1,
+      "loss": 0.31582810878753664
+    },
+    {
+      "word": "A",
+      "start": 25.519,
+      "end": 25.579,
+      "loss": 0.00860595703125
+    },
+    {
+      "word": "system",
+      "start": 25.659,
+      "end": 26.039,
+      "loss": 0.00018970171610514322
+    },
+    {
+      "word": "that",
+      "start": 26.079,
+      "end": 26.199,
+      "loss": 0.00014209747314453125
+    },
+    {
+      "word": "saves",
+      "start": 26.319,
+      "end": 26.659,
+      "loss": 0.00013215541839599608
+    },
+    {
+      "word": "time.",
+      "start": 26.739,
+      "end": 27.139,
+      "loss": 0.04899539947509766
+    },
+    {
+      "word": "Knowledge",
+      "start": 27.619,
+      "end": 28.099,
+      "loss": 0.0009440845913357205
+    },
+    {
+      "word": "passed",
+      "start": 28.18,
+      "end": 28.539,
+      "loss": 0.007052024205525716
+    },
+    {
+      "word": "forward.",
+      "start": 28.599,
+      "end": 29.019,
+      "loss": 0.014519751071929932
+    },
+    {
+      "word": "A",
+      "start": 29.42,
+      "end": 29.439,
+      "loss": 0.004791259765625
+    },
+    {
+      "word": "family",
+      "start": 29.559,
+      "end": 29.879,
+      "loss": 0.0008861025174458822
+    },
+    {
+      "word": "made",
+      "start": 29.92,
+      "end": 30.179,
+      "loss": 0.0004132688045501709
+    },
+    {
+      "word": "safer.",
+      "start": 30.26,
+      "end": 30.659,
+      "loss": 0.012178341547648111
+    },
+    {
+      "word": "A",
+      "start": 31.219,
+      "end": 31.299,
+      "loss": 0.0031585693359375
+    },
+    {
+      "word": "friend",
+      "start": 31.359,
+      "end": 31.679,
+      "loss": 0.0007214546203613281
+    },
+    {
+      "word": "who",
+      "start": 31.719,
+      "end": 31.819,
+      "loss": 0.00044385592142740887
+    },
+    {
+      "word": "took",
+      "start": 31.879,
+      "end": 32.099,
+      "loss": 0.0004572868347167969
+    },
+    {
+      "word": "courage",
+      "start": 32.18,
+      "end": 32.559,
+      "loss": 0.00022477763039725169
+    },
+    {
+      "word": "from",
+      "start": 32.599,
+      "end": 32.719,
+      "loss": 0.00014019012451171875
+    },
+    {
+      "word": "your",
+      "start": 32.779,
+      "end": 32.88,
+      "loss": 0.00027382373809814453
+    },
+    {
+      "word": "example.",
+      "start": 32.959,
+      "end": 33.479,
+      "loss": 0.0031648576259613037
+    },
+    {
+      "word": "Build",
+      "start": 34.319,
+      "end": 34.559,
+      "loss": 0.0832895040512085
+    },
+    {
+      "word": "things",
+      "start": 34.619,
+      "end": 34.88,
+      "loss": 0.0001794894536336263
+    },
+    {
+      "word": "properly.",
+      "start": 34.939,
+      "end": 35.379,
+      "loss": 0.10509565141465929
+    },
+    {
+      "word": "Document",
+      "start": 35.68,
+      "end": 36.099,
+      "loss": 0.0011700689792633057
+    },
+    {
+      "word": "what",
+      "start": 36.139,
+      "end": 36.279,
+      "loss": 0.00033146142959594727
+    },
+    {
+      "word": "you",
+      "start": 36.34,
+      "end": 36.439,
+      "loss": 0.00012203057607014974
+    },
+    {
+      "word": "learn.",
+      "start": 36.5,
+      "end": 36.879,
+      "loss": 0.08122515678405762
+    },
+    {
+      "word": "Teach",
+      "start": 37.239,
+      "end": 37.52,
+      "loss": 0.002558779716491699
+    },
+    {
+      "word": "without",
+      "start": 37.579,
+      "end": 37.899,
+      "loss": 0.0002631119319370815
+    },
+    {
+      "word": "guarding",
+      "start": 37.979,
+      "end": 38.399,
+      "loss": 0.0003247559070587158
+    },
+    {
+      "word": "every",
+      "start": 38.479,
+      "end": 38.68,
+      "loss": 0.00032052993774414065
+    },
+    {
+      "word": "advantage.",
+      "start": 38.739,
+      "end": 39.379,
+      "loss": 0.005285573005676269
+    },
+    {
+      "word": "Leave",
+      "start": 39.799,
+      "end": 40.079,
+      "loss": 0.0005613327026367188
+    },
+    {
+      "word": "places,",
+      "start": 40.139,
+      "end": 40.639,
+      "loss": 0.0037495579038347516
+    },
+    {
+      "word": "systems,",
+      "start": 40.919,
+      "end": 41.319,
+      "loss": 0.15352578461170197
+    },
+    {
+      "word": "and",
+      "start": 41.36,
+      "end": 41.439,
+      "loss": 0.0005706548690795898
+    },
+    {
+      "word": "people",
+      "start": 41.559,
+      "end": 42.139,
+      "loss": 0.00012664000193277994
+    },
+    {
+      "word": "better",
+      "start": 42.279,
+      "end": 42.52,
+      "loss": 0.0005662043889363607
+    },
+    {
+      "word": "than",
+      "start": 42.579,
+      "end": 42.7,
+      "loss": 0.00029209256172180176
+    },
+    {
+      "word": "you",
+      "start": 42.739,
+      "end": 42.879,
+      "loss": 0.0003326733907063802
+    },
+    {
+      "word": "found",
+      "start": 42.959,
+      "end": 43.18,
+      "loss": 0.0003644704818725586
+    },
+    {
+      "word": "them.",
+      "start": 43.239,
+      "end": 43.419,
+      "loss": 0.004877138137817383
+    },
+    {
+      "word": "Achievement",
+      "start": 44.619,
+      "end": 45.099,
+      "loss": 0.07529583844271573
+    },
+    {
+      "word": "is",
+      "start": 45.159,
+      "end": 45.299,
+      "loss": 0.0010099411010742188
+    },
+    {
+      "word": "temporary.",
+      "start": 45.34,
+      "end": 45.84,
+      "loss": 0.04811902046203613
+    },
+    {
+      "word": "Character",
+      "start": 46.379,
+      "end": 46.899,
+      "loss": 0.0011985434426201715
+    },
+    {
+      "word": "travels",
+      "start": 46.959,
+      "end": 47.34,
+      "loss": 0.00021525791713169644
+    },
+    {
+      "word": "further.",
+      "start": 47.439,
+      "end": 47.799,
+      "loss": 0.0036346614360809326
+    },
+    {
+      "word": "You",
+      "start": 48.739,
+      "end": 48.799,
+      "loss": 0.07133897145589192
+    },
+    {
+      "word": "do",
+      "start": 48.86,
+      "end": 48.919,
+      "loss": 0.0006718635559082031
+    },
+    {
+      "word": "not",
+      "start": 48.959,
+      "end": 49.079,
+      "loss": 0.0003081957499186198
+    },
+    {
+      "word": "need",
+      "start": 49.139,
+      "end": 49.299,
+      "loss": 0.00032129883766174316
+    },
+    {
+      "word": "to",
+      "start": 49.319,
+      "end": 49.38,
+      "loss": 0.0003371238708496094
+    },
+    {
+      "word": "change",
+      "start": 49.479,
+      "end": 49.759,
+      "loss": 0.00018676122029622397
+    },
+    {
+      "word": "the",
+      "start": 49.819,
+      "end": 49.88,
+      "loss": 0.0003096262613932292
+    },
+    {
+      "word": "entire",
+      "start": 49.899,
+      "end": 50.34,
+      "loss": 0.000335693359375
+    },
+    {
+      "word": "world.",
+      "start": 50.479,
+      "end": 50.819,
+      "loss": 0.3648940920829773
+    },
+    {
+      "word": "Improve",
+      "start": 51.139,
+      "end": 51.619,
+      "loss": 0.0009595836911882673
+    },
+    {
+      "word": "the",
+      "start": 51.659,
+      "end": 51.759,
+      "loss": 0.0005906422932942709
+    },
+    {
+      "word": "part",
+      "start": 51.84,
+      "end": 52.099,
+      "loss": 0.0006012916564941406
+    },
+    {
+      "word": "that",
+      "start": 52.139,
+      "end": 52.299,
+      "loss": 0.00043207406997680664
+    },
+    {
+      "word": "passes",
+      "start": 52.36,
+      "end": 52.759,
+      "loss": 0.0003688335418701172
+    },
+    {
+      "word": "through",
+      "start": 52.799,
+      "end": 52.939,
+      "loss": 0.0006236689431326729
+    },
+    {
+      "word": "your",
+      "start": 53.02,
+      "end": 53.159,
+      "loss": 0.0008184313774108887
+    },
+    {
+      "word": "hands.",
+      "start": 53.219,
+      "end": 53.599,
+      "loss": 0.028116861979166668
+    }
+  ],
+  "lines": [
+    {
+      "text": "Eventually, every serious ambition becomes a question of service. What did you improve? Who became stronger because you were here? What continues working after you leave the room?",
+      "start": 1.12,
+      "end": 14.139,
+      "wordStart": 0,
+      "wordEnd": 27
+    },
+    {
+      "text": "Legacy is not fame. Most famous people are soon forgotten. Legacy is usefulness that survives its creator. A company that treats people well. A system that saves time. Knowledge passed forward. A family made safer. A friend who took courage from your example.",
+      "start": 15.5,
+      "end": 33.479,
+      "wordStart": 28,
+      "wordEnd": 70
+    },
+    {
+      "text": "Build things properly. Document what you learn. Teach without guarding every advantage. Leave places, systems, and people better than you found them.",
+      "start": 34.319,
+      "end": 43.419,
+      "wordStart": 71,
+      "wordEnd": 92
+    },
+    {
+      "text": "Achievement is temporary. Character travels further.",
+      "start": 44.619,
+      "end": 47.799,
+      "wordStart": 93,
+      "wordEnd": 98
+    },
+    {
+      "text": "You do not need to change the entire world. Improve the part that passes through your hands.",
+      "start": 48.739,
+      "end": 53.599,
+      "wordStart": 99,
+      "wordEnd": 115
+    }
+  ],
+  "coverage": {
+    "ok": true,
+    "expected_word_count": 116,
+    "aligned_word_count": 116,
+    "missing_normalized": [],
+    "in_order_matched": true,
+    "count_match": true,
+    "strictly_increasing_words": true,
+    "strictly_increasing_lines": true,
+    "no_overlap_invalid": true,
+    "line_count_match": true,
+    "consecutive_same_tokens": []
+  },
+  "pad_lead_s": 1.0,
+  "pad_trail_s": 1.5,
+  "source": "elevenlabs_forced_alignment",
+  "model_id": "eleven_v3",
+  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
+  "source_text_hash": "db57de604ab14f793d8282412be9176e30c155ba73413f03d283babc4d262dc2",
+  "playback_rate": 1.0,
+  "loudness": {
+    "integrated_lufs": -16.57,
+    "true_peak_dbtp": -1.82
+  }
+}

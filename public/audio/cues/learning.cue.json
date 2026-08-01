@@ -1,828 +1,840 @@
 {
   "id": "learning",
-  "audio": "/audio/learning.mp3",
-  "duration": 62.1,
-  "wordCount": 137,
-  "lineCount": 5,
+  "version": 1,
+  "source": "elevenlabs_forced_alignment",
+  "model_id": "eleven_v3",
+  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
+  "playback_rate": 1.0,
+  "pad_lead_s": 1.0,
+  "pad_trail_s": 1.5,
+  "source_text_hash": "1ab61a0e95e20171a3ebc8fb17b6a0238c0c424cf588dc64cec84f77326c1c19",
+  "transcript": [
+    "Learning is now part of your profession. Not an occasional activity. Not something reserved for courses and certificates. A daily practice.",
+    "The world changes too quickly for any fixed body of knowledge to protect you forever. What matters is the speed at which you can encounter something unfamiliar, understand it, test it, and make it useful.",
+    "Read every day. Build while you learn. Take notes in your own words. Explain difficult ideas simply. Follow curiosity beyond the point where it stops being convenient.",
+    "You will often feel as though everybody else understands more than you do. They do not. They have merely been confused for longer.",
+    "Knowledge compounds, but only when used. One useful idea applied repeatedly can alter an entire life. Become the person who keeps learning after everybody else has decided they already know enough."
+  ],
+  "alignment_loss": 0.04813621273789196,
   "words": [
     {
-      "word": "Learning",
+      "text": "Learning",
       "start": 1.159,
       "end": 1.519,
       "loss": 0.27580684423446655
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 1.559,
       "end": 1.679,
       "loss": 0.0008068084716796875
     },
     {
-      "word": "now",
+      "text": "now",
       "start": 1.759,
       "end": 1.979,
       "loss": 0.0007767677307128906
     },
     {
-      "word": "part",
+      "text": "part",
       "start": 2.039,
       "end": 2.259,
       "loss": 0.009659439325332642
     },
     {
-      "word": "of",
+      "text": "of",
       "start": 2.299,
       "end": 2.399,
       "loss": 8.803606033325195e-05
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 2.44,
       "end": 2.559,
       "loss": 0.0002855062484741211
     },
     {
-      "word": "profession.",
+      "text": "profession.",
       "start": 2.599,
       "end": 3.119,
       "loss": 0.0948191989551891
     },
     {
-      "word": "Not",
+      "text": "Not",
       "start": 3.699,
       "end": 3.799,
       "loss": 0.002592364947001139
     },
     {
-      "word": "an",
+      "text": "an",
       "start": 3.839,
       "end": 3.899,
       "loss": 0.0027484893798828125
     },
     {
-      "word": "occasional",
+      "text": "occasional",
       "start": 4.0,
       "end": 4.4,
       "loss": 0.00023064613342285156
     },
     {
-      "word": "activity.",
+      "text": "activity.",
       "start": 4.46,
       "end": 5.019,
       "loss": 0.11030231581793891
     },
     {
-      "word": "Not",
+      "text": "Not",
       "start": 5.4,
       "end": 5.519,
       "loss": 0.0027054945627848306
     },
     {
-      "word": "something",
+      "text": "something",
       "start": 5.599,
       "end": 5.879,
       "loss": 0.00010800361633300781
     },
     {
-      "word": "reserved",
+      "text": "reserved",
       "start": 5.96,
       "end": 6.359,
       "loss": 0.00019091367721557617
     },
     {
-      "word": "for",
+      "text": "for",
       "start": 6.42,
       "end": 6.48,
       "loss": 0.00015767415364583334
     },
     {
-      "word": "courses",
+      "text": "courses",
       "start": 6.619,
       "end": 7.099,
       "loss": 0.0002606936863490513
     },
     {
-      "word": "and",
+      "text": "and",
       "start": 7.159,
       "end": 7.219,
       "loss": 0.0002880493799845378
     },
     {
-      "word": "certificates.",
+      "text": "certificates.",
       "start": 7.299,
       "end": 7.879,
       "loss": 0.02232778989351713
     },
     {
-      "word": "A",
+      "text": "A",
       "start": 8.479,
       "end": 8.519,
       "loss": 0.00555419921875
     },
     {
-      "word": "daily",
+      "text": "daily",
       "start": 8.619,
       "end": 8.939,
       "loss": 0.0002564430236816406
     },
     {
-      "word": "practice.",
+      "text": "practice.",
       "start": 9.079,
       "end": 9.579,
       "loss": 0.013760182592603896
     },
     {
-      "word": "The",
+      "text": "The",
       "start": 10.42,
       "end": 10.479,
       "loss": 0.02638089656829834
     },
     {
-      "word": "world",
+      "text": "world",
       "start": 10.559,
       "end": 10.88,
       "loss": 0.00014653205871582032
     },
     {
-      "word": "changes",
+      "text": "changes",
       "start": 10.939,
       "end": 11.38,
       "loss": 4.400525774274554e-05
     },
     {
-      "word": "too",
+      "text": "too",
       "start": 11.439,
       "end": 11.559,
       "loss": 0.00014511744181315103
     },
     {
-      "word": "quickly",
+      "text": "quickly",
       "start": 11.699,
       "end": 12.019,
       "loss": 0.0001394918986729213
     },
     {
-      "word": "for",
+      "text": "for",
       "start": 12.279,
       "end": 12.36,
       "loss": 0.0003103017807006836
     },
     {
-      "word": "any",
+      "text": "any",
       "start": 12.42,
       "end": 12.559,
       "loss": 4.589557647705078e-05
     },
     {
-      "word": "fixed",
+      "text": "fixed",
       "start": 12.779,
       "end": 13.199,
       "loss": 0.00025479793548583985
     },
     {
-      "word": "body",
+      "text": "body",
       "start": 13.259,
       "end": 13.46,
       "loss": 7.328391075134277e-05
     },
     {
-      "word": "of",
+      "text": "of",
       "start": 13.5,
       "end": 13.619,
       "loss": 0.00014472007751464844
     },
     {
-      "word": "knowledge",
+      "text": "knowledge",
       "start": 13.659,
       "end": 14.019,
       "loss": 7.927417755126953e-05
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 14.119,
       "end": 14.18,
       "loss": 0.00044155120849609375
     },
     {
-      "word": "protect",
+      "text": "protect",
       "start": 14.239,
       "end": 14.599,
       "loss": 3.482614244733538e-05
     },
     {
-      "word": "you",
+      "text": "you",
       "start": 14.659,
       "end": 14.759,
       "loss": 0.0001541773478190104
     },
     {
-      "word": "forever.",
+      "text": "forever.",
       "start": 14.799,
       "end": 15.179,
       "loss": 0.00864344835281372
     },
     {
-      "word": "What",
+      "text": "What",
       "start": 15.979,
       "end": 16.139,
       "loss": 0.0005521774291992188
     },
     {
-      "word": "matters",
+      "text": "matters",
       "start": 16.159,
       "end": 16.719,
       "loss": 0.00014504364558628628
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 17.079,
       "end": 17.199,
       "loss": 0.0003345012664794922
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 17.279,
       "end": 17.42,
       "loss": 0.000621795654296875
     },
     {
-      "word": "speed",
+      "text": "speed",
       "start": 17.52,
       "end": 18.0,
       "loss": 0.0009921073913574218
     },
     {
-      "word": "at",
+      "text": "at",
       "start": 18.059,
       "end": 18.119,
       "loss": 0.002120494842529297
     },
     {
-      "word": "which",
+      "text": "which",
       "start": 18.18,
       "end": 18.299,
       "loss": 0.00020534992218017577
     },
     {
-      "word": "you",
+      "text": "you",
       "start": 18.359,
       "end": 18.44,
       "loss": 0.00020976861317952475
     },
     {
-      "word": "can",
+      "text": "can",
       "start": 18.459,
       "end": 18.559,
       "loss": 0.0010689894358317058
     },
     {
-      "word": "encounter",
+      "text": "encounter",
       "start": 18.619,
       "end": 19.119,
       "loss": 0.00016205840640597872
     },
     {
-      "word": "something",
+      "text": "something",
       "start": 19.18,
       "end": 19.6,
       "loss": 0.00018662876553005644
     },
     {
-      "word": "unfamiliar,",
+      "text": "unfamiliar,",
       "start": 19.68,
       "end": 20.319,
       "loss": 0.012198643250898882
     },
     {
-      "word": "understand",
+      "text": "understand",
       "start": 20.739,
       "end": 21.359,
       "loss": 0.00015995502471923828
     },
     {
-      "word": "it,",
+      "text": "it,",
       "start": 21.399,
       "end": 21.52,
       "loss": 0.0029407342274983725
     },
     {
-      "word": "test",
+      "text": "test",
       "start": 22.0,
       "end": 22.279,
       "loss": 0.00045549869537353516
     },
     {
-      "word": "it,",
+      "text": "it,",
       "start": 22.319,
       "end": 22.439,
       "loss": 0.1762397289276123
     },
     {
-      "word": "and",
+      "text": "and",
       "start": 22.859,
       "end": 22.979,
       "loss": 0.000542918841044108
     },
     {
-      "word": "make",
+      "text": "make",
       "start": 23.039,
       "end": 23.199,
       "loss": 0.00014135241508483887
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 23.26,
       "end": 23.399,
       "loss": 0.0003218650817871094
     },
     {
-      "word": "useful.",
+      "text": "useful.",
       "start": 23.559,
       "end": 23.979,
       "loss": 0.002492598124912807
     },
     {
-      "word": "Read",
+      "text": "Read",
       "start": 24.979,
       "end": 25.42,
       "loss": 0.20151805877685547
     },
     {
-      "word": "every",
+      "text": "every",
       "start": 25.519,
       "end": 25.819,
       "loss": 0.0003720998764038086
     },
     {
-      "word": "day.",
+      "text": "day.",
       "start": 25.879,
       "end": 26.179,
       "loss": 0.2774014472961426
     },
     {
-      "word": "Build",
+      "text": "Build",
       "start": 26.559,
       "end": 27.0,
       "loss": 0.0009553432464599609
     },
     {
-      "word": "while",
+      "text": "while",
       "start": 27.039,
       "end": 27.199,
       "loss": 0.0003943443298339844
     },
     {
-      "word": "you",
+      "text": "you",
       "start": 27.239,
       "end": 27.359,
       "loss": 0.00015155474344889322
     },
     {
-      "word": "learn.",
+      "text": "learn.",
       "start": 27.42,
       "end": 27.759,
       "loss": 0.053150951862335205
     },
     {
-      "word": "Take",
+      "text": "Take",
       "start": 28.0,
       "end": 28.18,
       "loss": 0.0005190074443817139
     },
     {
-      "word": "notes",
+      "text": "notes",
       "start": 28.26,
       "end": 28.5,
       "loss": 0.0003365755081176758
     },
     {
-      "word": "in",
+      "text": "in",
       "start": 28.559,
       "end": 28.639,
       "loss": 0.0005103945732116699
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 28.68,
       "end": 28.779,
       "loss": 0.0001316070556640625
     },
     {
-      "word": "own",
+      "text": "own",
       "start": 28.859,
       "end": 29.019,
       "loss": 0.002154866854349772
     },
     {
-      "word": "words.",
+      "text": "words.",
       "start": 29.079,
       "end": 29.459,
       "loss": 0.036600470542907715
     },
     {
-      "word": "Explain",
+      "text": "Explain",
       "start": 29.699,
       "end": 30.179,
       "loss": 0.0006737027849469866
     },
     {
-      "word": "difficult",
+      "text": "difficult",
       "start": 30.239,
       "end": 30.619,
       "loss": 0.0002123117446899414
     },
     {
-      "word": "ideas",
+      "text": "ideas",
       "start": 30.739,
       "end": 31.319,
       "loss": 0.00018825531005859376
     },
     {
-      "word": "simply.",
+      "text": "simply.",
       "start": 31.459,
       "end": 31.839,
       "loss": 0.0180206298828125
     },
     {
-      "word": "Follow",
+      "text": "Follow",
       "start": 32.36,
       "end": 32.699,
       "loss": 0.0008381009101867676
     },
     {
-      "word": "curiosity",
+      "text": "curiosity",
       "start": 32.779,
       "end": 33.659,
       "loss": 0.0009560187657674154
     },
     {
-      "word": "beyond",
+      "text": "beyond",
       "start": 33.719,
       "end": 33.919,
       "loss": 0.0007279117902119955
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 33.959,
       "end": 34.04,
       "loss": 0.00035500526428222656
     },
     {
-      "word": "point",
+      "text": "point",
       "start": 34.099,
       "end": 34.299,
       "loss": 0.00016751289367675782
     },
     {
-      "word": "where",
+      "text": "where",
       "start": 34.36,
       "end": 34.439,
       "loss": 0.0005575180053710938
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 34.479,
       "end": 34.619,
       "loss": 0.0005161762237548828
     },
     {
-      "word": "stops",
+      "text": "stops",
       "start": 34.719,
       "end": 35.04,
       "loss": 0.00031914710998535154
     },
     {
-      "word": "being",
+      "text": "being",
       "start": 35.099,
       "end": 35.38,
       "loss": 0.0002147674560546875
     },
     {
-      "word": "convenient.",
+      "text": "convenient.",
       "start": 35.439,
       "end": 36.159,
       "loss": 0.000742782245982777
     },
     {
-      "word": "You",
+      "text": "You",
       "start": 36.919,
       "end": 36.979,
       "loss": 0.006195465723673503
     },
     {
-      "word": "will",
+      "text": "will",
       "start": 37.0,
       "end": 37.079,
       "loss": 0.0005868673324584961
     },
     {
-      "word": "often",
+      "text": "often",
       "start": 37.139,
       "end": 37.36,
       "loss": 0.00024933815002441405
     },
     {
-      "word": "feel",
+      "text": "feel",
       "start": 37.419,
       "end": 37.559,
       "loss": 0.0003094673156738281
     },
     {
-      "word": "as",
+      "text": "as",
       "start": 37.619,
       "end": 37.7,
       "loss": 0.0005848407745361328
     },
     {
-      "word": "though",
+      "text": "though",
       "start": 37.739,
       "end": 37.899,
       "loss": 0.00019051631291707358
     },
     {
-      "word": "everybody",
+      "text": "everybody",
       "start": 38.259,
       "end": 38.739,
       "loss": 0.0011140108108520508
     },
     {
-      "word": "else",
+      "text": "else",
       "start": 38.819,
       "end": 39.04,
       "loss": 0.0007697939872741699
     },
     {
-      "word": "understands",
+      "text": "understands",
       "start": 39.099,
       "end": 39.799,
       "loss": 0.00021926923231645063
     },
     {
-      "word": "more",
+      "text": "more",
       "start": 39.879,
       "end": 40.04,
       "loss": 0.00017526745796203613
     },
     {
-      "word": "than",
+      "text": "than",
       "start": 40.119,
       "end": 40.259,
       "loss": 0.0004832744598388672
     },
     {
-      "word": "you",
+      "text": "you",
       "start": 40.34,
       "end": 40.5,
       "loss": 0.00032711029052734375
     },
     {
-      "word": "do.",
+      "text": "do.",
       "start": 40.559,
       "end": 40.739,
       "loss": 0.0228274663289388
     },
     {
-      "word": "They",
+      "text": "They",
       "start": 41.399,
       "end": 41.54,
       "loss": 0.0012618303298950195
     },
     {
-      "word": "do",
+      "text": "do",
       "start": 41.579,
       "end": 41.7,
       "loss": 0.013884425163269043
     },
     {
-      "word": "not.",
+      "text": "not.",
       "start": 41.759,
       "end": 42.02,
       "loss": 0.07058614492416382
     },
     {
-      "word": "They",
+      "text": "They",
       "start": 42.5,
       "end": 42.599,
       "loss": 0.0008437633514404297
     },
     {
-      "word": "have",
+      "text": "have",
       "start": 42.639,
       "end": 42.739,
       "loss": 0.000351637601852417
     },
     {
-      "word": "merely",
+      "text": "merely",
       "start": 42.779,
       "end": 43.04,
       "loss": 0.00017486015955607095
     },
     {
-      "word": "been",
+      "text": "been",
       "start": 43.099,
       "end": 43.339,
       "loss": 0.0002824068069458008
     },
     {
-      "word": "confused",
+      "text": "confused",
       "start": 43.399,
       "end": 44.319,
       "loss": 0.0003801882266998291
     },
     {
-      "word": "for",
+      "text": "for",
       "start": 44.379,
       "end": 44.5,
       "loss": 0.00017070770263671875
     },
     {
-      "word": "longer.",
+      "text": "longer.",
       "start": 44.579,
       "end": 44.939,
       "loss": 0.00157686642238072
     },
     {
-      "word": "Knowledge",
+      "text": "Knowledge",
       "start": 46.119,
       "end": 46.559,
       "loss": 0.13008183903164333
     },
     {
-      "word": "compounds,",
+      "text": "compounds,",
       "start": 46.619,
       "end": 47.34,
       "loss": 0.035445547103881835
     },
     {
-      "word": "but",
+      "text": "but",
       "start": 47.639,
       "end": 47.739,
       "loss": 0.0005315144856770834
     },
     {
-      "word": "only",
+      "text": "only",
       "start": 47.819,
       "end": 48.119,
       "loss": 0.00012949109077453613
     },
     {
-      "word": "when",
+      "text": "when",
       "start": 48.159,
       "end": 48.379,
       "loss": 0.0003631412982940674
     },
     {
-      "word": "used.",
+      "text": "used.",
       "start": 48.659,
       "end": 49.52,
       "loss": 0.011017084121704102
     },
     {
-      "word": "One",
+      "text": "One",
       "start": 49.619,
       "end": 49.819,
       "loss": 0.0029919942220052085
     },
     {
-      "word": "useful",
+      "text": "useful",
       "start": 50.0,
       "end": 50.319,
       "loss": 0.0004006226857503255
     },
     {
-      "word": "idea",
+      "text": "idea",
       "start": 50.459,
       "end": 50.859,
       "loss": 0.0004975795745849609
     },
     {
-      "word": "applied",
+      "text": "applied",
       "start": 50.919,
       "end": 51.34,
       "loss": 0.0004121405737740653
     },
     {
-      "word": "repeatedly",
+      "text": "repeatedly",
       "start": 51.379,
       "end": 52.219,
       "loss": 0.00025992393493652345
     },
     {
-      "word": "can",
+      "text": "can",
       "start": 52.259,
       "end": 52.419,
       "loss": 0.0009412765502929688
     },
     {
-      "word": "alter",
+      "text": "alter",
       "start": 52.5,
       "end": 52.799,
       "loss": 0.0002820253372192383
     },
     {
-      "word": "an",
+      "text": "an",
       "start": 52.86,
       "end": 52.939,
       "loss": 0.0005273818969726562
     },
     {
-      "word": "entire",
+      "text": "entire",
       "start": 52.979,
       "end": 53.639,
       "loss": 0.00019683440526326498
     },
     {
-      "word": "life.",
+      "text": "life.",
       "start": 53.699,
       "end": 54.059,
       "loss": 0.011261510848999023
     },
     {
-      "word": "Become",
+      "text": "Become",
       "start": 54.639,
       "end": 54.979,
       "loss": 0.0012283722559611003
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 55.02,
       "end": 55.139,
       "loss": 0.000949859619140625
     },
     {
-      "word": "person",
+      "text": "person",
       "start": 55.199,
       "end": 55.559,
       "loss": 0.00023601452509562174
     },
     {
-      "word": "who",
+      "text": "who",
       "start": 55.599,
       "end": 55.799,
       "loss": 0.0017752647399902344
     },
     {
-      "word": "keeps",
+      "text": "keeps",
       "start": 55.84,
       "end": 56.099,
       "loss": 0.001673126220703125
     },
     {
-      "word": "learning",
+      "text": "learning",
       "start": 56.299,
       "end": 56.879,
       "loss": 0.0006019473075866699
     },
     {
-      "word": "after",
+      "text": "after",
       "start": 56.979,
       "end": 57.299,
       "loss": 0.010039615631103515
     },
     {
-      "word": "everybody",
+      "text": "everybody",
       "start": 57.379,
       "end": 57.86,
       "loss": 0.0015909009509616429
     },
     {
-      "word": "else",
+      "text": "else",
       "start": 57.879,
       "end": 58.079,
       "loss": 0.000996619462966919
     },
     {
-      "word": "has",
+      "text": "has",
       "start": 58.119,
       "end": 58.239,
       "loss": 0.0030949910481770835
     },
     {
-      "word": "decided",
+      "text": "decided",
       "start": 58.259,
       "end": 58.719,
       "loss": 0.00041607448032924106
     },
     {
-      "word": "they",
+      "text": "they",
       "start": 58.779,
       "end": 59.02,
       "loss": 0.0027904510498046875
     },
     {
-      "word": "already",
+      "text": "already",
       "start": 59.079,
       "end": 59.639,
       "loss": 0.0006535734449114118
     },
     {
-      "word": "know",
+      "text": "know",
       "start": 59.699,
       "end": 60.039,
       "loss": 0.001048743724822998
     },
     {
-      "word": "enough.",
+      "text": "enough.",
       "start": 60.119,
       "end": 60.559,
       "loss": 0.014868872506277902
@@ -833,36 +845,36 @@
       "text": "Learning is now part of your profession. Not an occasional activity. Not something reserved for courses and certificates. A daily practice.",
       "start": 1.159,
       "end": 9.579,
-      "wordStart": 0,
-      "wordEnd": 20
+      "word_start": 0,
+      "word_end": 20
     },
     {
       "text": "The world changes too quickly for any fixed body of knowledge to protect you forever. What matters is the speed at which you can encounter something unfamiliar, understand it, test it, and make it useful.",
       "start": 10.42,
       "end": 23.979,
-      "wordStart": 21,
-      "wordEnd": 55
+      "word_start": 21,
+      "word_end": 55
     },
     {
       "text": "Read every day. Build while you learn. Take notes in your own words. Explain difficult ideas simply. Follow curiosity beyond the point where it stops being convenient.",
       "start": 24.979,
       "end": 36.159,
-      "wordStart": 56,
-      "wordEnd": 82
+      "word_start": 56,
+      "word_end": 82
     },
     {
       "text": "You will often feel as though everybody else understands more than you do. They do not. They have merely been confused for longer.",
       "start": 36.919,
       "end": 44.939,
-      "wordStart": 83,
-      "wordEnd": 105
+      "word_start": 83,
+      "word_end": 105
     },
     {
       "text": "Knowledge compounds, but only when used. One useful idea applied repeatedly can alter an entire life. Become the person who keeps learning after everybody else has decided they already know enough.",
       "start": 46.119,
       "end": 60.559,
-      "wordStart": 106,
-      "wordEnd": 136
+      "word_start": 106,
+      "word_end": 136
     }
   ],
   "coverage": {
@@ -878,15 +890,23 @@
     "line_count_match": true,
     "consecutive_same_tokens": []
   },
-  "pad_lead_s": 1.0,
-  "pad_trail_s": 1.5,
-  "source": "elevenlabs_forced_alignment",
-  "model_id": "eleven_v3",
-  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
-  "source_text_hash": "1ab61a0e95e20171a3ebc8fb17b6a0238c0c424cf588dc64cec84f77326c1c19",
-  "playback_rate": 1.0,
+  "audio": "/audio/learning.mp3",
+  "duration": 62.1,
   "loudness": {
     "integrated_lufs": -16.44,
     "true_peak_dbtp": -1.82
-  }
+  },
+  "edge": {
+    "opening_silence_s": 1.072,
+    "closing_silence_s": 1.507,
+    "peak_linear": 0.8104,
+    "avg_dbfs": -16.76,
+    "clipping_ratio": 0.0,
+    "opening_ok": true,
+    "ending_ok": true,
+    "no_clip": true,
+    "has_speech": true
+  },
+  "frozen_text": "Learning is now part of your profession. Not an occasional activity. Not something reserved for courses and certificates. A daily practice.\nThe world changes too quickly for any fixed body of knowledge to protect you forever. What matters is the speed at which you can encounter something unfamiliar, understand it, test it, and make it useful.\nRead every day. Build while you learn. Take notes in your own words. Explain difficult ideas simply. Follow curiosity beyond the point where it stops being convenient.\nYou will often feel as though everybody else understands more than you do. They do not. They have merely been confused for longer.\nKnowledge compounds, but only when used. One useful idea applied repeatedly can alter an entire life. Become the person who keeps learning after everybody else has decided they already know enough.",
+  "generation_text": "[thoughtful] Learning is now part of your profession. Not an occasional activity. Not something reserved for courses and certificates. A daily practice.\n\n[composed] The world changes too quickly for any fixed body of knowledge to protect you forever. What matters is the speed at which you can encounter something unfamiliar, understand it, test it, and make it useful.\n\n[firmer] Read every day. Build while you learn. Take notes in your own words. Explain difficult ideas simply. Follow curiosity beyond the point where it stops being convenient.\n\n[gently amused] You will often feel as though everybody else understands more than you do. They do not. They have merely been confused for longer.\n\n[measured] Knowledge compounds, but only when used. One useful idea applied repeatedly can alter an entire life. Become the person who keeps learning after everybody else has decided they already know enough."
 }

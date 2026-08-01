@@ -1,10 +1,10 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import {
   type ChapterCues,
+  activeContentLineIndex,
   hasProductionLineCues,
-  softActiveIndex,
 } from "@/lib/cues";
 import { cn } from "@/lib/utils";
 
@@ -22,21 +22,35 @@ interface TranscriptProps {
  * Chapter transcript mode: every line stays mounted for the full chapter.
  * Only opacity/color change with the active cue. Never truncate, unmount,
  * or progressively reveal — that logic belongs only to IntroLines.
+ *
+ * Highlight + scroll are driven only by this chapter's cue timings mapped
+ * onto displayed content lines (no cumulative offsets across chapters).
  */
 export function Transcript({
   lines,
   currentTime,
   cues,
-  playing: _playing,
+  playing,
   active,
 }: TranscriptProps) {
-  void _playing;
   const production = hasProductionLineCues(cues);
+  const lineRefs = useRef<(HTMLParagraphElement | null)[]>([]);
 
   const activeIndex = useMemo(() => {
     if (!active || !production || !cues) return -1;
-    return softActiveIndex(cues.lines ?? [], currentTime);
-  }, [active, production, cues, currentTime]);
+    return activeContentLineIndex(lines, cues, currentTime);
+  }, [active, production, cues, lines, currentTime]);
+
+  useEffect(() => {
+    if (!active || !playing || activeIndex < 0) return;
+    const el = lineRefs.current[activeIndex];
+    if (!el) return;
+    el.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+      inline: "nearest",
+    });
+  }, [activeIndex, active, playing]);
 
   return (
     <div className="space-y-5 md:space-y-6" aria-live="polite">
@@ -48,6 +62,9 @@ export function Transcript({
         return (
           <p
             key={`chapter-line-${i}`}
+            ref={(node) => {
+              lineRefs.current[i] = node;
+            }}
             className={cn(
               "font-serif text-xl leading-relaxed font-light tracking-wide transition-colors duration-150 md:text-2xl lg:text-[1.65rem] lg:leading-relaxed",
               !active && "text-foreground/85",

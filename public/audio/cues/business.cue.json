@@ -1,786 +1,798 @@
 {
   "id": "business",
-  "audio": "/audio/business.mp3",
-  "duration": 66.66,
-  "wordCount": 130,
-  "lineCount": 5,
+  "version": 1,
+  "source": "elevenlabs_forced_alignment",
+  "model_id": "eleven_v3",
+  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
+  "playback_rate": 1.0,
+  "pad_lead_s": 1.0,
+  "pad_trail_s": 1.5,
+  "source_text_hash": "bebfecc7b21a2ca4374ebd14864aa752a0b5f26213f299fdf8f568e61b4c60a2",
+  "transcript": [
+    "Business is often made to sound more mysterious than it is. Somebody has a problem. You understand it. You solve it well enough that they are pleased to pay you. Then you repeat the process.",
+    "Start with problems, not company names. Look for frustration, delay, waste, expense, risk, and work people hate doing. Valuable businesses are built where useful solutions meet genuine demand.",
+    "Speak to customers early. Charge sooner than feels comfortable. Keep costs low. Deliver what you promised. Improve from reality, not imagination.",
+    "Logos, pitch decks, and business cards can wait. Revenue is generally more persuasive.",
+    "Profit is not proof of virtue, but it is evidence that somebody valued the result. Solve meaningful problems. Treat people fairly. Keep your word. That is an excellent foundation for almost any enterprise."
+  ],
+  "alignment_loss": 0.045652401128244514,
   "words": [
     {
-      "word": "Business",
+      "text": "Business",
       "start": 1.259,
       "end": 1.759,
       "loss": 0.2053181678056717
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 1.819,
       "end": 1.919,
       "loss": 0.00128936767578125
     },
     {
-      "word": "often",
+      "text": "often",
       "start": 1.979,
       "end": 2.159,
       "loss": 0.0005007028579711914
     },
     {
-      "word": "made",
+      "text": "made",
       "start": 2.24,
       "end": 2.379,
       "loss": 0.0005896687507629395
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 2.44,
       "end": 2.539,
       "loss": 0.0016193389892578125
     },
     {
-      "word": "sound",
+      "text": "sound",
       "start": 2.579,
       "end": 2.919,
       "loss": 0.0015690326690673828
     },
     {
-      "word": "more",
+      "text": "more",
       "start": 2.96,
       "end": 3.119,
       "loss": 0.0007338523864746094
     },
     {
-      "word": "mysterious",
+      "text": "mysterious",
       "start": 3.24,
       "end": 4.019,
       "loss": 0.00045456886291503904
     },
     {
-      "word": "than",
+      "text": "than",
       "start": 4.079,
       "end": 4.159,
       "loss": 0.0006347298622131348
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 4.219,
       "end": 4.319,
       "loss": 0.00029754638671875
     },
     {
-      "word": "is.",
+      "text": "is.",
       "start": 4.44,
       "end": 4.699,
       "loss": 0.08272222677866618
     },
     {
-      "word": "Somebody",
+      "text": "Somebody",
       "start": 5.38,
       "end": 5.659,
       "loss": 0.0019511580467224121
     },
     {
-      "word": "has",
+      "text": "has",
       "start": 5.699,
       "end": 5.799,
       "loss": 0.000244140625
     },
     {
-      "word": "a",
+      "text": "a",
       "start": 5.839,
       "end": 5.879,
       "loss": 0.00030517578125
     },
     {
-      "word": "problem.",
+      "text": "problem.",
       "start": 5.92,
       "end": 6.279,
       "loss": 0.19633102416992188
     },
     {
-      "word": "You",
+      "text": "You",
       "start": 6.819,
       "end": 6.92,
       "loss": 0.0010412136713663738
     },
     {
-      "word": "understand",
+      "text": "understand",
       "start": 7.0,
       "end": 7.46,
       "loss": 0.0003199458122253418
     },
     {
-      "word": "it.",
+      "text": "it.",
       "start": 7.5,
       "end": 7.639,
       "loss": 0.03821102778116862
     },
     {
-      "word": "You",
+      "text": "You",
       "start": 8.159,
       "end": 8.22,
       "loss": 0.0007505416870117188
     },
     {
-      "word": "solve",
+      "text": "solve",
       "start": 8.38,
       "end": 8.619,
       "loss": 0.00028162002563476564
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 8.679,
       "end": 8.8,
       "loss": 0.00029718875885009766
     },
     {
-      "word": "well",
+      "text": "well",
       "start": 8.979,
       "end": 9.079,
       "loss": 0.0007121860980987549
     },
     {
-      "word": "enough",
+      "text": "enough",
       "start": 9.159,
       "end": 9.34,
       "loss": 8.453925450642903e-05
     },
     {
-      "word": "that",
+      "text": "that",
       "start": 9.38,
       "end": 9.479,
       "loss": 0.0009490251541137695
     },
     {
-      "word": "they",
+      "text": "they",
       "start": 9.519,
       "end": 9.599,
       "loss": 0.0001685023307800293
     },
     {
-      "word": "are",
+      "text": "are",
       "start": 9.619,
       "end": 9.739,
       "loss": 0.00031181176503499347
     },
     {
-      "word": "pleased",
+      "text": "pleased",
       "start": 9.779,
       "end": 10.059,
       "loss": 0.00044538293566022603
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 10.079,
       "end": 10.199,
       "loss": 0.002428293228149414
     },
     {
-      "word": "pay",
+      "text": "pay",
       "start": 10.279,
       "end": 10.439,
       "loss": 0.00035381317138671875
     },
     {
-      "word": "you.",
+      "text": "you.",
       "start": 10.5,
       "end": 10.639,
       "loss": 0.21509352326393127
     },
     {
-      "word": "Then",
+      "text": "Then",
       "start": 11.219,
       "end": 11.38,
       "loss": 0.0019450485706329346
     },
     {
-      "word": "you",
+      "text": "you",
       "start": 11.439,
       "end": 11.519,
       "loss": 0.0001104275385538737
     },
     {
-      "word": "repeat",
+      "text": "repeat",
       "start": 11.579,
       "end": 12.0,
       "loss": 4.829963048299154e-05
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 12.039,
       "end": 12.119,
       "loss": 0.00011873245239257812
     },
     {
-      "word": "process.",
+      "text": "process.",
       "start": 12.179,
       "end": 12.699,
       "loss": 0.0037166476249694824
     },
     {
-      "word": "Start",
+      "text": "Start",
       "start": 13.88,
       "end": 14.179,
       "loss": 0.1664560317993164
     },
     {
-      "word": "with",
+      "text": "with",
       "start": 14.239,
       "end": 14.439,
       "loss": 7.957220077514648e-05
     },
     {
-      "word": "problems,",
+      "text": "problems,",
       "start": 14.519,
       "end": 15.039,
       "loss": 0.008620791965060763
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 15.359,
       "end": 15.5,
       "loss": 0.00023436546325683594
     },
     {
-      "word": "company",
+      "text": "company",
       "start": 15.639,
       "end": 16.02,
       "loss": 0.00018293516976492747
     },
     {
-      "word": "names.",
+      "text": "names.",
       "start": 16.1,
       "end": 16.5,
       "loss": 0.033979435761769615
     },
     {
-      "word": "Look",
+      "text": "Look",
       "start": 17.1,
       "end": 17.239,
       "loss": 0.0004513859748840332
     },
     {
-      "word": "for",
+      "text": "for",
       "start": 17.34,
       "end": 17.559,
       "loss": 0.00037980079650878906
     },
     {
-      "word": "frustration,",
+      "text": "frustration,",
       "start": 17.639,
       "end": 18.379,
       "loss": 0.003806928793589274
     },
     {
-      "word": "delay,",
+      "text": "delay,",
       "start": 18.639,
       "end": 19.119,
       "loss": 0.001654187838236491
     },
     {
-      "word": "waste,",
+      "text": "waste,",
       "start": 19.5,
       "end": 19.899,
       "loss": 0.004376133282979329
     },
     {
-      "word": "expense,",
+      "text": "expense,",
       "start": 20.159,
       "end": 20.68,
       "loss": 0.001664489507675171
     },
     {
-      "word": "risk,",
+      "text": "risk,",
       "start": 21.0,
       "end": 21.34,
       "loss": 0.09703998565673828
     },
     {
-      "word": "and",
+      "text": "and",
       "start": 21.819,
       "end": 21.92,
       "loss": 0.000558018684387207
     },
     {
-      "word": "work",
+      "text": "work",
       "start": 22.059,
       "end": 22.299,
       "loss": 0.0002060532569885254
     },
     {
-      "word": "people",
+      "text": "people",
       "start": 22.439,
       "end": 22.779,
       "loss": 0.00023667017618815103
     },
     {
-      "word": "hate",
+      "text": "hate",
       "start": 22.84,
       "end": 23.18,
       "loss": 0.00030726194381713867
     },
     {
-      "word": "doing.",
+      "text": "doing.",
       "start": 23.239,
       "end": 23.579,
       "loss": 0.0021351377169291177
     },
     {
-      "word": "Valuable",
+      "text": "Valuable",
       "start": 24.6,
       "end": 25.039,
       "loss": 0.0006497055292129517
     },
     {
-      "word": "businesses",
+      "text": "businesses",
       "start": 25.119,
       "end": 25.599,
       "loss": 0.0007280468940734863
     },
     {
-      "word": "are",
+      "text": "are",
       "start": 25.659,
       "end": 25.739,
       "loss": 0.00040407975514729816
     },
     {
-      "word": "built",
+      "text": "built",
       "start": 25.819,
       "end": 26.299,
       "loss": 0.0003089427947998047
     },
     {
-      "word": "where",
+      "text": "where",
       "start": 26.379,
       "end": 26.579,
       "loss": 0.0003862857818603516
     },
     {
-      "word": "useful",
+      "text": "useful",
       "start": 26.699,
       "end": 27.079,
       "loss": 0.00030086437861124676
     },
     {
-      "word": "solutions",
+      "text": "solutions",
       "start": 27.139,
       "end": 27.919,
       "loss": 0.0002376503414577908
     },
     {
-      "word": "meet",
+      "text": "meet",
       "start": 28.019,
       "end": 28.299,
       "loss": 0.00015985965728759766
     },
     {
-      "word": "genuine",
+      "text": "genuine",
       "start": 28.399,
       "end": 28.879,
       "loss": 0.00018506390707833425
     },
     {
-      "word": "demand.",
+      "text": "demand.",
       "start": 28.92,
       "end": 29.459,
       "loss": 0.0020692178181239535
     },
     {
-      "word": "Speak",
+      "text": "Speak",
       "start": 30.719,
       "end": 31.079,
       "loss": 0.03233938217163086
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 31.119,
       "end": 31.239,
       "loss": 0.00012809038162231445
     },
     {
-      "word": "customers",
+      "text": "customers",
       "start": 31.319,
       "end": 32.02,
       "loss": 0.00010776519775390625
     },
     {
-      "word": "early.",
+      "text": "early.",
       "start": 32.119,
       "end": 32.5,
       "loss": 0.10768113533655803
     },
     {
-      "word": "Charge",
+      "text": "Charge",
       "start": 32.979,
       "end": 33.439,
       "loss": 0.0007030169169108073
     },
     {
-      "word": "sooner",
+      "text": "sooner",
       "start": 33.599,
       "end": 33.899,
       "loss": 0.0002327561378479004
     },
     {
-      "word": "than",
+      "text": "than",
       "start": 33.939,
       "end": 34.119,
       "loss": 0.0002193152904510498
     },
     {
-      "word": "feels",
+      "text": "feels",
       "start": 34.18,
       "end": 34.459,
       "loss": 0.018164896965026857
     },
     {
-      "word": "comfortable.",
+      "text": "comfortable.",
       "start": 34.52,
       "end": 34.979,
       "loss": 0.029566218455632527
     },
     {
-      "word": "Keep",
+      "text": "Keep",
       "start": 35.419,
       "end": 35.719,
       "loss": 0.0010468363761901855
     },
     {
-      "word": "costs",
+      "text": "costs",
       "start": 35.819,
       "end": 36.319,
       "loss": 0.0013664484024047852
     },
     {
-      "word": "low.",
+      "text": "low.",
       "start": 36.479,
       "end": 36.819,
       "loss": 0.021332859992980957
     },
     {
-      "word": "Deliver",
+      "text": "Deliver",
       "start": 37.259,
       "end": 37.599,
       "loss": 0.0008158172879900251
     },
     {
-      "word": "what",
+      "text": "what",
       "start": 37.659,
       "end": 37.799,
       "loss": 0.0007728338241577148
     },
     {
-      "word": "you",
+      "text": "you",
       "start": 37.86,
       "end": 37.959,
       "loss": 0.0002238750457763672
     },
     {
-      "word": "promised.",
+      "text": "promised.",
       "start": 38.02,
       "end": 38.459,
       "loss": 0.023332304424709745
     },
     {
-      "word": "Improve",
+      "text": "Improve",
       "start": 38.779,
       "end": 39.379,
       "loss": 0.0006997925894601005
     },
     {
-      "word": "from",
+      "text": "from",
       "start": 39.439,
       "end": 39.579,
       "loss": 0.0005511343479156494
     },
     {
-      "word": "reality,",
+      "text": "reality,",
       "start": 39.659,
       "end": 40.159,
       "loss": 0.02497076988220215
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 40.579,
       "end": 40.779,
       "loss": 0.0005997021993001302
     },
     {
-      "word": "imagination.",
+      "text": "imagination.",
       "start": 40.899,
       "end": 41.639,
       "loss": 0.0015686055024464924
     },
     {
-      "word": "Logos,",
+      "text": "Logos,",
       "start": 42.879,
       "end": 43.5,
       "loss": 0.04737536112467448
     },
     {
-      "word": "pitch",
+      "text": "pitch",
       "start": 43.68,
       "end": 43.919,
       "loss": 0.0007934331893920899
     },
     {
-      "word": "decks,",
+      "text": "decks,",
       "start": 43.959,
       "end": 44.279,
       "loss": 0.07188773155212402
     },
     {
-      "word": "and",
+      "text": "and",
       "start": 44.34,
       "end": 44.459,
       "loss": 0.0005076328913370768
     },
     {
-      "word": "business",
+      "text": "business",
       "start": 44.52,
       "end": 44.919,
       "loss": 9.725987911224365e-05
     },
     {
-      "word": "cards",
+      "text": "cards",
       "start": 45.0,
       "end": 45.399,
       "loss": 0.00012798309326171874
     },
     {
-      "word": "can",
+      "text": "can",
       "start": 45.439,
       "end": 45.68,
       "loss": 0.00032830238342285156
     },
     {
-      "word": "wait.",
+      "text": "wait.",
       "start": 45.739,
       "end": 46.02,
       "loss": 0.02759895324707031
     },
     {
-      "word": "Revenue",
+      "text": "Revenue",
       "start": 46.639,
       "end": 47.399,
       "loss": 0.00152829715183803
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 47.479,
       "end": 47.639,
       "loss": 0.0005335807800292969
     },
     {
-      "word": "generally",
+      "text": "generally",
       "start": 47.68,
       "end": 48.04,
       "loss": 0.00041049056582980685
     },
     {
-      "word": "more",
+      "text": "more",
       "start": 48.139,
       "end": 48.279,
       "loss": 0.00019675493240356445
     },
     {
-      "word": "persuasive.",
+      "text": "persuasive.",
       "start": 48.379,
       "end": 49.059,
       "loss": 0.0011239810423417525
     },
     {
-      "word": "Profit",
+      "text": "Profit",
       "start": 50.039,
       "end": 50.399,
       "loss": 0.0509422222773234
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 50.459,
       "end": 50.579,
       "loss": 0.0002951622009277344
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 50.639,
       "end": 50.899,
       "loss": 0.0001929601033528646
     },
     {
-      "word": "proof",
+      "text": "proof",
       "start": 50.979,
       "end": 51.239,
       "loss": 0.0005019664764404297
     },
     {
-      "word": "of",
+      "text": "of",
       "start": 51.279,
       "end": 51.419,
       "loss": 0.000797271728515625
     },
     {
-      "word": "virtue,",
+      "text": "virtue,",
       "start": 51.5,
       "end": 52.119,
       "loss": 0.034802453858511787
     },
     {
-      "word": "but",
+      "text": "but",
       "start": 52.18,
       "end": 52.319,
       "loss": 0.000659942626953125
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 52.379,
       "end": 52.459,
       "loss": 0.000827789306640625
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 52.52,
       "end": 52.659,
       "loss": 0.00046062469482421875
     },
     {
-      "word": "evidence",
+      "text": "evidence",
       "start": 52.719,
       "end": 53.159,
       "loss": 0.0007202625274658203
     },
     {
-      "word": "that",
+      "text": "that",
       "start": 53.219,
       "end": 53.36,
       "loss": 0.000461578369140625
     },
     {
-      "word": "somebody",
+      "text": "somebody",
       "start": 53.479,
       "end": 54.02,
       "loss": 0.0004953294992446899
     },
     {
-      "word": "valued",
+      "text": "valued",
       "start": 54.059,
       "end": 54.559,
       "loss": 0.0011749267578125
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 54.599,
       "end": 54.659,
       "loss": 0.0010763804117838542
     },
     {
-      "word": "result.",
+      "text": "result.",
       "start": 54.719,
       "end": 55.219,
       "loss": 0.0038076298577444895
     },
     {
-      "word": "Solve",
+      "text": "Solve",
       "start": 56.259,
       "end": 56.639,
       "loss": 0.0033306121826171876
     },
     {
-      "word": "meaningful",
+      "text": "meaningful",
       "start": 56.799,
       "end": 57.299,
       "loss": 0.000396418571472168
     },
     {
-      "word": "problems.",
+      "text": "problems.",
       "start": 57.439,
       "end": 58.259,
       "loss": 0.07035521666208903
     },
     {
-      "word": "Treat",
+      "text": "Treat",
       "start": 58.319,
       "end": 58.52,
       "loss": 0.0011957645416259765
     },
     {
-      "word": "people",
+      "text": "people",
       "start": 58.619,
       "end": 58.999,
       "loss": 0.0007019837697347006
     },
     {
-      "word": "fairly.",
+      "text": "fairly.",
       "start": 59.079,
       "end": 59.459,
       "loss": 0.0495373180934361
     },
     {
-      "word": "Keep",
+      "text": "Keep",
       "start": 59.919,
       "end": 60.18,
       "loss": 0.0026017427444458008
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 60.239,
       "end": 60.459,
       "loss": 0.0007879734039306641
     },
     {
-      "word": "word.",
+      "text": "word.",
       "start": 60.52,
       "end": 60.939,
       "loss": 0.07337017059326172
     },
     {
-      "word": "That",
+      "text": "That",
       "start": 61.34,
       "end": 61.639,
       "loss": 0.0024747848510742188
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 61.699,
       "end": 61.819,
       "loss": 0.00039768218994140625
     },
     {
-      "word": "an",
+      "text": "an",
       "start": 61.84,
       "end": 62.039,
       "loss": 0.0012607574462890625
     },
     {
-      "word": "excellent",
+      "text": "excellent",
       "start": 62.099,
       "end": 62.559,
       "loss": 0.000253703859117296
     },
     {
-      "word": "foundation",
+      "text": "foundation",
       "start": 62.619,
       "end": 63.139,
       "loss": 0.0008922576904296875
     },
     {
-      "word": "for",
+      "text": "for",
       "start": 63.219,
       "end": 63.34,
       "loss": 0.0005768140157063802
     },
     {
-      "word": "almost",
+      "text": "almost",
       "start": 63.439,
       "end": 63.959,
       "loss": 0.00035953521728515625
     },
     {
-      "word": "any",
+      "text": "any",
       "start": 64.059,
       "end": 64.4,
       "loss": 0.0011924107869466145
     },
     {
-      "word": "enterprise.",
+      "text": "enterprise.",
       "start": 64.479,
       "end": 65.119,
       "loss": 0.012129653583873402
@@ -791,36 +803,36 @@
       "text": "Business is often made to sound more mysterious than it is. Somebody has a problem. You understand it. You solve it well enough that they are pleased to pay you. Then you repeat the process.",
       "start": 1.259,
       "end": 12.699,
-      "wordStart": 0,
-      "wordEnd": 34
+      "word_start": 0,
+      "word_end": 34
     },
     {
       "text": "Start with problems, not company names. Look for frustration, delay, waste, expense, risk, and work people hate doing. Valuable businesses are built where useful solutions meet genuine demand.",
       "start": 13.88,
       "end": 29.459,
-      "wordStart": 35,
-      "wordEnd": 62
+      "word_start": 35,
+      "word_end": 62
     },
     {
       "text": "Speak to customers early. Charge sooner than feels comfortable. Keep costs low. Deliver what you promised. Improve from reality, not imagination.",
       "start": 30.719,
       "end": 41.639,
-      "wordStart": 63,
-      "wordEnd": 83
+      "word_start": 63,
+      "word_end": 83
     },
     {
       "text": "Logos, pitch decks, and business cards can wait. Revenue is generally more persuasive.",
       "start": 42.879,
       "end": 49.059,
-      "wordStart": 84,
-      "wordEnd": 96
+      "word_start": 84,
+      "word_end": 96
     },
     {
       "text": "Profit is not proof of virtue, but it is evidence that somebody valued the result. Solve meaningful problems. Treat people fairly. Keep your word. That is an excellent foundation for almost any enterprise.",
       "start": 50.039,
       "end": 65.119,
-      "wordStart": 97,
-      "wordEnd": 129
+      "word_start": 97,
+      "word_end": 129
     }
   ],
   "coverage": {
@@ -836,15 +848,23 @@
     "line_count_match": true,
     "consecutive_same_tokens": []
   },
-  "pad_lead_s": 1.0,
-  "pad_trail_s": 1.5,
-  "source": "elevenlabs_forced_alignment",
-  "model_id": "eleven_v3",
-  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
-  "source_text_hash": "bebfecc7b21a2ca4374ebd14864aa752a0b5f26213f299fdf8f568e61b4c60a2",
-  "playback_rate": 1.0,
+  "audio": "/audio/business.mp3",
+  "duration": 66.66,
   "loudness": {
     "integrated_lufs": -16.66,
     "true_peak_dbtp": -1.59
-  }
+  },
+  "edge": {
+    "opening_silence_s": 1.205,
+    "closing_silence_s": 1.518,
+    "peak_linear": 0.8319,
+    "avg_dbfs": -17.2,
+    "clipping_ratio": 0.0,
+    "opening_ok": true,
+    "ending_ok": true,
+    "no_clip": true,
+    "has_speech": true
+  },
+  "frozen_text": "Business is often made to sound more mysterious than it is. Somebody has a problem. You understand it. You solve it well enough that they are pleased to pay you. Then you repeat the process.\nStart with problems, not company names. Look for frustration, delay, waste, expense, risk, and work people hate doing. Valuable businesses are built where useful solutions meet genuine demand.\nSpeak to customers early. Charge sooner than feels comfortable. Keep costs low. Deliver what you promised. Improve from reality, not imagination.\nLogos, pitch decks, and business cards can wait. Revenue is generally more persuasive.\nProfit is not proof of virtue, but it is evidence that somebody valued the result. Solve meaningful problems. Treat people fairly. Keep your word. That is an excellent foundation for almost any enterprise.",
+  "generation_text": "[composed] Business is often made to sound more mysterious than it is. Somebody has a problem. You understand it. You solve it well enough that they are pleased to pay you. Then you repeat the process.\n\n[thoughtful] Start with problems, not company names. Look for frustration, delay, waste, expense, risk, and work people hate doing. Valuable businesses are built where useful solutions meet genuine demand.\n\n[firmer] Speak to customers early. Charge sooner than feels comfortable. Keep costs low. Deliver what you promised. Improve from reality, not imagination.\n\n[gently amused] Logos, pitch decks, and business cards can wait. Revenue is generally more persuasive.\n\n[measured] Profit is not proof of virtue, but it is evidence that somebody valued the result. Solve meaningful problems. Treat people fairly. Keep your word. That is an excellent foundation for almost any enterprise."
 }

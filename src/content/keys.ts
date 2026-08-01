@@ -11,12 +11,7 @@ export interface SpaceshipCredentials {
   password: string;
 }
 
-export const keysIntro: string[] = [
-  "These are yours.",
-  "Set up, and waiting.",
-  "A brother leaving keys under the mat.",
-];
-
+/** Existing approved account keys — Toolkit only. Do not invent values. */
 export const credentialCards: CredentialItem[] = [
   { id: "website", label: "Website", value: "https://jbsh.me", secret: false },
   { id: "apple-id", label: "Apple ID", value: "jbsh.me@icloud.com", secret: false },

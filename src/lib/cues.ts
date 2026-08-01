@@ -108,7 +108,11 @@ export function normalizeChapterCues(
         ...(typeof word_end === "number" ? { word_end } : {}),
       } satisfies CueLine;
     })
-    .filter((l): l is CueLine => l != null);
+    .filter((l): l is CueLine => l != null)
+    // Per-chapter ordering only — never accumulate offsets across chapters.
+    .sort((a, b) => a.start - b.start || a.end - b.end);
+
+  words.sort((a, b) => a.start - b.start || a.end - b.end);
 
   return {
     ...raw,
@@ -168,6 +172,189 @@ export function softActiveIndex(items: Timed[], currentTime: number): number {
   }
   // Lead-in / before first cue: hold the opening item.
   return ans < 0 ? 0 : ans;
+}
+
+/** Collapse punctuation/case so content lines can align to cue text. */
+function normalizeCueText(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+    .replace(/\s+/g, " ");
+}
+
+function wordsForCue(cue: CueLine, words: CueWord[] | undefined): CueWord[] {
+  if (!words?.length) return [];
+  if (
+    typeof cue.word_start === "number" &&
+    typeof cue.word_end === "number" &&
+    cue.word_end >= cue.word_start
+  ) {
+    return words.slice(cue.word_start, cue.word_end + 1);
+  }
+  const pad = 0.04;
+  return words.filter(
+    (w) => w.start >= cue.start - pad && w.end <= cue.end + pad,
+  );
+}
+
+/**
+ * Split one cue's time window across several content lines (cue merge).
+ * Prefer word timings when they cover the cue; otherwise weight by text length.
+ */
+function splitCueAcrossContentLines(
+  cue: CueLine,
+  contentLines: string[],
+  words: CueWord[] | undefined,
+): Timed[] {
+  if (contentLines.length === 1) {
+    return [{ start: cue.start, end: cue.end }];
+  }
+
+  const cueWords = wordsForCue(cue, words);
+  if (cueWords.length > 0) {
+    let wi = 0;
+    const ranges: Timed[] = [];
+    for (let i = 0; i < contentLines.length; i++) {
+      const needed = normalizeCueText(contentLines[i]).split(" ").filter(Boolean)
+        .length;
+      if (needed <= 0 || wi >= cueWords.length) {
+        ranges.push({
+          start: i === 0 ? cue.start : ranges[i - 1]?.end ?? cue.start,
+          end: cue.end,
+        });
+        continue;
+      }
+      const slice = cueWords.slice(wi, Math.min(wi + needed, cueWords.length));
+      wi += needed;
+      const start = i === 0 ? cue.start : slice[0]?.start ?? cue.start;
+      const end =
+        i === contentLines.length - 1
+          ? cue.end
+          : slice[slice.length - 1]?.end ?? cue.end;
+      ranges.push({ start, end: Math.max(start + 0.01, end) });
+    }
+    if (ranges.length === contentLines.length) return ranges;
+  }
+
+  const weights = contentLines.map((l) =>
+    Math.max(1, normalizeCueText(l).length),
+  );
+  const total = weights.reduce((a, b) => a + b, 0);
+  const duration = cue.end - cue.start;
+  let t = cue.start;
+  return weights.map((w, i) => {
+    const slice = duration * (w / total);
+    const start = t;
+    const end = i === weights.length - 1 ? cue.end : t + slice;
+    t = end;
+    return { start, end };
+  });
+}
+
+/**
+ * Map displayed content lines to per-chapter cue timings.
+ *
+ * Driven only by this chapter's cue starts/ends — no cumulative offsets.
+ * Survives content↔cue segmentation mismatches (merged/split lines) and
+ * extra trailing cues (e.g. letter closing, principles list beyond intro).
+ * Drop-in MP3 + cue JSON replacements keep working as long as line text
+ * still aligns under the same filenames.
+ */
+export function contentLineTimings(
+  contentLines: string[],
+  cueLines: CueLine[],
+  words?: CueWord[],
+): Timed[] {
+  if (!contentLines.length || !cueLines.length) return [];
+
+  const cues = [...cueLines].sort((a, b) => a.start - b.start || a.end - b.end);
+  const timings: Timed[] = [];
+  let ci = 0;
+  let qi = 0;
+
+  while (ci < contentLines.length && qi < cues.length) {
+    const cNorm = normalizeCueText(contentLines[ci]);
+    const cue = cues[qi];
+    const qNorm = normalizeCueText(cue.text);
+
+    if (!cNorm) {
+      ci++;
+      continue;
+    }
+
+    if (cNorm === qNorm) {
+      timings.push({ start: cue.start, end: cue.end });
+      ci++;
+      qi++;
+      continue;
+    }
+
+    // One cue covers several content lines (e.g. freedom "It is your time." +
+    // "Belonging to you." ↔ "It is your time belonging to you.").
+    if (qNorm.startsWith(cNorm)) {
+      const group: string[] = [contentLines[ci]];
+      let acc = cNorm;
+      let j = ci + 1;
+      while (j < contentLines.length && acc !== qNorm) {
+        const next = `${acc} ${normalizeCueText(contentLines[j])}`.trim();
+        if (!qNorm.startsWith(next) && next !== qNorm) break;
+        group.push(contentLines[j]);
+        acc = next;
+        j++;
+      }
+      if (acc === qNorm || qNorm.startsWith(acc)) {
+        timings.push(...splitCueAcrossContentLines(cue, group, words));
+        ci = j;
+        qi++;
+        continue;
+      }
+    }
+
+    // One content line covers several cues.
+    if (cNorm.startsWith(qNorm)) {
+      let acc = qNorm;
+      const start = cue.start;
+      let end = cue.end;
+      let k = qi + 1;
+      while (k < cues.length && acc !== cNorm) {
+        const next = `${acc} ${normalizeCueText(cues[k].text)}`.trim();
+        if (!cNorm.startsWith(next) && next !== cNorm) break;
+        acc = next;
+        end = cues[k].end;
+        k++;
+      }
+      if (acc === cNorm || cNorm.startsWith(acc)) {
+        timings.push({ start, end });
+        ci++;
+        qi = k;
+        continue;
+      }
+    }
+
+    // Unaligned: advance the cue cursor only — never invent offsets.
+    qi++;
+  }
+
+  return timings;
+}
+
+/**
+ * Active content-line index for a chapter. Cue timing only; revalidated
+ * from this chapter's cues on every call (no cross-chapter state).
+ */
+export function activeContentLineIndex(
+  contentLines: string[],
+  cues: ChapterCues,
+  currentTime: number,
+): number {
+  const timings = contentLineTimings(
+    contentLines,
+    cues.lines ?? [],
+    cues.words,
+  );
+  if (!timings.length) return -1;
+  return softActiveIndex(timings, currentTime);
 }
 
 /** @deprecated Use softActiveIndex — kept for call sites. */

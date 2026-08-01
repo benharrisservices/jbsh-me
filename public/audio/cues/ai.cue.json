@@ -1,930 +1,942 @@
 {
   "id": "ai",
-  "audio": "/audio/ai.mp3",
-  "duration": 73.06,
-  "wordCount": 154,
-  "lineCount": 5,
+  "version": 1,
+  "source": "elevenlabs_forced_alignment",
+  "model_id": "eleven_v3",
+  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
+  "playback_rate": 1.0,
+  "pad_lead_s": 1.0,
+  "pad_trail_s": 1.5,
+  "source_text_hash": "cc3b2f84f386ab7b357f0905e9b0bab3765a3e2dab04e497d336fc4ceceda293",
+  "transcript": [
+    "Artificial intelligence is not the point. Leverage is the point. Every generation receives one or two tools that permanently alter what an individual can accomplish. Electricity did it. Computers did it. The internet did it. Artificial intelligence is doing it now.",
+    "Used badly, it produces more noise. Used well, it allows one capable person to research, design, write, analyse, automate, and build at a scale that once required an organisation.",
+    "Do not use it to avoid thinking. Use it to think further. Do not ask it merely for answers. Ask it to expose assumptions, test decisions, organise knowledge, and execute the repetitive work that would otherwise consume your attention.",
+    "Your advantage will not come from having access. Everybody will have access. It will come from judgement. Knowing what to ask, what to trust, what to reject, and what deserves to become real.",
+    "Let the machines multiply your capability. Never let them replace your responsibility."
+  ],
+  "alignment_loss": 0.04910003877904293,
   "words": [
     {
-      "word": "Artificial",
+      "text": "Artificial",
       "start": 1.139,
       "end": 1.679,
       "loss": 0.14794306755065917
     },
     {
-      "word": "intelligence",
+      "text": "intelligence",
       "start": 1.74,
       "end": 2.299,
       "loss": 0.008569061756134033
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 2.359,
       "end": 2.44,
       "loss": 0.00162506103515625
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 2.519,
       "end": 2.699,
       "loss": 0.0008784929911295573
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 2.74,
       "end": 2.819,
       "loss": 0.0005029042561848959
     },
     {
-      "word": "point.",
+      "text": "point.",
       "start": 2.899,
       "end": 3.22,
       "loss": 0.05192174514134725
     },
     {
-      "word": "Leverage",
+      "text": "Leverage",
       "start": 4.119,
       "end": 4.659,
       "loss": 0.0019742250442504883
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 4.859,
       "end": 4.98,
       "loss": 0.0002460479736328125
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 5.059,
       "end": 5.119,
       "loss": 0.00032075246175130207
     },
     {
-      "word": "point.",
+      "text": "point.",
       "start": 5.219,
       "end": 5.519,
       "loss": 0.02001794179280599
     },
     {
-      "word": "Every",
+      "text": "Every",
       "start": 6.319,
       "end": 6.48,
       "loss": 0.0008451938629150391
     },
     {
-      "word": "generation",
+      "text": "generation",
       "start": 6.599,
       "end": 7.099,
       "loss": 0.00027953386306762696
     },
     {
-      "word": "receives",
+      "text": "receives",
       "start": 7.159,
       "end": 7.539,
       "loss": 0.00018274784088134766
     },
     {
-      "word": "one",
+      "text": "one",
       "start": 7.659,
       "end": 7.779,
       "loss": 0.0017553170522054036
     },
     {
-      "word": "or",
+      "text": "or",
       "start": 7.839,
       "end": 7.98,
       "loss": 0.0002994537353515625
     },
     {
-      "word": "two",
+      "text": "two",
       "start": 8.0,
       "end": 8.139,
       "loss": 0.00020444393157958984
     },
     {
-      "word": "tools",
+      "text": "tools",
       "start": 8.3,
       "end": 8.859,
       "loss": 0.0005224704742431641
     },
     {
-      "word": "that",
+      "text": "that",
       "start": 8.92,
       "end": 9.099,
       "loss": 0.00020745396614074707
     },
     {
-      "word": "permanently",
+      "text": "permanently",
       "start": 9.159,
       "end": 9.819,
       "loss": 0.0001432245427911932
     },
     {
-      "word": "alter",
+      "text": "alter",
       "start": 9.88,
       "end": 10.279,
       "loss": 0.0004975318908691407
     },
     {
-      "word": "what",
+      "text": "what",
       "start": 10.5,
       "end": 10.619,
       "loss": 0.0003502964973449707
     },
     {
-      "word": "an",
+      "text": "an",
       "start": 10.679,
       "end": 10.8,
       "loss": 0.0001533031463623047
     },
     {
-      "word": "individual",
+      "text": "individual",
       "start": 10.88,
       "end": 11.42,
       "loss": 2.0074844360351563e-05
     },
     {
-      "word": "can",
+      "text": "can",
       "start": 11.479,
       "end": 11.559,
       "loss": 0.000184019406636556
     },
     {
-      "word": "accomplish.",
+      "text": "accomplish.",
       "start": 11.679,
       "end": 12.259,
       "loss": 0.051894274624911224
     },
     {
-      "word": "Electricity",
+      "text": "Electricity",
       "start": 13.159,
       "end": 13.779,
       "loss": 0.0006131800738247958
     },
     {
-      "word": "did",
+      "text": "did",
       "start": 13.84,
       "end": 13.96,
       "loss": 0.00024970372517903644
     },
     {
-      "word": "it.",
+      "text": "it.",
       "start": 14.0,
       "end": 14.139,
       "loss": 0.29050254821777344
     },
     {
-      "word": "Computers",
+      "text": "Computers",
       "start": 14.739,
       "end": 15.299,
       "loss": 0.0036424530877007377
     },
     {
-      "word": "did",
+      "text": "did",
       "start": 15.359,
       "end": 15.479,
       "loss": 0.0003452301025390625
     },
     {
-      "word": "it.",
+      "text": "it.",
       "start": 15.539,
       "end": 15.679,
       "loss": 0.01700894037882487
     },
     {
-      "word": "The",
+      "text": "The",
       "start": 16.299,
       "end": 16.379,
       "loss": 0.0022986729939778647
     },
     {
-      "word": "internet",
+      "text": "internet",
       "start": 16.479,
       "end": 16.959,
       "loss": 0.07228149473667145
     },
     {
-      "word": "did",
+      "text": "did",
       "start": 17.159,
       "end": 17.279,
       "loss": 0.0003592173258463542
     },
     {
-      "word": "it.",
+      "text": "it.",
       "start": 17.34,
       "end": 17.5,
       "loss": 0.006642659505208333
     },
     {
-      "word": "Artificial",
+      "text": "Artificial",
       "start": 18.359,
       "end": 18.859,
       "loss": 0.0005791068077087402
     },
     {
-      "word": "intelligence",
+      "text": "intelligence",
       "start": 18.939,
       "end": 19.639,
       "loss": 0.005214601755142212
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 19.879,
       "end": 20.02,
       "loss": 0.0008323192596435547
     },
     {
-      "word": "doing",
+      "text": "doing",
       "start": 20.1,
       "end": 20.299,
       "loss": 0.00020334720611572265
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 20.34,
       "end": 20.459,
       "loss": 0.0006992816925048828
     },
     {
-      "word": "now.",
+      "text": "now.",
       "start": 20.579,
       "end": 20.92,
       "loss": 0.005721449851989746
     },
     {
-      "word": "Used",
+      "text": "Used",
       "start": 21.879,
       "end": 22.139,
       "loss": 0.04575967788696289
     },
     {
-      "word": "badly,",
+      "text": "badly,",
       "start": 22.199,
       "end": 22.639,
       "loss": 0.019093652566274006
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 22.939,
       "end": 23.019,
       "loss": 0.0006455183029174805
     },
     {
-      "word": "produces",
+      "text": "produces",
       "start": 23.079,
       "end": 23.539,
       "loss": 0.00011160969734191895
     },
     {
-      "word": "more",
+      "text": "more",
       "start": 23.639,
       "end": 23.879,
       "loss": 0.00023666024208068848
     },
     {
-      "word": "noise.",
+      "text": "noise.",
       "start": 23.959,
       "end": 24.479,
       "loss": 0.010590294996897379
     },
     {
-      "word": "Used",
+      "text": "Used",
       "start": 24.92,
       "end": 25.159,
       "loss": 0.0006380081176757812
     },
     {
-      "word": "well,",
+      "text": "well,",
       "start": 25.219,
       "end": 25.519,
       "loss": 0.02036590576171875
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 25.939,
       "end": 26.0,
       "loss": 0.0017766952514648438
     },
     {
-      "word": "allows",
+      "text": "allows",
       "start": 26.079,
       "end": 26.439,
       "loss": 0.00013687213261922201
     },
     {
-      "word": "one",
+      "text": "one",
       "start": 26.539,
       "end": 26.76,
       "loss": 0.0009481906890869141
     },
     {
-      "word": "capable",
+      "text": "capable",
       "start": 26.819,
       "end": 27.259,
       "loss": 0.0002791881561279297
     },
     {
-      "word": "person",
+      "text": "person",
       "start": 27.34,
       "end": 27.759,
       "loss": 0.0002658565839131673
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 28.039,
       "end": 28.099,
       "loss": 0.0015023350715637207
     },
     {
-      "word": "research,",
+      "text": "research,",
       "start": 28.18,
       "end": 28.779,
       "loss": 0.0014947785271538629
     },
     {
-      "word": "design,",
+      "text": "design,",
       "start": 29.039,
       "end": 29.599,
       "loss": 0.0007421289171491351
     },
     {
-      "word": "write,",
+      "text": "write,",
       "start": 29.899,
       "end": 30.219,
       "loss": 0.0014925797780354817
     },
     {
-      "word": "analyse,",
+      "text": "analyse,",
       "start": 30.539,
       "end": 31.119,
       "loss": 0.24071741104125977
     },
     {
-      "word": "automate,",
+      "text": "automate,",
       "start": 31.299,
       "end": 31.799,
       "loss": 0.09993741247389051
     },
     {
-      "word": "and",
+      "text": "and",
       "start": 31.939,
       "end": 32.139,
       "loss": 0.0008888641993204752
     },
     {
-      "word": "build",
+      "text": "build",
       "start": 32.2,
       "end": 32.879,
       "loss": 0.00022606849670410157
     },
     {
-      "word": "at",
+      "text": "at",
       "start": 32.959,
       "end": 33.04,
       "loss": 0.0090484619140625
     },
     {
-      "word": "a",
+      "text": "a",
       "start": 33.099,
       "end": 33.159,
       "loss": 0.00125885009765625
     },
     {
-      "word": "scale",
+      "text": "scale",
       "start": 33.219,
       "end": 33.599,
       "loss": 0.00011777877807617188
     },
     {
-      "word": "that",
+      "text": "that",
       "start": 33.899,
       "end": 34.02,
       "loss": 0.0006442070007324219
     },
     {
-      "word": "once",
+      "text": "once",
       "start": 34.099,
       "end": 34.299,
       "loss": 0.0005936920642852783
     },
     {
-      "word": "required",
+      "text": "required",
       "start": 34.38,
       "end": 35.099,
       "loss": 0.00024893879890441895
     },
     {
-      "word": "an",
+      "text": "an",
       "start": 35.159,
       "end": 35.279,
       "loss": 0.0011000633239746094
     },
     {
-      "word": "organisation.",
+      "text": "organisation.",
       "start": 35.34,
       "end": 36.139,
       "loss": 0.08829813737135667
     },
     {
-      "word": "Do",
+      "text": "Do",
       "start": 36.899,
       "end": 37.02,
       "loss": 0.13616943359375
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 37.099,
       "end": 37.34,
       "loss": 0.0014858245849609375
     },
     {
-      "word": "use",
+      "text": "use",
       "start": 37.459,
       "end": 37.579,
       "loss": 0.0003750324249267578
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 37.639,
       "end": 37.919,
       "loss": 0.00060272216796875
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 37.959,
       "end": 38.04,
       "loss": 0.0002560615539550781
     },
     {
-      "word": "avoid",
+      "text": "avoid",
       "start": 38.119,
       "end": 38.579,
       "loss": 0.00033078193664550783
     },
     {
-      "word": "thinking.",
+      "text": "thinking.",
       "start": 38.639,
       "end": 39.059,
       "loss": 0.03394667307535807
     },
     {
-      "word": "Use",
+      "text": "Use",
       "start": 39.579,
       "end": 39.7,
       "loss": 0.0005051294962565104
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 39.779,
       "end": 40.119,
       "loss": 0.0008471012115478516
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 40.18,
       "end": 40.299,
       "loss": 0.0006184577941894531
     },
     {
-      "word": "think",
+      "text": "think",
       "start": 40.439,
       "end": 40.86,
       "loss": 0.0012729644775390625
     },
     {
-      "word": "further.",
+      "text": "further.",
       "start": 41.0,
       "end": 41.419,
       "loss": 0.0033713877201080322
     },
     {
-      "word": "Do",
+      "text": "Do",
       "start": 41.959,
       "end": 42.02,
       "loss": 0.0009632110595703125
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 42.079,
       "end": 42.259,
       "loss": 0.00022403399149576822
     },
     {
-      "word": "ask",
+      "text": "ask",
       "start": 42.379,
       "end": 42.579,
       "loss": 0.0002319812774658203
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 42.639,
       "end": 42.739,
       "loss": 0.001667618751525879
     },
     {
-      "word": "merely",
+      "text": "merely",
       "start": 42.819,
       "end": 43.04,
       "loss": 0.00018854935963948569
     },
     {
-      "word": "for",
+      "text": "for",
       "start": 43.119,
       "end": 43.239,
       "loss": 0.00013728936513264975
     },
     {
-      "word": "answers.",
+      "text": "answers.",
       "start": 43.36,
       "end": 43.819,
       "loss": 0.04952488839626312
     },
     {
-      "word": "Ask",
+      "text": "Ask",
       "start": 44.159,
       "end": 44.34,
       "loss": 0.0015521049499511719
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 44.399,
       "end": 44.479,
       "loss": 0.0007219314575195312
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 44.539,
       "end": 44.599,
       "loss": 0.00043964385986328125
     },
     {
-      "word": "expose",
+      "text": "expose",
       "start": 44.7,
       "end": 45.239,
       "loss": 0.00041117270787556964
     },
     {
-      "word": "assumptions,",
+      "text": "assumptions,",
       "start": 45.319,
       "end": 46.019,
       "loss": 0.0071401894092559814
     },
     {
-      "word": "test",
+      "text": "test",
       "start": 46.36,
       "end": 46.759,
       "loss": 0.00035381317138671875
     },
     {
-      "word": "decisions,",
+      "text": "decisions,",
       "start": 46.84,
       "end": 47.439,
       "loss": 0.001431107521057129
     },
     {
-      "word": "organise",
+      "text": "organise",
       "start": 47.759,
       "end": 48.339,
       "loss": 0.1535821408033371
     },
     {
-      "word": "knowledge,",
+      "text": "knowledge,",
       "start": 48.379,
       "end": 48.759,
       "loss": 0.03606809377670288
     },
     {
-      "word": "and",
+      "text": "and",
       "start": 49.059,
       "end": 49.219,
       "loss": 0.0007846752802530924
     },
     {
-      "word": "execute",
+      "text": "execute",
       "start": 49.299,
       "end": 49.779,
       "loss": 0.00031566619873046875
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 49.819,
       "end": 49.879,
       "loss": 0.0003055731455485026
     },
     {
-      "word": "repetitive",
+      "text": "repetitive",
       "start": 49.939,
       "end": 50.52,
       "loss": 0.00021570920944213867
     },
     {
-      "word": "work",
+      "text": "work",
       "start": 50.619,
       "end": 51.039,
       "loss": 0.0001856982707977295
     },
     {
-      "word": "that",
+      "text": "that",
       "start": 51.099,
       "end": 51.18,
       "loss": 0.0003637969493865967
     },
     {
-      "word": "would",
+      "text": "would",
       "start": 51.239,
       "end": 51.419,
       "loss": 0.0002176046371459961
     },
     {
-      "word": "otherwise",
+      "text": "otherwise",
       "start": 51.5,
       "end": 52.0,
       "loss": 0.00013559394412570528
     },
     {
-      "word": "consume",
+      "text": "consume",
       "start": 52.039,
       "end": 52.559,
       "loss": 0.00017958027975899831
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 52.619,
       "end": 52.719,
       "loss": 0.0004087388515472412
     },
     {
-      "word": "attention.",
+      "text": "attention.",
       "start": 52.779,
       "end": 53.36,
       "loss": 0.0012642860412597657
     },
     {
-      "word": "Your",
+      "text": "Your",
       "start": 53.959,
       "end": 54.059,
       "loss": 0.254852294921875
     },
     {
-      "word": "advantage",
+      "text": "advantage",
       "start": 54.119,
       "end": 54.639,
       "loss": 0.0004705455568101671
     },
     {
-      "word": "will",
+      "text": "will",
       "start": 54.699,
       "end": 54.84,
       "loss": 0.00022146105766296387
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 54.86,
       "end": 55.02,
       "loss": 0.0007216135660807291
     },
     {
-      "word": "come",
+      "text": "come",
       "start": 55.079,
       "end": 55.279,
       "loss": 0.00024008750915527344
     },
     {
-      "word": "from",
+      "text": "from",
       "start": 55.319,
       "end": 55.439,
       "loss": 0.0001493990421295166
     },
     {
-      "word": "having",
+      "text": "having",
       "start": 55.539,
       "end": 55.819,
       "loss": 0.00033974647521972656
     },
     {
-      "word": "access.",
+      "text": "access.",
       "start": 55.939,
       "end": 56.5,
       "loss": 0.12518508093697683
     },
     {
-      "word": "Everybody",
+      "text": "Everybody",
       "start": 56.879,
       "end": 57.299,
       "loss": 0.0011798938115437825
     },
     {
-      "word": "will",
+      "text": "will",
       "start": 57.36,
       "end": 57.479,
       "loss": 0.0002187490463256836
     },
     {
-      "word": "have",
+      "text": "have",
       "start": 57.539,
       "end": 57.659,
       "loss": 0.0003279149532318115
     },
     {
-      "word": "access.",
+      "text": "access.",
       "start": 57.739,
       "end": 58.239,
       "loss": 0.009987218039376395
     },
     {
-      "word": "It",
+      "text": "It",
       "start": 58.639,
       "end": 58.719,
       "loss": 0.0033702850341796875
     },
     {
-      "word": "will",
+      "text": "will",
       "start": 58.759,
       "end": 58.879,
       "loss": 0.00042250752449035645
     },
     {
-      "word": "come",
+      "text": "come",
       "start": 58.919,
       "end": 59.059,
       "loss": 0.00030231475830078125
     },
     {
-      "word": "from",
+      "text": "from",
       "start": 59.139,
       "end": 59.299,
       "loss": 0.00024691224098205566
     },
     {
-      "word": "judgement.",
+      "text": "judgement.",
       "start": 59.379,
       "end": 59.84,
       "loss": 0.24293299913406372
     },
     {
-      "word": "Knowing",
+      "text": "Knowing",
       "start": 60.399,
       "end": 60.619,
       "loss": 0.001976064273289272
     },
     {
-      "word": "what",
+      "text": "what",
       "start": 60.659,
       "end": 60.779,
       "loss": 0.00039386749267578125
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 60.819,
       "end": 60.919,
       "loss": 0.0003631114959716797
     },
     {
-      "word": "ask,",
+      "text": "ask,",
       "start": 61.039,
       "end": 61.399,
       "loss": 0.007204502820968628
     },
     {
-      "word": "what",
+      "text": "what",
       "start": 61.639,
       "end": 61.759,
       "loss": 0.0005421638488769531
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 61.799,
       "end": 61.939,
       "loss": 0.0003745555877685547
     },
     {
-      "word": "trust,",
+      "text": "trust,",
       "start": 62.0,
       "end": 62.359,
       "loss": 0.0005216399828592936
     },
     {
-      "word": "what",
+      "text": "what",
       "start": 62.599,
       "end": 62.739,
       "loss": 0.00041741132736206055
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 62.779,
       "end": 62.859,
       "loss": 0.0002918839454650879
     },
     {
-      "word": "reject,",
+      "text": "reject,",
       "start": 62.899,
       "end": 63.839,
       "loss": 0.032683185168675015
     },
     {
-      "word": "and",
+      "text": "and",
       "start": 63.899,
       "end": 63.979,
       "loss": 0.0006097157796223959
     },
     {
-      "word": "what",
+      "text": "what",
       "start": 64.04,
       "end": 64.159,
       "loss": 0.00026607513427734375
     },
     {
-      "word": "deserves",
+      "text": "deserves",
       "start": 64.22,
       "end": 64.639,
       "loss": 0.00042629241943359375
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 64.68,
       "end": 64.739,
       "loss": 0.00034677982330322266
     },
     {
-      "word": "become",
+      "text": "become",
       "start": 64.779,
       "end": 65.099,
       "loss": 0.00016953547795613608
     },
     {
-      "word": "real.",
+      "text": "real.",
       "start": 65.22,
       "end": 65.539,
       "loss": 0.0019500732421875
     },
     {
-      "word": "Let",
+      "text": "Let",
       "start": 66.299,
       "end": 66.419,
       "loss": 0.23794174194335938
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 66.479,
       "end": 66.519,
       "loss": 0.0005884567896525065
     },
     {
-      "word": "machines",
+      "text": "machines",
       "start": 66.58,
       "end": 67.18,
       "loss": 0.0007033497095108032
     },
     {
-      "word": "multiply",
+      "text": "multiply",
       "start": 67.239,
       "end": 67.739,
       "loss": 0.0002660304307937622
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 67.799,
       "end": 67.919,
       "loss": 0.00018978118896484375
     },
     {
-      "word": "capability.",
+      "text": "capability.",
       "start": 67.979,
       "end": 68.699,
       "loss": 0.02356984398581765
     },
     {
-      "word": "Never",
+      "text": "Never",
       "start": 69.36,
       "end": 69.559,
       "loss": 0.0006916522979736328
     },
     {
-      "word": "let",
+      "text": "let",
       "start": 69.619,
       "end": 69.759,
       "loss": 0.0011453628540039062
     },
     {
-      "word": "them",
+      "text": "them",
       "start": 69.779,
       "end": 69.919,
       "loss": 0.000394284725189209
     },
     {
-      "word": "replace",
+      "text": "replace",
       "start": 69.939,
       "end": 70.439,
       "loss": 0.0002551759992327009
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 70.519,
       "end": 70.599,
       "loss": 0.0004277825355529785
     },
     {
-      "word": "responsibility.",
+      "text": "responsibility.",
       "start": 70.659,
       "end": 71.519,
       "loss": 0.011530756950378418
@@ -935,36 +947,36 @@
       "text": "Artificial intelligence is not the point. Leverage is the point. Every generation receives one or two tools that permanently alter what an individual can accomplish. Electricity did it. Computers did it. The internet did it. Artificial intelligence is doing it now.",
       "start": 1.139,
       "end": 20.92,
-      "wordStart": 0,
-      "wordEnd": 40
+      "word_start": 0,
+      "word_end": 40
     },
     {
       "text": "Used badly, it produces more noise. Used well, it allows one capable person to research, design, write, analyse, automate, and build at a scale that once required an organisation.",
       "start": 21.879,
       "end": 36.139,
-      "wordStart": 41,
-      "wordEnd": 69
+      "word_start": 41,
+      "word_end": 69
     },
     {
       "text": "Do not use it to avoid thinking. Use it to think further. Do not ask it merely for answers. Ask it to expose assumptions, test decisions, organise knowledge, and execute the repetitive work that would otherwise consume your attention.",
       "start": 36.899,
       "end": 53.36,
-      "wordStart": 70,
-      "wordEnd": 108
+      "word_start": 70,
+      "word_end": 108
     },
     {
       "text": "Your advantage will not come from having access. Everybody will have access. It will come from judgement. Knowing what to ask, what to trust, what to reject, and what deserves to become real.",
       "start": 53.959,
       "end": 65.539,
-      "wordStart": 109,
-      "wordEnd": 141
+      "word_start": 109,
+      "word_end": 141
     },
     {
       "text": "Let the machines multiply your capability. Never let them replace your responsibility.",
       "start": 66.299,
       "end": 71.519,
-      "wordStart": 142,
-      "wordEnd": 153
+      "word_start": 142,
+      "word_end": 153
     }
   ],
   "coverage": {
@@ -980,15 +992,23 @@
     "line_count_match": true,
     "consecutive_same_tokens": []
   },
-  "pad_lead_s": 1.0,
-  "pad_trail_s": 1.5,
-  "source": "elevenlabs_forced_alignment",
-  "model_id": "eleven_v3",
-  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
-  "source_text_hash": "cc3b2f84f386ab7b357f0905e9b0bab3765a3e2dab04e497d336fc4ceceda293",
-  "playback_rate": 1.0,
+  "audio": "/audio/ai.mp3",
+  "duration": 73.06,
   "loudness": {
     "integrated_lufs": -16.57,
     "true_peak_dbtp": -1.9
-  }
+  },
+  "edge": {
+    "opening_silence_s": 1.1,
+    "closing_silence_s": 1.5,
+    "peak_linear": 0.801,
+    "avg_dbfs": -17.01,
+    "clipping_ratio": 0.0,
+    "opening_ok": true,
+    "ending_ok": true,
+    "no_clip": true,
+    "has_speech": true
+  },
+  "frozen_text": "Artificial intelligence is not the point. Leverage is the point. Every generation receives one or two tools that permanently alter what an individual can accomplish. Electricity did it. Computers did it. The internet did it. Artificial intelligence is doing it now.\nUsed badly, it produces more noise. Used well, it allows one capable person to research, design, write, analyse, automate, and build at a scale that once required an organisation.\nDo not use it to avoid thinking. Use it to think further. Do not ask it merely for answers. Ask it to expose assumptions, test decisions, organise knowledge, and execute the repetitive work that would otherwise consume your attention.\nYour advantage will not come from having access. Everybody will have access. It will come from judgement. Knowing what to ask, what to trust, what to reject, and what deserves to become real.\nLet the machines multiply your capability. Never let them replace your responsibility.",
+  "generation_text": "[curious] Artificial intelligence is not the point. Leverage is the point. Every generation receives one or two tools that permanently alter what an individual can accomplish. Electricity did it. Computers did it. The internet did it. Artificial intelligence is doing it now.\n\n[thoughtful] Used badly, it produces more noise. Used well, it allows one capable person to research, design, write, analyse, automate, and build at a scale that once required an organisation.\n\n[firmer] Do not use it to avoid thinking. Use it to think further. Do not ask it merely for answers. Ask it to expose assumptions, test decisions, organise knowledge, and execute the repetitive work that would otherwise consume your attention.\n\n[measured] Your advantage will not come from having access. Everybody will have access. It will come from judgement. Knowing what to ask, what to trust, what to reject, and what deserves to become real.\n\n[warmly] Let the machines multiply your capability. Never let them replace your responsibility."
 }

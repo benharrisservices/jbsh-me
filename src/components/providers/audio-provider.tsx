@@ -9,6 +9,7 @@ import {
   useState,
 } from "react";
 import {
+  FIRST_JOURNEY_CHAPTER_ID,
   getChapter,
   getChapterAudioSrc,
   getChapterTitle,
@@ -42,7 +43,7 @@ interface AudioContextValue {
   seek: (fraction: number) => void;
   setActiveChapter: (id: string) => void;
   unlockPlayer: () => void;
-  /** Hero primary action: start Identity narration (continuous). */
+  /** Hero primary action: start Health narration (continuous journey). */
   startNarration: () => void;
 }
 
@@ -363,29 +364,30 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     setNarrationStarted(true);
     setPlayerVisible(true);
     pendingStartRef.current = true;
-    scrollToChapter("identity");
+    const startId = FIRST_JOURNEY_CHAPTER_ID;
+    scrollToChapter(startId);
     void resumeContext();
 
-    // Prefetch Identity cues before / while audio loads — first-play race fix.
-    void ensureChapterCues("identity");
+    // Prefetch first journey cues before / while audio loads.
+    void ensureChapterCues(startId);
 
-    const identitySrc = getChapterAudioSrc("identity");
+    const startSrc = getChapterAudioSrc(startId);
     const audio = audioRef.current;
-    const alreadyIdentity =
-      activeIdRef.current === "identity" &&
+    const alreadyLoaded =
+      activeIdRef.current === startId &&
       !!audio &&
-      (audio.getAttribute("src") ?? "").endsWith(identitySrc);
+      (audio.getAttribute("src") ?? "").endsWith(startSrc);
 
-    if (alreadyIdentity) {
+    if (alreadyLoaded) {
       pendingStartRef.current = false;
       void (async () => {
-        await ensureChapterCues("identity");
+        await ensureChapterCues(startId);
         await startPlaybackReady();
       })();
       return;
     }
 
-    setActiveChapterId("identity");
+    setActiveChapterId(startId);
   }, [narrationStarted, startPlaybackReady, resumeContext]);
 
   const progress = duration > 0 ? currentTime / duration : 0;

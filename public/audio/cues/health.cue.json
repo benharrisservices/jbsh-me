@@ -1,1152 +1,1164 @@
 {
   "id": "health",
-  "audio": "/audio/health.mp3",
-  "duration": 80.82,
-  "wordCount": 191,
-  "lineCount": 5,
+  "version": 1,
+  "source": "elevenlabs_forced_alignment",
+  "model_id": "eleven_v3",
+  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
+  "playback_rate": 1.0,
+  "pad_lead_s": 1.0,
+  "pad_trail_s": 1.5,
+  "source_text_hash": "14b861a1e2e301446ddd1032f319c0838076426985f1ed97f110e37b942c45d9",
+  "transcript": [
+    "Before we talk about building a better future, we need to make sure you're still around to enjoy it. Everything begins with your health. Not your business. Not your bank account. Not your ambitions. You.",
+    "Your body has carried you through every success, every setback, every long day, every late night, and every difficult decision you've ever made. It deserves better than being treated like an afterthought.",
+    "You've had enough reminders that health is not guaranteed. Listen to them. Most people spend their youth sacrificing health to earn money, then spend the rest of their lives using money to recover what they lost. Do not make that trade. Sleep properly. Walk every day. Lift weights. Stretch. Eat real food. Get outside. Have the blood tests. Book the appointment. Deal with the small problem before it becomes the large one.",
+    "Strength is not vanity. It is independence. Fitness is not about looking impressive. It is about remaining capable. Energy is the foundation beneath discipline, curiosity, relationships, and ambition.",
+    "You spent years using your body to earn a living. Now use your freedom to build a healthier one. Everything else depends on this."
+  ],
+  "alignment_loss": 0.03813854566554433,
   "words": [
     {
-      "word": "Before",
+      "text": "Before",
       "start": 1.12,
       "end": 1.36,
       "loss": 0.16963384548823038
     },
     {
-      "word": "we",
+      "text": "we",
       "start": 1.439,
       "end": 1.519,
       "loss": 0.0009317398071289062
     },
     {
-      "word": "talk",
+      "text": "talk",
       "start": 1.579,
       "end": 1.74,
       "loss": 0.00020515918731689453
     },
     {
-      "word": "about",
+      "text": "about",
       "start": 1.839,
       "end": 2.139,
       "loss": 5.729198455810547e-05
     },
     {
-      "word": "building",
+      "text": "building",
       "start": 2.339,
       "end": 2.599,
       "loss": 0.008833244442939758
     },
     {
-      "word": "a",
+      "text": "a",
       "start": 2.659,
       "end": 2.679,
       "loss": 0.0002498626708984375
     },
     {
-      "word": "better",
+      "text": "better",
       "start": 2.759,
       "end": 3.079,
       "loss": 0.0002117753028869629
     },
     {
-      "word": "future,",
+      "text": "future,",
       "start": 3.139,
       "end": 3.559,
       "loss": 0.025174532617841448
     },
     {
-      "word": "we",
+      "text": "we",
       "start": 4.119,
       "end": 4.219,
       "loss": 0.0012028813362121582
     },
     {
-      "word": "need",
+      "text": "need",
       "start": 4.279,
       "end": 4.38,
       "loss": 2.9027462005615234e-05
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 4.42,
       "end": 4.48,
       "loss": 4.762411117553711e-05
     },
     {
-      "word": "make",
+      "text": "make",
       "start": 4.539,
       "end": 4.659,
       "loss": 0.00014314055442810059
     },
     {
-      "word": "sure",
+      "text": "sure",
       "start": 4.739,
       "end": 4.96,
       "loss": 3.6329030990600586e-05
     },
     {
-      "word": "you're",
+      "text": "you're",
       "start": 5.039,
       "end": 5.199,
       "loss": 0.02867432435353597
     },
     {
-      "word": "still",
+      "text": "still",
       "start": 5.259,
       "end": 5.4,
       "loss": 0.00025448799133300783
     },
     {
-      "word": "around",
+      "text": "around",
       "start": 5.5,
       "end": 5.779,
       "loss": 0.00011493762334187825
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 5.819,
       "end": 5.899,
       "loss": 0.00015854835510253906
     },
     {
-      "word": "enjoy",
+      "text": "enjoy",
       "start": 5.94,
       "end": 6.299,
       "loss": 6.23464584350586e-05
     },
     {
-      "word": "it.",
+      "text": "it.",
       "start": 6.359,
       "end": 6.5,
       "loss": 0.0963904857635498
     },
     {
-      "word": "Everything",
+      "text": "Everything",
       "start": 7.599,
       "end": 8.039,
       "loss": 0.00028551816940307616
     },
     {
-      "word": "begins",
+      "text": "begins",
       "start": 8.159,
       "end": 8.579,
       "loss": 0.00026923418045043945
     },
     {
-      "word": "with",
+      "text": "with",
       "start": 8.639,
       "end": 8.76,
       "loss": 0.00014701485633850098
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 8.84,
       "end": 8.96,
       "loss": 0.00012284517288208008
     },
     {
-      "word": "health.",
+      "text": "health.",
       "start": 9.079,
       "end": 9.479,
       "loss": 0.13352833475385392
     },
     {
-      "word": "Not",
+      "text": "Not",
       "start": 10.119,
       "end": 10.26,
       "loss": 0.00915988286336263
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 10.3,
       "end": 10.38,
       "loss": 0.00023260712623596191
     },
     {
-      "word": "business.",
+      "text": "business.",
       "start": 10.46,
       "end": 10.92,
       "loss": 0.314315398534139
     },
     {
-      "word": "Not",
+      "text": "Not",
       "start": 11.34,
       "end": 11.46,
       "loss": 0.0032978057861328125
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 11.5,
       "end": 11.579,
       "loss": 0.00047656893730163574
     },
     {
-      "word": "bank",
+      "text": "bank",
       "start": 11.659,
       "end": 11.84,
       "loss": 0.0005783140659332275
     },
     {
-      "word": "account.",
+      "text": "account.",
       "start": 11.939,
       "end": 12.319,
       "loss": 0.09183770418167114
     },
     {
-      "word": "Not",
+      "text": "Not",
       "start": 12.619,
       "end": 12.739,
       "loss": 0.0011736551920572917
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 12.799,
       "end": 12.9,
       "loss": 0.00037032365798950195
     },
     {
-      "word": "ambitions.",
+      "text": "ambitions.",
       "start": 12.96,
       "end": 13.539,
       "loss": 0.023484516143798827
     },
     {
-      "word": "You.",
+      "text": "You.",
       "start": 14.179,
       "end": 14.499,
       "loss": 0.28451108932495117
     },
     {
-      "word": "Your",
+      "text": "Your",
       "start": 15.639,
       "end": 15.759,
       "loss": 0.14085817337036133
     },
     {
-      "word": "body",
+      "text": "body",
       "start": 15.819,
       "end": 16.059,
       "loss": 0.00033286213874816895
     },
     {
-      "word": "has",
+      "text": "has",
       "start": 16.119,
       "end": 16.239,
       "loss": 0.0007165273030598959
     },
     {
-      "word": "carried",
+      "text": "carried",
       "start": 16.299,
       "end": 16.579,
       "loss": 0.00010580675942557198
     },
     {
-      "word": "you",
+      "text": "you",
       "start": 16.619,
       "end": 16.719,
       "loss": 0.0002790689468383789
     },
     {
-      "word": "through",
+      "text": "through",
       "start": 16.76,
       "end": 17.0,
       "loss": 0.00010653904506138392
     },
     {
-      "word": "every",
+      "text": "every",
       "start": 17.079,
       "end": 17.299,
       "loss": 0.0005208730697631836
     },
     {
-      "word": "success,",
+      "text": "success,",
       "start": 17.42,
       "end": 18.039,
       "loss": 0.007513970136642456
     },
     {
-      "word": "every",
+      "text": "every",
       "start": 18.399,
       "end": 18.579,
       "loss": 0.0006987333297729492
     },
     {
-      "word": "setback,",
+      "text": "setback,",
       "start": 18.739,
       "end": 19.26,
       "loss": 0.004157394170761108
     },
     {
-      "word": "every",
+      "text": "every",
       "start": 19.559,
       "end": 19.739,
       "loss": 0.0006150245666503906
     },
     {
-      "word": "long",
+      "text": "long",
       "start": 19.879,
       "end": 20.079,
       "loss": 0.000379025936126709
     },
     {
-      "word": "day,",
+      "text": "day,",
       "start": 20.199,
       "end": 20.5,
       "loss": 0.004173487424850464
     },
     {
-      "word": "every",
+      "text": "every",
       "start": 20.959,
       "end": 21.119,
       "loss": 0.0006263971328735352
     },
     {
-      "word": "late",
+      "text": "late",
       "start": 21.26,
       "end": 21.479,
       "loss": 0.000261157751083374
     },
     {
-      "word": "night,",
+      "text": "night,",
       "start": 21.6,
       "end": 21.859,
       "loss": 0.16361757119496664
     },
     {
-      "word": "and",
+      "text": "and",
       "start": 21.899,
       "end": 21.979,
       "loss": 0.002074082692464193
     },
     {
-      "word": "every",
+      "text": "every",
       "start": 22.039,
       "end": 22.279,
       "loss": 0.000514817237854004
     },
     {
-      "word": "difficult",
+      "text": "difficult",
       "start": 22.34,
       "end": 22.739,
       "loss": 0.00010311603546142578
     },
     {
-      "word": "decision",
+      "text": "decision",
       "start": 22.779,
       "end": 23.239,
       "loss": 0.00014008581638336182
     },
     {
-      "word": "you've",
+      "text": "you've",
       "start": 23.299,
       "end": 23.44,
       "loss": 0.014537970225016275
     },
     {
-      "word": "ever",
+      "text": "ever",
       "start": 23.479,
       "end": 23.68,
       "loss": 0.0011564791202545166
     },
     {
-      "word": "made.",
+      "text": "made.",
       "start": 23.739,
       "end": 24.119,
       "loss": 0.006438064575195313
     },
     {
-      "word": "It",
+      "text": "It",
       "start": 24.939,
       "end": 25.019,
       "loss": 0.0012009143829345703
     },
     {
-      "word": "deserves",
+      "text": "deserves",
       "start": 25.079,
       "end": 25.499,
       "loss": 0.00014956295490264893
     },
     {
-      "word": "better",
+      "text": "better",
       "start": 25.559,
       "end": 25.779,
       "loss": 0.00020062923431396484
     },
     {
-      "word": "than",
+      "text": "than",
       "start": 25.819,
       "end": 25.92,
       "loss": 0.0003394484519958496
     },
     {
-      "word": "being",
+      "text": "being",
       "start": 26.0,
       "end": 26.18,
       "loss": 0.0002507686614990234
     },
     {
-      "word": "treated",
+      "text": "treated",
       "start": 26.239,
       "end": 26.519,
       "loss": 0.00013577938079833984
     },
     {
-      "word": "like",
+      "text": "like",
       "start": 26.559,
       "end": 26.68,
       "loss": 0.0002757906913757324
     },
     {
-      "word": "an",
+      "text": "an",
       "start": 26.719,
       "end": 26.799,
       "loss": 0.00036144256591796875
     },
     {
-      "word": "afterthought.",
+      "text": "afterthought.",
       "start": 26.899,
       "end": 27.499,
       "loss": 0.0024920151783869816
     },
     {
-      "word": "You've",
+      "text": "You've",
       "start": 28.26,
       "end": 28.38,
       "loss": 0.01793392499287923
     },
     {
-      "word": "had",
+      "text": "had",
       "start": 28.399,
       "end": 28.479,
       "loss": 0.000511010487874349
     },
     {
-      "word": "enough",
+      "text": "enough",
       "start": 28.539,
       "end": 28.739,
       "loss": 0.00010631481806437175
     },
     {
-      "word": "reminders",
+      "text": "reminders",
       "start": 28.799,
       "end": 29.299,
       "loss": 0.00018616517384847006
     },
     {
-      "word": "that",
+      "text": "that",
       "start": 29.34,
       "end": 29.439,
       "loss": 0.00011023879051208496
     },
     {
-      "word": "health",
+      "text": "health",
       "start": 29.539,
       "end": 29.779,
       "loss": 0.0005179246266682943
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 29.84,
       "end": 29.939,
       "loss": 0.0003795027732849121
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 30.0,
       "end": 30.199,
       "loss": 0.00029238065083821613
     },
     {
-      "word": "guaranteed.",
+      "text": "guaranteed.",
       "start": 30.26,
       "end": 30.959,
       "loss": 0.049840363589200104
     },
     {
-      "word": "Listen",
+      "text": "Listen",
       "start": 31.399,
       "end": 31.639,
       "loss": 0.00033791859944661457
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 31.719,
       "end": 31.779,
       "loss": 0.0002033710479736328
     },
     {
-      "word": "them.",
+      "text": "them.",
       "start": 31.819,
       "end": 32.02,
       "loss": 0.010670828819274902
     },
     {
-      "word": "Most",
+      "text": "Most",
       "start": 32.86,
       "end": 33.02,
       "loss": 0.0003686845302581787
     },
     {
-      "word": "people",
+      "text": "people",
       "start": 33.079,
       "end": 33.259,
       "loss": 0.00010136763254801433
     },
     {
-      "word": "spend",
+      "text": "spend",
       "start": 33.34,
       "end": 33.559,
       "loss": 0.0001349210739135742
     },
     {
-      "word": "their",
+      "text": "their",
       "start": 33.579,
       "end": 33.759,
       "loss": 0.00018982887268066407
     },
     {
-      "word": "youth",
+      "text": "youth",
       "start": 33.819,
       "end": 34.059,
       "loss": 0.0005514144897460938
     },
     {
-      "word": "sacrificing",
+      "text": "sacrificing",
       "start": 34.139,
       "end": 34.819,
       "loss": 0.0001947663047096946
     },
     {
-      "word": "health",
+      "text": "health",
       "start": 34.939,
       "end": 35.219,
       "loss": 0.0005317131678263346
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 35.299,
       "end": 35.399,
       "loss": 0.0001652836799621582
     },
     {
-      "word": "earn",
+      "text": "earn",
       "start": 35.459,
       "end": 35.68,
       "loss": 0.00015336275100708008
     },
     {
-      "word": "money,",
+      "text": "money,",
       "start": 35.739,
       "end": 36.0,
       "loss": 0.009572108586629232
     },
     {
-      "word": "then",
+      "text": "then",
       "start": 36.54,
       "end": 36.7,
       "loss": 0.0005248188972473145
     },
     {
-      "word": "spend",
+      "text": "spend",
       "start": 36.759,
       "end": 36.959,
       "loss": 0.000508880615234375
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 37.0,
       "end": 37.079,
       "loss": 0.00020456314086914062
     },
     {
-      "word": "rest",
+      "text": "rest",
       "start": 37.119,
       "end": 37.299,
       "loss": 0.00015532970428466797
     },
     {
-      "word": "of",
+      "text": "of",
       "start": 37.34,
       "end": 37.399,
       "loss": 0.0003771185874938965
     },
     {
-      "word": "their",
+      "text": "their",
       "start": 37.439,
       "end": 37.599,
       "loss": 0.00013844966888427735
     },
     {
-      "word": "lives",
+      "text": "lives",
       "start": 37.659,
       "end": 38.04,
       "loss": 0.0004175901412963867
     },
     {
-      "word": "using",
+      "text": "using",
       "start": 38.119,
       "end": 38.399,
       "loss": 0.0003065347671508789
     },
     {
-      "word": "money",
+      "text": "money",
       "start": 38.459,
       "end": 38.7,
       "loss": 0.00022635459899902343
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 38.739,
       "end": 38.799,
       "loss": 0.00029015541076660156
     },
     {
-      "word": "recover",
+      "text": "recover",
       "start": 38.86,
       "end": 39.219,
       "loss": 8.22033200945173e-05
     },
     {
-      "word": "what",
+      "text": "what",
       "start": 39.279,
       "end": 39.379,
       "loss": 0.0002841949462890625
     },
     {
-      "word": "they",
+      "text": "they",
       "start": 39.419,
       "end": 39.579,
       "loss": 3.966689109802246e-05
     },
     {
-      "word": "lost.",
+      "text": "lost.",
       "start": 39.639,
       "end": 40.04,
       "loss": 0.0013261556625366211
     },
     {
-      "word": "Do",
+      "text": "Do",
       "start": 40.959,
       "end": 41.059,
       "loss": 0.0038604736328125
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 41.119,
       "end": 41.279,
       "loss": 0.0005622704823811849
     },
     {
-      "word": "make",
+      "text": "make",
       "start": 41.36,
       "end": 41.52,
       "loss": 8.228421211242676e-05
     },
     {
-      "word": "that",
+      "text": "that",
       "start": 41.579,
       "end": 41.779,
       "loss": 0.00014898180961608887
     },
     {
-      "word": "trade.",
+      "text": "trade.",
       "start": 41.84,
       "end": 42.279,
       "loss": 0.007217923800150554
     },
     {
-      "word": "Sleep",
+      "text": "Sleep",
       "start": 43.239,
       "end": 43.459,
       "loss": 0.0014705181121826172
     },
     {
-      "word": "properly.",
+      "text": "properly.",
       "start": 43.52,
       "end": 43.899,
       "loss": 0.04613147841559516
     },
     {
-      "word": "Walk",
+      "text": "Walk",
       "start": 44.36,
       "end": 44.619,
       "loss": 0.0020505189895629883
     },
     {
-      "word": "every",
+      "text": "every",
       "start": 44.68,
       "end": 44.879,
       "loss": 0.00018601417541503907
     },
     {
-      "word": "day.",
+      "text": "day.",
       "start": 44.939,
       "end": 45.219,
       "loss": 0.05288568139076233
     },
     {
-      "word": "Lift",
+      "text": "Lift",
       "start": 45.559,
       "end": 45.759,
       "loss": 0.0013194084167480469
     },
     {
-      "word": "weights.",
+      "text": "weights.",
       "start": 45.84,
       "end": 46.539,
       "loss": 0.023030400276184082
     },
     {
-      "word": "Stretch.",
+      "text": "Stretch.",
       "start": 46.599,
       "end": 47.079,
       "loss": 0.025420472025871277
     },
     {
-      "word": "Eat",
+      "text": "Eat",
       "start": 47.36,
       "end": 47.579,
       "loss": 0.0038515726725260415
     },
     {
-      "word": "real",
+      "text": "real",
       "start": 47.659,
       "end": 47.979,
       "loss": 0.001165151596069336
     },
     {
-      "word": "food.",
+      "text": "food.",
       "start": 48.059,
       "end": 48.439,
       "loss": 0.007943391799926758
     },
     {
-      "word": "Get",
+      "text": "Get",
       "start": 48.84,
       "end": 48.959,
       "loss": 0.0023109118143717446
     },
     {
-      "word": "outside.",
+      "text": "outside.",
       "start": 49.02,
       "end": 49.599,
       "loss": 0.006938278675079346
     },
     {
-      "word": "Have",
+      "text": "Have",
       "start": 49.899,
       "end": 50.02,
       "loss": 0.0013055801391601562
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 50.059,
       "end": 50.139,
       "loss": 0.0011367400487263997
     },
     {
-      "word": "blood",
+      "text": "blood",
       "start": 50.2,
       "end": 50.419,
       "loss": 0.0004860877990722656
     },
     {
-      "word": "tests.",
+      "text": "tests.",
       "start": 50.5,
       "end": 50.959,
       "loss": 0.011953373750050863
     },
     {
-      "word": "Book",
+      "text": "Book",
       "start": 51.259,
       "end": 51.479,
       "loss": 0.0023078322410583496
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 51.52,
       "end": 51.579,
       "loss": 0.0006869633992513021
     },
     {
-      "word": "appointment.",
+      "text": "appointment.",
       "start": 51.68,
       "end": 52.219,
       "loss": 0.005639503399531047
     },
     {
-      "word": "Deal",
+      "text": "Deal",
       "start": 52.639,
       "end": 52.84,
       "loss": 0.0009511113166809082
     },
     {
-      "word": "with",
+      "text": "with",
       "start": 52.879,
       "end": 52.959,
       "loss": 0.0006019175052642822
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 53.0,
       "end": 53.099,
       "loss": 0.001477678616841634
     },
     {
-      "word": "small",
+      "text": "small",
       "start": 53.159,
       "end": 53.459,
       "loss": 0.0006044149398803711
     },
     {
-      "word": "problem",
+      "text": "problem",
       "start": 53.52,
       "end": 53.86,
       "loss": 0.00014735971178327288
     },
     {
-      "word": "before",
+      "text": "before",
       "start": 53.899,
       "end": 54.139,
       "loss": 0.00015246868133544922
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 54.18,
       "end": 54.239,
       "loss": 0.0011245012283325195
     },
     {
-      "word": "becomes",
+      "text": "becomes",
       "start": 54.299,
       "end": 54.619,
       "loss": 0.0003930330276489258
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 54.659,
       "end": 54.759,
       "loss": 0.0018444061279296875
     },
     {
-      "word": "large",
+      "text": "large",
       "start": 54.819,
       "end": 55.119,
       "loss": 0.0008532524108886719
     },
     {
-      "word": "one.",
+      "text": "one.",
       "start": 55.199,
       "end": 55.379,
       "loss": 0.0016039609909057617
     },
     {
-      "word": "Strength",
+      "text": "Strength",
       "start": 56.52,
       "end": 56.819,
       "loss": 0.05792108178138733
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 56.86,
       "end": 56.939,
       "loss": 0.0005230307579040527
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 57.0,
       "end": 57.119,
       "loss": 0.00018930435180664062
     },
     {
-      "word": "vanity.",
+      "text": "vanity.",
       "start": 57.199,
       "end": 57.699,
       "loss": 0.1257426909037999
     },
     {
-      "word": "It",
+      "text": "It",
       "start": 58.099,
       "end": 58.159,
       "loss": 0.003482818603515625
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 58.219,
       "end": 58.279,
       "loss": 0.000820159912109375
     },
     {
-      "word": "independence.",
+      "text": "independence.",
       "start": 58.359,
       "end": 59.139,
       "loss": 0.002847139651958759
     },
     {
-      "word": "Fitness",
+      "text": "Fitness",
       "start": 59.859,
       "end": 60.379,
       "loss": 0.0009911400931222098
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 60.439,
       "end": 60.539,
       "loss": 0.00044536590576171875
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 60.579,
       "end": 60.68,
       "loss": 0.0004684130350748698
     },
     {
-      "word": "about",
+      "text": "about",
       "start": 60.739,
       "end": 60.939,
       "loss": 0.00016782283782958984
     },
     {
-      "word": "looking",
+      "text": "looking",
       "start": 61.0,
       "end": 61.219,
       "loss": 0.00021716526576450894
     },
     {
-      "word": "impressive.",
+      "text": "impressive.",
       "start": 61.279,
       "end": 61.939,
       "loss": 0.07534143057736484
     },
     {
-      "word": "It",
+      "text": "It",
       "start": 62.319,
       "end": 62.379,
       "loss": 0.00124359130859375
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 62.419,
       "end": 62.5,
       "loss": 0.00032711029052734375
     },
     {
-      "word": "about",
+      "text": "about",
       "start": 62.579,
       "end": 62.779,
       "loss": 0.00027124881744384767
     },
     {
-      "word": "remaining",
+      "text": "remaining",
       "start": 62.859,
       "end": 63.459,
       "loss": 0.0004459487067328559
     },
     {
-      "word": "capable.",
+      "text": "capable.",
       "start": 63.559,
       "end": 64.059,
       "loss": 0.004517942667007446
     },
     {
-      "word": "Energy",
+      "text": "Energy",
       "start": 64.9,
       "end": 65.299,
       "loss": 0.0005774100621541342
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 65.36,
       "end": 65.439,
       "loss": 0.0005004405975341797
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 65.479,
       "end": 65.54,
       "loss": 0.00039498011271158856
     },
     {
-      "word": "foundation",
+      "text": "foundation",
       "start": 65.599,
       "end": 66.179,
       "loss": 0.0002185821533203125
     },
     {
-      "word": "beneath",
+      "text": "beneath",
       "start": 66.22,
       "end": 66.54,
       "loss": 0.00013753346034458706
     },
     {
-      "word": "discipline,",
+      "text": "discipline,",
       "start": 66.599,
       "end": 67.36,
       "loss": 0.001541083509271795
     },
     {
-      "word": "curiosity,",
+      "text": "curiosity,",
       "start": 67.459,
       "end": 68.18,
       "loss": 0.0009598612785339355
     },
     {
-      "word": "relationships,",
+      "text": "relationships,",
       "start": 68.54,
       "end": 69.619,
       "loss": 0.006904252937861851
     },
     {
-      "word": "and",
+      "text": "and",
       "start": 69.68,
       "end": 69.799,
       "loss": 0.0002632935841878255
     },
     {
-      "word": "ambition.",
+      "text": "ambition.",
       "start": 69.879,
       "end": 70.459,
       "loss": 0.0009703238805135092
     },
     {
-      "word": "You",
+      "text": "You",
       "start": 71.619,
       "end": 71.699,
       "loss": 0.1657724380493164
     },
     {
-      "word": "spent",
+      "text": "spent",
       "start": 71.76,
       "end": 72.019,
       "loss": 0.0023415327072143556
     },
     {
-      "word": "years",
+      "text": "years",
       "start": 72.08,
       "end": 72.419,
       "loss": 0.00022106170654296876
     },
     {
-      "word": "using",
+      "text": "using",
       "start": 72.519,
       "end": 72.72,
       "loss": 0.000164031982421875
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 72.76,
       "end": 72.879,
       "loss": 0.00016367435455322266
     },
     {
-      "word": "body",
+      "text": "body",
       "start": 72.939,
       "end": 73.199,
       "loss": 0.00022426247596740723
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 73.239,
       "end": 73.319,
       "loss": 0.00026667118072509766
     },
     {
-      "word": "earn",
+      "text": "earn",
       "start": 73.379,
       "end": 73.519,
       "loss": 0.00037723779678344727
     },
     {
-      "word": "a",
+      "text": "a",
       "start": 73.58,
       "end": 73.619,
       "loss": 0.000423431396484375
     },
     {
-      "word": "living.",
+      "text": "living.",
       "start": 73.68,
       "end": 74.019,
       "loss": 0.031163743564060757
     },
     {
-      "word": "Now",
+      "text": "Now",
       "start": 74.559,
       "end": 74.699,
       "loss": 0.00100251038869222
     },
     {
-      "word": "use",
+      "text": "use",
       "start": 74.799,
       "end": 74.919,
       "loss": 0.0008401075998942057
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 74.959,
       "end": 75.119,
       "loss": 0.00028821825981140137
     },
     {
-      "word": "freedom",
+      "text": "freedom",
       "start": 75.18,
       "end": 75.739,
       "loss": 0.00029218196868896484
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 75.779,
       "end": 75.86,
       "loss": 0.0005065202713012695
     },
     {
-      "word": "build",
+      "text": "build",
       "start": 75.919,
       "end": 76.079,
       "loss": 0.00015048980712890626
     },
     {
-      "word": "a",
+      "text": "a",
       "start": 76.139,
       "end": 76.199,
       "loss": 0.00058746337890625
     },
     {
-      "word": "healthier",
+      "text": "healthier",
       "start": 76.259,
       "end": 76.659,
       "loss": 0.0002472533120049371
     },
     {
-      "word": "one.",
+      "text": "one.",
       "start": 76.759,
       "end": 76.979,
       "loss": 0.0055620670318603516
     },
     {
-      "word": "Everything",
+      "text": "Everything",
       "start": 77.72,
       "end": 78.04,
       "loss": 0.0002186298370361328
     },
     {
-      "word": "else",
+      "text": "else",
       "start": 78.099,
       "end": 78.359,
       "loss": 0.0006978511810302734
     },
     {
-      "word": "depends",
+      "text": "depends",
       "start": 78.4,
       "end": 78.779,
       "loss": 0.0001351152147565569
     },
     {
-      "word": "on",
+      "text": "on",
       "start": 78.839,
       "end": 78.939,
       "loss": 0.0002079010009765625
     },
     {
-      "word": "this.",
+      "text": "this.",
       "start": 79.0,
       "end": 79.259,
       "loss": 0.01534881591796875
@@ -1157,36 +1169,36 @@
       "text": "Before we talk about building a better future, we need to make sure you're still around to enjoy it. Everything begins with your health. Not your business. Not your bank account. Not your ambitions. You.",
       "start": 1.12,
       "end": 14.499,
-      "wordStart": 0,
-      "wordEnd": 34
+      "word_start": 0,
+      "word_end": 34
     },
     {
       "text": "Your body has carried you through every success, every setback, every long day, every late night, and every difficult decision you've ever made. It deserves better than being treated like an afterthought.",
       "start": 15.639,
       "end": 27.499,
-      "wordStart": 35,
-      "wordEnd": 66
+      "word_start": 35,
+      "word_end": 66
     },
     {
       "text": "You've had enough reminders that health is not guaranteed. Listen to them. Most people spend their youth sacrificing health to earn money, then spend the rest of their lives using money to recover what they lost. Do not make that trade. Sleep properly. Walk every day. Lift weights. Stretch. Eat real food. Get outside. Have the blood tests. Book the appointment. Deal with the small problem before it becomes the large one.",
       "start": 28.26,
       "end": 55.379,
-      "wordStart": 67,
-      "wordEnd": 138
+      "word_start": 67,
+      "word_end": 138
     },
     {
       "text": "Strength is not vanity. It is independence. Fitness is not about looking impressive. It is about remaining capable. Energy is the foundation beneath discipline, curiosity, relationships, and ambition.",
       "start": 56.52,
       "end": 70.459,
-      "wordStart": 139,
-      "wordEnd": 166
+      "word_start": 139,
+      "word_end": 166
     },
     {
       "text": "You spent years using your body to earn a living. Now use your freedom to build a healthier one. Everything else depends on this.",
       "start": 71.619,
       "end": 79.259,
-      "wordStart": 167,
-      "wordEnd": 190
+      "word_start": 167,
+      "word_end": 190
     }
   ],
   "coverage": {
@@ -1202,15 +1214,23 @@
     "line_count_match": true,
     "consecutive_same_tokens": []
   },
-  "pad_lead_s": 1.0,
-  "pad_trail_s": 1.5,
-  "source": "elevenlabs_forced_alignment",
-  "model_id": "eleven_v3",
-  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
-  "source_text_hash": "14b861a1e2e301446ddd1032f319c0838076426985f1ed97f110e37b942c45d9",
-  "playback_rate": 1.0,
+  "audio": "/audio/health.mp3",
+  "duration": 80.82,
   "loudness": {
     "integrated_lufs": -16.43,
     "true_peak_dbtp": -1.75
-  }
+  },
+  "edge": {
+    "opening_silence_s": 1.082,
+    "closing_silence_s": 1.515,
+    "peak_linear": 0.8166,
+    "avg_dbfs": -17.12,
+    "clipping_ratio": 0.0,
+    "opening_ok": true,
+    "ending_ok": true,
+    "no_clip": true,
+    "has_speech": true
+  },
+  "frozen_text": "Before we talk about building a better future, we need to make sure you're still around to enjoy it. Everything begins with your health. Not your business. Not your bank account. Not your ambitions. You.\nYour body has carried you through every success, every setback, every long day, every late night, and every difficult decision you've ever made. It deserves better than being treated like an afterthought.\nYou've had enough reminders that health is not guaranteed. Listen to them. Most people spend their youth sacrificing health to earn money, then spend the rest of their lives using money to recover what they lost. Do not make that trade. Sleep properly. Walk every day. Lift weights. Stretch. Eat real food. Get outside. Have the blood tests. Book the appointment. Deal with the small problem before it becomes the large one.\nStrength is not vanity. It is independence. Fitness is not about looking impressive. It is about remaining capable. Energy is the foundation beneath discipline, curiosity, relationships, and ambition.\nYou spent years using your body to earn a living. Now use your freedom to build a healthier one. Everything else depends on this.",
+  "generation_text": "[thoughtful] Before we talk about building a better future, we need to make sure you're still around to enjoy it. Everything begins with your health. Not your business. Not your bank account. Not your ambitions. You.\n\n[sincere] Your body has carried you through every success, every setback, every long day, every late night, and every difficult decision you've ever made. It deserves better than being treated like an afterthought.\n\n[firmer] You've had enough reminders that health is not guaranteed. Listen to them. Most people spend their youth sacrificing health to earn money, then spend the rest of their lives using money to recover what they lost. Do not make that trade. Sleep properly. Walk every day. Lift weights. Stretch. Eat real food. Get outside. Have the blood tests. Book the appointment. Deal with the small problem before it becomes the large one.\n\n[measured] Strength is not vanity. It is independence. Fitness is not about looking impressive. It is about remaining capable. Energy is the foundation beneath discipline, curiosity, relationships, and ambition.\n\n[warmly] You spent years using your body to earn a living. Now use your freedom to build a healthier one. Everything else depends on this."
 }

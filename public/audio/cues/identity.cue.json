@@ -1,888 +1,900 @@
 {
   "id": "identity",
-  "audio": "/audio/identity.mp3",
-  "duration": 65.06,
-  "wordCount": 147,
-  "lineCount": 5,
+  "version": 1,
+  "source": "elevenlabs_forced_alignment",
+  "model_id": "eleven_v3",
+  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
+  "playback_rate": 1.0,
+  "pad_lead_s": 1.0,
+  "pad_trail_s": 1.5,
+  "source_text_hash": "5663f507937227c7a8e4a298b3770ef53f5c6648dd01bd4ac55f5050dc834f95",
+  "transcript": [
+    "You were a network engineer. You worked on old copper infrastructure that carried the country long before either of us arrived. There is dignity in that. But it was a role, not an identity.",
+    "The job has ended. The capability remains. You understand systems. You diagnose faults. You follow signals. You repair what other people cannot see. Those skills were never limited to copper lines.",
+    "From now on, think of yourself as a builder. A sovereign engineer. Someone who can examine a problem, understand the system beneath it, and create a useful solution. The medium may be software, hardware, business, media, or something neither of us has imagined yet.",
+    "Do not become trapped by the title on your last payslip. You are not beginning again. You are carrying hard earned capability into a larger arena.",
+    "Employment was one application of your abilities. It was never their limit."
+  ],
+  "alignment_loss": 0.06389358898276064,
   "words": [
     {
-      "word": "You",
+      "text": "You",
       "start": 1.159,
       "end": 1.22,
       "loss": 0.9587324460347494
     },
     {
-      "word": "were",
+      "text": "were",
       "start": 1.259,
       "end": 1.339,
       "loss": 0.003993630409240723
     },
     {
-      "word": "a",
+      "text": "a",
       "start": 1.36,
       "end": 1.379,
       "loss": 0.00311279296875
     },
     {
-      "word": "network",
+      "text": "network",
       "start": 1.459,
       "end": 1.799,
       "loss": 0.0018304075513567244
     },
     {
-      "word": "engineer.",
+      "text": "engineer.",
       "start": 1.879,
       "end": 2.259,
       "loss": 0.04951308833228217
     },
     {
-      "word": "You",
+      "text": "You",
       "start": 2.96,
       "end": 3.079,
       "loss": 0.0010732014973958333
     },
     {
-      "word": "worked",
+      "text": "worked",
       "start": 3.139,
       "end": 3.379,
       "loss": 0.0006348689397176107
     },
     {
-      "word": "on",
+      "text": "on",
       "start": 3.399,
       "end": 3.48,
       "loss": 2.3293380737304688
     },
     {
-      "word": "old",
+      "text": "old",
       "start": 3.679,
       "end": 3.919,
       "loss": 0.0030270020167032876
     },
     {
-      "word": "copper",
+      "text": "copper",
       "start": 4.059,
       "end": 4.339,
       "loss": 0.0019822120666503906
     },
     {
-      "word": "infrastructure",
+      "text": "infrastructure",
       "start": 4.46,
       "end": 5.099,
       "loss": 0.00014053923743111745
     },
     {
-      "word": "that",
+      "text": "that",
       "start": 5.139,
       "end": 5.279,
       "loss": 0.0004445314407348633
     },
     {
-      "word": "carried",
+      "text": "carried",
       "start": 5.339,
       "end": 5.619,
       "loss": 0.00016547952379499163
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 5.659,
       "end": 5.739,
       "loss": 0.000349124272664388
     },
     {
-      "word": "country",
+      "text": "country",
       "start": 5.799,
       "end": 6.279,
       "loss": 0.00064849853515625
     },
     {
-      "word": "long",
+      "text": "long",
       "start": 6.359,
       "end": 6.579,
       "loss": 0.0005853176116943359
     },
     {
-      "word": "before",
+      "text": "before",
       "start": 6.659,
       "end": 6.999,
       "loss": 0.00015898545583089194
     },
     {
-      "word": "either",
+      "text": "either",
       "start": 7.119,
       "end": 7.319,
       "loss": 0.00023478269577026367
     },
     {
-      "word": "of",
+      "text": "of",
       "start": 7.359,
       "end": 7.439,
       "loss": 0.00019884109497070312
     },
     {
-      "word": "us",
+      "text": "us",
       "start": 7.5,
       "end": 7.619,
       "loss": 0.0004649162292480469
     },
     {
-      "word": "arrived.",
+      "text": "arrived.",
       "start": 7.719,
       "end": 8.22,
       "loss": 0.012083157896995544
     },
     {
-      "word": "There",
+      "text": "There",
       "start": 9.099,
       "end": 9.199,
       "loss": 0.0007387876510620117
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 9.239,
       "end": 9.36,
       "loss": 0.0004044771194458008
     },
     {
-      "word": "dignity",
+      "text": "dignity",
       "start": 9.479,
       "end": 9.859,
       "loss": 0.00017089503152029856
     },
     {
-      "word": "in",
+      "text": "in",
       "start": 9.899,
       "end": 10.0,
       "loss": 0.00017303228378295898
     },
     {
-      "word": "that.",
+      "text": "that.",
       "start": 10.059,
       "end": 10.359,
       "loss": 0.041713809967041014
     },
     {
-      "word": "But",
+      "text": "But",
       "start": 11.179,
       "end": 11.26,
       "loss": 0.002719402313232422
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 11.3,
       "end": 11.34,
       "loss": 7.432699203491211e-05
     },
     {
-      "word": "was",
+      "text": "was",
       "start": 11.399,
       "end": 11.5,
       "loss": 0.0012292861938476562
     },
     {
-      "word": "a",
+      "text": "a",
       "start": 11.539,
       "end": 11.559,
       "loss": 0.0003261566162109375
     },
     {
-      "word": "role,",
+      "text": "role,",
       "start": 11.699,
       "end": 12.139,
       "loss": 0.0447967529296875
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 12.679,
       "end": 12.819,
       "loss": 0.00015544891357421875
     },
     {
-      "word": "an",
+      "text": "an",
       "start": 12.88,
       "end": 12.939,
       "loss": 0.00021076202392578125
     },
     {
-      "word": "identity.",
+      "text": "identity.",
       "start": 13.039,
       "end": 13.619,
       "loss": 0.012452920277913412
     },
     {
-      "word": "The",
+      "text": "The",
       "start": 14.659,
       "end": 14.719,
       "loss": 0.04299330711364746
     },
     {
-      "word": "job",
+      "text": "job",
       "start": 14.799,
       "end": 15.019,
       "loss": 0.0006614128748575846
     },
     {
-      "word": "has",
+      "text": "has",
       "start": 15.059,
       "end": 15.179,
       "loss": 0.0021653175354003906
     },
     {
-      "word": "ended.",
+      "text": "ended.",
       "start": 15.239,
       "end": 15.599,
       "loss": 0.2422429323196411
     },
     {
-      "word": "The",
+      "text": "The",
       "start": 15.979,
       "end": 16.04,
       "loss": 0.0013000170389811199
     },
     {
-      "word": "capability",
+      "text": "capability",
       "start": 16.159,
       "end": 16.859,
       "loss": 0.00024477243423461916
     },
     {
-      "word": "remains.",
+      "text": "remains.",
       "start": 16.94,
       "end": 17.5,
       "loss": 0.017327412962913513
     },
     {
-      "word": "You",
+      "text": "You",
       "start": 17.84,
       "end": 17.999,
       "loss": 0.0006735722223917643
     },
     {
-      "word": "understand",
+      "text": "understand",
       "start": 18.079,
       "end": 18.939,
       "loss": 0.0002414107322692871
     },
     {
-      "word": "systems.",
+      "text": "systems.",
       "start": 19.1,
       "end": 19.639,
       "loss": 0.03561617434024811
     },
     {
-      "word": "You",
+      "text": "You",
       "start": 20.0,
       "end": 20.139,
       "loss": 0.0009567340215047201
     },
     {
-      "word": "diagnose",
+      "text": "diagnose",
       "start": 20.239,
       "end": 20.84,
       "loss": 0.00027319788932800293
     },
     {
-      "word": "faults.",
+      "text": "faults.",
       "start": 21.0,
       "end": 21.379,
       "loss": 0.03551595551627023
     },
     {
-      "word": "You",
+      "text": "You",
       "start": 21.68,
       "end": 21.739,
       "loss": 0.0014366706212361653
     },
     {
-      "word": "follow",
+      "text": "follow",
       "start": 21.939,
       "end": 22.359,
       "loss": 0.0007089773813883463
     },
     {
-      "word": "signals.",
+      "text": "signals.",
       "start": 22.519,
       "end": 23.019,
       "loss": 0.007834181189537048
     },
     {
-      "word": "You",
+      "text": "You",
       "start": 23.319,
       "end": 23.419,
       "loss": 0.0009827216466267903
     },
     {
-      "word": "repair",
+      "text": "repair",
       "start": 23.479,
       "end": 24.119,
       "loss": 0.0017699003219604492
     },
     {
-      "word": "what",
+      "text": "what",
       "start": 24.359,
       "end": 24.539,
       "loss": 0.001032710075378418
     },
     {
-      "word": "other",
+      "text": "other",
       "start": 24.639,
       "end": 24.799,
       "loss": 0.0004765748977661133
     },
     {
-      "word": "people",
+      "text": "people",
       "start": 24.859,
       "end": 25.139,
       "loss": 0.0003301103909810384
     },
     {
-      "word": "cannot",
+      "text": "cannot",
       "start": 25.219,
       "end": 25.5,
       "loss": 0.0006528695424397787
     },
     {
-      "word": "see.",
+      "text": "see.",
       "start": 25.68,
       "end": 25.979,
       "loss": 0.004778504371643066
     },
     {
-      "word": "Those",
+      "text": "Those",
       "start": 27.059,
       "end": 27.239,
       "loss": 0.0008254528045654296
     },
     {
-      "word": "skills",
+      "text": "skills",
       "start": 27.299,
       "end": 27.719,
       "loss": 0.00032897790273030597
     },
     {
-      "word": "were",
+      "text": "were",
       "start": 27.959,
       "end": 28.119,
       "loss": 0.0005078017711639404
     },
     {
-      "word": "never",
+      "text": "never",
       "start": 28.18,
       "end": 28.399,
       "loss": 0.0003337383270263672
     },
     {
-      "word": "limited",
+      "text": "limited",
       "start": 28.439,
       "end": 28.819,
       "loss": 0.00011113711765834264
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 28.859,
       "end": 28.92,
       "loss": 0.0002956390380859375
     },
     {
-      "word": "copper",
+      "text": "copper",
       "start": 29.039,
       "end": 29.279,
       "loss": 0.011550347010294596
     },
     {
-      "word": "lines.",
+      "text": "lines.",
       "start": 29.379,
       "end": 29.779,
       "loss": 0.15244372685750326
     },
     {
-      "word": "From",
+      "text": "From",
       "start": 30.399,
       "end": 30.519,
       "loss": 0.011616319417953491
     },
     {
-      "word": "now",
+      "text": "now",
       "start": 30.579,
       "end": 30.739,
       "loss": 0.00011761983235677083
     },
     {
-      "word": "on,",
+      "text": "on,",
       "start": 30.819,
       "end": 31.019,
       "loss": 0.0379945437113444
     },
     {
-      "word": "think",
+      "text": "think",
       "start": 31.359,
       "end": 31.5,
       "loss": 0.00022852420806884766
     },
     {
-      "word": "of",
+      "text": "of",
       "start": 31.539,
       "end": 31.599,
       "loss": 0.0003349781036376953
     },
     {
-      "word": "yourself",
+      "text": "yourself",
       "start": 31.659,
       "end": 32.36,
       "loss": 0.00028526782989501953
     },
     {
-      "word": "as",
+      "text": "as",
       "start": 32.439,
       "end": 32.52,
       "loss": 0.000553131103515625
     },
     {
-      "word": "a",
+      "text": "a",
       "start": 32.579,
       "end": 32.639,
       "loss": 0.00173187255859375
     },
     {
-      "word": "builder.",
+      "text": "builder.",
       "start": 32.819,
       "end": 33.239,
       "loss": 0.35871607065200806
     },
     {
-      "word": "A",
+      "text": "A",
       "start": 33.84,
       "end": 33.959,
       "loss": 0.013427734375
     },
     {
-      "word": "sovereign",
+      "text": "sovereign",
       "start": 34.059,
       "end": 34.479,
       "loss": 0.0018817981084187825
     },
     {
-      "word": "engineer.",
+      "text": "engineer.",
       "start": 34.619,
       "end": 35.139,
       "loss": 0.07538939846886529
     },
     {
-      "word": "Someone",
+      "text": "Someone",
       "start": 35.5,
       "end": 35.72,
       "loss": 0.0013718605041503906
     },
     {
-      "word": "who",
+      "text": "who",
       "start": 35.759,
       "end": 35.84,
       "loss": 0.0006476243336995443
     },
     {
-      "word": "can",
+      "text": "can",
       "start": 35.899,
       "end": 35.979,
       "loss": 0.00029428799947102863
     },
     {
-      "word": "examine",
+      "text": "examine",
       "start": 36.099,
       "end": 36.52,
       "loss": 0.00011648450578962053
     },
     {
-      "word": "a",
+      "text": "a",
       "start": 36.579,
       "end": 36.639,
       "loss": 0.00081634521484375
     },
     {
-      "word": "problem,",
+      "text": "problem,",
       "start": 36.719,
       "end": 37.059,
       "loss": 0.005098089575767517
     },
     {
-      "word": "understand",
+      "text": "understand",
       "start": 37.419,
       "end": 37.959,
       "loss": 0.0001740097999572754
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 38.02,
       "end": 38.139,
       "loss": 0.00037856896718343097
     },
     {
-      "word": "system",
+      "text": "system",
       "start": 38.219,
       "end": 38.579,
       "loss": 0.0001858671506245931
     },
     {
-      "word": "beneath",
+      "text": "beneath",
       "start": 38.619,
       "end": 38.959,
       "loss": 8.302075522286552e-05
     },
     {
-      "word": "it,",
+      "text": "it,",
       "start": 39.02,
       "end": 39.119,
       "loss": 0.08876419067382812
     },
     {
-      "word": "and",
+      "text": "and",
       "start": 39.419,
       "end": 39.56,
       "loss": 0.0004761616388956706
     },
     {
-      "word": "create",
+      "text": "create",
       "start": 39.619,
       "end": 39.979,
       "loss": 0.00016506512959798178
     },
     {
-      "word": "a",
+      "text": "a",
       "start": 40.059,
       "end": 40.159,
       "loss": 0.000774383544921875
     },
     {
-      "word": "useful",
+      "text": "useful",
       "start": 40.259,
       "end": 40.659,
       "loss": 0.0004241466522216797
     },
     {
-      "word": "solution.",
+      "text": "solution.",
       "start": 40.719,
       "end": 41.219,
       "loss": 0.0006093978881835938
     },
     {
-      "word": "The",
+      "text": "The",
       "start": 41.919,
       "end": 42.0,
       "loss": 0.001785596211751302
     },
     {
-      "word": "medium",
+      "text": "medium",
       "start": 42.059,
       "end": 42.36,
       "loss": 0.3596782088279724
     },
     {
-      "word": "may",
+      "text": "may",
       "start": 42.419,
       "end": 42.52,
       "loss": 0.00037209192911783856
     },
     {
-      "word": "be",
+      "text": "be",
       "start": 42.559,
       "end": 42.7,
       "loss": 0.00020879507064819336
     },
     {
-      "word": "software,",
+      "text": "software,",
       "start": 42.779,
       "end": 43.319,
       "loss": 0.0013144413630167644
     },
     {
-      "word": "hardware,",
+      "text": "hardware,",
       "start": 43.719,
       "end": 44.219,
       "loss": 0.00042694144778781466
     },
     {
-      "word": "business,",
+      "text": "business,",
       "start": 44.479,
       "end": 45.0,
       "loss": 0.0018462604946560329
     },
     {
-      "word": "media,",
+      "text": "media,",
       "start": 45.119,
       "end": 45.479,
       "loss": 0.0436063806215922
     },
     {
-      "word": "or",
+      "text": "or",
       "start": 45.819,
       "end": 45.919,
       "loss": 0.0007212162017822266
     },
     {
-      "word": "something",
+      "text": "something",
       "start": 45.979,
       "end": 46.34,
       "loss": 0.002560509575737847
     },
     {
-      "word": "neither",
+      "text": "neither",
       "start": 46.399,
       "end": 46.72,
       "loss": 0.0024793148040771484
     },
     {
-      "word": "of",
+      "text": "of",
       "start": 46.739,
       "end": 46.819,
       "loss": 0.0009822845458984375
     },
     {
-      "word": "us",
+      "text": "us",
       "start": 46.86,
       "end": 47.0,
       "loss": 0.000484466552734375
     },
     {
-      "word": "has",
+      "text": "has",
       "start": 47.02,
       "end": 47.139,
       "loss": 0.004003206888834636
     },
     {
-      "word": "imagined",
+      "text": "imagined",
       "start": 47.219,
       "end": 47.659,
       "loss": 0.0002575218677520752
     },
     {
-      "word": "yet.",
+      "text": "yet.",
       "start": 47.739,
       "end": 47.939,
       "loss": 0.001816868782043457
     },
     {
-      "word": "Do",
+      "text": "Do",
       "start": 48.779,
       "end": 48.939,
       "loss": 0.3599853515625
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 49.0,
       "end": 49.299,
       "loss": 0.010082085927327475
     },
     {
-      "word": "become",
+      "text": "become",
       "start": 49.34,
       "end": 49.719,
       "loss": 0.00022651751836140951
     },
     {
-      "word": "trapped",
+      "text": "trapped",
       "start": 49.779,
       "end": 50.18,
       "loss": 0.000728402818952288
     },
     {
-      "word": "by",
+      "text": "by",
       "start": 50.239,
       "end": 50.319,
       "loss": 0.000264585018157959
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 50.379,
       "end": 50.5,
       "loss": 0.0004704793294270833
     },
     {
-      "word": "title",
+      "text": "title",
       "start": 50.539,
       "end": 50.819,
       "loss": 0.0007204055786132812
     },
     {
-      "word": "on",
+      "text": "on",
       "start": 50.879,
       "end": 50.979,
       "loss": 0.001232147216796875
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 51.02,
       "end": 51.139,
       "loss": 0.00067138671875
     },
     {
-      "word": "last",
+      "text": "last",
       "start": 51.18,
       "end": 51.539,
       "loss": 0.0004527270793914795
     },
     {
-      "word": "payslip.",
+      "text": "payslip.",
       "start": 51.599,
       "end": 52.119,
       "loss": 0.01768195629119873
     },
     {
-      "word": "You",
+      "text": "You",
       "start": 52.699,
       "end": 52.759,
       "loss": 0.0013783772786458333
     },
     {
-      "word": "are",
+      "text": "are",
       "start": 52.779,
       "end": 52.88,
       "loss": 0.0005643765131632487
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 52.899,
       "end": 53.059,
       "loss": 0.0023740132649739585
     },
     {
-      "word": "beginning",
+      "text": "beginning",
       "start": 53.099,
       "end": 53.459,
       "loss": 0.0005230241351657443
     },
     {
-      "word": "again.",
+      "text": "again.",
       "start": 53.579,
       "end": 53.879,
       "loss": 0.1970901886622111
     },
     {
-      "word": "You",
+      "text": "You",
       "start": 54.34,
       "end": 54.399,
       "loss": 0.007309913635253906
     },
     {
-      "word": "are",
+      "text": "are",
       "start": 54.419,
       "end": 54.52,
       "loss": 0.0007065137227376302
     },
     {
-      "word": "carrying",
+      "text": "carrying",
       "start": 54.559,
       "end": 54.899,
       "loss": 0.00014865398406982422
     },
     {
-      "word": "hard",
+      "text": "hard",
       "start": 55.02,
       "end": 55.399,
       "loss": 0.0019495487213134766
     },
     {
-      "word": "earned",
+      "text": "earned",
       "start": 55.459,
       "end": 55.779,
       "loss": 0.000543057918548584
     },
     {
-      "word": "capability",
+      "text": "capability",
       "start": 55.819,
       "end": 56.439,
       "loss": 0.0008015990257263184
     },
     {
-      "word": "into",
+      "text": "into",
       "start": 56.459,
       "end": 56.659,
       "loss": 0.00042939186096191406
     },
     {
-      "word": "a",
+      "text": "a",
       "start": 56.68,
       "end": 56.799,
       "loss": 0.000946044921875
     },
     {
-      "word": "larger",
+      "text": "larger",
       "start": 56.84,
       "end": 57.319,
       "loss": 0.00043660402297973633
     },
     {
-      "word": "arena.",
+      "text": "arena.",
       "start": 57.459,
       "end": 57.879,
       "loss": 0.0023558338483174643
     },
     {
-      "word": "Employment",
+      "text": "Employment",
       "start": 58.819,
       "end": 59.319,
       "loss": 0.02297888994216919
     },
     {
-      "word": "was",
+      "text": "was",
       "start": 59.379,
       "end": 59.559,
       "loss": 0.000307003657023112
     },
     {
-      "word": "one",
+      "text": "one",
       "start": 59.639,
       "end": 59.819,
       "loss": 0.0004863739013671875
     },
     {
-      "word": "application",
+      "text": "application",
       "start": 59.899,
       "end": 60.459,
       "loss": 0.00017369877208362925
     },
     {
-      "word": "of",
+      "text": "of",
       "start": 60.479,
       "end": 60.579,
       "loss": 0.0003191232681274414
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 60.619,
       "end": 60.739,
       "loss": 0.00029218196868896484
     },
     {
-      "word": "abilities.",
+      "text": "abilities.",
       "start": 60.84,
       "end": 61.399,
       "loss": 0.10273042917251587
     },
     {
-      "word": "It",
+      "text": "It",
       "start": 61.859,
       "end": 61.939,
       "loss": 0.008809089660644531
     },
     {
-      "word": "was",
+      "text": "was",
       "start": 61.979,
       "end": 62.079,
       "loss": 0.0036274592081705728
     },
     {
-      "word": "never",
+      "text": "never",
       "start": 62.219,
       "end": 62.439,
       "loss": 0.0010718345642089845
     },
     {
-      "word": "their",
+      "text": "their",
       "start": 62.479,
       "end": 62.639,
       "loss": 0.002963542938232422
     },
     {
-      "word": "limit.",
+      "text": "limit.",
       "start": 62.699,
       "end": 63.039,
       "loss": 0.014504512151082357
@@ -893,36 +905,36 @@
       "text": "You were a network engineer. You worked on old copper infrastructure that carried the country long before either of us arrived. There is dignity in that. But it was a role, not an identity.",
       "start": 1.159,
       "end": 13.619,
-      "wordStart": 0,
-      "wordEnd": 33
+      "word_start": 0,
+      "word_end": 33
     },
     {
       "text": "The job has ended. The capability remains. You understand systems. You diagnose faults. You follow signals. You repair what other people cannot see. Those skills were never limited to copper lines.",
       "start": 14.659,
       "end": 29.779,
-      "wordStart": 34,
-      "wordEnd": 64
+      "word_start": 34,
+      "word_end": 64
     },
     {
       "text": "From now on, think of yourself as a builder. A sovereign engineer. Someone who can examine a problem, understand the system beneath it, and create a useful solution. The medium may be software, hardware, business, media, or something neither of us has imagined yet.",
       "start": 30.399,
       "end": 47.939,
-      "wordStart": 65,
-      "wordEnd": 108
+      "word_start": 65,
+      "word_end": 108
     },
     {
       "text": "Do not become trapped by the title on your last payslip. You are not beginning again. You are carrying hard earned capability into a larger arena.",
       "start": 48.779,
       "end": 57.879,
-      "wordStart": 109,
-      "wordEnd": 134
+      "word_start": 109,
+      "word_end": 134
     },
     {
       "text": "Employment was one application of your abilities. It was never their limit.",
       "start": 58.819,
       "end": 63.039,
-      "wordStart": 135,
-      "wordEnd": 146
+      "word_start": 135,
+      "word_end": 146
     }
   ],
   "coverage": {
@@ -938,15 +950,23 @@
     "line_count_match": true,
     "consecutive_same_tokens": []
   },
-  "pad_lead_s": 1.0,
-  "pad_trail_s": 1.5,
-  "source": "elevenlabs_forced_alignment",
-  "model_id": "eleven_v3",
-  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
-  "source_text_hash": "5663f507937227c7a8e4a298b3770ef53f5c6648dd01bd4ac55f5050dc834f95",
-  "playback_rate": 1.0,
+  "audio": "/audio/identity.mp3",
+  "duration": 65.06,
   "loudness": {
     "integrated_lufs": -16.52,
     "true_peak_dbtp": -1.7
-  }
+  },
+  "edge": {
+    "opening_silence_s": 1.126,
+    "closing_silence_s": 1.5,
+    "peak_linear": 0.8211,
+    "avg_dbfs": -17.06,
+    "clipping_ratio": 0.0,
+    "opening_ok": true,
+    "ending_ok": true,
+    "no_clip": true,
+    "has_speech": true
+  },
+  "frozen_text": "You were a network engineer. You worked on old copper infrastructure that carried the country long before either of us arrived. There is dignity in that. But it was a role, not an identity.\nThe job has ended. The capability remains. You understand systems. You diagnose faults. You follow signals. You repair what other people cannot see. Those skills were never limited to copper lines.\nFrom now on, think of yourself as a builder. A sovereign engineer. Someone who can examine a problem, understand the system beneath it, and create a useful solution. The medium may be software, hardware, business, media, or something neither of us has imagined yet.\nDo not become trapped by the title on your last payslip. You are not beginning again. You are carrying hard earned capability into a larger arena.\nEmployment was one application of your abilities. It was never their limit.",
+  "generation_text": "[composed] You were a network engineer. You worked on old copper infrastructure that carried the country long before either of us arrived. There is dignity in that. But it was a role, not an identity.\n\n[thoughtful] The job has ended. The capability remains. You understand systems. You diagnose faults. You follow signals. You repair what other people cannot see. Those skills were never limited to copper lines.\n\n[firmer] From now on, think of yourself as a builder. A sovereign engineer. Someone who can examine a problem, understand the system beneath it, and create a useful solution. The medium may be software, hardware, business, media, or something neither of us has imagined yet.\n\n[gentle] Do not become trapped by the title on your last payslip. You are not beginning again. You are carrying hard earned capability into a larger arena.\n\n[measured] Employment was one application of your abilities. It was never their limit."
 }

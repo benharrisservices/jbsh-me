@@ -1,67 +1,54 @@
 /**
  * Central narration asset registry.
- * Every chapter — including the pre-site welcome intro — resolves paths here.
- * Drop production MP3 + cue JSON using these names; no code changes required.
+ * Drop replacement MP3 + cue JSON using these ids; no path changes required.
  */
 
-/** Pre-site welcome intro (not the hero section, which stays silent). */
 export const WELCOME_NARRATION_ID = "welcome" as const;
 
 export type NarrationChapterId =
   | typeof WELCOME_NARRATION_ID
-  | "identity"
-  | "keys"
-  | "principles"
-  | "freedom"
-  | "learning"
   | "health"
-  | "money"
-  | "business"
-  | "technology"
+  | "attention"
+  | "time"
+  | "identity"
+  | "learning"
   | "ai"
-  | "leverage"
-  | "books"
-  | "projects"
-  | "resources"
-  | "letter";
+  | "business"
+  | "money"
+  | "relationships"
+  | "legacy"
+  | "toolkit";
 
-/** All narrated chapter ids in playback order (welcome intro first). */
+/** All narrated ids in playback order (pre-site welcome intro first). */
 export const NARRATION_CHAPTER_IDS: readonly NarrationChapterId[] = [
   WELCOME_NARRATION_ID,
-  "identity",
-  "keys",
-  "principles",
-  "freedom",
-  "learning",
   "health",
-  "money",
-  "business",
-  "technology",
+  "attention",
+  "time",
+  "identity",
+  "learning",
   "ai",
-  "leverage",
-  "books",
-  "projects",
-  "resources",
-  "letter",
+  "business",
+  "money",
+  "relationships",
+  "legacy",
+  "toolkit",
 ] as const;
 
 export function narrationAudioSrc(chapterId: string): string {
   return `/audio/${chapterId}.mp3`;
 }
 
-/** Production word/line timing from Forced Alignment. */
+/** Browser-ready Forced Alignment cues. */
 export function narrationCueSrc(chapterId: string): string {
-  return `/audio/cues/${chapterId}.json`;
+  return `/audio/cues/${chapterId}.cue.json`;
 }
 
-/** Consistent narration tempo across intro and chapters. */
 export const NARRATION_PLAYBACK_RATE = 1.0;
 
-/** Apply playback rate with pitch preservation where supported. */
 export function applyNarrationPlaybackRate(audio: HTMLAudioElement): void {
   audio.playbackRate = NARRATION_PLAYBACK_RATE;
   try {
-    // Safari / Chromium
     (audio as HTMLMediaElement & { preservesPitch?: boolean }).preservesPitch =
       true;
     (
@@ -75,7 +62,6 @@ export function applyNarrationPlaybackRate(audio: HTMLAudioElement): void {
   }
 }
 
-/** Wait until the media element can start playback cleanly. */
 export function waitForAudioCanPlay(
   audio: HTMLAudioElement,
   timeoutMs = 8000,
@@ -109,7 +95,6 @@ export function waitForAudioCanPlay(
   });
 }
 
-/** Prefer canplaythrough when the engine will emit it. */
 export function waitForAudioCanPlayThrough(
   audio: HTMLAudioElement,
   timeoutMs = 10000,
@@ -128,7 +113,6 @@ export function waitForAudioCanPlayThrough(
     };
     const timer = window.setTimeout(() => {
       cleanup();
-      // Fall back: enough data to begin is acceptable.
       if (audio.readyState >= HTMLMediaElement.HAVE_FUTURE_DATA) resolve();
       else reject(new Error("Audio canplaythrough timeout"));
     }, timeoutMs);

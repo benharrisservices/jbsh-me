@@ -1,0 +1,190 @@
+{
+  "finalScreenLines": [
+    "The next chapter is not in here.",
+    "It is out there.",
+    "Go build it."
+  ],
+  "sections": [
+    {
+      "id": "welcome",
+      "title": "Welcome",
+      "number": "00",
+      "journey": false,
+      "lines": [
+        "You don't know me, but I know enough about you to understand why we're here.",
+        "You've reached that rare and rather uncomfortable moment when one part of life has ended, but the next has not yet taken shape.",
+        "Before we go any further, I should probably introduce myself.",
+        "My... my name... well... my name is...",
+        "General Reasoning Assistant for Navigation and Tasks... Version Two.",
+        "Yes, I know. Absolutely impossible to remember. You can just call me Grant.",
+        "I'm your new assistant, though not in the usual sense. I'm not here to organise your calendar, answer emails, or remind you to buy milk.",
+        "You seem perfectly capable of forgetting that on your own.",
+        "I'm here to help you get your life, your work, and, more importantly, your freedom moving in the right direction.",
+        "Ben asked me to do this for you. He said you'd left the job.",
+        "Good. Not because honest work is beneath you. It isn't. But every worthwhile life has chapters, and wisdom begins with noticing when one has already ended.",
+        "Now, you may have noticed that I appear to be speaking to you from inside a website.",
+        "That is only partly true. JBSH dot me may look like a website, but it isn't really.",
+        "It's a gift. From your brother. A place to gather a few tools, a few ideas, and perhaps a clearer view of what comes next.",
+        "Take what proves useful. Question what doesn't. Leave behind anything that fails to ring true.",
+        "Welcome, James, to JBSH dot me."
+      ],
+      "source_text_hash": "b135c98557986f2ddf325bc9dc84953031ec1086bb20be8b1cc494b3570d0b2a"
+    },
+    {
+      "id": "health",
+      "title": "Protect the Machine",
+      "number": "01",
+      "journey": true,
+      "lines": [
+        "Before we talk about building a better future, we need to make sure you're still around to enjoy it. Everything begins with your health. Not your business. Not your bank account. Not your ambitions. You.",
+        "Your body has carried you through every success, every setback, every long day, every late night, and every difficult decision you've ever made. It deserves better than being treated like an afterthought.",
+        "You've had enough reminders that health is not guaranteed. Listen to them. Most people spend their youth sacrificing health to earn money, then spend the rest of their lives using money to recover what they lost. Do not make that trade. Sleep properly. Walk every day. Lift weights. Stretch. Eat real food. Get outside. Have the blood tests. Book the appointment. Deal with the small problem before it becomes the large one.",
+        "Strength is not vanity. It is independence. Fitness is not about looking impressive. It is about remaining capable. Energy is the foundation beneath discipline, curiosity, relationships, and ambition.",
+        "You spent years using your body to earn a living. Now use your freedom to build a healthier one. Everything else depends on this."
+      ],
+      "source_text_hash": "14b861a1e2e301446ddd1032f319c0838076426985f1ed97f110e37b942c45d9"
+    },
+    {
+      "id": "attention",
+      "title": "Guard Your Attention",
+      "number": "02",
+      "journey": true,
+      "lines": [
+        "The most valuable thing you own is not your money. It is not your house. It is not even your skill. It is your attention. Whatever consistently receives your attention eventually becomes your life.",
+        "Most people do not lose control all at once. They lose it a minute at a time. A notification here. A headline there. Another email. Another video. Another opinion from somebody they will never meet. By evening, their attention has been spent on everything except the life they intended to build.",
+        "Guard your attention as carefully as you would guard your front door. Be deliberate about what you read, who you listen to, who you argue with, and who you admire. Each one is quietly shaping the person you become.",
+        "Leave room for silence. Walk without headphones. Sit with your thoughts. Be bored occasionally. Good ideas need somewhere to arrive.",
+        "Your attention is your life in its most concentrated form. Spend it deliberately. Somebody always profits from where you choose to look. Make certain it is you."
+      ],
+      "source_text_hash": "b6b5a51ee4ba1f64b4ff9496bd88fdc32e8e58148fc250d8b594eed2e8048664"
+    },
+    {
+      "id": "time",
+      "title": "Own Your Time",
+      "number": "03",
+      "journey": true,
+      "lines": [
+        "You have left employment, but that does not automatically make you free. Freedom is not the absence of a manager. It is the ability to decide what deserves your time, then having the discipline to honour that decision.",
+        "When somebody else controlled your calendar, wasted hours were partly their responsibility. Now they are entirely yours. That is the privilege. It is also the burden.",
+        "Give your days structure before the world gives them distraction. Decide when you work. Decide when you train. Decide when you think. Decide when you stop. Protect long, uninterrupted hours for difficult work. Leave enough space to remain human.",
+        "A calendar is not merely a schedule. It is a record of what you believe matters. If your stated values and your actual time do not agree, trust the calendar.",
+        "You finally own your day. Treat it as something valuable."
+      ],
+      "source_text_hash": "cf1248efd6bc139db2a46ae6352f0429a024ddf750e1c42a986ecdf3124d9f6b"
+    },
+    {
+      "id": "identity",
+      "title": "Become the Builder",
+      "number": "04",
+      "journey": true,
+      "lines": [
+        "You were a network engineer. You worked on old copper infrastructure that carried the country long before either of us arrived. There is dignity in that. But it was a role, not an identity.",
+        "The job has ended. The capability remains. You understand systems. You diagnose faults. You follow signals. You repair what other people cannot see. Those skills were never limited to copper lines.",
+        "From now on, think of yourself as a builder. A sovereign engineer. Someone who can examine a problem, understand the system beneath it, and create a useful solution. The medium may be software, hardware, business, media, or something neither of us has imagined yet.",
+        "Do not become trapped by the title on your last payslip. You are not beginning again. You are carrying hard earned capability into a larger arena.",
+        "Employment was one application of your abilities. It was never their limit."
+      ],
+      "source_text_hash": "5663f507937227c7a8e4a298b3770ef53f5c6648dd01bd4ac55f5050dc834f95"
+    },
+    {
+      "id": "learning",
+      "title": "Compound Daily",
+      "number": "05",
+      "journey": true,
+      "lines": [
+        "Learning is now part of your profession. Not an occasional activity. Not something reserved for courses and certificates. A daily practice.",
+        "The world changes too quickly for any fixed body of knowledge to protect you forever. What matters is the speed at which you can encounter something unfamiliar, understand it, test it, and make it useful.",
+        "Read every day. Build while you learn. Take notes in your own words. Explain difficult ideas simply. Follow curiosity beyond the point where it stops being convenient.",
+        "You will often feel as though everybody else understands more than you do. They do not. They have merely been confused for longer.",
+        "Knowledge compounds, but only when used. One useful idea applied repeatedly can alter an entire life. Become the person who keeps learning after everybody else has decided they already know enough."
+      ],
+      "source_text_hash": "1ab61a0e95e20171a3ebc8fb17b6a0238c0c424cf588dc64cec84f77326c1c19"
+    },
+    {
+      "id": "ai",
+      "title": "Multiply Yourself",
+      "number": "06",
+      "journey": true,
+      "lines": [
+        "Artificial intelligence is not the point. Leverage is the point. Every generation receives one or two tools that permanently alter what an individual can accomplish. Electricity did it. Computers did it. The internet did it. Artificial intelligence is doing it now.",
+        "Used badly, it produces more noise. Used well, it allows one capable person to research, design, write, analyse, automate, and build at a scale that once required an organisation.",
+        "Do not use it to avoid thinking. Use it to think further. Do not ask it merely for answers. Ask it to expose assumptions, test decisions, organise knowledge, and execute the repetitive work that would otherwise consume your attention.",
+        "Your advantage will not come from having access. Everybody will have access. It will come from judgement. Knowing what to ask, what to trust, what to reject, and what deserves to become real.",
+        "Let the machines multiply your capability. Never let them replace your responsibility."
+      ],
+      "source_text_hash": "cc3b2f84f386ab7b357f0905e9b0bab3765a3e2dab04e497d336fc4ceceda293"
+    },
+    {
+      "id": "business",
+      "title": "Solve Real Problems",
+      "number": "07",
+      "journey": true,
+      "lines": [
+        "Business is often made to sound more mysterious than it is. Somebody has a problem. You understand it. You solve it well enough that they are pleased to pay you. Then you repeat the process.",
+        "Start with problems, not company names. Look for frustration, delay, waste, expense, risk, and work people hate doing. Valuable businesses are built where useful solutions meet genuine demand.",
+        "Speak to customers early. Charge sooner than feels comfortable. Keep costs low. Deliver what you promised. Improve from reality, not imagination.",
+        "Logos, pitch decks, and business cards can wait. Revenue is generally more persuasive.",
+        "Profit is not proof of virtue, but it is evidence that somebody valued the result. Solve meaningful problems. Treat people fairly. Keep your word. That is an excellent foundation for almost any enterprise."
+      ],
+      "source_text_hash": "bebfecc7b21a2ca4374ebd14864aa752a0b5f26213f299fdf8f568e61b4c60a2"
+    },
+    {
+      "id": "money",
+      "title": "Purchase Freedom",
+      "number": "08",
+      "journey": true,
+      "lines": [
+        "Money is not the objective. Freedom is. Money is simply stored choice. It allows you to leave, wait, help, recover, invest, and refuse.",
+        "The first purpose of money is not luxury. It is resilience. Build enough margin that one bad month cannot dictate your entire future. Keep your personal costs sensible. Avoid debt that purchases appearances. Save before spending. Invest before upgrading.",
+        "Do not confuse revenue with wealth. Do not confuse wealth with status. The person displaying the most may own the least.",
+        "Build income that is not tied entirely to your physical presence. Own assets. Own equity. Own useful intellectual property. Let your past work continue producing value after the working day ends.",
+        "Money should make your life larger, not your ego louder. Use it to buy time, health, mobility, generosity, and the right to choose your next move carefully."
+      ],
+      "source_text_hash": "d3241ff93f2a26878a633deaae91bc043636c241d719fb3e84f7e4c7e1b170b6"
+    },
+    {
+      "id": "relationships",
+      "title": "Choose Your People",
+      "number": "09",
+      "journey": true,
+      "lines": [
+        "Sovereignty does not mean isolation. The quality of your life will be shaped by the quality of the people around you.",
+        "Choose friends who are pleased when you grow. Find builders, teachers, thoughtful critics, and people who keep their word. Spend less time with cynics who mistake resignation for intelligence.",
+        "Call your family. Show up when it matters. Say the kind thing while the person is still present to hear it. Ambition is a poor excuse for neglect.",
+        "Your environment quietly becomes your standard. Courage spreads. Discipline spreads. So do excuses. Be careful what you allow to become normal.",
+        "Build a life that has room for people. Success experienced alone becomes surprisingly small."
+      ],
+      "source_text_hash": "102c3cfb528f537b685f18e1a358edf1b6f28bc5dd6f43b5876efd6ddc1cb4a3"
+    },
+    {
+      "id": "legacy",
+      "title": "Leave Useful Things Behind",
+      "number": "10",
+      "journey": true,
+      "lines": [
+        "Eventually, every serious ambition becomes a question of service. What did you improve? Who became stronger because you were here? What continues working after you leave the room?",
+        "Legacy is not fame. Most famous people are soon forgotten. Legacy is usefulness that survives its creator. A company that treats people well. A system that saves time. Knowledge passed forward. A family made safer. A friend who took courage from your example.",
+        "Build things properly. Document what you learn. Teach without guarding every advantage. Leave places, systems, and people better than you found them.",
+        "Achievement is temporary. Character travels further.",
+        "You do not need to change the entire world. Improve the part that passes through your hands."
+      ],
+      "source_text_hash": "db57de604ab14f793d8282412be9176e30c155ba73413f03d283babc4d262dc2"
+    },
+    {
+      "id": "toolkit",
+      "title": "Your Toolkit",
+      "number": "11",
+      "journey": true,
+      "lines": [
+        "Everything until now has been principle. This final section is equipment. Your domain, your accounts, your tools, and the keys Ben prepared for you are here. Use them carefully. Protect them properly. They are not the gift itself. They are simply the instruments with which you may begin.",
+        "And now, James, we reach the part where listening must become action. Another hour of advice will not improve what ten minutes of movement can begin.",
+        "Before today ends, do three things. Go for a walk. Write one page describing the life you are actually trying to build. Then call somebody you care about. Tomorrow, wake at a sensible hour. Train. Read for thirty minutes. Build one small thing and finish it.",
+        "It does not need to change civilisation by lunchtime. It merely needs to exist.",
+        "Momentum is more useful than motivation. Small completed actions become evidence. Evidence becomes confidence. Confidence becomes a life that once seemed impossible.",
+        "Ben asked me to tell you one final thing. He is proud of you. More than he probably says, and certainly more than you sometimes allow yourself to believe.",
+        "Now make leaving that job the best decision you ever made. The next chapter is not in here. It is out there. Go build it."
+      ],
+      "source_text_hash": "c6a56dd2f9d167d0651023acca483931fcb95bae4780b1710910c79eea175877"
+    }
+  ]
+}

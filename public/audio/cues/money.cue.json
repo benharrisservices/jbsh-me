@@ -1,852 +1,864 @@
 {
   "id": "money",
-  "audio": "/audio/money.mp3",
-  "duration": 76.02,
-  "wordCount": 141,
-  "lineCount": 5,
+  "version": 1,
+  "source": "elevenlabs_forced_alignment",
+  "model_id": "eleven_v3",
+  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
+  "playback_rate": 1.0,
+  "pad_lead_s": 1.0,
+  "pad_trail_s": 1.5,
+  "source_text_hash": "d3241ff93f2a26878a633deaae91bc043636c241d719fb3e84f7e4c7e1b170b6",
+  "transcript": [
+    "Money is not the objective. Freedom is. Money is simply stored choice. It allows you to leave, wait, help, recover, invest, and refuse.",
+    "The first purpose of money is not luxury. It is resilience. Build enough margin that one bad month cannot dictate your entire future. Keep your personal costs sensible. Avoid debt that purchases appearances. Save before spending. Invest before upgrading.",
+    "Do not confuse revenue with wealth. Do not confuse wealth with status. The person displaying the most may own the least.",
+    "Build income that is not tied entirely to your physical presence. Own assets. Own equity. Own useful intellectual property. Let your past work continue producing value after the working day ends.",
+    "Money should make your life larger, not your ego louder. Use it to buy time, health, mobility, generosity, and the right to choose your next move carefully."
+  ],
+  "alignment_loss": 0.04299799739210694,
   "words": [
     {
-      "word": "Money",
+      "text": "Money",
       "start": 1.199,
       "end": 1.5,
       "loss": 0.33078880310058595
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 1.639,
       "end": 1.719,
       "loss": 0.0009517669677734375
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 1.839,
       "end": 2.059,
       "loss": 0.0011343955993652344
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 2.2,
       "end": 2.24,
       "loss": 0.0004876454671223958
     },
     {
-      "word": "objective.",
+      "text": "objective.",
       "start": 2.279,
       "end": 2.859,
       "loss": 0.12918267250061036
     },
     {
-      "word": "Freedom",
+      "text": "Freedom",
       "start": 3.319,
       "end": 3.819,
       "loss": 0.002188307898385184
     },
     {
-      "word": "is.",
+      "text": "is.",
       "start": 3.98,
       "end": 4.179,
       "loss": 0.07917277018229167
     },
     {
-      "word": "Money",
+      "text": "Money",
       "start": 4.9,
       "end": 5.179,
       "loss": 0.0033675670623779298
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 5.239,
       "end": 5.339,
       "loss": 0.0005712509155273438
     },
     {
-      "word": "simply",
+      "text": "simply",
       "start": 5.42,
       "end": 5.839,
       "loss": 0.00047383705774943036
     },
     {
-      "word": "stored",
+      "text": "stored",
       "start": 6.399,
       "end": 6.879,
       "loss": 0.019196828206380207
     },
     {
-      "word": "choice.",
+      "text": "choice.",
       "start": 7.099,
       "end": 7.519,
       "loss": 0.012226547513689314
     },
     {
-      "word": "It",
+      "text": "It",
       "start": 7.96,
       "end": 8.039,
       "loss": 0.00045490264892578125
     },
     {
-      "word": "allows",
+      "text": "allows",
       "start": 8.099,
       "end": 8.42,
       "loss": 0.00010035435358683269
     },
     {
-      "word": "you",
+      "text": "you",
       "start": 8.479,
       "end": 8.579,
       "loss": 0.0002193450927734375
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 8.639,
       "end": 8.779,
       "loss": 0.0001590251922607422
     },
     {
-      "word": "leave,",
+      "text": "leave,",
       "start": 8.859,
       "end": 9.239,
       "loss": 0.0027867754300435386
     },
     {
-      "word": "wait,",
+      "text": "wait,",
       "start": 9.599,
       "end": 9.899,
       "loss": 0.0011086225509643554
     },
     {
-      "word": "help,",
+      "text": "help,",
       "start": 10.26,
       "end": 10.559,
       "loss": 0.0029360055923461914
     },
     {
-      "word": "recover,",
+      "text": "recover,",
       "start": 10.88,
       "end": 11.279,
       "loss": 0.00048539042472839355
     },
     {
-      "word": "invest,",
+      "text": "invest,",
       "start": 11.699,
       "end": 12.239,
       "loss": 0.11912448065621513
     },
     {
-      "word": "and",
+      "text": "and",
       "start": 12.799,
       "end": 13.059,
       "loss": 0.00023158391316731772
     },
     {
-      "word": "refuse.",
+      "text": "refuse.",
       "start": 13.279,
       "end": 13.88,
       "loss": 0.029669250760759627
     },
     {
-      "word": "The",
+      "text": "The",
       "start": 14.939,
       "end": 15.059,
       "loss": 0.3516686757405599
     },
     {
-      "word": "first",
+      "text": "first",
       "start": 15.119,
       "end": 15.319,
       "loss": 0.0005710124969482422
     },
     {
-      "word": "purpose",
+      "text": "purpose",
       "start": 15.42,
       "end": 15.659,
       "loss": 8.530276162283761e-05
     },
     {
-      "word": "of",
+      "text": "of",
       "start": 15.719,
       "end": 15.779,
       "loss": 0.0002288818359375
     },
     {
-      "word": "money",
+      "text": "money",
       "start": 15.859,
       "end": 16.119,
       "loss": 0.0003675222396850586
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 16.18,
       "end": 16.279,
       "loss": 0.000576019287109375
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 16.42,
       "end": 16.619,
       "loss": 0.000991503397623698
     },
     {
-      "word": "luxury.",
+      "text": "luxury.",
       "start": 16.739,
       "end": 17.199,
       "loss": 0.18777431760515487
     },
     {
-      "word": "It",
+      "text": "It",
       "start": 17.619,
       "end": 17.699,
       "loss": 0.0018672943115234375
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 17.76,
       "end": 17.859,
       "loss": 0.00036644935607910156
     },
     {
-      "word": "resilience.",
+      "text": "resilience.",
       "start": 17.959,
       "end": 18.739,
       "loss": 0.007089896635575728
     },
     {
-      "word": "Build",
+      "text": "Build",
       "start": 19.399,
       "end": 19.639,
       "loss": 0.0006023883819580078
     },
     {
-      "word": "enough",
+      "text": "enough",
       "start": 19.68,
       "end": 19.92,
       "loss": 0.00017273426055908203
     },
     {
-      "word": "margin",
+      "text": "margin",
       "start": 20.039,
       "end": 20.42,
       "loss": 0.00043024619420369464
     },
     {
-      "word": "that",
+      "text": "that",
       "start": 20.459,
       "end": 20.579,
       "loss": 0.00040709972381591797
     },
     {
-      "word": "one",
+      "text": "one",
       "start": 20.76,
       "end": 20.959,
       "loss": 0.0016077359517415364
     },
     {
-      "word": "bad",
+      "text": "bad",
       "start": 21.119,
       "end": 21.379,
       "loss": 0.0014959971110026042
     },
     {
-      "word": "month",
+      "text": "month",
       "start": 21.479,
       "end": 21.739,
       "loss": 0.00047342777252197267
     },
     {
-      "word": "cannot",
+      "text": "cannot",
       "start": 21.939,
       "end": 22.299,
       "loss": 0.0007868210474650065
     },
     {
-      "word": "dictate",
+      "text": "dictate",
       "start": 22.34,
       "end": 22.799,
       "loss": 0.0001983642578125
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 22.84,
       "end": 22.939,
       "loss": 0.00027501583099365234
     },
     {
-      "word": "entire",
+      "text": "entire",
       "start": 23.0,
       "end": 23.579,
       "loss": 0.0003568132718404134
     },
     {
-      "word": "future.",
+      "text": "future.",
       "start": 23.659,
       "end": 24.019,
       "loss": 0.00467371940612793
     },
     {
-      "word": "Keep",
+      "text": "Keep",
       "start": 24.659,
       "end": 24.84,
       "loss": 0.00028446316719055176
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 24.899,
       "end": 25.059,
       "loss": 0.00037479400634765625
     },
     {
-      "word": "personal",
+      "text": "personal",
       "start": 25.159,
       "end": 25.559,
       "loss": 0.00017927587032318115
     },
     {
-      "word": "costs",
+      "text": "costs",
       "start": 25.719,
       "end": 26.159,
       "loss": 0.001691436767578125
     },
     {
-      "word": "sensible.",
+      "text": "sensible.",
       "start": 26.239,
       "end": 26.76,
       "loss": 0.013211568196614584
     },
     {
-      "word": "Avoid",
+      "text": "Avoid",
       "start": 27.299,
       "end": 27.719,
       "loss": 0.0006170511245727539
     },
     {
-      "word": "debt",
+      "text": "debt",
       "start": 27.899,
       "end": 28.199,
       "loss": 0.000540316104888916
     },
     {
-      "word": "that",
+      "text": "that",
       "start": 28.239,
       "end": 28.399,
       "loss": 0.00023025274276733398
     },
     {
-      "word": "purchases",
+      "text": "purchases",
       "start": 28.459,
       "end": 28.939,
       "loss": 0.0004063049952189128
     },
     {
-      "word": "appearances.",
+      "text": "appearances.",
       "start": 29.0,
       "end": 29.799,
       "loss": 0.005827118953069051
     },
     {
-      "word": "Save",
+      "text": "Save",
       "start": 30.559,
       "end": 31.139,
       "loss": 0.0019178390502929688
     },
     {
-      "word": "before",
+      "text": "before",
       "start": 31.199,
       "end": 31.519,
       "loss": 0.0003105004628499349
     },
     {
-      "word": "spending.",
+      "text": "spending.",
       "start": 31.639,
       "end": 32.159,
       "loss": 0.024865137206183538
     },
     {
-      "word": "Invest",
+      "text": "Invest",
       "start": 32.52,
       "end": 33.239,
       "loss": 0.0017258326212565105
     },
     {
-      "word": "before",
+      "text": "before",
       "start": 33.459,
       "end": 33.88,
       "loss": 0.000630637009938558
     },
     {
-      "word": "upgrading.",
+      "text": "upgrading.",
       "start": 34.099,
       "end": 34.839,
       "loss": 0.001851356029510498
     },
     {
-      "word": "Do",
+      "text": "Do",
       "start": 35.619,
       "end": 35.759,
       "loss": 0.1223602294921875
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 35.84,
       "end": 36.04,
       "loss": 0.0006614526112874349
     },
     {
-      "word": "confuse",
+      "text": "confuse",
       "start": 36.099,
       "end": 36.619,
       "loss": 0.00015762874058314731
     },
     {
-      "word": "revenue",
+      "text": "revenue",
       "start": 36.759,
       "end": 37.499,
       "loss": 0.0008143867765154157
     },
     {
-      "word": "with",
+      "text": "with",
       "start": 37.559,
       "end": 37.739,
       "loss": 0.00017398595809936523
     },
     {
-      "word": "wealth.",
+      "text": "wealth.",
       "start": 37.819,
       "end": 38.159,
       "loss": 0.045662215777805874
     },
     {
-      "word": "Do",
+      "text": "Do",
       "start": 38.419,
       "end": 38.5,
       "loss": 0.00218963623046875
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 38.599,
       "end": 38.739,
       "loss": 0.0007496674855550131
     },
     {
-      "word": "confuse",
+      "text": "confuse",
       "start": 38.84,
       "end": 39.299,
       "loss": 0.0001710312707083566
     },
     {
-      "word": "wealth",
+      "text": "wealth",
       "start": 39.459,
       "end": 39.979,
       "loss": 0.0011092424392700195
     },
     {
-      "word": "with",
+      "text": "with",
       "start": 40.04,
       "end": 40.159,
       "loss": 0.00014147162437438965
     },
     {
-      "word": "status.",
+      "text": "status.",
       "start": 40.319,
       "end": 40.899,
       "loss": 0.003776482173374721
     },
     {
-      "word": "The",
+      "text": "The",
       "start": 41.5,
       "end": 41.599,
       "loss": 0.001144091288248698
     },
     {
-      "word": "person",
+      "text": "person",
       "start": 41.659,
       "end": 41.979,
       "loss": 0.0001542369524637858
     },
     {
-      "word": "displaying",
+      "text": "displaying",
       "start": 42.099,
       "end": 42.7,
       "loss": 0.0003067135810852051
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 42.739,
       "end": 42.819,
       "loss": 0.0006040732065836588
     },
     {
-      "word": "most",
+      "text": "most",
       "start": 42.879,
       "end": 43.159,
       "loss": 0.0003654956817626953
     },
     {
-      "word": "may",
+      "text": "may",
       "start": 43.259,
       "end": 43.539,
       "loss": 0.0005012353261311849
     },
     {
-      "word": "own",
+      "text": "own",
       "start": 43.579,
       "end": 44.019,
       "loss": 0.00079345703125
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 44.059,
       "end": 44.139,
       "loss": 0.0010538101196289062
     },
     {
-      "word": "least.",
+      "text": "least.",
       "start": 44.259,
       "end": 44.659,
       "loss": 0.010772705078125
     },
     {
-      "word": "Build",
+      "text": "Build",
       "start": 45.639,
       "end": 45.979,
       "loss": 0.056217002868652347
     },
     {
-      "word": "income",
+      "text": "income",
       "start": 46.059,
       "end": 46.52,
       "loss": 0.0013921062151590984
     },
     {
-      "word": "that",
+      "text": "that",
       "start": 46.559,
       "end": 46.639,
       "loss": 0.0003185272216796875
     },
     {
-      "word": "is",
+      "text": "is",
       "start": 46.7,
       "end": 46.799,
       "loss": 0.00031876564025878906
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 46.86,
       "end": 47.079,
       "loss": 0.0001273949940999349
     },
     {
-      "word": "tied",
+      "text": "tied",
       "start": 47.159,
       "end": 47.5,
       "loss": 0.0005033016204833984
     },
     {
-      "word": "entirely",
+      "text": "entirely",
       "start": 47.559,
       "end": 48.079,
       "loss": 0.00022868812084197998
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 48.18,
       "end": 48.259,
       "loss": 0.001180410385131836
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 48.299,
       "end": 48.479,
       "loss": 0.00026488304138183594
     },
     {
-      "word": "physical",
+      "text": "physical",
       "start": 48.539,
       "end": 48.959,
       "loss": 0.0002688467502593994
     },
     {
-      "word": "presence.",
+      "text": "presence.",
       "start": 49.02,
       "end": 49.479,
       "loss": 0.027140458424886067
     },
     {
-      "word": "Own",
+      "text": "Own",
       "start": 49.959,
       "end": 50.219,
       "loss": 0.005343119303385417
     },
     {
-      "word": "assets.",
+      "text": "assets.",
       "start": 50.319,
       "end": 50.839,
       "loss": 0.24832723821912492
     },
     {
-      "word": "Own",
+      "text": "Own",
       "start": 51.139,
       "end": 51.419,
       "loss": 0.016187032063802082
     },
     {
-      "word": "equity.",
+      "text": "equity.",
       "start": 51.52,
       "end": 51.999,
       "loss": 0.026492442403520857
     },
     {
-      "word": "Own",
+      "text": "Own",
       "start": 52.36,
       "end": 52.879,
       "loss": 0.0094451904296875
     },
     {
-      "word": "useful",
+      "text": "useful",
       "start": 53.039,
       "end": 53.519,
       "loss": 0.0009685953458150228
     },
     {
-      "word": "intellectual",
+      "text": "intellectual",
       "start": 53.579,
       "end": 54.279,
       "loss": 0.0004252890745798747
     },
     {
-      "word": "property.",
+      "text": "property.",
       "start": 54.36,
       "end": 54.819,
       "loss": 0.003058579232957628
     },
     {
-      "word": "Let",
+      "text": "Let",
       "start": 55.619,
       "end": 55.779,
       "loss": 0.0014855066935221355
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 55.84,
       "end": 56.039,
       "loss": 0.0003929734230041504
     },
     {
-      "word": "past",
+      "text": "past",
       "start": 56.119,
       "end": 56.52,
       "loss": 0.0004851818084716797
     },
     {
-      "word": "work",
+      "text": "work",
       "start": 56.579,
       "end": 56.939,
       "loss": 0.000145643949508667
     },
     {
-      "word": "continue",
+      "text": "continue",
       "start": 57.0,
       "end": 57.5,
       "loss": 0.000376284122467041
     },
     {
-      "word": "producing",
+      "text": "producing",
       "start": 57.559,
       "end": 58.099,
       "loss": 0.00021645757887098525
     },
     {
-      "word": "value",
+      "text": "value",
       "start": 58.18,
       "end": 58.819,
       "loss": 0.00020148754119873047
     },
     {
-      "word": "after",
+      "text": "after",
       "start": 58.959,
       "end": 59.219,
       "loss": 0.00020756721496582032
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 59.259,
       "end": 59.34,
       "loss": 0.0005737145741780599
     },
     {
-      "word": "working",
+      "text": "working",
       "start": 59.399,
       "end": 59.759,
       "loss": 0.0006247588566371373
     },
     {
-      "word": "day",
+      "text": "day",
       "start": 59.819,
       "end": 60.099,
       "loss": 0.00031061967213948566
     },
     {
-      "word": "ends.",
+      "text": "ends.",
       "start": 60.219,
       "end": 60.659,
       "loss": 0.001634073257446289
     },
     {
-      "word": "Money",
+      "text": "Money",
       "start": 61.819,
       "end": 62.319,
       "loss": 0.14345459938049315
     },
     {
-      "word": "should",
+      "text": "should",
       "start": 62.359,
       "end": 62.539,
       "loss": 0.0003084540367126465
     },
     {
-      "word": "make",
+      "text": "make",
       "start": 62.599,
       "end": 62.799,
       "loss": 0.0002091825008392334
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 62.859,
       "end": 63.0,
       "loss": 0.0004226863384246826
     },
     {
-      "word": "life",
+      "text": "life",
       "start": 63.059,
       "end": 63.479,
       "loss": 0.0011126995086669922
     },
     {
-      "word": "larger,",
+      "text": "larger,",
       "start": 63.559,
       "end": 64.079,
       "loss": 0.0169698851449149
     },
     {
-      "word": "not",
+      "text": "not",
       "start": 64.68,
       "end": 64.859,
       "loss": 0.0008613268534342448
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 64.919,
       "end": 65.119,
       "loss": 0.00016170740127563477
     },
     {
-      "word": "ego",
+      "text": "ego",
       "start": 65.279,
       "end": 65.759,
       "loss": 0.0025415420532226562
     },
     {
-      "word": "louder.",
+      "text": "louder.",
       "start": 65.839,
       "end": 66.319,
       "loss": 0.0051866258893694195
     },
     {
-      "word": "Use",
+      "text": "Use",
       "start": 67.099,
       "end": 67.239,
       "loss": 0.0009549458821614584
     },
     {
-      "word": "it",
+      "text": "it",
       "start": 67.299,
       "end": 67.4,
       "loss": 0.00047206878662109375
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 67.439,
       "end": 67.559,
       "loss": 0.000507354736328125
     },
     {
-      "word": "buy",
+      "text": "buy",
       "start": 67.619,
       "end": 67.9,
       "loss": 0.0007926623026529948
     },
     {
-      "word": "time,",
+      "text": "time,",
       "start": 67.979,
       "end": 68.439,
       "loss": 0.003650665283203125
     },
     {
-      "word": "health,",
+      "text": "health,",
       "start": 68.699,
       "end": 69.259,
       "loss": 0.004376121929713658
     },
     {
-      "word": "mobility,",
+      "text": "mobility,",
       "start": 69.319,
       "end": 69.919,
       "loss": 0.0009598467085096571
     },
     {
-      "word": "generosity,",
+      "text": "generosity,",
       "start": 70.199,
       "end": 70.899,
       "loss": 0.02653158794749867
     },
     {
-      "word": "and",
+      "text": "and",
       "start": 71.26,
       "end": 71.379,
       "loss": 0.0002911885579427083
     },
     {
-      "word": "the",
+      "text": "the",
       "start": 71.4,
       "end": 71.519,
       "loss": 0.0004525184631347656
     },
     {
-      "word": "right",
+      "text": "right",
       "start": 71.58,
       "end": 71.86,
       "loss": 0.00027265548706054685
     },
     {
-      "word": "to",
+      "text": "to",
       "start": 71.9,
       "end": 72.099,
       "loss": 0.0005335807800292969
     },
     {
-      "word": "choose",
+      "text": "choose",
       "start": 72.159,
       "end": 72.499,
       "loss": 0.00030418237050374347
     },
     {
-      "word": "your",
+      "text": "your",
       "start": 72.559,
       "end": 72.76,
       "loss": 0.0003064274787902832
     },
     {
-      "word": "next",
+      "text": "next",
       "start": 72.799,
       "end": 73.139,
       "loss": 0.0003724992275238037
     },
     {
-      "word": "move",
+      "text": "move",
       "start": 73.26,
       "end": 73.919,
       "loss": 0.0005553960800170898
     },
     {
-      "word": "carefully.",
+      "text": "carefully.",
       "start": 74.019,
       "end": 74.479,
       "loss": 0.006764984130859375
@@ -857,36 +869,36 @@
       "text": "Money is not the objective. Freedom is. Money is simply stored choice. It allows you to leave, wait, help, recover, invest, and refuse.",
       "start": 1.199,
       "end": 13.88,
-      "wordStart": 0,
-      "wordEnd": 22
+      "word_start": 0,
+      "word_end": 22
     },
     {
       "text": "The first purpose of money is not luxury. It is resilience. Build enough margin that one bad month cannot dictate your entire future. Keep your personal costs sensible. Avoid debt that purchases appearances. Save before spending. Invest before upgrading.",
       "start": 14.939,
       "end": 34.839,
-      "wordStart": 23,
-      "wordEnd": 61
+      "word_start": 23,
+      "word_end": 61
     },
     {
       "text": "Do not confuse revenue with wealth. Do not confuse wealth with status. The person displaying the most may own the least.",
       "start": 35.619,
       "end": 44.659,
-      "wordStart": 62,
-      "wordEnd": 82
+      "word_start": 62,
+      "word_end": 82
     },
     {
       "text": "Build income that is not tied entirely to your physical presence. Own assets. Own equity. Own useful intellectual property. Let your past work continue producing value after the working day ends.",
       "start": 45.639,
       "end": 60.659,
-      "wordStart": 83,
-      "wordEnd": 113
+      "word_start": 83,
+      "word_end": 113
     },
     {
       "text": "Money should make your life larger, not your ego louder. Use it to buy time, health, mobility, generosity, and the right to choose your next move carefully.",
       "start": 61.819,
       "end": 74.479,
-      "wordStart": 114,
-      "wordEnd": 140
+      "word_start": 114,
+      "word_end": 140
     }
   ],
   "coverage": {
@@ -902,15 +914,23 @@
     "line_count_match": true,
     "consecutive_same_tokens": []
   },
-  "pad_lead_s": 1.0,
-  "pad_trail_s": 1.5,
-  "source": "elevenlabs_forced_alignment",
-  "model_id": "eleven_v3",
-  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
-  "source_text_hash": "d3241ff93f2a26878a633deaae91bc043636c241d719fb3e84f7e4c7e1b170b6",
-  "playback_rate": 1.0,
+  "audio": "/audio/money.mp3",
+  "duration": 76.02,
   "loudness": {
     "integrated_lufs": -16.49,
     "true_peak_dbtp": -1.79
-  }
+  },
+  "edge": {
+    "opening_silence_s": 1.092,
+    "closing_silence_s": 1.501,
+    "peak_linear": 0.8137,
+    "avg_dbfs": -16.89,
+    "clipping_ratio": 0.0,
+    "opening_ok": true,
+    "ending_ok": true,
+    "no_clip": true,
+    "has_speech": true
+  },
+  "frozen_text": "Money is not the objective. Freedom is. Money is simply stored choice. It allows you to leave, wait, help, recover, invest, and refuse.\nThe first purpose of money is not luxury. It is resilience. Build enough margin that one bad month cannot dictate your entire future. Keep your personal costs sensible. Avoid debt that purchases appearances. Save before spending. Invest before upgrading.\nDo not confuse revenue with wealth. Do not confuse wealth with status. The person displaying the most may own the least.\nBuild income that is not tied entirely to your physical presence. Own assets. Own equity. Own useful intellectual property. Let your past work continue producing value after the working day ends.\nMoney should make your life larger, not your ego louder. Use it to buy time, health, mobility, generosity, and the right to choose your next move carefully.",
+  "generation_text": "[thoughtful] Money is not the objective. Freedom is. Money is simply stored choice. It allows you to leave, wait, help, recover, invest, and refuse.\n\n[composed] The first purpose of money is not luxury. It is resilience. Build enough margin that one bad month cannot dictate your entire future. Keep your personal costs sensible. Avoid debt that purchases appearances. Save before spending. Invest before upgrading.\n\n[firmer] Do not confuse revenue with wealth. Do not confuse wealth with status. The person displaying the most may own the least.\n\n[measured] Build income that is not tied entirely to your physical presence. Own assets. Own equity. Own useful intellectual property. Let your past work continue producing value after the working day ends.\n\n[warmly] Money should make your life larger, not your ego louder. Use it to buy time, health, mobility, generosity, and the right to choose your next move carefully."
 }

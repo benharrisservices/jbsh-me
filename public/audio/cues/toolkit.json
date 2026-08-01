@@ -1,0 +1,1344 @@
+{
+  "id": "toolkit",
+  "audio": "/audio/toolkit.mp3",
+  "duration": 100.58,
+  "wordCount": 210,
+  "lineCount": 7,
+  "words": [
+    {
+      "word": "Everything",
+      "start": 1.159,
+      "end": 1.5,
+      "loss": 0.14046300649642945
+    },
+    {
+      "word": "until",
+      "start": 1.539,
+      "end": 1.799,
+      "loss": 0.005319857597351074
+    },
+    {
+      "word": "now",
+      "start": 1.919,
+      "end": 2.159,
+      "loss": 0.0005942980448404948
+    },
+    {
+      "word": "has",
+      "start": 2.22,
+      "end": 2.339,
+      "loss": 0.0016123453776041667
+    },
+    {
+      "word": "been",
+      "start": 2.399,
+      "end": 2.639,
+      "loss": 0.00030368566513061523
+    },
+    {
+      "word": "principle.",
+      "start": 2.899,
+      "end": 3.46,
+      "loss": 0.08850066661834717
+    },
+    {
+      "word": "This",
+      "start": 4.639,
+      "end": 4.799,
+      "loss": 0.002001345157623291
+    },
+    {
+      "word": "final",
+      "start": 4.9,
+      "end": 5.179,
+      "loss": 0.00032227039337158204
+    },
+    {
+      "word": "section",
+      "start": 5.259,
+      "end": 5.759,
+      "loss": 0.00018067019326346262
+    },
+    {
+      "word": "is",
+      "start": 5.859,
+      "end": 6.059,
+      "loss": 0.0002894401550292969
+    },
+    {
+      "word": "equipment.",
+      "start": 6.46,
+      "end": 7.079,
+      "loss": 0.06012723445892334
+    },
+    {
+      "word": "Your",
+      "start": 7.98,
+      "end": 8.059,
+      "loss": 0.0031714439392089844
+    },
+    {
+      "word": "domain,",
+      "start": 8.119,
+      "end": 8.579,
+      "loss": 0.01056274345942906
+    },
+    {
+      "word": "your",
+      "start": 9.179,
+      "end": 9.26,
+      "loss": 0.0013607144355773926
+    },
+    {
+      "word": "accounts,",
+      "start": 9.359,
+      "end": 9.88,
+      "loss": 0.0018807384702894422
+    },
+    {
+      "word": "your",
+      "start": 10.159,
+      "end": 10.239,
+      "loss": 0.0009853243827819824
+    },
+    {
+      "word": "tools,",
+      "start": 10.399,
+      "end": 10.88,
+      "loss": 0.06925547122955322
+    },
+    {
+      "word": "and",
+      "start": 11.399,
+      "end": 11.479,
+      "loss": 0.0004214843114217122
+    },
+    {
+      "word": "the",
+      "start": 11.519,
+      "end": 11.579,
+      "loss": 0.00024501482645670575
+    },
+    {
+      "word": "keys",
+      "start": 11.679,
+      "end": 12.0,
+      "loss": 0.0019134283065795898
+    },
+    {
+      "word": "Ben",
+      "start": 12.079,
+      "end": 12.279,
+      "loss": 0.052190144856770836
+    },
+    {
+      "word": "prepared",
+      "start": 12.359,
+      "end": 12.699,
+      "loss": 0.0005361735820770264
+    },
+    {
+      "word": "for",
+      "start": 12.779,
+      "end": 12.859,
+      "loss": 0.00014738241831461588
+    },
+    {
+      "word": "you",
+      "start": 12.92,
+      "end": 13.079,
+      "loss": 0.00018103917439778647
+    },
+    {
+      "word": "are",
+      "start": 13.399,
+      "end": 13.519,
+      "loss": 0.0005312363306681315
+    },
+    {
+      "word": "here.",
+      "start": 13.599,
+      "end": 13.899,
+      "loss": 0.024690866470336914
+    },
+    {
+      "word": "Use",
+      "start": 14.96,
+      "end": 15.119,
+      "loss": 0.0007387797037760416
+    },
+    {
+      "word": "them",
+      "start": 15.159,
+      "end": 15.299,
+      "loss": 0.00014415383338928223
+    },
+    {
+      "word": "carefully.",
+      "start": 15.38,
+      "end": 15.819,
+      "loss": 0.11022111177444457
+    },
+    {
+      "word": "Protect",
+      "start": 16.399,
+      "end": 16.84,
+      "loss": 0.0005475793566022601
+    },
+    {
+      "word": "them",
+      "start": 16.92,
+      "end": 17.059,
+      "loss": 0.00024366378784179688
+    },
+    {
+      "word": "properly.",
+      "start": 17.219,
+      "end": 17.619,
+      "loss": 0.0035813914404975045
+    },
+    {
+      "word": "They",
+      "start": 18.44,
+      "end": 18.52,
+      "loss": 0.0008450746536254883
+    },
+    {
+      "word": "are",
+      "start": 18.559,
+      "end": 18.659,
+      "loss": 0.0001405477523803711
+    },
+    {
+      "word": "not",
+      "start": 18.719,
+      "end": 18.899,
+      "loss": 0.0008090337117513021
+    },
+    {
+      "word": "the",
+      "start": 18.939,
+      "end": 19.02,
+      "loss": 0.00038572152455647785
+    },
+    {
+      "word": "gift",
+      "start": 19.1,
+      "end": 19.359,
+      "loss": 0.0062160491943359375
+    },
+    {
+      "word": "itself.",
+      "start": 19.42,
+      "end": 20.039,
+      "loss": 0.1196143456867763
+    },
+    {
+      "word": "They",
+      "start": 20.539,
+      "end": 20.62,
+      "loss": 0.0004830360412597656
+    },
+    {
+      "word": "are",
+      "start": 20.639,
+      "end": 20.739,
+      "loss": 0.0002487500508626302
+    },
+    {
+      "word": "simply",
+      "start": 20.819,
+      "end": 21.1,
+      "loss": 0.00022902091344197592
+    },
+    {
+      "word": "the",
+      "start": 21.159,
+      "end": 21.219,
+      "loss": 0.0007647673288981119
+    },
+    {
+      "word": "instruments",
+      "start": 21.359,
+      "end": 21.959,
+      "loss": 0.0004472407427701083
+    },
+    {
+      "word": "with",
+      "start": 22.039,
+      "end": 22.139,
+      "loss": 0.0006104707717895508
+    },
+    {
+      "word": "which",
+      "start": 22.199,
+      "end": 22.359,
+      "loss": 0.00022268295288085938
+    },
+    {
+      "word": "you",
+      "start": 22.42,
+      "end": 22.5,
+      "loss": 0.00034046173095703125
+    },
+    {
+      "word": "may",
+      "start": 22.559,
+      "end": 22.659,
+      "loss": 0.0005413293838500977
+    },
+    {
+      "word": "begin.",
+      "start": 22.699,
+      "end": 23.159,
+      "loss": 0.0016512076059977214
+    },
+    {
+      "word": "And",
+      "start": 24.719,
+      "end": 24.799,
+      "loss": 0.09197235107421875
+    },
+    {
+      "word": "now,",
+      "start": 24.859,
+      "end": 25.0,
+      "loss": 0.04500749707221985
+    },
+    {
+      "word": "James,",
+      "start": 25.139,
+      "end": 25.479,
+      "loss": 0.000957489013671875
+    },
+    {
+      "word": "we",
+      "start": 25.939,
+      "end": 26.039,
+      "loss": 0.0015763044357299805
+    },
+    {
+      "word": "reach",
+      "start": 26.079,
+      "end": 26.279,
+      "loss": 9.365081787109375e-05
+    },
+    {
+      "word": "the",
+      "start": 26.319,
+      "end": 26.42,
+      "loss": 0.00031034151713053387
+    },
+    {
+      "word": "part",
+      "start": 26.479,
+      "end": 26.719,
+      "loss": 0.00033801794052124023
+    },
+    {
+      "word": "where",
+      "start": 26.779,
+      "end": 26.92,
+      "loss": 0.0008651256561279297
+    },
+    {
+      "word": "listening",
+      "start": 27.039,
+      "end": 27.5,
+      "loss": 0.0017128255632188586
+    },
+    {
+      "word": "must",
+      "start": 27.579,
+      "end": 27.779,
+      "loss": 0.00022223591804504395
+    },
+    {
+      "word": "become",
+      "start": 27.84,
+      "end": 28.319,
+      "loss": 0.00021149714787801108
+    },
+    {
+      "word": "action.",
+      "start": 28.42,
+      "end": 28.839,
+      "loss": 0.01159054892403739
+    },
+    {
+      "word": "Another",
+      "start": 29.659,
+      "end": 30.019,
+      "loss": 0.0004748446600777762
+    },
+    {
+      "word": "hour",
+      "start": 30.079,
+      "end": 30.359,
+      "loss": 0.0013028085231781006
+    },
+    {
+      "word": "of",
+      "start": 30.399,
+      "end": 30.459,
+      "loss": 0.000667572021484375
+    },
+    {
+      "word": "advice",
+      "start": 30.539,
+      "end": 30.979,
+      "loss": 0.0002219080924987793
+    },
+    {
+      "word": "will",
+      "start": 31.039,
+      "end": 31.139,
+      "loss": 0.0003947019577026367
+    },
+    {
+      "word": "not",
+      "start": 31.199,
+      "end": 31.319,
+      "loss": 0.0003813902537027995
+    },
+    {
+      "word": "improve",
+      "start": 31.379,
+      "end": 31.879,
+      "loss": 0.00011725085122244698
+    },
+    {
+      "word": "what",
+      "start": 31.939,
+      "end": 32.18,
+      "loss": 0.0005741715431213379
+    },
+    {
+      "word": "ten",
+      "start": 32.279,
+      "end": 32.5,
+      "loss": 0.0495685338973999
+    },
+    {
+      "word": "minutes",
+      "start": 32.559,
+      "end": 32.86,
+      "loss": 0.000102060181753976
+    },
+    {
+      "word": "of",
+      "start": 32.899,
+      "end": 33.0,
+      "loss": 0.0004889965057373047
+    },
+    {
+      "word": "movement",
+      "start": 33.079,
+      "end": 33.5,
+      "loss": 0.00019119679927825928
+    },
+    {
+      "word": "can",
+      "start": 33.54,
+      "end": 33.659,
+      "loss": 0.00032528241475423175
+    },
+    {
+      "word": "begin.",
+      "start": 33.719,
+      "end": 34.199,
+      "loss": 0.003373384475708008
+    },
+    {
+      "word": "Before",
+      "start": 35.479,
+      "end": 35.759,
+      "loss": 0.06844834486643474
+    },
+    {
+      "word": "today",
+      "start": 35.799,
+      "end": 36.119,
+      "loss": 0.000416111946105957
+    },
+    {
+      "word": "ends,",
+      "start": 36.219,
+      "end": 36.579,
+      "loss": 0.004681134223937988
+    },
+    {
+      "word": "do",
+      "start": 37.099,
+      "end": 37.319,
+      "loss": 0.0022156238555908203
+    },
+    {
+      "word": "three",
+      "start": 37.399,
+      "end": 37.679,
+      "loss": 0.0006006479263305664
+    },
+    {
+      "word": "things.",
+      "start": 37.739,
+      "end": 38.199,
+      "loss": 0.12619703156607492
+    },
+    {
+      "word": "Go",
+      "start": 38.939,
+      "end": 39.059,
+      "loss": 0.0041942596435546875
+    },
+    {
+      "word": "for",
+      "start": 39.139,
+      "end": 39.2,
+      "loss": 0.00030871232350667316
+    },
+    {
+      "word": "a",
+      "start": 39.239,
+      "end": 39.299,
+      "loss": 0.000579833984375
+    },
+    {
+      "word": "walk.",
+      "start": 39.36,
+      "end": 39.719,
+      "loss": 0.08033027648925781
+    },
+    {
+      "word": "Write",
+      "start": 40.459,
+      "end": 40.719,
+      "loss": 0.0005707740783691406
+    },
+    {
+      "word": "one",
+      "start": 40.819,
+      "end": 41.059,
+      "loss": 0.0012132326761881511
+    },
+    {
+      "word": "page",
+      "start": 41.139,
+      "end": 41.599,
+      "loss": 0.00030028820037841797
+    },
+    {
+      "word": "describing",
+      "start": 41.639,
+      "end": 42.18,
+      "loss": 7.622241973876953e-05
+    },
+    {
+      "word": "the",
+      "start": 42.239,
+      "end": 42.299,
+      "loss": 0.00027521451314290363
+    },
+    {
+      "word": "life",
+      "start": 42.419,
+      "end": 42.7,
+      "loss": 0.00035268068313598633
+    },
+    {
+      "word": "you",
+      "start": 42.759,
+      "end": 42.819,
+      "loss": 0.0003533363342285156
+    },
+    {
+      "word": "are",
+      "start": 42.86,
+      "end": 43.019,
+      "loss": 0.0010772546132405598
+    },
+    {
+      "word": "actually",
+      "start": 43.099,
+      "end": 43.559,
+      "loss": 0.0003017634153366089
+    },
+    {
+      "word": "trying",
+      "start": 43.7,
+      "end": 43.959,
+      "loss": 0.00034429629643758136
+    },
+    {
+      "word": "to",
+      "start": 44.04,
+      "end": 44.159,
+      "loss": 0.0002865791320800781
+    },
+    {
+      "word": "build.",
+      "start": 44.219,
+      "end": 44.579,
+      "loss": 0.013553440570831299
+    },
+    {
+      "word": "Then",
+      "start": 45.319,
+      "end": 45.5,
+      "loss": 0.0007274150848388672
+    },
+    {
+      "word": "call",
+      "start": 45.639,
+      "end": 45.879,
+      "loss": 0.00036844611167907715
+    },
+    {
+      "word": "somebody",
+      "start": 45.939,
+      "end": 46.279,
+      "loss": 0.0002778768539428711
+    },
+    {
+      "word": "you",
+      "start": 46.34,
+      "end": 46.5,
+      "loss": 0.000126798947652181
+    },
+    {
+      "word": "care",
+      "start": 46.559,
+      "end": 46.779,
+      "loss": 6.136298179626465e-05
+    },
+    {
+      "word": "about.",
+      "start": 46.86,
+      "end": 47.2,
+      "loss": 0.0025540788968404136
+    },
+    {
+      "word": "Tomorrow,",
+      "start": 47.959,
+      "end": 48.479,
+      "loss": 0.033008191320631236
+    },
+    {
+      "word": "wake",
+      "start": 49.02,
+      "end": 49.219,
+      "loss": 0.0010747909545898438
+    },
+    {
+      "word": "at",
+      "start": 49.279,
+      "end": 49.34,
+      "loss": 0.0004968643188476562
+    },
+    {
+      "word": "a",
+      "start": 49.379,
+      "end": 49.439,
+      "loss": 0.00054168701171875
+    },
+    {
+      "word": "sensible",
+      "start": 49.5,
+      "end": 49.979,
+      "loss": 0.0001729130744934082
+    },
+    {
+      "word": "hour.",
+      "start": 50.039,
+      "end": 50.34,
+      "loss": 0.06613092422485352
+    },
+    {
+      "word": "Train.",
+      "start": 51.059,
+      "end": 51.5,
+      "loss": 0.0882705847422282
+    },
+    {
+      "word": "Read",
+      "start": 52.139,
+      "end": 52.5,
+      "loss": 0.0030174553394317627
+    },
+    {
+      "word": "for",
+      "start": 52.559,
+      "end": 52.659,
+      "loss": 0.00018529097239176431
+    },
+    {
+      "word": "thirty",
+      "start": 52.719,
+      "end": 53.0,
+      "loss": 0.0528250535329183
+    },
+    {
+      "word": "minutes.",
+      "start": 53.059,
+      "end": 53.459,
+      "loss": 0.004901573061943054
+    },
+    {
+      "word": "Build",
+      "start": 54.059,
+      "end": 54.379,
+      "loss": 0.0005034208297729492
+    },
+    {
+      "word": "one",
+      "start": 54.479,
+      "end": 54.799,
+      "loss": 0.0006195704142252604
+    },
+    {
+      "word": "small",
+      "start": 54.86,
+      "end": 55.299,
+      "loss": 0.00014338493347167968
+    },
+    {
+      "word": "thing",
+      "start": 55.36,
+      "end": 55.919,
+      "loss": 0.0002518177032470703
+    },
+    {
+      "word": "and",
+      "start": 55.979,
+      "end": 56.159,
+      "loss": 0.0006392002105712891
+    },
+    {
+      "word": "finish",
+      "start": 56.239,
+      "end": 56.52,
+      "loss": 0.0001201629638671875
+    },
+    {
+      "word": "it.",
+      "start": 56.579,
+      "end": 56.719,
+      "loss": 0.0032987594604492188
+    },
+    {
+      "word": "It",
+      "start": 57.479,
+      "end": 57.539,
+      "loss": 0.11935138702392578
+    },
+    {
+      "word": "does",
+      "start": 57.579,
+      "end": 57.699,
+      "loss": 0.0006670653820037842
+    },
+    {
+      "word": "not",
+      "start": 57.759,
+      "end": 57.879,
+      "loss": 0.00019892056783040365
+    },
+    {
+      "word": "need",
+      "start": 57.939,
+      "end": 58.099,
+      "loss": 0.0001728832721710205
+    },
+    {
+      "word": "to",
+      "start": 58.139,
+      "end": 58.299,
+      "loss": 0.0005156993865966797
+    },
+    {
+      "word": "change",
+      "start": 58.379,
+      "end": 58.84,
+      "loss": 0.00019037723541259766
+    },
+    {
+      "word": "civilisation",
+      "start": 58.919,
+      "end": 59.699,
+      "loss": 0.11763982971509297
+    },
+    {
+      "word": "by",
+      "start": 59.779,
+      "end": 59.919,
+      "loss": 0.00024449825286865234
+    },
+    {
+      "word": "lunchtime.",
+      "start": 59.979,
+      "end": 60.599,
+      "loss": 0.09564589262008667
+    },
+    {
+      "word": "It",
+      "start": 61.039,
+      "end": 61.139,
+      "loss": 0.0009465217590332031
+    },
+    {
+      "word": "merely",
+      "start": 61.239,
+      "end": 61.539,
+      "loss": 0.0009348392486572266
+    },
+    {
+      "word": "needs",
+      "start": 61.599,
+      "end": 62.019,
+      "loss": 0.0002286672592163086
+    },
+    {
+      "word": "to",
+      "start": 62.079,
+      "end": 62.18,
+      "loss": 0.0003966689109802246
+    },
+    {
+      "word": "exist.",
+      "start": 62.319,
+      "end": 62.939,
+      "loss": 0.002222776412963867
+    },
+    {
+      "word": "Momentum",
+      "start": 63.959,
+      "end": 64.879,
+      "loss": 0.061527520418167114
+    },
+    {
+      "word": "is",
+      "start": 64.959,
+      "end": 65.08,
+      "loss": 0.0003476142883300781
+    },
+    {
+      "word": "more",
+      "start": 65.139,
+      "end": 65.319,
+      "loss": 0.00013709068298339844
+    },
+    {
+      "word": "useful",
+      "start": 65.439,
+      "end": 66.0,
+      "loss": 0.00011446078618367513
+    },
+    {
+      "word": "than",
+      "start": 66.04,
+      "end": 66.159,
+      "loss": 0.0001391768455505371
+    },
+    {
+      "word": "motivation.",
+      "start": 66.239,
+      "end": 66.939,
+      "loss": 0.006711396304043857
+    },
+    {
+      "word": "Small",
+      "start": 67.68,
+      "end": 68.119,
+      "loss": 0.0005307674407958984
+    },
+    {
+      "word": "completed",
+      "start": 68.239,
+      "end": 68.779,
+      "loss": 0.0008026229010687934
+    },
+    {
+      "word": "actions",
+      "start": 68.86,
+      "end": 69.299,
+      "loss": 0.0002321004867553711
+    },
+    {
+      "word": "become",
+      "start": 69.36,
+      "end": 69.879,
+      "loss": 0.000308990478515625
+    },
+    {
+      "word": "evidence.",
+      "start": 69.979,
+      "end": 70.519,
+      "loss": 0.003541813956366645
+    },
+    {
+      "word": "Evidence",
+      "start": 71.099,
+      "end": 71.599,
+      "loss": 0.0007310360670089722
+    },
+    {
+      "word": "becomes",
+      "start": 71.639,
+      "end": 72.059,
+      "loss": 0.0003458431788853237
+    },
+    {
+      "word": "confidence.",
+      "start": 72.239,
+      "end": 72.86,
+      "loss": 0.01108129457993941
+    },
+    {
+      "word": "Confidence",
+      "start": 73.36,
+      "end": 73.959,
+      "loss": 0.0005224227905273437
+    },
+    {
+      "word": "becomes",
+      "start": 74.319,
+      "end": 74.619,
+      "loss": 0.00020682811737060547
+    },
+    {
+      "word": "a",
+      "start": 74.68,
+      "end": 74.76,
+      "loss": 0.000843048095703125
+    },
+    {
+      "word": "life",
+      "start": 74.819,
+      "end": 75.119,
+      "loss": 0.0003370046615600586
+    },
+    {
+      "word": "that",
+      "start": 75.199,
+      "end": 75.339,
+      "loss": 0.0007176399230957031
+    },
+    {
+      "word": "once",
+      "start": 75.419,
+      "end": 75.679,
+      "loss": 0.003059089183807373
+    },
+    {
+      "word": "seemed",
+      "start": 75.759,
+      "end": 76.139,
+      "loss": 0.00024648507436116535
+    },
+    {
+      "word": "impossible.",
+      "start": 76.22,
+      "end": 76.879,
+      "loss": 0.0005076690153642135
+    },
+    {
+      "word": "Ben",
+      "start": 78.379,
+      "end": 78.58,
+      "loss": 0.1732813517252604
+    },
+    {
+      "word": "asked",
+      "start": 78.639,
+      "end": 78.819,
+      "loss": 0.0009490251541137695
+    },
+    {
+      "word": "me",
+      "start": 78.879,
+      "end": 78.959,
+      "loss": 0.0003134012222290039
+    },
+    {
+      "word": "to",
+      "start": 79.0,
+      "end": 79.08,
+      "loss": 0.0008630752563476562
+    },
+    {
+      "word": "tell",
+      "start": 79.139,
+      "end": 79.279,
+      "loss": 9.390711784362793e-05
+    },
+    {
+      "word": "you",
+      "start": 79.319,
+      "end": 79.479,
+      "loss": 0.00017042954762776694
+    },
+    {
+      "word": "one",
+      "start": 79.559,
+      "end": 79.899,
+      "loss": 0.00040260950724283856
+    },
+    {
+      "word": "final",
+      "start": 79.979,
+      "end": 80.399,
+      "loss": 0.00013577938079833984
+    },
+    {
+      "word": "thing.",
+      "start": 80.459,
+      "end": 80.839,
+      "loss": 0.11733420689900716
+    },
+    {
+      "word": "He",
+      "start": 81.72,
+      "end": 81.779,
+      "loss": 0.007648468017578125
+    },
+    {
+      "word": "is",
+      "start": 81.839,
+      "end": 82.019,
+      "loss": 0.0002703666687011719
+    },
+    {
+      "word": "proud",
+      "start": 82.099,
+      "end": 82.359,
+      "loss": 0.00034132003784179685
+    },
+    {
+      "word": "of",
+      "start": 82.4,
+      "end": 82.519,
+      "loss": 0.00017976760864257812
+    },
+    {
+      "word": "you.",
+      "start": 82.559,
+      "end": 82.68,
+      "loss": 0.07528528571128845
+    },
+    {
+      "word": "More",
+      "start": 83.559,
+      "end": 83.819,
+      "loss": 0.003192901611328125
+    },
+    {
+      "word": "than",
+      "start": 83.86,
+      "end": 83.979,
+      "loss": 0.0008182227611541748
+    },
+    {
+      "word": "he",
+      "start": 84.04,
+      "end": 84.18,
+      "loss": 0.0009655952453613281
+    },
+    {
+      "word": "probably",
+      "start": 84.22,
+      "end": 84.659,
+      "loss": 0.00013184547424316406
+    },
+    {
+      "word": "says,",
+      "start": 84.739,
+      "end": 85.159,
+      "loss": 0.09009685516357421
+    },
+    {
+      "word": "and",
+      "start": 85.779,
+      "end": 85.879,
+      "loss": 0.0016960700352986653
+    },
+    {
+      "word": "certainly",
+      "start": 85.959,
+      "end": 86.299,
+      "loss": 0.00026550557878282334
+    },
+    {
+      "word": "more",
+      "start": 86.36,
+      "end": 86.54,
+      "loss": 0.00034621357917785645
+    },
+    {
+      "word": "than",
+      "start": 86.58,
+      "end": 86.679,
+      "loss": 0.0005806088447570801
+    },
+    {
+      "word": "you",
+      "start": 86.739,
+      "end": 86.839,
+      "loss": 0.0005168914794921875
+    },
+    {
+      "word": "sometimes",
+      "start": 86.9,
+      "end": 87.36,
+      "loss": 0.0003578927781846788
+    },
+    {
+      "word": "allow",
+      "start": 87.479,
+      "end": 87.699,
+      "loss": 0.0005413770675659179
+    },
+    {
+      "word": "yourself",
+      "start": 87.739,
+      "end": 88.139,
+      "loss": 0.0001957416534423828
+    },
+    {
+      "word": "to",
+      "start": 88.18,
+      "end": 88.259,
+      "loss": 0.00028514862060546875
+    },
+    {
+      "word": "believe.",
+      "start": 88.299,
+      "end": 88.819,
+      "loss": 0.0012440681457519531
+    },
+    {
+      "word": "Now",
+      "start": 90.04,
+      "end": 90.219,
+      "loss": 0.11734390258789062
+    },
+    {
+      "word": "make",
+      "start": 90.279,
+      "end": 90.519,
+      "loss": 0.00036472082138061523
+    },
+    {
+      "word": "leaving",
+      "start": 90.619,
+      "end": 91.0,
+      "loss": 0.0002110004425048828
+    },
+    {
+      "word": "that",
+      "start": 91.059,
+      "end": 91.279,
+      "loss": 0.0007252693176269531
+    },
+    {
+      "word": "job",
+      "start": 91.36,
+      "end": 91.879,
+      "loss": 0.0009061495463053385
+    },
+    {
+      "word": "the",
+      "start": 91.939,
+      "end": 92.139,
+      "loss": 0.000690460205078125
+    },
+    {
+      "word": "best",
+      "start": 92.199,
+      "end": 92.459,
+      "loss": 0.0003733336925506592
+    },
+    {
+      "word": "decision",
+      "start": 92.519,
+      "end": 92.979,
+      "loss": 7.662177085876465e-05
+    },
+    {
+      "word": "you",
+      "start": 93.079,
+      "end": 93.319,
+      "loss": 0.00041786829630533856
+    },
+    {
+      "word": "ever",
+      "start": 93.419,
+      "end": 93.639,
+      "loss": 0.001157909631729126
+    },
+    {
+      "word": "made.",
+      "start": 93.699,
+      "end": 94.039,
+      "loss": 0.007802009582519531
+    },
+    {
+      "word": "The",
+      "start": 94.72,
+      "end": 94.779,
+      "loss": 0.002780914306640625
+    },
+    {
+      "word": "next",
+      "start": 94.819,
+      "end": 95.019,
+      "loss": 0.0007475018501281738
+    },
+    {
+      "word": "chapter",
+      "start": 95.119,
+      "end": 95.419,
+      "loss": 0.0035938535417829242
+    },
+    {
+      "word": "is",
+      "start": 95.479,
+      "end": 95.579,
+      "loss": 0.0009164810180664062
+    },
+    {
+      "word": "not",
+      "start": 95.619,
+      "end": 95.759,
+      "loss": 0.0004558563232421875
+    },
+    {
+      "word": "in",
+      "start": 95.839,
+      "end": 96.0,
+      "loss": 0.002941131591796875
+    },
+    {
+      "word": "here.",
+      "start": 96.059,
+      "end": 96.319,
+      "loss": 0.1899877071380615
+    },
+    {
+      "word": "It",
+      "start": 96.619,
+      "end": 96.699,
+      "loss": 0.0030517578125
+    },
+    {
+      "word": "is",
+      "start": 96.759,
+      "end": 96.979,
+      "loss": 0.0006666183471679688
+    },
+    {
+      "word": "out",
+      "start": 97.059,
+      "end": 97.359,
+      "loss": 0.002208073933919271
+    },
+    {
+      "word": "there.",
+      "start": 97.439,
+      "end": 98.279,
+      "loss": 0.011660893758138021
+    },
+    {
+      "word": "Go",
+      "start": 98.339,
+      "end": 98.559,
+      "loss": 0.003841400146484375
+    },
+    {
+      "word": "build",
+      "start": 98.639,
+      "end": 98.879,
+      "loss": 0.0039020538330078124
+    },
+    {
+      "word": "it.",
+      "start": 98.939,
+      "end": 99.039,
+      "loss": 0.12153116861979167
+    }
+  ],
+  "lines": [
+    {
+      "text": "Everything until now has been principle. This final section is equipment. Your domain, your accounts, your tools, and the keys Ben prepared for you are here. Use them carefully. Protect them properly. They are not the gift itself. They are simply the instruments with which you may begin.",
+      "start": 1.159,
+      "end": 23.159,
+      "wordStart": 0,
+      "wordEnd": 47
+    },
+    {
+      "text": "And now, James, we reach the part where listening must become action. Another hour of advice will not improve what ten minutes of movement can begin.",
+      "start": 24.719,
+      "end": 34.199,
+      "wordStart": 48,
+      "wordEnd": 73
+    },
+    {
+      "text": "Before today ends, do three things. Go for a walk. Write one page describing the life you are actually trying to build. Then call somebody you care about. Tomorrow, wake at a sensible hour. Train. Read for thirty minutes. Build one small thing and finish it.",
+      "start": 35.479,
+      "end": 56.719,
+      "wordStart": 74,
+      "wordEnd": 119
+    },
+    {
+      "text": "It does not need to change civilisation by lunchtime. It merely needs to exist.",
+      "start": 57.479,
+      "end": 62.939,
+      "wordStart": 120,
+      "wordEnd": 133
+    },
+    {
+      "text": "Momentum is more useful than motivation. Small completed actions become evidence. Evidence becomes confidence. Confidence becomes a life that once seemed impossible.",
+      "start": 63.959,
+      "end": 76.879,
+      "wordStart": 134,
+      "wordEnd": 155
+    },
+    {
+      "text": "Ben asked me to tell you one final thing. He is proud of you. More than he probably says, and certainly more than you sometimes allow yourself to believe.",
+      "start": 78.379,
+      "end": 88.819,
+      "wordStart": 156,
+      "wordEnd": 184
+    },
+    {
+      "text": "Now make leaving that job the best decision you ever made. The next chapter is not in here. It is out there. Go build it.",
+      "start": 90.04,
+      "end": 99.039,
+      "wordStart": 185,
+      "wordEnd": 209
+    }
+  ],
+  "coverage": {
+    "ok": true,
+    "expected_word_count": 210,
+    "aligned_word_count": 210,
+    "missing_normalized": [],
+    "in_order_matched": true,
+    "count_match": true,
+    "strictly_increasing_words": true,
+    "strictly_increasing_lines": true,
+    "no_overlap_invalid": true,
+    "line_count_match": true,
+    "consecutive_same_tokens": []
+  },
+  "pad_lead_s": 1.0,
+  "pad_trail_s": 1.5,
+  "source": "elevenlabs_forced_alignment",
+  "model_id": "eleven_v3",
+  "voice_id": "Gsndh0O5AnuI2Hj3YUlA",
+  "source_text_hash": "c6a56dd2f9d167d0651023acca483931fcb95bae4780b1710910c79eea175877",
+  "playback_rate": 1.0,
+  "loudness": {
+    "integrated_lufs": -16.44,
+    "true_peak_dbtp": -1.92
+  }
+}
