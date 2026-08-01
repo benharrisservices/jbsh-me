@@ -6,11 +6,11 @@ import { useAudio } from "@/components/providers/audio-provider";
 
 /**
  * Tracks which chapter is in view and keeps the global audio player in sync.
- * Exactly one chapter is active at any time. The player is revealed the moment
- * the reader leaves the hero and enters the narrated body.
+ * Exactly one chapter is active at any time. The player is revealed only after
+ * the reader starts narration from the hero play control.
  */
 export function useChapterScroll() {
-  const { setActiveChapter, unlockPlayer } = useAudio();
+  const { setActiveChapter, unlockPlayer, narrationStarted } = useAudio();
 
   useEffect(() => {
     const elements = chapters
@@ -27,12 +27,12 @@ export function useChapterScroll() {
 
         const id = visible[0].target.id;
         setActiveChapter(id);
-        if (id !== "welcome") unlockPlayer();
+        if (narrationStarted && id !== "welcome") unlockPlayer();
       },
       { threshold: [0.35, 0.5, 0.65], rootMargin: "-10% 0px -10% 0px" },
     );
 
     elements.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
-  }, [setActiveChapter, unlockPlayer]);
+  }, [setActiveChapter, unlockPlayer, narrationStarted]);
 }

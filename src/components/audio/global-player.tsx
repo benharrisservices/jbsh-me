@@ -18,6 +18,7 @@ export function GlobalPlayer() {
     playerVisible,
     chapterTitle,
     playing,
+    prerolling,
     toggle,
     seek,
     progress,
@@ -28,6 +29,7 @@ export function GlobalPlayer() {
   } = useAudio();
 
   const canPlay = activeChapterId !== "welcome" && !missing;
+  const live = playing || prerolling;
 
   return (
     <>
@@ -46,13 +48,13 @@ export function GlobalPlayer() {
             className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-foreground/70 transition-colors hover:text-foreground disabled:opacity-30"
             aria-label={
               canPlay
-                ? playing
+                ? live
                   ? `Pause ${chapterTitle}`
                   : `Play ${chapterTitle}`
                 : chapterTitle
             }
           >
-            {playing ? (
+            {live ? (
               <Pause className="h-3 w-3" />
             ) : (
               <Play className="h-3 w-3 translate-x-[0.5px]" />
@@ -68,7 +70,7 @@ export function GlobalPlayer() {
           <ReactiveWaveform
             levels={levels}
             progress={progress}
-            playing={playing}
+            playing={live}
             onSeek={seek}
             className="w-16 sm:w-20"
             barCount={24}

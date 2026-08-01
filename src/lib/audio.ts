@@ -53,3 +53,43 @@ export function narrationAudioSrc(chapterId: string): string {
 export function narrationCueSrc(chapterId: string): string {
   return `/audio/cues/${chapterId}.json`;
 }
+
+/**
+ * Deliberate silence before the first phoneme on explicit user starts.
+ * Not applied to automatic chapter advances.
+ */
+export const NARRATION_PREROLL_MS = 1500;
+
+/** Wait until the media element can start playback cleanly. */
+export function waitForAudioCanPlay(
+  audio: HTMLAudioElement,
+  timeoutMs = 8000,
+): Promise<void> {
+  if (audio.readyState >= HTMLMediaElement.HAVE_FUTURE_DATA) {
+    return Promise.resolve();
+  }
+  return new Promise((resolve, reject) => {
+    const onReady = () => {
+      cleanup();
+      resolve();
+    };
+    const onError = () => {
+      cleanup();
+      reject(new Error("Audio failed to load"));
+    };
+    const timer = window.setTimeout(() => {
+      cleanup();
+      if (audio.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) resolve();
+      else reject(new Error("Audio load timeout"));
+    }, timeoutMs);
+    const cleanup = () => {
+      window.clearTimeout(timer);
+      audio.removeEventListener("canplay", onReady);
+      audio.removeEventListener("canplaythrough", onReady);
+      audio.removeEventListener("error", onError);
+    };
+    audio.addEventListener("canplay", onReady, { once: true });
+    audio.addEventListener("canplaythrough", onReady, { once: true });
+    audio.addEventListener("error", onError, { once: true });
+  });
+}

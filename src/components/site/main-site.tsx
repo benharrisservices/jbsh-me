@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { AudioProvider } from "@/components/providers/audio-provider";
 import { GlobalPlayer } from "@/components/audio/global-player";
 import { useChapterScroll } from "@/hooks/use-chapter-scroll";
@@ -62,6 +63,10 @@ function MainContent() {
 }
 
 export function MainSite() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" as ScrollBehavior });
+  }, []);
+
   return (
     <AudioProvider>
       <MainContent />

@@ -153,6 +153,20 @@ export function activeLineIndex(cues: ChapterCues, currentTime: number): number 
   return -1;
 }
 
+/**
+ * Highest line whose start has been reached. Monotonic for progressive reveal
+ * so pauses between cues never hide already-spoken lines.
+ */
+export function revealedLineIndex(cues: ChapterCues, currentTime: number): number {
+  const lines = cues.lines!;
+  let revealed = -1;
+  for (let i = 0; i < lines.length; i++) {
+    if (currentTime >= lines[i].start) revealed = i;
+  }
+  if (revealed < 0) return 0;
+  return revealed;
+}
+
 export function activeWordIndex(cues: ChapterCues, currentTime: number): number {
   const words = cues.words;
   if (!words?.length || currentTime <= 0) return -1;

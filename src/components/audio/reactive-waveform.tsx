@@ -9,6 +9,8 @@ interface ReactiveWaveformProps {
   onSeek?: (fraction: number) => void;
   className?: string;
   barCount?: number;
+  /** Use light bars on dark surfaces (intro). */
+  onDark?: boolean;
 }
 
 export function ReactiveWaveform({
@@ -18,6 +20,7 @@ export function ReactiveWaveform({
   onSeek,
   className,
   barCount = 32,
+  onDark = false,
 }: ReactiveWaveformProps) {
   const bars = levels.length ? levels : Array(barCount).fill(0.25);
 
@@ -62,7 +65,13 @@ export function ReactiveWaveform({
             key={i}
             className={cn(
               "w-[1.5px] rounded-full transition-all duration-150 ease-out",
-              played ? "bg-foreground/65" : "bg-foreground/18",
+              onDark
+                ? played
+                  ? "bg-white/70"
+                  : "bg-white/20"
+                : played
+                  ? "bg-foreground/65"
+                  : "bg-foreground/18",
             )}
             style={{
               height: `${height * 100}%`,

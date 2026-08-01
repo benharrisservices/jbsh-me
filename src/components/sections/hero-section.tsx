@@ -1,9 +1,13 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
+import { Play } from "lucide-react";
 import { SITE } from "@/lib/constants";
+import { useAudio } from "@/components/providers/audio-provider";
 
 export function HeroSection() {
+  const { narrationStarted, startNarration } = useAudio();
+
   const handleDoubleClick = () => {
     const handler = (window as unknown as Record<string, () => void>)
       .__jbshLogoDblClick;
@@ -44,19 +48,47 @@ export function HeroSection() {
           {SITE.tagline}
         </motion.p>
 
-        <motion.div
-          className="mt-24 flex justify-center md:mt-28"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1.2, delay: 1.2 }}
-        >
-          <motion.div
-            className="h-10 w-px bg-foreground/12"
-            animate={{ scaleY: [1, 0.45, 1], opacity: [0.4, 0.15, 0.4] }}
-            transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut" }}
-            style={{ transformOrigin: "top" }}
-          />
-        </motion.div>
+        <div className="mt-16 flex justify-center md:mt-20">
+          <AnimatePresence mode="wait">
+            {!narrationStarted ? (
+              <motion.button
+                key="hero-play"
+                type="button"
+                onClick={startNarration}
+                initial={{ opacity: 0, scale: 0.94 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.96, y: 6 }}
+                transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
+                className="flex h-20 w-20 items-center justify-center rounded-full border border-foreground/12 bg-foreground/[0.04] text-foreground/70 shadow-[0_8px_40px_rgba(0,0,0,0.06)] backdrop-blur-md transition-colors hover:border-foreground/20 hover:bg-foreground/[0.07] hover:text-foreground md:h-24 md:w-24 dark:shadow-[0_8px_40px_rgba(0,0,0,0.35)]"
+                aria-label="Play narration"
+              >
+                <Play
+                  className="h-6 w-6 translate-x-[1.5px] md:h-7 md:w-7"
+                  strokeWidth={1.25}
+                />
+              </motion.button>
+            ) : (
+              <motion.div
+                key="hero-line"
+                className="flex h-20 items-start justify-center md:h-24"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.8 }}
+              >
+                <motion.div
+                  className="h-10 w-px bg-foreground/12"
+                  animate={{ scaleY: [1, 0.45, 1], opacity: [0.4, 0.15, 0.4] }}
+                  transition={{
+                    duration: 3.5,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                  }}
+                  style={{ transformOrigin: "top" }}
+                />
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
       </div>
     </section>
   );

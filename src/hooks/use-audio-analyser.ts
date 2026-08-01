@@ -60,9 +60,19 @@ export function useAudioAnalyser(
           const idx = Math.floor((i / BAR_COUNT) * data.length);
           return 0.18 + (data[idx] / 255) * 0.82;
         });
-        setLevels(next);
+        // During pre-roll the element is silent — keep a restrained idle.
+        const energy = next.reduce((a, b) => a + b, 0) / next.length;
+        if (energy < 0.22) {
+          const t = tickRef.current * 0.035;
+          setLevels(
+            Array.from({ length: BAR_COUNT }, (_, i) => {
+              return 0.2 + Math.sin(i * 0.4 + t) * 0.06;
+            }),
+          );
+        } else {
+          setLevels(next);
+        }
       } else if (playing) {
-        // Gentle idle motion for silent placeholders
         const t = tickRef.current * 0.04;
         setLevels(
           Array.from({ length: BAR_COUNT }, (_, i) => {

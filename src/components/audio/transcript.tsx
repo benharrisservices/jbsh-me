@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef } from "react";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import type { ChapterCues } from "@/lib/cues";
 import {
@@ -9,6 +9,7 @@ import {
   activeWordIndex,
   hasProductionLineCues,
   hasProductionWordCues,
+  revealedLineIndex,
 } from "@/lib/cues";
 
 interface TranscriptProps {
@@ -18,10 +19,15 @@ interface TranscriptProps {
   /** Production cue JSON; when valid, drives all highlighting. */
   cues?: ChapterCues | null;
   /** 0–1 progress (kept for callers; highlighting uses cue timing only). */
-  progress: number;
+  progress?: number;
   playing: boolean;
   active?: boolean;
   className?: string;
+  /**
+   * When true (default), only spoken lines are shown.
+   * Future lines stay fully hidden until their cue time.
+   */
+  progressive?: boolean;
 }
 
 export function Transcript({
@@ -31,15 +37,28 @@ export function Transcript({
   playing,
   active = true,
   className,
+  progressive = true,
 }: TranscriptProps) {
   const activeRef = useRef<HTMLParagraphElement | null>(null);
   const useProduction = active && hasProductionLineCues(cues);
   const useWords = useProduction && hasProductionWordCues(cues);
 
   const activeIndex = useMemo(() => {
-    if (!active || !useProduction || !cues) return -1;
-    return activeLineIndex(cues, currentTime);
-  }, [active, useProduction, cues, currentTime]);
+    if (!active) return -1;
+    if (useProduction && cues) {
+      const speaking = activeLineIndex(cues, currentTime);
+      const revealed = revealedLineIndex(cues, currentTime);
+      // During pauses between cues, keep the last revealed line dominant.
+      return speaking >= 0 ? speaking : revealed;
+    }
+    return progressive ? 0 : -1;
+  }, [active, useProduction, cues, currentTime, progressive]);
+
+  const revealIndex = useMemo(() => {
+    if (!active) return -1;
+    if (useProduction && cues) return revealedLineIndex(cues, currentTime);
+    return progressive ? 0 : lines.length - 1;
+  }, [active, useProduction, cues, currentTime, progressive, lines.length]);
 
   const activeWord = useMemo(() => {
     if (!useWords || !cues || currentTime <= 0) return -1;
@@ -91,33 +110,37 @@ export function Transcript({
     });
   };
 
+  const visibleLines = progressive
+    ? lines.map((line, i) => ({ line, i })).filter(({ i }) => i <= revealIndex)
+    : lines.map((line, i) => ({ line, i }));
+
   return (
     <div className={cn("space-y-4 md:space-y-5", className)}>
-      {lines.map((line, i) => {
-        const isActive = active && i === activeIndex;
-        const isPast = active && activeIndex >= 0 && i < activeIndex;
-        const opacity = isActive ? 1 : isPast ? 0.32 : 0.48;
+      <AnimatePresence initial={false}>
+        {visibleLines.map(({ line, i }) => {
+          const isActive = active && i === activeIndex;
+          const isPast = active && activeIndex >= 0 && i < activeIndex;
+          const opacity = isActive ? 1 : isPast ? 0.34 : 0;
 
-        return (
-          <motion.p
-            key={i}
-            ref={isActive ? activeRef : null}
-            initial={{ opacity: 0, y: 8 }}
-            whileInView={{ y: 0 }}
-            viewport={{ once: true, margin: "-40px" }}
-            animate={{ opacity: useWords && isActive ? 1 : opacity }}
-            transition={{
-              opacity: { duration: 1.1, ease: [0.25, 0.1, 0.25, 1] },
-              y: { duration: 0.45, ease: [0.25, 0.1, 0.25, 1] },
-            }}
-            className={cn(
-              "text-foreground text-xl leading-[1.6] font-light tracking-[-0.01em] md:text-2xl md:leading-[1.6]",
-            )}
-          >
-            {useWords && isActive ? renderLineWords(i) : line}
-          </motion.p>
-        );
-      })}
+          return (
+            <motion.p
+              key={i}
+              ref={isActive ? activeRef : null}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: useWords && isActive ? 1 : opacity }}
+              transition={{
+                opacity: { duration: 0.85, ease: [0.25, 0.1, 0.25, 1] },
+                y: { duration: 0.45, ease: [0.25, 0.1, 0.25, 1] },
+              }}
+              className={cn(
+                "text-foreground text-xl leading-[1.6] font-light tracking-[-0.01em] md:text-2xl md:leading-[1.6]",
+              )}
+            >
+              {useWords && isActive ? renderLineWords(i) : line}
+            </motion.p>
+          );
+        })}
+      </AnimatePresence>
     </div>
   );
 }
