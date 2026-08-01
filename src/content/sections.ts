@@ -1,4 +1,4 @@
-import { audioSrc } from "@/lib/audio";
+import { narrationAudioSrc } from "@/lib/audio";
 
 export interface Chapter {
   id: string;
@@ -48,7 +48,7 @@ export function getChapterTitle(id: string): string {
 }
 
 export function getChapterAudioSrc(id: string): string {
-  return audioSrc(id);
+  return narrationAudioSrc(id);
 }
 
 /**

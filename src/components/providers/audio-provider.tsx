@@ -161,6 +161,14 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     if (!audio || missing) return;
     await resumeContext();
     if (audio.paused) {
+      if (
+        audio.ended ||
+        (Number.isFinite(audio.duration) &&
+          audio.currentTime >= audio.duration - 0.05)
+      ) {
+        audio.currentTime = 0;
+        setCurrentTime(0);
+      }
       void audio.play().catch(() => setPlaying(false));
     } else {
       audio.pause();

@@ -3,22 +3,27 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useAudio } from "@/components/providers/audio-provider";
+import { useChapterCues } from "@/hooks/use-chapter-cues";
 import { finalLetter } from "@/content/letter";
+import { activeLineIndex, hasProductionLineCues } from "@/lib/cues";
+import { estimatedLineIndex } from "@/lib/transcript-timing-estimated";
 import { cn } from "@/lib/utils";
 
 export function FinalLetterSection() {
-  const { activeChapterId, progress, reachedEnd } = useAudio();
+  const { activeChapterId, progress, currentTime, reachedEnd, playing } = useAudio();
   const isActive = activeChapterId === "letter";
+  const { cues } = useChapterCues("letter");
   const [showClosing, setShowClosing] = useState(false);
   const triggeredRef = useRef(false);
 
   const lines = finalLetter.lines;
 
   const activeIndex = useMemo(() => {
-    if (!isActive || progress <= 0) return -1;
-    const idx = Math.floor(progress * lines.length);
-    return Math.min(idx, lines.length - 1);
-  }, [progress, lines.length, isActive]);
+    if (!isActive) return -1;
+    if (hasProductionLineCues(cues)) return activeLineIndex(cues, currentTime);
+    if (progress <= 0 && !playing) return -1;
+    return estimatedLineIndex(lines, progress);
+  }, [isActive, progress, playing, cues, currentTime, lines]);
 
   // The closing screen is a deliberate, once-only moment. It may be reached
   // two ways: by scrolling to the end of the letter, or by the narration

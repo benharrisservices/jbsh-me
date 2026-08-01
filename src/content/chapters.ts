@@ -10,6 +10,8 @@ export interface NarratedChapter {
 /**
  * Narrative chapters. Each maps to an audio file at `/audio/{id}.mp3`.
  * The lines double as the live transcript, highlighted as audio plays.
+ *
+ * Content freeze (v1.0): rewrite only for spoken cadence. Prefer silence.
  */
 export const narratedChapters: Record<string, NarratedChapter> = {
   identity: {
@@ -38,7 +40,8 @@ export const narratedChapters: Record<string, NarratedChapter> = {
     lines: [
       "Freedom is not a yacht.",
       "It is not a postcode.",
-      "It is your time belonging to you.",
+      "It is your time.",
+      "Belonging to you.",
       "Comfort is not the same thing.",
       "A salary feels safe.",
       "Safe is not free.",

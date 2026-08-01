@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { useAudio } from "@/components/providers/audio-provider";
+import { useChapterCues } from "@/hooks/use-chapter-cues";
 import { Transcript } from "@/components/audio/transcript";
 
 interface NarratedSectionProps {
@@ -27,8 +28,9 @@ export function NarratedSection({
   className,
   scrollable = false,
 }: NarratedSectionProps) {
-  const { activeChapterId, progress, playing } = useAudio();
+  const { activeChapterId, progress, playing, currentTime } = useAudio();
   const isActive = activeChapterId === id;
+  const { cues } = useChapterCues(id);
 
   return (
     <section
@@ -62,6 +64,8 @@ export function NarratedSection({
 
         <Transcript
           lines={lines}
+          currentTime={isActive ? currentTime : 0}
+          cues={isActive ? cues : null}
           progress={isActive ? progress : 0}
           playing={isActive && playing}
           active={isActive}

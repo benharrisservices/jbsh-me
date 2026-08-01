@@ -3,9 +3,22 @@
 import { useEffect, useMemo, useRef } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+import type { ChapterCues } from "@/lib/cues";
+import {
+  activeLineIndex,
+  activeWordIndex,
+  hasProductionLineCues,
+  hasProductionWordCues,
+} from "@/lib/cues";
+import { estimatedLineIndex } from "@/lib/transcript-timing-estimated";
 
 interface TranscriptProps {
   lines: string[];
+  /** Playback position in seconds — required when production cues are present. */
+  currentTime?: number;
+  /** Production cue JSON; when valid, drives all highlighting. */
+  cues?: ChapterCues | null;
+  /** 0–1 fallback progress when cues are absent. */
   progress: number;
   playing: boolean;
   active?: boolean;
@@ -14,31 +27,28 @@ interface TranscriptProps {
 
 export function Transcript({
   lines,
+  currentTime = 0,
+  cues,
   progress,
   playing,
   active = true,
   className,
 }: TranscriptProps) {
   const activeRef = useRef<HTMLParagraphElement | null>(null);
-
-  const boundaries = useMemo(() => {
-    const weights = lines.map((l) => Math.max(l.length, 8));
-    const total = weights.reduce((a, b) => a + b, 0) || 1;
-    const cumulative = weights.reduce<number[]>((acc, w) => {
-      const prev = acc.length ? acc[acc.length - 1] : 0;
-      acc.push(prev + w);
-      return acc;
-    }, []);
-    return cumulative.map((c) => c / total);
-  }, [lines]);
+  const useProduction = active && hasProductionLineCues(cues);
+  const useWords = useProduction && hasProductionWordCues(cues);
 
   const activeIndex = useMemo(() => {
-    if (!active || progress <= 0) return -1;
-    for (let i = 0; i < boundaries.length; i++) {
-      if (progress <= boundaries[i]) return i;
-    }
-    return lines.length - 1;
-  }, [progress, boundaries, lines.length, active]);
+    if (!active) return -1;
+    if (useProduction && cues) return activeLineIndex(cues, currentTime);
+    if (progress <= 0 && !playing) return -1;
+    return estimatedLineIndex(lines, progress);
+  }, [active, useProduction, cues, currentTime, lines, progress, playing]);
+
+  const activeWord = useMemo(() => {
+    if (!useWords || !cues || currentTime <= 0) return -1;
+    return activeWordIndex(cues, currentTime);
+  }, [useWords, cues, currentTime]);
 
   useEffect(() => {
     if (!playing || activeIndex < 0) return;
@@ -47,6 +57,43 @@ export function Transcript({
       block: "nearest",
     });
   }, [activeIndex, playing]);
+
+  const renderLineWords = (lineIndex: number) => {
+    if (!useWords || !cues?.words || !cues.lines) {
+      return lines[lineIndex];
+    }
+
+    const line = cues.lines[lineIndex];
+    if (
+      line.word_start == null ||
+      line.word_end == null ||
+      line.word_start > line.word_end
+    ) {
+      return lines[lineIndex];
+    }
+
+    const slice = cues.words.slice(line.word_start, line.word_end + 1);
+    if (!slice.length) return lines[lineIndex];
+
+    return slice.map((word, wi) => {
+      const globalIdx = line.word_start! + wi;
+      const isWordActive = activeWord === globalIdx;
+      const isWordPast = activeWord >= 0 && globalIdx < activeWord;
+      return (
+        <span
+          key={`${lineIndex}-${wi}`}
+          className={cn(
+            isWordActive && "text-foreground",
+            isWordPast && "text-foreground/35",
+            !isWordActive && !isWordPast && "text-foreground/55",
+          )}
+        >
+          {word.text}
+          {wi < slice.length - 1 ? " " : ""}
+        </span>
+      );
+    });
+  };
 
   return (
     <div className={cn("space-y-4 md:space-y-5", className)}>
@@ -62,7 +109,7 @@ export function Transcript({
             initial={{ opacity: 0, y: 8 }}
             whileInView={{ y: 0 }}
             viewport={{ once: true, margin: "-40px" }}
-            animate={{ opacity }}
+            animate={{ opacity: useWords && isActive ? 1 : opacity }}
             transition={{
               opacity: { duration: 1.1, ease: [0.25, 0.1, 0.25, 1] },
               y: { duration: 0.45, ease: [0.25, 0.1, 0.25, 1] },
@@ -71,7 +118,7 @@ export function Transcript({
               "text-foreground text-xl leading-[1.6] font-light tracking-[-0.01em] md:text-2xl md:leading-[1.6]",
             )}
           >
-            {line}
+            {useWords && isActive ? renderLineWords(i) : line}
           </motion.p>
         );
       })}
