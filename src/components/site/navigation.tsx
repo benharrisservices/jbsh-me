@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { chapters } from "@/content/sections";
+import { navigationChapters } from "@/content/sections";
 import { useAudio } from "@/components/providers/audio-provider";
 
 export function Navigation() {
@@ -28,7 +28,7 @@ export function Navigation() {
       transition={{ duration: 0.6 }}
       aria-label="Chapters"
     >
-      {chapters.map((chapter) => {
+      {navigationChapters.map((chapter) => {
         const active = activeChapterId === chapter.id;
         return (
           <button

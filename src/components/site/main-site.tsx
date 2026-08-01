@@ -34,7 +34,6 @@ function MainContent() {
       <Navigation />
       <EasterEggLayer />
       <GlobalPlayer />
-      <FinalScreen />
 
       <main>
         <HeroSection />
@@ -49,6 +48,7 @@ function MainContent() {
         <RelationshipsSection />
         <LegacySection />
         <ToolkitSection />
+        <FinalScreen />
       </main>
     </div>
   );

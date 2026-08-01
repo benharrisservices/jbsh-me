@@ -12,8 +12,11 @@ export interface Chapter {
   hasAudio: boolean;
 }
 
+/** Silent closing viewport after Toolkit — in document flow, not in the side nav. */
+export const CLOSING_SECTION_ID = "closing" as const;
+
 /**
- * Site chapter order: silent hero (welcome) + eleven narrated journey chapters.
+ * Site chapter order: silent hero (welcome) + narrated journey + closing.
  * Navigation, scroll router, and audio player all derive from this.
  */
 export const chapters: Chapter[] = [
@@ -26,11 +29,22 @@ export const chapters: Chapter[] = [
       number: s.number,
       hasAudio: true as const,
     })),
+  {
+    id: CLOSING_SECTION_ID,
+    title: "Closing",
+    number: "12",
+    hasAudio: false,
+  },
 ];
+
+/** Chapters shown in the side navigation (excludes the silent closing screen). */
+export const navigationChapters = chapters.filter(
+  (c) => c.id !== CLOSING_SECTION_ID,
+);
 
 export type ChapterId = (typeof chapters)[number]["id"];
 
-/** Chapters that own a narration track (everything except the silent hero). */
+/** Chapters that own a narration track. */
 export const audioChapters = chapters.filter((c) => c.hasAudio);
 
 export { FIRST_JOURNEY_CHAPTER_ID };
