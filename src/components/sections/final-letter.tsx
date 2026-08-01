@@ -5,12 +5,16 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useAudio } from "@/components/providers/audio-provider";
 import { useChapterCues } from "@/hooks/use-chapter-cues";
 import { finalLetter } from "@/content/letter";
-import { activeLineIndex, hasProductionLineCues, revealedLineIndex } from "@/lib/cues";
+import {
+  hasProductionLineCues,
+  revealedLineIndex,
+  softActiveIndex,
+} from "@/lib/cues";
 import { cn } from "@/lib/utils";
 
 export function FinalLetterSection() {
-  const { activeChapterId, currentTime, reachedEnd } = useAudio();
-  const isActive = activeChapterId === "letter";
+  const { activeChapterId, currentTime, reachedEnd, ready } = useAudio();
+  const isActive = activeChapterId === "letter" && ready;
   const { cues } = useChapterCues("letter");
   const [showClosing, setShowClosing] = useState(false);
   const triggeredRef = useRef(false);
@@ -19,9 +23,7 @@ export function FinalLetterSection() {
 
   const activeIndex = useMemo(() => {
     if (!isActive || !hasProductionLineCues(cues)) return -1;
-    const speaking = activeLineIndex(cues, currentTime);
-    const revealed = revealedLineIndex(cues, currentTime);
-    return speaking >= 0 ? speaking : revealed;
+    return softActiveIndex(cues.lines ?? [], currentTime);
   }, [isActive, cues, currentTime]);
 
   const revealIndex = useMemo(() => {

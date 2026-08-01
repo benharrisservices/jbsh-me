@@ -54,12 +54,6 @@ export function narrationCueSrc(chapterId: string): string {
   return `/audio/cues/${chapterId}.json`;
 }
 
-/**
- * Deliberate silence before the first phoneme on explicit chapter starts.
- * Not applied to automatic chapter advances. Welcome uses file-level lead-in.
- */
-export const NARRATION_PREROLL_MS = 1500;
-
 /** Consistent narration tempo across intro and chapters. */
 export const NARRATION_PLAYBACK_RATE = 1.2;
 

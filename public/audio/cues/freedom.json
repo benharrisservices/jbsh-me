@@ -1,7 +1,7 @@
 {
  "id": "freedom",
  "audio": "/audio/freedom.mp3",
- "duration": 37.59,
+ "duration": 38.84,
  "loudness": {
   "integrated_lufs": -16.93,
   "true_peak_dbtp": -2.18,
@@ -12,446 +12,449 @@
  "words": [
   {
    "word": "Freedom",
-   "start": 0.019,
-   "end": 0.439
+   "start": 0.519,
+   "end": 0.939
   },
   {
    "word": "is",
-   "start": 0.819,
-   "end": 0.979
+   "start": 1.319,
+   "end": 1.479
   },
   {
    "word": "not",
-   "start": 1.12,
-   "end": 1.36
+   "start": 1.62,
+   "end": 1.86
   },
   {
    "word": "a",
-   "start": 1.559,
-   "end": 1.579
+   "start": 2.059,
+   "end": 2.079
   },
   {
    "word": "yacht.",
-   "start": 1.699,
-   "end": 2.059
+   "start": 2.199,
+   "end": 2.559
   },
   {
    "word": "It",
-   "start": 2.919,
-   "end": 2.96
+   "start": 3.419,
+   "end": 3.46
   },
   {
    "word": "is",
-   "start": 3.019,
-   "end": 3.119
+   "start": 3.519,
+   "end": 3.619
   },
   {
    "word": "not",
-   "start": 3.159,
-   "end": 3.259
+   "start": 3.659,
+   "end": 3.759
   },
   {
    "word": "a",
-   "start": 3.319,
-   "end": 3.339
+   "start": 3.819,
+   "end": 3.839
   },
   {
    "word": "postcode.",
-   "start": 3.439,
-   "end": 4.159
+   "start": 3.939,
+   "end": 4.659
   },
   {
    "word": "It",
-   "start": 5.019,
-   "end": 5.159
+   "start": 5.519,
+   "end": 5.659
   },
   {
    "word": "is",
-   "start": 5.239,
-   "end": 5.44
+   "start": 5.739,
+   "end": 5.94
   },
   {
    "word": "your",
-   "start": 5.699,
-   "end": 5.879
+   "start": 6.199,
+   "end": 6.379
   },
   {
    "word": "time",
-   "start": 6.059,
-   "end": 6.539
+   "start": 6.559,
+   "end": 7.039
   },
   {
    "word": "belonging",
-   "start": 6.879,
-   "end": 7.5
+   "start": 7.379,
+   "end": 8.0
   },
   {
    "word": "to",
-   "start": 7.719,
-   "end": 7.819
+   "start": 8.219,
+   "end": 8.319
   },
   {
    "word": "you.",
-   "start": 7.96,
-   "end": 8.3
+   "start": 8.46,
+   "end": 8.8
   },
   {
    "word": "Comfort",
-   "start": 9.46,
-   "end": 10.0
+   "start": 9.96,
+   "end": 10.5
   },
   {
    "word": "is",
-   "start": 10.219,
-   "end": 10.32
+   "start": 10.719,
+   "end": 10.82
   },
   {
    "word": "not",
-   "start": 10.38,
-   "end": 10.539
+   "start": 10.88,
+   "end": 11.039
   },
   {
    "word": "the",
-   "start": 10.579,
-   "end": 10.64
+   "start": 11.079,
+   "end": 11.14
   },
   {
    "word": "same",
-   "start": 10.739,
-   "end": 10.92
+   "start": 11.239,
+   "end": 11.42
   },
   {
    "word": "thing.",
-   "start": 11.039,
-   "end": 11.38
+   "start": 11.539,
+   "end": 11.88
   },
   {
    "word": "A",
-   "start": 12.079,
-   "end": 12.179
+   "start": 12.579,
+   "end": 12.679
   },
   {
    "word": "salary",
-   "start": 12.259,
-   "end": 12.719
+   "start": 12.759,
+   "end": 13.219
   },
   {
    "word": "feels",
-   "start": 12.799,
-   "end": 13.199
+   "start": 13.299,
+   "end": 13.699
   },
   {
    "word": "safe.",
-   "start": 13.479,
-   "end": 13.819
+   "start": 13.979,
+   "end": 14.319
   },
   {
    "word": "Safe",
-   "start": 14.739,
-   "end": 15.159
-  },
-  {
-   "word": "is",
-   "start": 15.519,
+   "start": 15.239,
    "end": 15.659
   },
   {
+   "word": "is",
+   "start": 16.019,
+   "end": 16.159
+  },
+  {
    "word": "not",
-   "start": 15.779,
-   "end": 16.059
+   "start": 16.279,
+   "end": 16.559
   },
   {
    "word": "free.",
-   "start": 16.399,
-   "end": 16.84
+   "start": 16.899,
+   "end": 17.34
   },
   {
    "word": "You",
-   "start": 17.84,
-   "end": 17.899
+   "start": 18.34,
+   "end": 18.399
   },
   {
    "word": "do",
-   "start": 17.959,
-   "end": 18.02
+   "start": 18.459,
+   "end": 18.52
   },
   {
    "word": "not",
-   "start": 18.079,
-   "end": 18.219
+   "start": 18.579,
+   "end": 18.719
   },
   {
    "word": "need",
-   "start": 18.299,
-   "end": 18.479
+   "start": 18.799,
+   "end": 18.979
   },
   {
    "word": "to",
-   "start": 18.52,
-   "end": 18.619
+   "start": 19.02,
+   "end": 19.119
   },
   {
    "word": "leave",
-   "start": 18.779,
-   "end": 19.059
+   "start": 19.279,
+   "end": 19.559
   },
   {
    "word": "the",
-   "start": 19.119,
-   "end": 19.18
+   "start": 19.619,
+   "end": 19.68
   },
   {
    "word": "country.",
-   "start": 19.299,
-   "end": 19.799
+   "start": 19.799,
+   "end": 20.299
   },
   {
    "word": "You",
-   "start": 20.439,
-   "end": 20.52
+   "start": 20.939,
+   "end": 21.02
   },
   {
    "word": "need",
-   "start": 20.579,
-   "end": 20.819
+   "start": 21.079,
+   "end": 21.319
   },
   {
    "word": "skills",
-   "start": 20.879,
-   "end": 21.619
+   "start": 21.379,
+   "end": 22.119
   },
   {
    "word": "that",
-   "start": 21.68,
-   "end": 21.799
-  },
-  {
-   "word": "travel.",
-   "start": 21.879,
+   "start": 22.18,
    "end": 22.299
   },
   {
+   "word": "travel.",
+   "start": 22.379,
+   "end": 22.799
+  },
+  {
    "word": "Savings",
-   "start": 23.1,
-   "end": 23.779
+   "start": 23.6,
+   "end": 24.279
   },
   {
    "word": "that",
-   "start": 23.84,
-   "end": 23.939
+   "start": 24.34,
+   "end": 24.439
   },
   {
    "word": "buy",
-   "start": 24.039,
-   "end": 24.379
+   "start": 24.539,
+   "end": 24.879
   },
   {
    "word": "choices.",
-   "start": 24.639,
-   "end": 25.239
+   "start": 25.139,
+   "end": 25.739
   },
   {
    "word": "Income",
-   "start": 26.079,
-   "end": 26.619
+   "start": 26.579,
+   "end": 27.119
   },
   {
    "word": "that",
-   "start": 26.859,
-   "end": 26.939
+   "start": 27.359,
+   "end": 27.439
   },
   {
    "word": "does",
-   "start": 27.0,
-   "end": 27.139
+   "start": 27.5,
+   "end": 27.639
   },
   {
    "word": "not",
-   "start": 27.219,
-   "end": 27.399
+   "start": 27.719,
+   "end": 27.899
   },
   {
    "word": "depend",
-   "start": 27.439,
-   "end": 28.0
+   "start": 27.939,
+   "end": 28.5
   },
   {
    "word": "on",
-   "start": 28.079,
-   "end": 28.219
+   "start": 28.579,
+   "end": 28.719
   },
   {
    "word": "one",
-   "start": 28.42,
-   "end": 28.579
+   "start": 28.92,
+   "end": 29.079
   },
   {
    "word": "door.",
-   "start": 28.68,
-   "end": 29.159
+   "start": 29.18,
+   "end": 29.659
   },
   {
    "word": "Freedom",
-   "start": 30.239,
-   "end": 30.699
+   "start": 30.739,
+   "end": 31.199
   },
   {
    "word": "is",
-   "start": 30.879,
-   "end": 31.02
+   "start": 31.379,
+   "end": 31.52
   },
   {
    "word": "built",
-   "start": 31.139,
-   "end": 31.5
+   "start": 31.639,
+   "end": 32.0
   },
   {
    "word": "slowly.",
-   "start": 31.639,
-   "end": 32.119
+   "start": 32.139,
+   "end": 32.619
   },
   {
    "word": "Skill",
-   "start": 32.719,
-   "end": 33.099
+   "start": 33.219,
+   "end": 33.599
   },
   {
    "word": "by",
-   "start": 33.259,
-   "end": 33.419
+   "start": 33.759,
+   "end": 33.919
   },
   {
    "word": "skill.",
-   "start": 33.54,
-   "end": 34.0
+   "start": 34.04,
+   "end": 34.5
   },
   {
    "word": "You",
-   "start": 34.88,
-   "end": 34.959
+   "start": 35.38,
+   "end": 35.459
   },
   {
    "word": "are",
-   "start": 35.04,
-   "end": 35.239
+   "start": 35.54,
+   "end": 35.739
   },
   {
    "word": "already",
-   "start": 35.319,
-   "end": 35.919
+   "start": 35.819,
+   "end": 36.419
   },
   {
    "word": "facing",
-   "start": 35.979,
-   "end": 36.459
+   "start": 36.479,
+   "end": 36.959
   },
   {
    "word": "the",
-   "start": 36.719,
-   "end": 36.799
+   "start": 37.219,
+   "end": 37.299
   },
   {
    "word": "right",
-   "start": 36.939,
-   "end": 37.18
+   "start": 37.439,
+   "end": 37.68
   },
   {
    "word": "way.",
-   "start": 37.279,
-   "end": 37.5
+   "start": 37.779,
+   "end": 38.0
   }
  ],
  "lines": [
   {
    "text": "Freedom is not a yacht.",
-   "start": 0.019,
-   "end": 2.059,
+   "start": 0.519,
+   "end": 2.559,
    "wordStart": 0,
    "wordEnd": 4
   },
   {
    "text": "It is not a postcode.",
-   "start": 2.919,
-   "end": 4.159,
+   "start": 3.419,
+   "end": 4.659,
    "wordStart": 5,
    "wordEnd": 9
   },
   {
    "text": "It is your time belonging to you.",
-   "start": 5.019,
-   "end": 8.3,
+   "start": 5.519,
+   "end": 8.8,
    "wordStart": 10,
    "wordEnd": 16
   },
   {
    "text": "Comfort is not the same thing.",
-   "start": 9.46,
-   "end": 11.38,
+   "start": 9.96,
+   "end": 11.88,
    "wordStart": 17,
    "wordEnd": 22
   },
   {
    "text": "A salary feels safe.",
-   "start": 12.079,
-   "end": 13.819,
+   "start": 12.579,
+   "end": 14.319,
    "wordStart": 23,
    "wordEnd": 26
   },
   {
    "text": "Safe is not free.",
-   "start": 14.739,
-   "end": 16.84,
+   "start": 15.239,
+   "end": 17.34,
    "wordStart": 27,
    "wordEnd": 30
   },
   {
    "text": "You do not need to leave the country.",
-   "start": 17.84,
-   "end": 19.799,
+   "start": 18.34,
+   "end": 20.299,
    "wordStart": 31,
    "wordEnd": 38
   },
   {
    "text": "You need skills that travel.",
-   "start": 20.439,
-   "end": 22.299,
+   "start": 20.939,
+   "end": 22.799,
    "wordStart": 39,
    "wordEnd": 43
   },
   {
    "text": "Savings that buy choices.",
-   "start": 23.1,
-   "end": 25.239,
+   "start": 23.6,
+   "end": 25.739,
    "wordStart": 44,
    "wordEnd": 47
   },
   {
    "text": "Income that does not depend on one door.",
-   "start": 26.079,
-   "end": 29.159,
+   "start": 26.579,
+   "end": 29.659,
    "wordStart": 48,
    "wordEnd": 55
   },
   {
    "text": "Freedom is built slowly.",
-   "start": 30.239,
-   "end": 32.119,
+   "start": 30.739,
+   "end": 32.619,
    "wordStart": 56,
    "wordEnd": 59
   },
   {
    "text": "Skill by skill.",
-   "start": 32.719,
-   "end": 34.0,
+   "start": 33.219,
+   "end": 34.5,
    "wordStart": 60,
    "wordEnd": 62
   },
   {
    "text": "You are already facing the right way.",
-   "start": 34.88,
-   "end": 37.59,
+   "start": 35.38,
+   "end": 38.09,
    "wordStart": 63,
    "wordEnd": 69
   }
- ]
+ ],
+ "edge_lead_s": 0.5,
+ "pad_lead_s": 0.5,
+ "pad_trail_s": 0.75
 }

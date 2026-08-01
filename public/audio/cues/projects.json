@@ -1,7 +1,7 @@
 {
  "id": "projects",
  "audio": "/audio/projects.mp3",
- "duration": 7.497,
+ "duration": 8.747,
  "loudness": {
   "integrated_lufs": -16.94,
   "true_peak_dbtp": -3.59,
@@ -12,101 +12,104 @@
  "words": [
   {
    "word": "Some",
-   "start": 0.079,
-   "end": 0.18
-  },
-  {
-   "word": "of",
-   "start": 0.219,
-   "end": 0.299
-  },
-  {
-   "word": "these",
-   "start": 0.399,
+   "start": 0.579,
    "end": 0.68
   },
   {
+   "word": "of",
+   "start": 0.719,
+   "end": 0.799
+  },
+  {
+   "word": "these",
+   "start": 0.899,
+   "end": 1.18
+  },
+  {
    "word": "exist.",
-   "start": 0.819,
-   "end": 1.5
+   "start": 1.319,
+   "end": 2.0
   },
   {
    "word": "Some",
-   "start": 2.079,
-   "end": 2.559
+   "start": 2.579,
+   "end": 3.059
   },
   {
    "word": "are",
-   "start": 2.639,
-   "end": 2.839
+   "start": 3.139,
+   "end": 3.339
   },
   {
    "word": "invitations.",
-   "start": 2.939,
-   "end": 3.759
+   "start": 3.439,
+   "end": 4.259
   },
   {
    "word": "The",
-   "start": 4.38,
-   "end": 4.46
+   "start": 4.88,
+   "end": 4.96
   },
   {
    "word": "only",
-   "start": 4.579,
-   "end": 4.799
+   "start": 5.079,
+   "end": 5.299
   },
   {
    "word": "missing",
-   "start": 4.92,
-   "end": 5.239
+   "start": 5.42,
+   "end": 5.739
   },
   {
    "word": "variable",
-   "start": 5.339,
-   "end": 5.879
+   "start": 5.839,
+   "end": 6.379
   },
   {
    "word": "is",
-   "start": 6.359,
-   "end": 6.48
+   "start": 6.859,
+   "end": 6.98
   },
   {
    "word": "when",
-   "start": 6.579,
-   "end": 6.859
+   "start": 7.079,
+   "end": 7.359
   },
   {
    "word": "you",
-   "start": 6.94,
-   "end": 7.019
+   "start": 7.44,
+   "end": 7.519
   },
   {
    "word": "start.",
-   "start": 7.159,
-   "end": 7.419
+   "start": 7.659,
+   "end": 7.919
   }
  ],
  "lines": [
   {
    "text": "Some of these exist.",
-   "start": 0.079,
-   "end": 1.5,
+   "start": 0.579,
+   "end": 2.0,
    "wordStart": 0,
    "wordEnd": 3
   },
   {
    "text": "Some are invitations.",
-   "start": 2.079,
-   "end": 3.759,
+   "start": 2.579,
+   "end": 4.259,
    "wordStart": 4,
    "wordEnd": 6
   },
   {
    "text": "The only missing variable is when you start.",
-   "start": 4.38,
-   "end": 7.497,
+   "start": 4.88,
+   "end": 7.997,
    "wordStart": 7,
    "wordEnd": 14
   }
- ]
+ ],
+ "edge_lead_s": 0.5,
+ "pad_lead_s": 0.5,
+ "pad_trail_s": 0.75
 }

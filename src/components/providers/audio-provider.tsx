@@ -14,8 +14,9 @@ import {
   getChapterTitle,
   getNextAudioChapterId,
 } from "@/content/sections";
-import { NARRATION_PREROLL_MS, applyNarrationPlaybackRate, waitForAudioCanPlay } from "@/lib/audio";
+import { applyNarrationPlaybackRate, waitForAudioCanPlay } from "@/lib/audio";
 import { useAudioAnalyser } from "@/hooks/use-audio-analyser";
+import { useAudioClock, waitAnimationFrames } from "@/hooks/use-audio-clock";
 
 interface AudioContextValue {
   audioRef: React.RefObject<HTMLAudioElement | null>;
@@ -37,14 +38,23 @@ interface AudioContextValue {
   seek: (fraction: number) => void;
   setActiveChapter: (id: string) => void;
   unlockPlayer: () => void;
-  /** Hero primary action: pre-roll, then start Identity narration. */
+  /** Hero primary action: start Identity narration (continuous). */
   startNarration: () => void;
 }
 
 const AudioCtx = createContext<AudioContextValue | undefined>(undefined);
 
+/** Brief pause after `ended` before replacing src (trail silence already in file). */
+const CHAPTER_END_SAFETY_MS = 120;
+
 function scrollToChapter(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+}
+
+function delay(ms: number) {
+  return new Promise<void>((resolve) => {
+    window.setTimeout(resolve, ms);
+  });
 }
 
 export function AudioProvider({ children }: { children: React.ReactNode }) {
@@ -57,7 +67,6 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
   const [playing, setPlaying] = useState(false);
   const [ready, setReady] = useState(false);
   const [missing, setMissing] = useState(false);
-  const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const [reachedEnd, setReachedEnd] = useState(false);
 
@@ -65,11 +74,12 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
   const wasPlayingRef = useRef(false);
   const resumeOnLoadRef = useRef(false);
   const advancingRef = useRef(false);
-  const pendingPrerollRef = useRef(false);
-  const prerollGenRef = useRef(0);
+  const pendingStartRef = useRef(false);
+  const startGenRef = useRef(0);
 
   const live = playing || prerolling;
   const { levels, resumeContext } = useAudioAnalyser(audioEl, live);
+  const currentTime = useAudioClock(audioEl, live);
 
   useEffect(() => {
     activeIdRef.current = activeChapterId;
@@ -79,33 +89,67 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     wasPlayingRef.current = playing;
   }, [playing]);
 
-  const playFromStartWithPreroll = useCallback(async () => {
+  /**
+   * Reliable start: metadata/canplay → rate 1.2 → currentTime 0 →
+   * AudioContext → one rAF → play. Never seek after play begins.
+   * No artificial preroll — opening silence lives in the MP3.
+   * When media is already ready, keep awaits minimal so play() stays
+   * inside the user-gesture window.
+   */
+  const startPlaybackReady = useCallback(async () => {
     const audio = audioRef.current;
     if (!audio) return;
-    const gen = ++prerollGenRef.current;
+    const gen = ++startGenRef.current;
 
     try {
-      await waitForAudioCanPlay(audio);
-      if (gen !== prerollGenRef.current) return;
-      await resumeContext();
-      if (gen !== prerollGenRef.current) return;
-      applyNarrationPlaybackRate(audio);
-
-      audio.currentTime = 0;
-      setCurrentTime(0);
       setPrerolling(true);
 
-      await new Promise((r) => setTimeout(r, NARRATION_PREROLL_MS));
-      if (gen !== prerollGenRef.current) return;
+      if (audio.readyState < HTMLMediaElement.HAVE_METADATA) {
+        await new Promise<void>((resolve, reject) => {
+          const onMeta = () => {
+            cleanup();
+            resolve();
+          };
+          const onErr = () => {
+            cleanup();
+            reject(new Error("Audio metadata failed"));
+          };
+          const cleanup = () => {
+            audio.removeEventListener("loadedmetadata", onMeta);
+            audio.removeEventListener("error", onErr);
+          };
+          audio.addEventListener("loadedmetadata", onMeta, { once: true });
+          audio.addEventListener("error", onErr, { once: true });
+        });
+        if (gen !== startGenRef.current) return;
+      }
 
-      await resumeContext();
+      if (audio.readyState < HTMLMediaElement.HAVE_FUTURE_DATA) {
+        await waitForAudioCanPlay(audio);
+        if (gen !== startGenRef.current) return;
+      }
+
+      // Kick AudioContext; don't block play on a slow resume.
+      const ctxReady = resumeContext();
       applyNarrationPlaybackRate(audio);
-      audio.currentTime = 0;
-      setCurrentTime(0);
+      if (audio.currentTime > 0.001) {
+        audio.currentTime = 0;
+      }
+
+      await waitAnimationFrames(1);
+      if (gen !== startGenRef.current) return;
+
+      await ctxReady;
+      if (gen !== startGenRef.current) return;
+
+      applyNarrationPlaybackRate(audio);
       await audio.play();
+      applyNarrationPlaybackRate(audio);
     } catch {
-      setPlaying(false);
-      setPrerolling(false);
+      if (gen === startGenRef.current) {
+        setPlaying(false);
+        setPrerolling(false);
+      }
     }
   }, [resumeContext]);
 
@@ -119,17 +163,16 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       setMissing(false);
       applyNarrationPlaybackRate(audio);
 
-      if (pendingPrerollRef.current) {
-        pendingPrerollRef.current = false;
+      if (pendingStartRef.current) {
+        pendingStartRef.current = false;
         resumeOnLoadRef.current = false;
-        void playFromStartWithPreroll();
+        void startPlaybackReady();
         return;
       }
 
       if (resumeOnLoadRef.current) {
         resumeOnLoadRef.current = false;
-        applyNarrationPlaybackRate(audio);
-        void audio.play().catch(() => setPlaying(false));
+        void startPlaybackReady();
       }
     };
     const onError = () => {
@@ -138,10 +181,10 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       setPlaying(false);
       setPrerolling(false);
       resumeOnLoadRef.current = false;
-      pendingPrerollRef.current = false;
+      pendingStartRef.current = false;
     };
-    const onTime = () => setCurrentTime(audio.currentTime);
     const onPlay = () => {
+      applyNarrationPlaybackRate(audio);
       setPlaying(true);
       setPrerolling(false);
     };
@@ -150,20 +193,27 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     const onEnd = () => {
       setPlaying(false);
       const nextId = getNextAudioChapterId(activeIdRef.current);
-      if (nextId) {
+      if (!nextId) {
+        setReachedEnd(true);
+        return;
+      }
+
+      // Auto-advance only after genuine ended + brief safety margin.
+      const gen = startGenRef.current;
+      void (async () => {
+        await delay(CHAPTER_END_SAFETY_MS);
+        if (gen !== startGenRef.current) return;
         advancingRef.current = true;
         resumeOnLoadRef.current = true;
+        setReady(false);
         setActiveChapterId(nextId);
         scrollToChapter(nextId);
-      } else {
-        setReachedEnd(true);
-      }
+      })();
     };
 
     audio.addEventListener("loadedmetadata", onLoaded);
     audio.addEventListener("canplay", onLoaded);
     audio.addEventListener("error", onError);
-    audio.addEventListener("timeupdate", onTime);
     audio.addEventListener("ended", onEnd);
     audio.addEventListener("play", onPlay);
     audio.addEventListener("pause", onPause);
@@ -172,17 +222,16 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       audio.removeEventListener("loadedmetadata", onLoaded);
       audio.removeEventListener("canplay", onLoaded);
       audio.removeEventListener("error", onError);
-      audio.removeEventListener("timeupdate", onTime);
       audio.removeEventListener("ended", onEnd);
       audio.removeEventListener("play", onPlay);
       audio.removeEventListener("pause", onPause);
     };
-  }, [audioEl, playFromStartWithPreroll]);
+  }, [audioEl, startPlaybackReady]);
 
   // Pause when parked on the silent hero (before narration starts).
   useEffect(() => {
     if (activeChapterId !== "welcome") return;
-    if (pendingPrerollRef.current) return;
+    if (pendingStartRef.current) return;
     audioRef.current?.pause();
   }, [activeChapterId]);
 
@@ -194,29 +243,30 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     const src = getChapterAudioSrc(activeChapterId);
     const current = audio.getAttribute("src") ?? "";
     if (current.endsWith(src)) {
-      if (pendingPrerollRef.current && audio.readyState >= 2) {
-        pendingPrerollRef.current = false;
-        void playFromStartWithPreroll();
+      if (pendingStartRef.current && audio.readyState >= 2) {
+        pendingStartRef.current = false;
+        void startPlaybackReady();
       }
       return;
     }
 
-    if (!advancingRef.current && !pendingPrerollRef.current) {
+    if (!advancingRef.current && !pendingStartRef.current) {
       resumeOnLoadRef.current = wasPlayingRef.current;
     }
     advancingRef.current = false;
 
-    prerollGenRef.current += 1;
+    startGenRef.current += 1;
     setPrerolling(false);
+    setReady(false);
     audio.pause();
+    audio.dataset.chapterId = activeChapterId;
     audio.src = src;
     applyNarrationPlaybackRate(audio);
     audio.load();
-    setCurrentTime(0);
-    if (!resumeOnLoadRef.current && !pendingPrerollRef.current) {
+    if (!resumeOnLoadRef.current && !pendingStartRef.current) {
       setPlaying(false);
     }
-  }, [activeChapterId, audioEl, playFromStartWithPreroll]);
+  }, [activeChapterId, audioEl, startPlaybackReady]);
 
   const toggle = useCallback(async () => {
     const audio = audioRef.current;
@@ -232,28 +282,27 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       const atStart = audio.currentTime < 0.05 || nearEnd;
       if (nearEnd) {
         audio.currentTime = 0;
-        setCurrentTime(0);
       }
       applyNarrationPlaybackRate(audio);
       if (atStart) {
-        void playFromStartWithPreroll();
+        void startPlaybackReady();
       } else {
         void audio.play().catch(() => setPlaying(false));
       }
     } else {
-      prerollGenRef.current += 1;
+      startGenRef.current += 1;
       setPrerolling(false);
       audio.pause();
     }
-  }, [missing, resumeContext, playFromStartWithPreroll]);
+  }, [missing, resumeContext, startPlaybackReady]);
 
   const seek = useCallback(
     (fraction: number) => {
       const audio = audioRef.current;
       if (!audio || !duration || prerolling) return;
       const clamped = Math.min(Math.max(fraction, 0), 1);
+      // Immediate jump — rAF clock + seeked handler recompute active cues.
       audio.currentTime = clamped * duration;
-      setCurrentTime(audio.currentTime);
     },
     [duration, prerolling],
   );
@@ -271,24 +320,28 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     if (narrationStarted) return;
     setNarrationStarted(true);
     setPlayerVisible(true);
-    pendingPrerollRef.current = true;
+    pendingStartRef.current = true;
+    setReady(false);
     scrollToChapter("identity");
 
     const identitySrc = getChapterAudioSrc("identity");
     const audio = audioRef.current;
+    // Unlock audio graph on the gesture so later autoplay/advance can play.
+    void resumeContext();
+
     const alreadyIdentity =
       activeIdRef.current === "identity" &&
       !!audio &&
       (audio.getAttribute("src") ?? "").endsWith(identitySrc);
 
     if (alreadyIdentity) {
-      pendingPrerollRef.current = false;
-      void playFromStartWithPreroll();
+      pendingStartRef.current = false;
+      void startPlaybackReady();
       return;
     }
 
     setActiveChapterId("identity");
-  }, [narrationStarted, playFromStartWithPreroll]);
+  }, [narrationStarted, startPlaybackReady, resumeContext]);
 
   const progress = duration > 0 ? currentTime / duration : 0;
 
@@ -320,7 +373,10 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
         ref={(el) => {
           audioRef.current = el;
           if (el) applyNarrationPlaybackRate(el);
-          setAudioEl(el);
+          // Defer to avoid sync setState-in-render from ref callback churn.
+          if (el !== audioEl) {
+            queueMicrotask(() => setAudioEl(el));
+          }
         }}
         preload="auto"
         className="hidden"

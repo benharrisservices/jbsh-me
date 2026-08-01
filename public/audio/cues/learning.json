@@ -1,7 +1,7 @@
 {
  "id": "learning",
  "audio": "/audio/learning.mp3",
- "duration": 25.652,
+ "duration": 26.902,
  "loudness": {
   "integrated_lufs": -16.94,
   "true_peak_dbtp": -2.49,
@@ -12,350 +12,353 @@
  "words": [
   {
    "word": "You",
-   "start": 0.079,
-   "end": 0.219
+   "start": 0.579,
+   "end": 0.719
   },
   {
    "word": "already",
-   "start": 0.319,
-   "end": 0.74
+   "start": 0.819,
+   "end": 1.24
   },
   {
    "word": "know",
-   "start": 0.799,
-   "end": 1.039
+   "start": 1.299,
+   "end": 1.539
   },
   {
    "word": "how",
-   "start": 1.279,
-   "end": 1.439
+   "start": 1.779,
+   "end": 1.939
   },
   {
    "word": "to",
-   "start": 1.519,
-   "end": 1.62
+   "start": 2.019,
+   "end": 2.12
   },
   {
    "word": "learn.",
-   "start": 1.659,
-   "end": 1.979
+   "start": 2.159,
+   "end": 2.479
   },
   {
    "word": "You",
-   "start": 2.639,
-   "end": 2.74
+   "start": 3.139,
+   "end": 3.24
   },
   {
    "word": "sit",
-   "start": 2.859,
-   "end": 2.98
+   "start": 3.359,
+   "end": 3.48
   },
   {
    "word": "with",
-   "start": 3.019,
-   "end": 3.099
+   "start": 3.519,
+   "end": 3.599
   },
   {
    "word": "a",
-   "start": 3.159,
-   "end": 3.259
+   "start": 3.659,
+   "end": 3.759
   },
   {
    "word": "problem",
-   "start": 3.299,
-   "end": 3.879
+   "start": 3.799,
+   "end": 4.379
   },
   {
    "word": "until",
-   "start": 3.919,
-   "end": 4.139
+   "start": 4.419,
+   "end": 4.639
   },
   {
    "word": "it",
-   "start": 4.179,
-   "end": 4.4
+   "start": 4.679,
+   "end": 4.9
   },
   {
    "word": "gives",
-   "start": 4.48,
-   "end": 4.739
+   "start": 4.98,
+   "end": 5.239
   },
   {
    "word": "in.",
-   "start": 4.819,
-   "end": 5.059
+   "start": 5.319,
+   "end": 5.559
   },
   {
    "word": "Read",
-   "start": 5.9,
-   "end": 6.299
+   "start": 6.4,
+   "end": 6.799
   },
   {
    "word": "every",
-   "start": 6.379,
-   "end": 6.579
+   "start": 6.879,
+   "end": 7.079
   },
   {
    "word": "day.",
-   "start": 6.679,
-   "end": 7.0
+   "start": 7.179,
+   "end": 7.5
   },
   {
    "word": "Ideas",
-   "start": 7.759,
-   "end": 8.139
+   "start": 8.259,
+   "end": 8.639
   },
   {
    "word": "are",
-   "start": 8.179,
-   "end": 8.26
+   "start": 8.679,
+   "end": 8.76
   },
   {
    "word": "the",
-   "start": 8.3,
-   "end": 8.439
+   "start": 8.8,
+   "end": 8.939
   },
   {
    "word": "cheapest",
-   "start": 8.5,
-   "end": 8.88
+   "start": 9.0,
+   "end": 9.38
   },
   {
    "word": "leverage",
-   "start": 8.979,
-   "end": 9.399
+   "start": 9.479,
+   "end": 9.899
   },
   {
    "word": "there",
-   "start": 9.5,
-   "end": 9.679
+   "start": 10.0,
+   "end": 10.179
   },
   {
    "word": "is.",
-   "start": 9.76,
-   "end": 10.059
+   "start": 10.26,
+   "end": 10.559
   },
   {
    "word": "One",
-   "start": 10.899,
-   "end": 11.019
-  },
-  {
-   "word": "book",
-   "start": 11.139,
+   "start": 11.399,
    "end": 11.519
   },
   {
+   "word": "book",
+   "start": 11.639,
+   "end": 12.019
+  },
+  {
    "word": "can",
-   "start": 11.559,
-   "end": 11.72
+   "start": 12.059,
+   "end": 12.22
   },
   {
    "word": "reframe",
-   "start": 11.779,
-   "end": 12.239
+   "start": 12.279,
+   "end": 12.739
   },
   {
    "word": "a",
-   "start": 12.3,
-   "end": 12.38
+   "start": 12.8,
+   "end": 12.88
   },
   {
    "word": "decade.",
-   "start": 12.439,
-   "end": 12.96
+   "start": 12.939,
+   "end": 13.46
   },
   {
    "word": "Read",
-   "start": 14.0,
-   "end": 14.239
+   "start": 14.5,
+   "end": 14.739
   },
   {
    "word": "outside",
-   "start": 14.319,
-   "end": 14.839
+   "start": 14.819,
+   "end": 15.339
   },
   {
    "word": "your",
-   "start": 14.92,
-   "end": 15.079
+   "start": 15.42,
+   "end": 15.579
   },
   {
    "word": "field.",
-   "start": 15.139,
-   "end": 15.5
+   "start": 15.639,
+   "end": 16.0
   },
   {
    "word": "The",
-   "start": 16.18,
-   "end": 16.26
+   "start": 16.68,
+   "end": 16.76
   },
   {
    "word": "best",
-   "start": 16.299,
-   "end": 16.539
+   "start": 16.799,
+   "end": 17.039
   },
   {
    "word": "engineers",
-   "start": 16.639,
-   "end": 17.159
+   "start": 17.139,
+   "end": 17.659
   },
   {
    "word": "are",
-   "start": 17.199,
-   "end": 17.34
+   "start": 17.699,
+   "end": 17.84
   },
   {
    "word": "curious",
-   "start": 17.459,
-   "end": 18.02
+   "start": 17.959,
+   "end": 18.52
   },
   {
    "word": "about",
-   "start": 18.1,
-   "end": 18.319
+   "start": 18.6,
+   "end": 18.819
   },
   {
    "word": "everything.",
-   "start": 18.5,
-   "end": 18.939
+   "start": 19.0,
+   "end": 19.439
   },
   {
    "word": "Write",
-   "start": 19.899,
-   "end": 20.139
+   "start": 20.399,
+   "end": 20.639
   },
   {
    "word": "things",
-   "start": 20.199,
-   "end": 20.44
+   "start": 20.699,
+   "end": 20.94
   },
   {
    "word": "down.",
-   "start": 20.479,
-   "end": 20.899
+   "start": 20.979,
+   "end": 21.399
   },
   {
    "word": "Teach",
-   "start": 21.639,
-   "end": 22.02
+   "start": 22.139,
+   "end": 22.52
   },
   {
    "word": "what",
-   "start": 22.26,
-   "end": 22.42
+   "start": 22.76,
+   "end": 22.92
   },
   {
    "word": "you",
-   "start": 22.479,
-   "end": 22.6
+   "start": 22.979,
+   "end": 23.1
   },
   {
    "word": "learn.",
-   "start": 22.639,
-   "end": 23.019
+   "start": 23.139,
+   "end": 23.519
   },
   {
    "word": "Stay",
-   "start": 24.019,
-   "end": 24.18
+   "start": 24.519,
+   "end": 24.68
   },
   {
    "word": "humble",
-   "start": 24.299,
-   "end": 24.559
-  },
-  {
-   "word": "enough",
-   "start": 24.619,
-   "end": 24.939
-  },
-  {
-   "word": "to",
-   "start": 24.959,
+   "start": 24.799,
    "end": 25.059
   },
   {
+   "word": "enough",
+   "start": 25.119,
+   "end": 25.439
+  },
+  {
+   "word": "to",
+   "start": 25.459,
+   "end": 25.559
+  },
+  {
    "word": "be",
-   "start": 25.079,
-   "end": 25.159
+   "start": 25.579,
+   "end": 25.659
   },
   {
    "word": "wrong.",
-   "start": 25.26,
-   "end": 25.539
+   "start": 25.76,
+   "end": 26.039
   }
  ],
  "lines": [
   {
    "text": "You already know how to learn.",
-   "start": 0.079,
-   "end": 1.979,
+   "start": 0.579,
+   "end": 2.479,
    "wordStart": 0,
    "wordEnd": 5
   },
   {
    "text": "You sit with a problem until it gives in.",
-   "start": 2.639,
-   "end": 5.059,
+   "start": 3.139,
+   "end": 5.559,
    "wordStart": 6,
    "wordEnd": 14
   },
   {
    "text": "Read every day.",
-   "start": 5.9,
-   "end": 7.0,
+   "start": 6.4,
+   "end": 7.5,
    "wordStart": 15,
    "wordEnd": 17
   },
   {
    "text": "Ideas are the cheapest leverage there is.",
-   "start": 7.759,
-   "end": 10.059,
+   "start": 8.259,
+   "end": 10.559,
    "wordStart": 18,
    "wordEnd": 24
   },
   {
    "text": "One book can reframe a decade.",
-   "start": 10.899,
-   "end": 12.96,
+   "start": 11.399,
+   "end": 13.46,
    "wordStart": 25,
    "wordEnd": 30
   },
   {
    "text": "Read outside your field.",
-   "start": 14.0,
-   "end": 15.5,
+   "start": 14.5,
+   "end": 16.0,
    "wordStart": 31,
    "wordEnd": 34
   },
   {
    "text": "The best engineers are curious about everything.",
-   "start": 16.18,
-   "end": 18.939,
+   "start": 16.68,
+   "end": 19.439,
    "wordStart": 35,
    "wordEnd": 41
   },
   {
    "text": "Write things down.",
-   "start": 19.899,
-   "end": 20.899,
+   "start": 20.399,
+   "end": 21.399,
    "wordStart": 42,
    "wordEnd": 44
   },
   {
    "text": "Teach what you learn.",
-   "start": 21.639,
-   "end": 23.019,
+   "start": 22.139,
+   "end": 23.519,
    "wordStart": 45,
    "wordEnd": 48
   },
   {
    "text": "Stay humble enough to be wrong.",
-   "start": 24.019,
-   "end": 25.652,
+   "start": 24.519,
+   "end": 26.152,
    "wordStart": 49,
    "wordEnd": 54
   }
- ]
+ ],
+ "edge_lead_s": 0.5,
+ "pad_lead_s": 0.5,
+ "pad_trail_s": 0.75
 }

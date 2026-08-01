@@ -1,7 +1,7 @@
 {
  "id": "letter",
  "audio": "/audio/letter.mp3",
- "duration": 60.003,
+ "duration": 61.253,
  "loudness": {
   "integrated_lufs": -16.95,
   "true_peak_dbtp": -1.91,
@@ -12,751 +12,754 @@
  "words": [
   {
    "word": "James,",
-   "start": 0.019,
-   "end": 0.519
+   "start": 0.519,
+   "end": 1.019
   },
   {
    "word": "I",
-   "start": 1.299,
-   "end": 1.459
+   "start": 1.799,
+   "end": 1.959
   },
   {
    "word": "put",
-   "start": 1.5,
-   "end": 1.639
+   "start": 2.0,
+   "end": 2.139
   },
   {
    "word": "off",
-   "start": 1.699,
-   "end": 1.899
+   "start": 2.199,
+   "end": 2.399
   },
   {
    "word": "writing",
-   "start": 1.959,
-   "end": 2.259
+   "start": 2.459,
+   "end": 2.759
   },
   {
    "word": "this.",
-   "start": 2.319,
-   "end": 2.559
+   "start": 2.819,
+   "end": 3.059
   },
   {
    "word": "Not",
-   "start": 3.259,
-   "end": 3.48
+   "start": 3.759,
+   "end": 3.98
   },
   {
    "word": "because",
-   "start": 3.519,
-   "end": 3.779
+   "start": 4.019,
+   "end": 4.279
   },
   {
    "word": "I",
-   "start": 3.899,
-   "end": 3.959
+   "start": 4.399,
+   "end": 4.459
   },
   {
    "word": "had",
-   "start": 4.019,
-   "end": 4.159
+   "start": 4.519,
+   "end": 4.659
   },
   {
    "word": "nothing",
-   "start": 4.219,
-   "end": 4.46
+   "start": 4.719,
+   "end": 4.96
   },
   {
    "word": "to",
-   "start": 4.519,
-   "end": 4.619
+   "start": 5.019,
+   "end": 5.119
   },
   {
    "word": "say.",
-   "start": 4.699,
-   "end": 5.0
+   "start": 5.199,
+   "end": 5.5
   },
   {
    "word": "Because",
-   "start": 5.639,
-   "end": 5.859
+   "start": 6.139,
+   "end": 6.359
   },
   {
    "word": "I",
-   "start": 5.98,
-   "end": 6.0
+   "start": 6.48,
+   "end": 6.5
   },
   {
    "word": "wanted",
-   "start": 6.119,
-   "end": 6.339
+   "start": 6.619,
+   "end": 6.839
   },
   {
    "word": "to",
-   "start": 6.379,
-   "end": 6.46
+   "start": 6.879,
+   "end": 6.96
   },
   {
    "word": "get",
-   "start": 6.5,
-   "end": 6.599
+   "start": 7.0,
+   "end": 7.099
   },
   {
    "word": "it",
-   "start": 6.639,
-   "end": 6.739
+   "start": 7.139,
+   "end": 7.239
   },
   {
    "word": "right.",
-   "start": 6.859,
-   "end": 7.159
+   "start": 7.359,
+   "end": 7.659
   },
   {
    "word": "You",
-   "start": 8.0,
-   "end": 8.239
+   "start": 8.5,
+   "end": 8.739
   },
   {
    "word": "are",
-   "start": 8.319,
-   "end": 8.519
+   "start": 8.819,
+   "end": 9.019
   },
   {
    "word": "capable",
-   "start": 8.599,
-   "end": 9.079
+   "start": 9.099,
+   "end": 9.579
   },
   {
    "word": "of",
-   "start": 9.139,
-   "end": 9.239
+   "start": 9.639,
+   "end": 9.739
   },
   {
    "word": "more",
-   "start": 9.38,
-   "end": 9.719
+   "start": 9.88,
+   "end": 10.219
   },
   {
    "word": "than",
-   "start": 9.92,
-   "end": 10.039
+   "start": 10.42,
+   "end": 10.539
   },
   {
    "word": "where",
-   "start": 10.119,
-   "end": 10.319
+   "start": 10.619,
+   "end": 10.819
   },
   {
    "word": "you",
-   "start": 10.42,
-   "end": 10.519
+   "start": 10.92,
+   "end": 11.019
   },
   {
    "word": "are.",
-   "start": 10.659,
-   "end": 10.939
+   "start": 11.159,
+   "end": 11.439
   },
   {
    "word": "I",
-   "start": 11.719,
-   "end": 11.739
+   "start": 12.219,
+   "end": 12.239
   },
   {
    "word": "do",
-   "start": 11.819,
-   "end": 11.92
+   "start": 12.319,
+   "end": 12.42
   },
   {
    "word": "not",
-   "start": 11.96,
-   "end": 12.199
+   "start": 12.46,
+   "end": 12.699
   },
   {
    "word": "say",
-   "start": 12.259,
-   "end": 12.439
+   "start": 12.759,
+   "end": 12.939
   },
   {
    "word": "that",
-   "start": 12.5,
-   "end": 12.719
+   "start": 13.0,
+   "end": 13.219
   },
   {
    "word": "to",
-   "start": 12.759,
-   "end": 12.899
+   "start": 13.259,
+   "end": 13.399
   },
   {
    "word": "cheer",
-   "start": 12.979,
-   "end": 13.199
+   "start": 13.479,
+   "end": 13.699
   },
   {
    "word": "you",
-   "start": 13.279,
-   "end": 13.419
+   "start": 13.779,
+   "end": 13.919
   },
   {
    "word": "on.",
-   "start": 13.519,
-   "end": 13.759
+   "start": 14.019,
+   "end": 14.259
   },
   {
    "word": "I",
-   "start": 14.659,
-   "end": 14.759
+   "start": 15.159,
+   "end": 15.259
   },
   {
    "word": "say",
-   "start": 14.839,
-   "end": 14.979
+   "start": 15.339,
+   "end": 15.479
   },
   {
    "word": "it",
-   "start": 15.039,
-   "end": 15.159
+   "start": 15.539,
+   "end": 15.659
   },
   {
    "word": "because",
-   "start": 15.219,
-   "end": 15.639
+   "start": 15.719,
+   "end": 16.139
   },
   {
    "word": "I",
-   "start": 15.859,
-   "end": 15.899
+   "start": 16.359,
+   "end": 16.399
   },
   {
    "word": "have",
-   "start": 15.96,
-   "end": 16.079
+   "start": 16.46,
+   "end": 16.579
   },
   {
    "word": "watched",
-   "start": 16.219,
-   "end": 16.6
+   "start": 16.719,
+   "end": 17.1
   },
   {
    "word": "you.",
-   "start": 16.68,
-   "end": 16.859
+   "start": 17.18,
+   "end": 17.359
   },
   {
    "word": "You",
-   "start": 17.699,
-   "end": 17.779
+   "start": 18.199,
+   "end": 18.279
   },
   {
    "word": "do",
-   "start": 17.819,
-   "end": 17.899
+   "start": 18.319,
+   "end": 18.399
   },
   {
    "word": "not",
-   "start": 17.959,
-   "end": 18.1
+   "start": 18.459,
+   "end": 18.6
   },
   {
    "word": "need",
-   "start": 18.199,
-   "end": 18.359
+   "start": 18.699,
+   "end": 18.859
   },
   {
    "word": "to",
-   "start": 18.399,
-   "end": 18.459
+   "start": 18.899,
+   "end": 18.959
   },
   {
    "word": "become",
-   "start": 18.52,
-   "end": 19.0
-  },
-  {
-   "word": "someone",
-   "start": 19.239,
+   "start": 19.02,
    "end": 19.5
   },
   {
+   "word": "someone",
+   "start": 19.739,
+   "end": 20.0
+  },
+  {
    "word": "else.",
-   "start": 19.6,
-   "end": 19.899
+   "start": 20.1,
+   "end": 20.399
   },
   {
    "word": "You",
-   "start": 20.639,
-   "end": 20.699
+   "start": 21.139,
+   "end": 21.199
   },
   {
    "word": "need",
-   "start": 20.779,
-   "end": 20.899
+   "start": 21.279,
+   "end": 21.399
   },
   {
    "word": "to",
-   "start": 20.939,
-   "end": 20.979
+   "start": 21.439,
+   "end": 21.479
   },
   {
    "word": "become",
-   "start": 21.039,
-   "end": 21.42
+   "start": 21.539,
+   "end": 21.92
   },
   {
    "word": "more",
-   "start": 21.799,
-   "end": 22.139
+   "start": 22.299,
+   "end": 22.639
   },
   {
    "word": "of",
-   "start": 22.399,
-   "end": 22.519
+   "start": 22.899,
+   "end": 23.019
   },
   {
    "word": "yourself.",
-   "start": 22.6,
-   "end": 23.239
+   "start": 23.1,
+   "end": 23.739
   },
   {
    "word": "You",
-   "start": 24.399,
-   "end": 24.559
+   "start": 24.899,
+   "end": 25.059
   },
   {
    "word": "will",
-   "start": 24.619,
-   "end": 24.84
+   "start": 25.119,
+   "end": 25.34
   },
   {
    "word": "get",
-   "start": 24.92,
-   "end": 25.119
+   "start": 25.42,
+   "end": 25.619
   },
   {
    "word": "things",
-   "start": 25.18,
-   "end": 25.519
+   "start": 25.68,
+   "end": 26.019
   },
   {
    "word": "wrong.",
-   "start": 25.619,
-   "end": 26.0
+   "start": 26.119,
+   "end": 26.5
   },
   {
    "word": "I",
-   "start": 26.739,
-   "end": 26.859
+   "start": 27.239,
+   "end": 27.359
   },
   {
    "word": "have.",
-   "start": 26.959,
-   "end": 27.219
+   "start": 27.459,
+   "end": 27.719
   },
   {
    "word": "The",
-   "start": 27.84,
-   "end": 27.899
-  },
-  {
-   "word": "mistakes",
-   "start": 27.939,
+   "start": 28.34,
    "end": 28.399
   },
   {
-   "word": "that",
+   "word": "mistakes",
    "start": 28.439,
-   "end": 28.559
+   "end": 28.899
+  },
+  {
+   "word": "that",
+   "start": 28.939,
+   "end": 29.059
   },
   {
    "word": "matter",
-   "start": 28.68,
-   "end": 29.139
+   "start": 29.18,
+   "end": 29.639
   },
   {
    "word": "are",
-   "start": 29.199,
-   "end": 29.279
+   "start": 29.699,
+   "end": 29.779
   },
   {
    "word": "the",
-   "start": 29.319,
-   "end": 29.399
+   "start": 29.819,
+   "end": 29.899
   },
   {
    "word": "times",
-   "start": 29.479,
-   "end": 29.76
+   "start": 29.979,
+   "end": 30.26
   },
   {
    "word": "you",
-   "start": 29.84,
-   "end": 29.979
+   "start": 30.34,
+   "end": 30.479
   },
   {
    "word": "knew",
-   "start": 30.079,
-   "end": 30.239
+   "start": 30.579,
+   "end": 30.739
   },
   {
    "word": "better",
-   "start": 30.299,
-   "end": 30.859
+   "start": 30.799,
+   "end": 31.359
   },
   {
    "word": "and",
-   "start": 30.939,
-   "end": 31.039
+   "start": 31.439,
+   "end": 31.539
   },
   {
    "word": "did",
-   "start": 31.139,
-   "end": 31.34
+   "start": 31.639,
+   "end": 31.84
   },
   {
    "word": "nothing.",
-   "start": 31.379,
-   "end": 31.799
+   "start": 31.879,
+   "end": 32.299
   },
   {
    "word": "Stay",
-   "start": 32.919,
-   "end": 33.119
+   "start": 33.419,
+   "end": 33.619
   },
   {
    "word": "curious.",
-   "start": 33.2,
-   "end": 33.699
+   "start": 33.7,
+   "end": 34.199
   },
   {
    "word": "Stay",
-   "start": 34.5,
-   "end": 34.759
+   "start": 35.0,
+   "end": 35.259
   },
   {
    "word": "kind.",
-   "start": 34.899,
-   "end": 35.419
+   "start": 35.399,
+   "end": 35.919
   },
   {
    "word": "Answer",
-   "start": 36.119,
-   "end": 36.7
+   "start": 36.619,
+   "end": 37.2
   },
   {
    "word": "the",
-   "start": 36.759,
-   "end": 36.819
+   "start": 37.259,
+   "end": 37.319
   },
   {
    "word": "people",
-   "start": 36.939,
-   "end": 37.259
+   "start": 37.439,
+   "end": 37.759
   },
   {
    "word": "who",
-   "start": 37.319,
-   "end": 37.459
+   "start": 37.819,
+   "end": 37.959
   },
   {
    "word": "love",
-   "start": 37.52,
-   "end": 37.7
+   "start": 38.02,
+   "end": 38.2
   },
   {
    "word": "you.",
-   "start": 37.759,
-   "end": 37.979
+   "start": 38.259,
+   "end": 38.479
   },
   {
    "word": "Time",
-   "start": 38.7,
-   "end": 39.259
+   "start": 39.2,
+   "end": 39.759
   },
   {
    "word": "is",
-   "start": 39.34,
-   "end": 39.479
+   "start": 39.84,
+   "end": 39.979
   },
   {
    "word": "the",
-   "start": 39.54,
-   "end": 39.659
+   "start": 40.04,
+   "end": 40.159
   },
   {
    "word": "one",
-   "start": 39.739,
-   "end": 39.939
+   "start": 40.239,
+   "end": 40.439
   },
   {
    "word": "thing",
-   "start": 40.0,
-   "end": 40.219
+   "start": 40.5,
+   "end": 40.719
   },
   {
    "word": "you",
-   "start": 40.279,
-   "end": 40.419
+   "start": 40.779,
+   "end": 40.919
   },
   {
    "word": "cannot",
-   "start": 40.5,
-   "end": 40.979
+   "start": 41.0,
+   "end": 41.479
   },
   {
    "word": "earn",
-   "start": 41.04,
-   "end": 41.319
+   "start": 41.54,
+   "end": 41.819
   },
   {
    "word": "back.",
-   "start": 41.379,
-   "end": 41.739
+   "start": 41.879,
+   "end": 42.239
   },
   {
    "word": "Spend",
-   "start": 42.599,
-   "end": 42.879
+   "start": 43.099,
+   "end": 43.379
   },
   {
    "word": "it",
-   "start": 42.939,
-   "end": 43.059
+   "start": 43.439,
+   "end": 43.559
   },
   {
    "word": "like",
-   "start": 43.379,
-   "end": 43.54
+   "start": 43.879,
+   "end": 44.04
   },
   {
    "word": "you",
-   "start": 43.599,
-   "end": 43.739
+   "start": 44.099,
+   "end": 44.239
   },
   {
    "word": "mean",
-   "start": 43.799,
-   "end": 43.939
+   "start": 44.299,
+   "end": 44.439
   },
   {
    "word": "it.",
-   "start": 43.979,
-   "end": 44.139
+   "start": 44.479,
+   "end": 44.639
   },
   {
    "word": "I",
-   "start": 45.2,
-   "end": 45.299
+   "start": 45.7,
+   "end": 45.799
   },
   {
    "word": "built",
-   "start": 45.379,
-   "end": 45.619
+   "start": 45.879,
+   "end": 46.119
   },
   {
    "word": "this",
-   "start": 45.7,
-   "end": 45.959
+   "start": 46.2,
+   "end": 46.459
   },
   {
    "word": "because",
-   "start": 46.059,
-   "end": 46.579
+   "start": 46.559,
+   "end": 47.079
   },
   {
    "word": "I",
-   "start": 46.919,
-   "end": 47.0
-  },
-  {
-   "word": "believe",
-   "start": 47.039,
-   "end": 47.34
-  },
-  {
-   "word": "in",
-   "start": 47.399,
+   "start": 47.419,
    "end": 47.5
   },
   {
+   "word": "believe",
+   "start": 47.539,
+   "end": 47.84
+  },
+  {
+   "word": "in",
+   "start": 47.899,
+   "end": 48.0
+  },
+  {
    "word": "you.",
-   "start": 47.579,
-   "end": 47.759
+   "start": 48.079,
+   "end": 48.259
   },
   {
    "word": "The",
-   "start": 48.559,
-   "end": 48.639
+   "start": 49.059,
+   "end": 49.139
   },
   {
    "word": "real",
-   "start": 48.799,
-   "end": 49.379
+   "start": 49.299,
+   "end": 49.879
   },
   {
    "word": "you.",
-   "start": 49.479,
-   "end": 49.799
+   "start": 49.979,
+   "end": 50.299
   },
   {
    "word": "Not",
-   "start": 50.419,
-   "end": 50.559
-  },
-  {
-   "word": "the",
-   "start": 50.619,
-   "end": 50.68
-  },
-  {
-   "word": "tidy",
-   "start": 50.779,
+   "start": 50.919,
    "end": 51.059
   },
   {
-   "word": "version.",
-   "start": 51.139,
+   "word": "the",
+   "start": 51.119,
+   "end": 51.18
+  },
+  {
+   "word": "tidy",
+   "start": 51.279,
    "end": 51.559
   },
   {
+   "word": "version.",
+   "start": 51.639,
+   "end": 52.059
+  },
+  {
    "word": "Start.",
-   "start": 52.799,
-   "end": 53.239
+   "start": 53.299,
+   "end": 53.739
   },
   {
    "word": "Love,",
-   "start": 54.419,
-   "end": 55.259
+   "start": 54.919,
+   "end": 55.759
   },
   {
    "word": "Ben",
-   "start": 55.319,
-   "end": 55.699
+   "start": 55.819,
+   "end": 56.199
   },
   {
    "word": "Now",
-   "start": 56.84,
-   "end": 57.0
+   "start": 57.34,
+   "end": 57.5
   },
   {
    "word": "close",
-   "start": 57.059,
-   "end": 57.319
+   "start": 57.559,
+   "end": 57.819
   },
   {
    "word": "this",
-   "start": 57.379,
-   "end": 57.539
+   "start": 57.879,
+   "end": 58.039
   },
   {
    "word": "tab.",
-   "start": 57.619,
-   "end": 58.02
+   "start": 58.119,
+   "end": 58.52
   },
   {
    "word": "Go",
-   "start": 58.919,
-   "end": 59.18
+   "start": 59.419,
+   "end": 59.68
   },
   {
    "word": "build",
-   "start": 59.239,
-   "end": 59.559
+   "start": 59.739,
+   "end": 60.059
   },
   {
    "word": "something.",
-   "start": 59.619,
-   "end": 59.919
+   "start": 60.119,
+   "end": 60.419
   }
  ],
  "lines": [
   {
    "text": "James,",
-   "start": 0.019,
-   "end": 0.519,
+   "start": 0.519,
+   "end": 1.019,
    "wordStart": 0,
    "wordEnd": 0
   },
   {
    "text": "I put off writing this. Not because I had nothing to say. Because I wanted to get it right.",
-   "start": 1.299,
-   "end": 7.159,
+   "start": 1.799,
+   "end": 7.659,
    "wordStart": 1,
    "wordEnd": 19
   },
   {
    "text": "You are capable of more than where you are. I do not say that to cheer you on. I say it because I have watched you.",
-   "start": 8.0,
-   "end": 16.859,
+   "start": 8.5,
+   "end": 17.359,
    "wordStart": 20,
    "wordEnd": 45
   },
   {
    "text": "You do not need to become someone else. You need to become more of yourself.",
-   "start": 17.699,
-   "end": 23.239,
+   "start": 18.199,
+   "end": 23.739,
    "wordStart": 46,
    "wordEnd": 60
   },
   {
    "text": "You will get things wrong. I have. The mistakes that matter are the times you knew better and did nothing.",
-   "start": 24.399,
-   "end": 31.799,
+   "start": 24.899,
+   "end": 32.299,
    "wordStart": 61,
    "wordEnd": 80
   },
   {
    "text": "Stay curious. Stay kind. Answer the people who love you.",
-   "start": 32.919,
-   "end": 37.979,
+   "start": 33.419,
+   "end": 38.479,
    "wordStart": 81,
    "wordEnd": 90
   },
   {
    "text": "Time is the one thing you cannot earn back. Spend it like you mean it.",
-   "start": 38.7,
-   "end": 44.139,
+   "start": 39.2,
+   "end": 44.639,
    "wordStart": 91,
    "wordEnd": 105
   },
   {
    "text": "I built this because I believe in you. The real you. Not the tidy version.",
-   "start": 45.2,
-   "end": 51.559,
+   "start": 45.7,
+   "end": 52.059,
    "wordStart": 106,
    "wordEnd": 120
   },
   {
    "text": "Start.",
-   "start": 52.799,
-   "end": 53.239,
+   "start": 53.299,
+   "end": 53.739,
    "wordStart": 121,
    "wordEnd": 121
   },
   {
    "text": "Love,",
-   "start": 54.419,
-   "end": 55.259,
+   "start": 54.919,
+   "end": 55.759,
    "wordStart": 122,
    "wordEnd": 122
   },
   {
    "text": "Ben",
-   "start": 55.319,
-   "end": 55.699,
+   "start": 55.819,
+   "end": 56.199,
    "wordStart": 123,
    "wordEnd": 123
   },
   {
    "text": "Now close this tab.",
-   "start": 56.84,
-   "end": 58.02,
+   "start": 57.34,
+   "end": 58.52,
    "wordStart": 124,
    "wordEnd": 127
   },
   {
    "text": "Go build something.",
-   "start": 58.919,
-   "end": 60.003,
+   "start": 59.419,
+   "end": 60.503,
    "wordStart": 128,
    "wordEnd": 130
   }
- ]
+ ],
+ "edge_lead_s": 0.5,
+ "pad_lead_s": 0.5,
+ "pad_trail_s": 0.75
 }

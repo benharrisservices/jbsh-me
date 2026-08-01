@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import type { ChapterCues } from "@/lib/cues";
-import { hasProductionLineCues, revealedLineIndex } from "@/lib/cues";
+import { hasProductionLineCues, softActiveIndex } from "@/lib/cues";
 
 interface IntroLinesProps {
   lines: string[];
@@ -15,7 +15,7 @@ interface IntroLinesProps {
 
 /**
  * Cinematic intro only: exactly one active line at a time.
- * Previous line exits; next line enters. Driven by production cues.
+ * Soft-holds through gaps; driven only by audio.currentTime + cues.
  */
 export function IntroLines({
   lines,
@@ -25,7 +25,7 @@ export function IntroLines({
 }: IntroLinesProps) {
   const index = useMemo(() => {
     if (hasProductionLineCues(cues)) {
-      return revealedLineIndex(cues, currentTime);
+      return softActiveIndex(cues.lines ?? [], currentTime);
     }
     return 0;
   }, [cues, currentTime]);
@@ -42,10 +42,10 @@ export function IntroLines({
       <AnimatePresence mode="wait">
         <motion.p
           key={index}
-          initial={{ opacity: 0, y: 12 }}
+          initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -10 }}
-          transition={{ duration: 0.55, ease: [0.25, 0.1, 0.25, 1] }}
+          exit={{ opacity: 0, y: -6 }}
+          transition={{ duration: 0.28, ease: [0.25, 0.1, 0.25, 1] }}
           className="max-w-lg text-center font-serif text-xl leading-relaxed font-light tracking-[-0.01em] text-white/85 md:text-2xl md:leading-relaxed"
         >
           {text}

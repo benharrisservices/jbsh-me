@@ -1,7 +1,7 @@
 {
  "id": "books",
  "audio": "/audio/books.mp3",
- "duration": 7.993,
+ "duration": 9.243,
  "loudness": {
   "integrated_lufs": -16.94,
   "true_peak_dbtp": -2.39,
@@ -12,116 +12,119 @@
  "words": [
   {
    "word": "Read",
-   "start": 0.039,
-   "end": 0.219
+   "start": 0.539,
+   "end": 0.719
   },
   {
    "word": "things",
-   "start": 0.319,
-   "end": 0.799
+   "start": 0.819,
+   "end": 1.299
   },
   {
    "word": "that",
-   "start": 1.039,
-   "end": 1.319
+   "start": 1.539,
+   "end": 1.819
   },
   {
    "word": "change",
-   "start": 1.36,
-   "end": 1.719
+   "start": 1.86,
+   "end": 2.219
   },
   {
    "word": "you.",
-   "start": 1.799,
-   "end": 2.019
+   "start": 2.299,
+   "end": 2.519
   },
   {
    "word": "These",
-   "start": 2.859,
-   "end": 3.379
+   "start": 3.359,
+   "end": 3.879
   },
   {
    "word": "did",
-   "start": 3.419,
-   "end": 3.559
+   "start": 3.919,
+   "end": 4.059
   },
   {
    "word": "that",
-   "start": 3.599,
-   "end": 3.859
+   "start": 4.099,
+   "end": 4.359
   },
   {
    "word": "for",
-   "start": 3.879,
-   "end": 4.019
+   "start": 4.379,
+   "end": 4.519
   },
   {
    "word": "me.",
-   "start": 4.059,
-   "end": 4.339
+   "start": 4.559,
+   "end": 4.839
   },
   {
    "word": "The",
-   "start": 5.139,
-   "end": 5.219
+   "start": 5.639,
+   "end": 5.719
   },
   {
    "word": "ones",
-   "start": 5.259,
-   "end": 5.579
+   "start": 5.759,
+   "end": 6.079
   },
   {
    "word": "that",
-   "start": 5.639,
-   "end": 5.859
+   "start": 6.139,
+   "end": 6.359
   },
   {
    "word": "land",
-   "start": 5.92,
-   "end": 6.579
+   "start": 6.42,
+   "end": 7.079
   },
   {
    "word": "will",
-   "start": 6.619,
-   "end": 6.859
+   "start": 7.119,
+   "end": 7.359
   },
   {
    "word": "stay",
-   "start": 6.879,
-   "end": 7.259
+   "start": 7.379,
+   "end": 7.759
   },
   {
    "word": "for",
-   "start": 7.299,
-   "end": 7.5
+   "start": 7.799,
+   "end": 8.0
   },
   {
    "word": "years.",
-   "start": 7.559,
-   "end": 7.919
+   "start": 8.059,
+   "end": 8.419
   }
  ],
  "lines": [
   {
    "text": "Read things that change you.",
-   "start": 0.039,
-   "end": 2.019,
+   "start": 0.539,
+   "end": 2.519,
    "wordStart": 0,
    "wordEnd": 4
   },
   {
    "text": "These did that for me.",
-   "start": 2.859,
-   "end": 4.339,
+   "start": 3.359,
+   "end": 4.839,
    "wordStart": 5,
    "wordEnd": 9
   },
   {
    "text": "The ones that land will stay for years.",
-   "start": 5.139,
-   "end": 7.993,
+   "start": 5.639,
+   "end": 8.493,
    "wordStart": 10,
    "wordEnd": 17
   }
- ]
+ ],
+ "edge_lead_s": 0.5,
+ "pad_lead_s": 0.5,
+ "pad_trail_s": 0.75
 }

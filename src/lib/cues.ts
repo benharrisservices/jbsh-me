@@ -26,6 +26,9 @@ export interface ChapterCues {
   words?: CueWord[];
   lines?: CueLine[];
   coverage?: { ok?: boolean };
+  pad_lead_s?: number;
+  pad_trail_s?: number;
+  lead_in_s?: number;
 }
 
 export type TimingSource = "production" | "unavailable";
@@ -53,12 +56,16 @@ type RawChapterCues = Omit<ChapterCues, "words" | "lines"> & {
   lines?: RawCueLine[];
 };
 
+type Timed = { start: number; end: number };
+
 /**
  * Normalize production cue JSON into the app's canonical shape.
  * Accepts either { text } or { word }, and word_start/wordStart aliases.
  * Does not mutate the source file.
  */
-export function normalizeChapterCues(raw: RawChapterCues | null | undefined): ChapterCues | null {
+export function normalizeChapterCues(
+  raw: RawChapterCues | null | undefined,
+): ChapterCues | null {
   if (!raw) return null;
 
   const words = (raw.words ?? [])
@@ -141,38 +148,48 @@ export function hasProductionWordCues(
   );
 }
 
+/**
+ * Last cue whose start <= t (binary search). Soft-holds through gaps so
+ * highlighting never flickers backward or resets during silence.
+ */
+export function softActiveIndex(items: Timed[], currentTime: number): number {
+  if (!items.length) return -1;
+  let lo = 0;
+  let hi = items.length - 1;
+  let ans = -1;
+  while (lo <= hi) {
+    const mid = (lo + hi) >> 1;
+    if (items[mid].start <= currentTime) {
+      ans = mid;
+      lo = mid + 1;
+    } else {
+      hi = mid - 1;
+    }
+  }
+  // Lead-in / before first cue: hold the opening item.
+  return ans < 0 ? 0 : ans;
+}
+
+/** @deprecated Use softActiveIndex — kept for call sites. */
 export function activeLineIndex(cues: ChapterCues, currentTime: number): number {
-  const lines = cues.lines!;
-  if (lines[0] && currentTime <= lines[0].start) {
-    return currentTime >= 0 && lines[0].start <= 0.05 ? 0 : -1;
-  }
-  for (let i = 0; i < lines.length; i++) {
-    if (currentTime >= lines[i].start && currentTime < lines[i].end) return i;
-  }
-  if (currentTime >= lines[lines.length - 1].end) return lines.length - 1;
-  return -1;
+  return softActiveIndex(cues.lines ?? [], currentTime);
 }
 
 /**
- * Highest line whose start has been reached. Monotonic for progressive reveal
- * so pauses between cues never hide already-spoken lines.
+ * Highest line whose start has been reached. Monotonic for progressive reveal.
  */
 export function revealedLineIndex(cues: ChapterCues, currentTime: number): number {
-  const lines = cues.lines!;
-  let revealed = -1;
-  for (let i = 0; i < lines.length; i++) {
-    if (currentTime >= lines[i].start) revealed = i;
-  }
-  if (revealed < 0) return 0;
-  return revealed;
+  return softActiveIndex(cues.lines ?? [], currentTime);
 }
 
 export function activeWordIndex(cues: ChapterCues, currentTime: number): number {
   const words = cues.words;
-  if (!words?.length || currentTime <= 0) return -1;
-  for (let i = 0; i < words.length; i++) {
-    if (currentTime >= words[i].start && currentTime < words[i].end) return i;
-  }
-  if (currentTime >= words[words.length - 1].end) return words.length - 1;
-  return -1;
+  if (!words?.length) return -1;
+  return softActiveIndex(words, currentTime);
+}
+
+/** True when currentTime falls inside the cue's [start, end) window. */
+export function isCueSpeaking(item: Timed | undefined, currentTime: number): boolean {
+  if (!item) return false;
+  return currentTime >= item.start && currentTime < item.end;
 }

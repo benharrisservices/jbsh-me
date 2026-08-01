@@ -1,7 +1,7 @@
 {
  "id": "welcome",
  "audio": "/audio/welcome.mp3",
- "duration": 18.964,
+ "duration": 19.714,
  "loudness": {
   "integrated_lufs": -16.94,
   "true_peak_dbtp": -1.92,
@@ -328,5 +328,8 @@
    "wordEnd": 48
   }
  ],
- "lead_in_s": 0.6
+ "lead_in_s": 0.6,
+ "edge_lead_s": 0.6,
+ "pad_lead_s": 0.0,
+ "pad_trail_s": 0.75
 }

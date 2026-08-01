@@ -1,7 +1,7 @@
 {
  "id": "resources",
  "audio": "/audio/resources.mp3",
- "duration": 6.452,
+ "duration": 7.702,
  "loudness": {
   "integrated_lufs": -16.82,
   "true_peak_dbtp": -1.4,
@@ -12,81 +12,84 @@
  "words": [
   {
    "word": "Starting",
-   "start": 0.099,
-   "end": 0.479
+   "start": 0.599,
+   "end": 0.979
   },
   {
    "word": "points.",
-   "start": 0.5,
-   "end": 0.859
+   "start": 1.0,
+   "end": 1.359
   },
   {
    "word": "Not",
-   "start": 1.259,
-   "end": 1.599
+   "start": 1.759,
+   "end": 2.099
   },
   {
    "word": "prescriptions.",
-   "start": 1.62,
-   "end": 2.319
+   "start": 2.12,
+   "end": 2.819
   },
   {
    "word": "Follow",
-   "start": 3.099,
-   "end": 3.46
+   "start": 3.599,
+   "end": 3.96
   },
   {
    "word": "what",
-   "start": 3.48,
-   "end": 3.679
+   "start": 3.98,
+   "end": 4.179
   },
   {
    "word": "interests",
-   "start": 3.74,
-   "end": 4.319
+   "start": 4.24,
+   "end": 4.819
   },
   {
    "word": "you.",
-   "start": 4.4,
-   "end": 5.219
+   "start": 4.9,
+   "end": 5.719
   },
   {
    "word": "Ignore",
-   "start": 5.319,
-   "end": 5.96
+   "start": 5.819,
+   "end": 6.46
   },
   {
    "word": "the",
-   "start": 6.0,
-   "end": 6.099
+   "start": 6.5,
+   "end": 6.599
   },
   {
    "word": "rest.",
-   "start": 6.139,
-   "end": 6.359
+   "start": 6.639,
+   "end": 6.859
   }
  ],
  "lines": [
   {
    "text": "Starting points.",
-   "start": 0.099,
-   "end": 0.859,
+   "start": 0.599,
+   "end": 1.359,
    "wordStart": 0,
    "wordEnd": 1
   },
   {
    "text": "Not prescriptions.",
-   "start": 1.259,
-   "end": 2.319,
+   "start": 1.759,
+   "end": 2.819,
    "wordStart": 2,
    "wordEnd": 3
   },
   {
    "text": "Follow what interests you. Ignore the rest.",
-   "start": 3.099,
-   "end": 6.452,
+   "start": 3.599,
+   "end": 6.952,
    "wordStart": 4,
    "wordEnd": 10
   }
- ]
+ ],
+ "edge_lead_s": 0.5,
+ "pad_lead_s": 0.5,
+ "pad_trail_s": 0.75
 }

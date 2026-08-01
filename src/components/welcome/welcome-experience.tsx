@@ -14,6 +14,7 @@ import {
 import { welcomeLines } from "@/content/welcome";
 import { useChapterCues } from "@/hooks/use-chapter-cues";
 import { useAudioAnalyser } from "@/hooks/use-audio-analyser";
+import { useAudioClock, waitAnimationFrames } from "@/hooks/use-audio-clock";
 
 interface WelcomeExperienceProps {
   onComplete: () => void;
@@ -37,13 +38,13 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
   const [started, setStarted] = useState(false);
   const [playing, setPlaying] = useState(false);
   const [isExiting, setIsExiting] = useState(false);
-  const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const startingRef = useRef(false);
   const exitingRef = useRef(false);
   const { cues } = useChapterCues(WELCOME_NARRATION_ID);
   const src = narrationAudioSrc(WELCOME_NARRATION_ID);
 
+  const currentTime = useAudioClock(audioEl, playing);
   const { levels, resumeContext } = useAudioAnalyser(audioEl, playing);
 
   const finish = useCallback(() => {
@@ -65,19 +66,21 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
       }
     };
     const onError = () => setTimeout(finish, 1200);
-    const onTime = () => setCurrentTime(audio.currentTime);
-    const onPlay = () => setPlaying(true);
+    const onPlay = () => {
+      applyNarrationPlaybackRate(audio);
+      setPlaying(true);
+    };
     const onPause = () => setPlaying(false);
     const onEnd = () => {
       setPlaying(false);
-      setTimeout(finish, 1200);
+      // Trail silence is in the file — finish after genuine ended.
+      setTimeout(finish, 400);
     };
     const onRate = () => applyNarrationPlaybackRate(audio);
 
     audio.addEventListener("error", onError);
     audio.addEventListener("loadedmetadata", onLoaded);
     audio.addEventListener("canplaythrough", onLoaded);
-    audio.addEventListener("timeupdate", onTime);
     audio.addEventListener("play", onPlay);
     audio.addEventListener("pause", onPause);
     audio.addEventListener("ended", onEnd);
@@ -91,7 +94,6 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
       audio.removeEventListener("error", onError);
       audio.removeEventListener("loadedmetadata", onLoaded);
       audio.removeEventListener("canplaythrough", onLoaded);
-      audio.removeEventListener("timeupdate", onTime);
       audio.removeEventListener("play", onPlay);
       audio.removeEventListener("pause", onPause);
       audio.removeEventListener("ended", onEnd);
@@ -106,15 +108,33 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
     setStarted(true);
 
     try {
+      if (audio.readyState < HTMLMediaElement.HAVE_METADATA) {
+        await new Promise<void>((resolve, reject) => {
+          const ok = () => {
+            cleanup();
+            resolve();
+          };
+          const bad = () => {
+            cleanup();
+            reject(new Error("metadata"));
+          };
+          const cleanup = () => {
+            audio.removeEventListener("loadedmetadata", ok);
+            audio.removeEventListener("error", bad);
+          };
+          audio.addEventListener("loadedmetadata", ok, { once: true });
+          audio.addEventListener("error", bad, { once: true });
+        });
+      }
       await waitForAudioCanPlay(audio);
-      await resumeContext();
       applyNarrationPlaybackRate(audio);
-      // Exact start — file already contains ~600ms digital silence lead-in.
+      // Exact start — file lead-in carries the opening silence.
       audio.currentTime = 0;
-      setCurrentTime(0);
       await resumeContext();
       applyNarrationPlaybackRate(audio);
+      await waitAnimationFrames(1);
       await audio.play();
+      applyNarrationPlaybackRate(audio);
     } catch {
       startingRef.current = false;
       setStarted(false);
@@ -152,7 +172,6 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
       if (!audio || !duration) return;
       const clamped = Math.min(Math.max(fraction, 0), 1);
       audio.currentTime = clamped * duration;
-      setCurrentTime(audio.currentTime);
     },
     [duration],
   );
