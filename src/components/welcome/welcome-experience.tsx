@@ -199,18 +199,20 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/20" />
 
-          <motion.div
-            className="w-full max-w-lg px-8"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.25 }}
-          >
-            <IntroLines
-              lines={[...welcomeLines]}
-              currentTime={currentTime}
-              cues={cues}
-            />
-          </motion.div>
+          {started && (
+            <motion.div
+              className="w-full max-w-lg px-8"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.6 }}
+            >
+              <IntroLines
+                lines={[...welcomeLines]}
+                currentTime={currentTime}
+                cues={cues}
+              />
+            </motion.div>
+          )}
 
           <AnimatePresence>
             {!started && (
@@ -222,10 +224,13 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.96 }}
                 transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
-                className="absolute bottom-[22%] left-1/2 flex h-16 w-16 -translate-x-1/2 items-center justify-center rounded-full border border-white/15 bg-white/[0.06] text-white/80 backdrop-blur-md transition-colors hover:border-white/25 hover:bg-white/[0.1] hover:text-white disabled:opacity-40 md:h-[4.5rem] md:w-[4.5rem]"
+                className="flex h-20 w-20 items-center justify-center rounded-full border border-white/15 bg-white/[0.06] text-white/80 backdrop-blur-md transition-colors hover:border-white/25 hover:bg-white/[0.1] hover:text-white disabled:opacity-40 md:h-24 md:w-24"
                 aria-label="Play welcome narration"
               >
-                <Play className="h-5 w-5 translate-x-[1px]" strokeWidth={1.5} />
+                <Play
+                  className="h-6 w-6 translate-x-[1.5px] md:h-7 md:w-7"
+                  strokeWidth={1.25}
+                />
               </motion.button>
             )}
           </AnimatePresence>

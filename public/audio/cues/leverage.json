@@ -1,7 +1,7 @@
 {
  "id": "leverage",
  "audio": "/audio/leverage.mp3",
- "duration": 26.171,
+ "duration": 27.875,
  "loudness": {
   "integrated_lufs": -16.96,
   "true_peak_dbtp": -1.92,
@@ -12,311 +12,311 @@
  "words": [
   {
    "word": "Hard",
-   "start": 0.559,
-   "end": 0.719
+   "start": 1.309,
+   "end": 1.469
   },
   {
    "word": "work",
-   "start": 0.84,
-   "end": 1.18
+   "start": 1.59,
+   "end": 1.93
   },
   {
    "word": "is",
-   "start": 1.379,
-   "end": 1.539
+   "start": 2.129,
+   "end": 2.289
   },
   {
    "word": "necessary.",
-   "start": 1.639,
-   "end": 2.279
+   "start": 2.389,
+   "end": 3.029
   },
   {
    "word": "It",
-   "start": 2.779,
-   "end": 2.839
+   "start": 3.529,
+   "end": 3.589
   },
   {
    "word": "is",
-   "start": 2.899,
-   "end": 3.019
+   "start": 3.649,
+   "end": 3.769
   },
   {
    "word": "not",
-   "start": 3.079,
-   "end": 3.24
+   "start": 3.829,
+   "end": 3.99
   },
   {
    "word": "enough.",
-   "start": 3.299,
-   "end": 3.699
+   "start": 4.049,
+   "end": 4.449
   },
   {
    "word": "There",
-   "start": 4.779,
-   "end": 4.94
+   "start": 5.529,
+   "end": 5.69
   },
   {
    "word": "are",
-   "start": 5.0,
-   "end": 5.179
+   "start": 5.75,
+   "end": 5.929
   },
   {
    "word": "four",
-   "start": 5.239,
-   "end": 5.4
+   "start": 5.989,
+   "end": 6.15
   },
   {
    "word": "kinds",
-   "start": 5.519,
-   "end": 6.0
+   "start": 6.269,
+   "end": 6.75
   },
   {
    "word": "of",
-   "start": 6.059,
-   "end": 6.179
+   "start": 6.809,
+   "end": 6.929
   },
   {
    "word": "leverage.",
-   "start": 6.239,
-   "end": 6.779
+   "start": 6.989,
+   "end": 7.529
   },
   {
    "word": "People.",
-   "start": 7.5,
-   "end": 7.879
+   "start": 8.25,
+   "end": 8.629
   },
   {
    "word": "Money.",
-   "start": 8.559,
-   "end": 8.92
+   "start": 9.309,
+   "end": 9.67
   },
   {
    "word": "Code.",
-   "start": 9.72,
-   "end": 10.199
+   "start": 10.47,
+   "end": 10.949
   },
   {
    "word": "Words.",
-   "start": 11.019,
-   "end": 11.559
+   "start": 11.769,
+   "end": 12.309
   },
   {
    "word": "Two",
-   "start": 12.679,
-   "end": 12.779
+   "start": 13.429,
+   "end": 13.529
   },
   {
    "word": "of",
-   "start": 12.819,
-   "end": 12.92
+   "start": 13.569,
+   "end": 13.67
   },
   {
    "word": "them",
-   "start": 12.96,
-   "end": 13.099
+   "start": 13.71,
+   "end": 13.849
   },
   {
    "word": "cost",
-   "start": 13.219,
-   "end": 13.46
+   "start": 13.969,
+   "end": 14.21
   },
   {
    "word": "you",
-   "start": 13.519,
-   "end": 13.619
+   "start": 14.269,
+   "end": 14.369
   },
   {
    "word": "nothing",
-   "start": 13.679,
-   "end": 13.96
+   "start": 14.429,
+   "end": 14.71
   },
   {
    "word": "to",
-   "start": 14.0,
-   "end": 14.099
+   "start": 14.75,
+   "end": 14.849
   },
   {
    "word": "start.",
-   "start": 14.139,
-   "end": 14.479
+   "start": 14.889,
+   "end": 15.229
   },
   {
    "word": "Code",
-   "start": 15.179,
-   "end": 15.519
+   "start": 15.929,
+   "end": 16.269
   },
   {
    "word": "works",
-   "start": 15.579,
-   "end": 15.819
+   "start": 16.329,
+   "end": 16.569
   },
   {
    "word": "while",
-   "start": 15.88,
-   "end": 16.02
+   "start": 16.63,
+   "end": 16.77
   },
   {
    "word": "you",
-   "start": 16.079,
-   "end": 16.119
+   "start": 16.829,
+   "end": 16.869
   },
   {
    "word": "sleep.",
-   "start": 16.239,
-   "end": 16.559
+   "start": 16.989,
+   "end": 17.309
   },
   {
    "word": "Words",
-   "start": 17.159,
-   "end": 17.779
+   "start": 17.909,
+   "end": 18.529
   },
   {
    "word": "travel",
-   "start": 17.859,
-   "end": 18.42
+   "start": 18.609,
+   "end": 19.17
   },
   {
    "word": "while",
-   "start": 18.479,
-   "end": 18.639
+   "start": 19.229,
+   "end": 19.389
   },
   {
    "word": "you",
-   "start": 18.699,
-   "end": 18.76
+   "start": 19.449,
+   "end": 19.51
   },
   {
    "word": "rest.",
-   "start": 18.899,
-   "end": 19.239
+   "start": 19.649,
+   "end": 19.989
   },
   {
    "word": "Build",
-   "start": 20.319,
-   "end": 20.579
+   "start": 21.069,
+   "end": 21.329
   },
   {
    "word": "things",
-   "start": 20.68,
-   "end": 21.059
+   "start": 21.43,
+   "end": 21.809
   },
   {
    "word": "that",
-   "start": 21.159,
-   "end": 21.28
+   "start": 21.909,
+   "end": 22.03
   },
   {
    "word": "work",
-   "start": 21.379,
-   "end": 21.579
+   "start": 22.129,
+   "end": 22.329
   },
   {
    "word": "without",
-   "start": 21.619,
-   "end": 21.939
+   "start": 22.369,
+   "end": 22.689
   },
   {
    "word": "you.",
-   "start": 22.02,
-   "end": 22.219
+   "start": 22.77,
+   "end": 22.969
   },
   {
    "word": "Write",
-   "start": 22.979,
-   "end": 23.26
+   "start": 23.729,
+   "end": 24.01
   },
   {
    "word": "things",
-   "start": 23.319,
-   "end": 23.719
+   "start": 24.069,
+   "end": 24.469
   },
   {
    "word": "that",
-   "start": 23.879,
-   "end": 24.1
+   "start": 24.629,
+   "end": 24.85
   },
   {
    "word": "teach",
-   "start": 24.199,
-   "end": 24.6
+   "start": 24.949,
+   "end": 25.35
   },
   {
    "word": "without",
-   "start": 24.859,
-   "end": 25.199
+   "start": 25.609,
+   "end": 25.949
   },
   {
    "word": "you.",
-   "start": 25.279,
-   "end": 25.34
+   "start": 26.029,
+   "end": 26.09
   }
  ],
  "lines": [
   {
    "text": "Hard work is necessary.",
-   "start": 0.559,
-   "end": 2.279,
+   "start": 1.309,
+   "end": 3.029,
    "wordStart": 0,
    "wordEnd": 3
   },
   {
    "text": "It is not enough.",
-   "start": 2.779,
-   "end": 3.699,
+   "start": 3.529,
+   "end": 4.449,
    "wordStart": 4,
    "wordEnd": 7
   },
   {
    "text": "There are four kinds of leverage.",
-   "start": 4.779,
-   "end": 6.779,
+   "start": 5.529,
+   "end": 7.529,
    "wordStart": 8,
    "wordEnd": 13
   },
   {
    "text": "People. Money. Code. Words.",
-   "start": 7.5,
-   "end": 11.559,
+   "start": 8.25,
+   "end": 12.309,
    "wordStart": 14,
    "wordEnd": 17
   },
   {
    "text": "Two of them cost you nothing to start.",
-   "start": 12.679,
-   "end": 14.479,
+   "start": 13.429,
+   "end": 15.229,
    "wordStart": 18,
    "wordEnd": 25
   },
   {
    "text": "Code works while you sleep.",
-   "start": 15.179,
-   "end": 16.559,
+   "start": 15.929,
+   "end": 17.309,
    "wordStart": 26,
    "wordEnd": 30
   },
   {
    "text": "Words travel while you rest.",
-   "start": 17.159,
-   "end": 19.239,
+   "start": 17.909,
+   "end": 19.989,
    "wordStart": 31,
    "wordEnd": 35
   },
   {
    "text": "Build things that work without you.",
-   "start": 20.319,
-   "end": 22.219,
+   "start": 21.069,
+   "end": 22.969,
    "wordStart": 36,
    "wordEnd": 41
   },
   {
    "text": "Write things that teach without you.",
-   "start": 22.979,
-   "end": 25.421,
+   "start": 23.729,
+   "end": 26.171,
    "wordStart": 42,
    "wordEnd": 47
   }
  ],
  "edge_lead_s": 0.5,
- "pad_lead_s": 0.5,
- "pad_trail_s": 0.75
+ "pad_lead_s": 1.25,
+ "pad_trail_s": 1.75
 }

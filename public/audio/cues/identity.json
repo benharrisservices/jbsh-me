@@ -1,7 +1,7 @@
 {
  "id": "identity",
  "audio": "/audio/identity.mp3",
- "duration": 25.805,
+ "duration": 27.513,
  "loudness": {
   "integrated_lufs": -16.94,
   "true_peak_dbtp": -1.76,
@@ -12,333 +12,333 @@
  "words": [
   {
    "word": "You",
-   "start": 0.579,
-   "end": 0.699
+   "start": 1.329,
+   "end": 1.449
   },
   {
    "word": "are",
-   "start": 0.859,
-   "end": 1.039
+   "start": 1.609,
+   "end": 1.789
   },
   {
    "word": "not",
-   "start": 1.199,
-   "end": 1.519
+   "start": 1.949,
+   "end": 2.269
   },
   {
    "word": "your",
-   "start": 1.799,
-   "end": 1.919
+   "start": 2.549,
+   "end": 2.669
   },
   {
    "word": "job.",
-   "start": 2.079,
-   "end": 2.459
+   "start": 2.829,
+   "end": 3.209
   },
   {
    "word": "You",
-   "start": 3.319,
-   "end": 3.399
+   "start": 4.069,
+   "end": 4.149
   },
   {
    "word": "are",
-   "start": 3.419,
-   "end": 3.579
+   "start": 4.169,
+   "end": 4.329
   },
   {
    "word": "not",
-   "start": 3.599,
-   "end": 3.799
+   "start": 4.349,
+   "end": 4.549
   },
   {
    "word": "your",
-   "start": 3.859,
-   "end": 4.039
+   "start": 4.609,
+   "end": 4.789
   },
   {
    "word": "title.",
-   "start": 4.099,
-   "end": 4.5
+   "start": 4.849,
+   "end": 5.25
   },
   {
    "word": "You",
-   "start": 5.519,
-   "end": 5.739
+   "start": 6.269,
+   "end": 6.489
   },
   {
    "word": "understand",
-   "start": 5.799,
-   "end": 6.5
+   "start": 6.549,
+   "end": 7.25
   },
   {
    "word": "how",
-   "start": 6.739,
-   "end": 6.919
+   "start": 7.489,
+   "end": 7.669
   },
   {
    "word": "things",
-   "start": 7.059,
-   "end": 7.399
+   "start": 7.809,
+   "end": 8.149
   },
   {
    "word": "connect.",
-   "start": 7.46,
-   "end": 7.899
+   "start": 8.21,
+   "end": 8.649
   },
   {
    "word": "That",
-   "start": 8.699,
-   "end": 9.019
+   "start": 9.449,
+   "end": 9.769
   },
   {
    "word": "is",
-   "start": 9.079,
-   "end": 9.22
+   "start": 9.829,
+   "end": 9.97
   },
   {
    "word": "rarer",
-   "start": 9.319,
-   "end": 9.659
+   "start": 10.069,
+   "end": 10.409
   },
   {
    "word": "than",
-   "start": 9.72,
-   "end": 9.84
+   "start": 10.47,
+   "end": 10.59
   },
   {
    "word": "you",
-   "start": 9.88,
-   "end": 9.979
+   "start": 10.63,
+   "end": 10.729
   },
   {
    "word": "think.",
-   "start": 10.039,
-   "end": 10.279
+   "start": 10.789,
+   "end": 11.029
   },
   {
    "word": "Most",
-   "start": 11.039,
-   "end": 11.3
+   "start": 11.789,
+   "end": 12.05
   },
   {
    "word": "people",
-   "start": 11.399,
-   "end": 11.819
+   "start": 12.149,
+   "end": 12.569
   },
   {
    "word": "use",
-   "start": 12.059,
-   "end": 12.279
+   "start": 12.809,
+   "end": 13.029
   },
   {
    "word": "systems.",
-   "start": 12.559,
-   "end": 13.199
+   "start": 13.309,
+   "end": 13.949
   },
   {
    "word": "You",
-   "start": 14.0,
-   "end": 14.219
+   "start": 14.75,
+   "end": 14.969
   },
   {
    "word": "see",
-   "start": 14.359,
-   "end": 14.5
+   "start": 15.109,
+   "end": 15.25
   },
   {
    "word": "through",
-   "start": 14.539,
-   "end": 14.759
+   "start": 15.289,
+   "end": 15.509
   },
   {
    "word": "them.",
-   "start": 14.799,
-   "end": 15.019
+   "start": 15.549,
+   "end": 15.769
   },
   {
    "word": "You",
-   "start": 15.899,
-   "end": 15.939
+   "start": 16.649,
+   "end": 16.689
   },
   {
    "word": "were",
-   "start": 15.979,
-   "end": 16.14
+   "start": 16.729,
+   "end": 16.89
   },
   {
    "word": "taught",
-   "start": 16.179,
-   "end": 16.659
+   "start": 16.929,
+   "end": 17.409
   },
   {
    "word": "to",
-   "start": 16.719,
-   "end": 16.819
+   "start": 17.469,
+   "end": 17.569
   },
   {
    "word": "wait",
-   "start": 16.92,
-   "end": 17.26
+   "start": 17.67,
+   "end": 18.01
   },
   {
    "word": "for",
-   "start": 17.359,
-   "end": 17.44
+   "start": 18.109,
+   "end": 18.19
   },
   {
    "word": "permission.",
-   "start": 17.559,
-   "end": 18.059
+   "start": 18.309,
+   "end": 18.809
   },
   {
    "word": "You",
-   "start": 18.859,
-   "end": 18.959
+   "start": 19.609,
+   "end": 19.709
   },
   {
    "word": "do",
-   "start": 19.0,
-   "end": 19.119
+   "start": 19.75,
+   "end": 19.869
   },
   {
    "word": "not",
-   "start": 19.159,
-   "end": 19.34
+   "start": 19.909,
+   "end": 20.09
   },
   {
    "word": "need",
-   "start": 19.379,
-   "end": 19.52
+   "start": 20.129,
+   "end": 20.27
   },
   {
    "word": "it.",
-   "start": 19.539,
-   "end": 19.719
+   "start": 20.289,
+   "end": 20.469
   },
   {
    "word": "The",
-   "start": 20.699,
-   "end": 20.739
+   "start": 21.449,
+   "end": 21.489
   },
   {
    "word": "ones",
-   "start": 20.859,
-   "end": 21.319
+   "start": 21.609,
+   "end": 22.069
   },
   {
    "word": "who",
-   "start": 21.379,
-   "end": 21.579
+   "start": 22.129,
+   "end": 22.329
   },
   {
    "word": "build",
-   "start": 21.639,
-   "end": 22.279
+   "start": 22.389,
+   "end": 23.029
   },
   {
    "word": "are",
-   "start": 22.359,
-   "end": 22.5
+   "start": 23.109,
+   "end": 23.25
   },
   {
    "word": "not",
-   "start": 22.52,
-   "end": 22.719
+   "start": 23.27,
+   "end": 23.469
   },
   {
    "word": "different.",
-   "start": 22.739,
-   "end": 23.1
+   "start": 23.489,
+   "end": 23.85
   },
   {
    "word": "They",
-   "start": 24.019,
-   "end": 24.159
+   "start": 24.769,
+   "end": 24.909
   },
   {
    "word": "just",
-   "start": 24.239,
-   "end": 24.5
+   "start": 24.989,
+   "end": 25.25
   },
   {
    "word": "started.",
-   "start": 24.619,
-   "end": 24.979
+   "start": 25.369,
+   "end": 25.729
   }
  ],
  "lines": [
   {
    "text": "You are not your job.",
-   "start": 0.579,
-   "end": 2.459,
+   "start": 1.329,
+   "end": 3.209,
    "wordStart": 0,
    "wordEnd": 4
   },
   {
    "text": "You are not your title.",
-   "start": 3.319,
-   "end": 4.5,
+   "start": 4.069,
+   "end": 5.25,
    "wordStart": 5,
    "wordEnd": 9
   },
   {
    "text": "You understand how things connect.",
-   "start": 5.519,
-   "end": 7.899,
+   "start": 6.269,
+   "end": 8.649,
    "wordStart": 10,
    "wordEnd": 14
   },
   {
    "text": "That is rarer than you think.",
-   "start": 8.699,
-   "end": 10.279,
+   "start": 9.449,
+   "end": 11.029,
    "wordStart": 15,
    "wordEnd": 20
   },
   {
    "text": "Most people use systems.",
-   "start": 11.039,
-   "end": 13.199,
+   "start": 11.789,
+   "end": 13.949,
    "wordStart": 21,
    "wordEnd": 24
   },
   {
    "text": "You see through them.",
-   "start": 14.0,
-   "end": 15.019,
+   "start": 14.75,
+   "end": 15.769,
    "wordStart": 25,
    "wordEnd": 28
   },
   {
    "text": "You were taught to wait for permission.",
-   "start": 15.899,
-   "end": 18.059,
+   "start": 16.649,
+   "end": 18.809,
    "wordStart": 29,
    "wordEnd": 35
   },
   {
    "text": "You do not need it.",
-   "start": 18.859,
-   "end": 19.719,
+   "start": 19.609,
+   "end": 20.469,
    "wordStart": 36,
    "wordEnd": 40
   },
   {
    "text": "The ones who build are not different.",
-   "start": 20.699,
-   "end": 23.1,
+   "start": 21.449,
+   "end": 23.85,
    "wordStart": 41,
    "wordEnd": 47
   },
   {
    "text": "They just started.",
-   "start": 24.019,
-   "end": 25.055,
+   "start": 24.769,
+   "end": 25.805,
    "wordStart": 48,
    "wordEnd": 50
   }
  ],
  "edge_lead_s": 0.5,
- "pad_lead_s": 0.5,
- "pad_trail_s": 0.75
+ "pad_lead_s": 1.25,
+ "pad_trail_s": 1.75
 }

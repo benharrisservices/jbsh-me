@@ -1,7 +1,7 @@
 {
  "id": "money",
  "audio": "/audio/money.mp3",
- "duration": 29.044,
+ "duration": 30.745,
  "loudness": {
   "integrated_lufs": -17.0,
   "true_peak_dbtp": -1.83,
@@ -12,353 +12,353 @@
  "words": [
   {
    "word": "Money",
-   "start": 0.519,
-   "end": 0.819
+   "start": 1.269,
+   "end": 1.569
   },
   {
    "word": "is",
-   "start": 1.039,
-   "end": 1.18
+   "start": 1.789,
+   "end": 1.93
   },
   {
    "word": "stored",
-   "start": 1.319,
-   "end": 1.639
+   "start": 2.069,
+   "end": 2.389
   },
   {
    "word": "freedom.",
-   "start": 1.759,
-   "end": 2.139
+   "start": 2.509,
+   "end": 2.889
   },
   {
    "word": "It",
-   "start": 2.759,
-   "end": 2.819
+   "start": 3.509,
+   "end": 3.569
   },
   {
    "word": "is",
-   "start": 2.879,
-   "end": 2.98
+   "start": 3.629,
+   "end": 3.73
   },
   {
    "word": "the",
-   "start": 3.019,
-   "end": 3.059
+   "start": 3.769,
+   "end": 3.809
   },
   {
    "word": "ability",
-   "start": 3.099,
-   "end": 3.799
+   "start": 3.849,
+   "end": 4.549
   },
   {
    "word": "to",
-   "start": 3.859,
-   "end": 3.939
+   "start": 4.609,
+   "end": 4.689
   },
   {
    "word": "say",
-   "start": 4.079,
-   "end": 4.359
+   "start": 4.829,
+   "end": 5.109
   },
   {
    "word": "no.",
-   "start": 4.719,
-   "end": 5.119
+   "start": 5.469,
+   "end": 5.869
   },
   {
    "word": "Spend",
-   "start": 5.98,
-   "end": 6.5
+   "start": 6.73,
+   "end": 7.25
   },
   {
    "word": "less",
-   "start": 6.639,
-   "end": 7.019
+   "start": 7.389,
+   "end": 7.769
   },
   {
    "word": "than",
-   "start": 7.099,
-   "end": 7.219
+   "start": 7.849,
+   "end": 7.969
   },
   {
    "word": "you",
-   "start": 7.259,
-   "end": 7.379
+   "start": 8.009,
+   "end": 8.129
   },
   {
    "word": "earn.",
-   "start": 7.46,
-   "end": 7.859
+   "start": 8.21,
+   "end": 8.609
   },
   {
    "word": "The",
-   "start": 8.419,
-   "end": 8.48
+   "start": 9.169,
+   "end": 9.23
   },
   {
    "word": "gap",
-   "start": 8.579,
-   "end": 9.059
+   "start": 9.329,
+   "end": 9.809
   },
   {
    "word": "is",
-   "start": 9.119,
-   "end": 9.239
+   "start": 9.869,
+   "end": 9.989
   },
   {
    "word": "where",
-   "start": 9.279,
-   "end": 9.42
+   "start": 10.029,
+   "end": 10.17
   },
   {
    "word": "freedom",
-   "start": 9.539,
-   "end": 9.88
+   "start": 10.289,
+   "end": 10.63
   },
   {
    "word": "lives.",
-   "start": 9.939,
-   "end": 10.26
+   "start": 10.689,
+   "end": 11.01
   },
   {
    "word": "Debt",
-   "start": 11.34,
-   "end": 11.619
+   "start": 12.09,
+   "end": 12.369
   },
   {
    "word": "is",
-   "start": 11.84,
-   "end": 11.94
+   "start": 12.59,
+   "end": 12.69
   },
   {
    "word": "a",
-   "start": 11.979,
-   "end": 12.059
+   "start": 12.729,
+   "end": 12.809
   },
   {
    "word": "quiet",
-   "start": 12.159,
-   "end": 12.479
+   "start": 12.909,
+   "end": 13.229
   },
   {
    "word": "chain.",
-   "start": 12.679,
-   "end": 13.099
+   "start": 13.429,
+   "end": 13.849
   },
   {
    "word": "Build",
-   "start": 14.039,
-   "end": 14.259
+   "start": 14.789,
+   "end": 15.009
   },
   {
    "word": "things",
-   "start": 14.399,
-   "end": 14.88
+   "start": 15.149,
+   "end": 15.63
   },
   {
    "word": "that",
-   "start": 14.96,
-   "end": 15.119
+   "start": 15.71,
+   "end": 15.869
   },
   {
    "word": "pay",
-   "start": 15.259,
-   "end": 15.5
+   "start": 16.009,
+   "end": 16.25
   },
   {
    "word": "you",
-   "start": 15.579,
-   "end": 15.779
+   "start": 16.329,
+   "end": 16.529
   },
   {
    "word": "back.",
-   "start": 15.839,
-   "end": 16.219
+   "start": 16.589,
+   "end": 16.969
   },
   {
    "word": "Looking",
-   "start": 17.159,
-   "end": 17.459
+   "start": 17.909,
+   "end": 18.209
   },
   {
    "word": "wealthy",
-   "start": 17.539,
-   "end": 18.0
+   "start": 18.289,
+   "end": 18.75
   },
   {
    "word": "and",
-   "start": 18.079,
-   "end": 18.26
+   "start": 18.829,
+   "end": 19.01
   },
   {
    "word": "being",
-   "start": 18.479,
-   "end": 18.739
+   "start": 19.229,
+   "end": 19.489
   },
   {
    "word": "wealthy",
-   "start": 18.819,
-   "end": 19.5
+   "start": 19.569,
+   "end": 20.25
   },
   {
    "word": "are",
-   "start": 19.579,
-   "end": 19.76
+   "start": 20.329,
+   "end": 20.51
   },
   {
    "word": "not",
-   "start": 19.799,
-   "end": 20.0
+   "start": 20.549,
+   "end": 20.75
   },
   {
    "word": "the",
-   "start": 20.1,
-   "end": 20.219
+   "start": 20.85,
+   "end": 20.969
   },
   {
    "word": "same.",
-   "start": 20.279,
-   "end": 20.659
+   "start": 21.029,
+   "end": 21.409
   },
   {
    "word": "One",
-   "start": 21.479,
-   "end": 21.639
+   "start": 22.229,
+   "end": 22.389
   },
   {
    "word": "is",
-   "start": 21.699,
-   "end": 21.799
+   "start": 22.449,
+   "end": 22.549
   },
   {
    "word": "loud.",
-   "start": 21.879,
-   "end": 22.299
+   "start": 22.629,
+   "end": 23.049
   },
   {
    "word": "The",
-   "start": 22.84,
-   "end": 22.92
+   "start": 23.59,
+   "end": 23.67
   },
   {
    "word": "other",
-   "start": 23.0,
-   "end": 23.579
+   "start": 23.75,
+   "end": 24.329
   },
   {
    "word": "is",
-   "start": 23.659,
-   "end": 23.76
+   "start": 24.409,
+   "end": 24.51
   },
   {
    "word": "patient.",
-   "start": 23.879,
-   "end": 24.359
+   "start": 24.629,
+   "end": 25.109
   },
   {
    "word": "Respect",
-   "start": 25.279,
-   "end": 25.859
+   "start": 26.029,
+   "end": 26.609
   },
   {
    "word": "money.",
-   "start": 26.039,
-   "end": 26.34
+   "start": 26.789,
+   "end": 27.09
   },
   {
    "word": "Do",
-   "start": 27.059,
-   "end": 27.139
+   "start": 27.809,
+   "end": 27.889
   },
   {
    "word": "not",
-   "start": 27.279,
-   "end": 27.559
+   "start": 28.029,
+   "end": 28.309
   },
   {
    "word": "worship",
-   "start": 27.719,
-   "end": 28.079
+   "start": 28.469,
+   "end": 28.829
   },
   {
    "word": "it.",
-   "start": 28.139,
-   "end": 28.199
+   "start": 28.889,
+   "end": 28.949
   }
  ],
  "lines": [
   {
    "text": "Money is stored freedom.",
-   "start": 0.519,
-   "end": 2.139,
+   "start": 1.269,
+   "end": 2.889,
    "wordStart": 0,
    "wordEnd": 3
   },
   {
    "text": "It is the ability to say no.",
-   "start": 2.759,
-   "end": 5.119,
+   "start": 3.509,
+   "end": 5.869,
    "wordStart": 4,
    "wordEnd": 10
   },
   {
    "text": "Spend less than you earn.",
-   "start": 5.98,
-   "end": 7.859,
+   "start": 6.73,
+   "end": 8.609,
    "wordStart": 11,
    "wordEnd": 15
   },
   {
    "text": "The gap is where freedom lives.",
-   "start": 8.419,
-   "end": 10.26,
+   "start": 9.169,
+   "end": 11.01,
    "wordStart": 16,
    "wordEnd": 21
   },
   {
    "text": "Debt is a quiet chain.",
-   "start": 11.34,
-   "end": 13.099,
+   "start": 12.09,
+   "end": 13.849,
    "wordStart": 22,
    "wordEnd": 26
   },
   {
    "text": "Build things that pay you back.",
-   "start": 14.039,
-   "end": 16.219,
+   "start": 14.789,
+   "end": 16.969,
    "wordStart": 27,
    "wordEnd": 32
   },
   {
    "text": "Looking wealthy and being wealthy are not the same.",
-   "start": 17.159,
-   "end": 20.659,
+   "start": 17.909,
+   "end": 21.409,
    "wordStart": 33,
    "wordEnd": 41
   },
   {
    "text": "One is loud.",
-   "start": 21.479,
-   "end": 22.299,
+   "start": 22.229,
+   "end": 23.049,
    "wordStart": 42,
    "wordEnd": 44
   },
   {
    "text": "The other is patient.",
-   "start": 22.84,
-   "end": 24.359,
+   "start": 23.59,
+   "end": 25.109,
    "wordStart": 45,
    "wordEnd": 48
   },
   {
    "text": "Respect money. Do not worship it.",
-   "start": 25.279,
-   "end": 28.294,
+   "start": 26.029,
+   "end": 29.044,
    "wordStart": 49,
    "wordEnd": 54
   }
  ],
  "edge_lead_s": 0.5,
- "pad_lead_s": 0.5,
- "pad_trail_s": 0.75
+ "pad_lead_s": 1.25,
+ "pad_trail_s": 1.75
 }

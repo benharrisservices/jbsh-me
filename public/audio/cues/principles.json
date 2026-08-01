@@ -1,7 +1,7 @@
 {
  "id": "principles",
  "audio": "/audio/principles.mp3",
- "duration": 22.723,
+ "duration": 24.433,
  "loudness": {
   "integrated_lufs": -16.95,
   "true_peak_dbtp": -1.64,
@@ -12,263 +12,263 @@
  "words": [
   {
    "word": "Not",
-   "start": 0.519,
-   "end": 0.699
+   "start": 1.269,
+   "end": 1.449
   },
   {
    "word": "rules.",
-   "start": 1.019,
-   "end": 1.539
+   "start": 1.769,
+   "end": 2.289
   },
   {
    "word": "Orientations.",
-   "start": 2.12,
-   "end": 3.139
+   "start": 2.87,
+   "end": 3.889
   },
   {
    "word": "The",
-   "start": 3.859,
-   "end": 3.98
+   "start": 4.609,
+   "end": 4.73
   },
   {
    "word": "patterns",
-   "start": 4.019,
-   "end": 4.599
+   "start": 4.769,
+   "end": 5.349
   },
   {
    "word": "I",
-   "start": 4.92,
-   "end": 4.94
+   "start": 5.67,
+   "end": 5.69
   },
   {
    "word": "noticed",
-   "start": 4.98,
-   "end": 5.42
+   "start": 5.73,
+   "end": 6.17
   },
   {
    "word": "in",
-   "start": 5.48,
-   "end": 5.639
+   "start": 6.23,
+   "end": 6.389
   },
   {
    "word": "people",
-   "start": 5.699,
-   "end": 6.019
+   "start": 6.449,
+   "end": 6.769
   },
   {
    "word": "who",
-   "start": 6.099,
-   "end": 6.299
+   "start": 6.849,
+   "end": 7.049
   },
   {
    "word": "built",
-   "start": 6.359,
-   "end": 6.599
+   "start": 7.109,
+   "end": 7.349
   },
   {
    "word": "lives",
-   "start": 6.779,
-   "end": 7.259
+   "start": 7.529,
+   "end": 8.009
   },
   {
    "word": "they",
-   "start": 7.42,
-   "end": 7.48
+   "start": 8.17,
+   "end": 8.23
   },
   {
    "word": "were",
-   "start": 7.559,
-   "end": 7.719
+   "start": 8.309,
+   "end": 8.469
   },
   {
    "word": "proud",
-   "start": 7.759,
-   "end": 8.019
+   "start": 8.509,
+   "end": 8.769
   },
   {
    "word": "of.",
-   "start": 8.119,
-   "end": 8.299
+   "start": 8.869,
+   "end": 9.049
   },
   {
    "word": "Own",
-   "start": 9.039,
-   "end": 9.26
+   "start": 9.789,
+   "end": 10.01
   },
   {
    "word": "things.",
-   "start": 9.399,
-   "end": 9.8
+   "start": 10.149,
+   "end": 10.55
   },
   {
    "word": "Build",
-   "start": 10.26,
-   "end": 10.599
+   "start": 11.01,
+   "end": 11.349
   },
   {
    "word": "things.",
-   "start": 10.84,
-   "end": 11.219
+   "start": 11.59,
+   "end": 11.969
   },
   {
    "word": "Read",
-   "start": 11.719,
-   "end": 12.099
+   "start": 12.469,
+   "end": 12.849
   },
   {
    "word": "every",
-   "start": 12.399,
-   "end": 12.6
+   "start": 13.149,
+   "end": 13.35
   },
   {
    "word": "day.",
-   "start": 12.699,
-   "end": 12.96
+   "start": 13.449,
+   "end": 13.71
   },
   {
    "word": "Protect",
-   "start": 13.439,
-   "end": 13.88
+   "start": 14.189,
+   "end": 14.63
   },
   {
    "word": "your",
-   "start": 14.079,
-   "end": 14.199
+   "start": 14.829,
+   "end": 14.949
   },
   {
    "word": "attention.",
-   "start": 14.319,
-   "end": 14.819
+   "start": 15.069,
+   "end": 15.569
   },
   {
    "word": "Play",
-   "start": 15.239,
-   "end": 15.699
+   "start": 15.989,
+   "end": 16.449
   },
   {
    "word": "long",
-   "start": 15.839,
-   "end": 16.119
+   "start": 16.589,
+   "end": 16.869
   },
   {
    "word": "games.",
-   "start": 16.279,
-   "end": 16.799
+   "start": 17.029,
+   "end": 17.549
   },
   {
    "word": "Leave",
-   "start": 17.26,
-   "end": 17.459
+   "start": 18.01,
+   "end": 18.209
   },
   {
    "word": "things",
-   "start": 17.619,
-   "end": 17.979
+   "start": 18.369,
+   "end": 18.729
   },
   {
    "word": "better.",
-   "start": 18.18,
-   "end": 18.559
+   "start": 18.93,
+   "end": 19.309
   },
   {
    "word": "Keep",
-   "start": 19.18,
-   "end": 19.42
+   "start": 19.93,
+   "end": 20.17
   },
   {
    "word": "your",
-   "start": 19.659,
-   "end": 19.899
+   "start": 20.409,
+   "end": 20.649
   },
   {
    "word": "word.",
-   "start": 19.939,
-   "end": 20.399
+   "start": 20.689,
+   "end": 21.149
   },
   {
    "word": "Keep",
-   "start": 20.939,
-   "end": 21.199
+   "start": 21.689,
+   "end": 21.949
   },
   {
    "word": "learning.",
-   "start": 21.52,
-   "end": 21.879
+   "start": 22.27,
+   "end": 22.629
   }
  ],
  "lines": [
   {
    "text": "Not rules.",
-   "start": 0.519,
-   "end": 1.539,
+   "start": 1.269,
+   "end": 2.289,
    "wordStart": 0,
    "wordEnd": 1
   },
   {
    "text": "Orientations.",
-   "start": 2.12,
-   "end": 3.139,
+   "start": 2.87,
+   "end": 3.889,
    "wordStart": 2,
    "wordEnd": 2
   },
   {
    "text": "The patterns I noticed in people who built lives they were proud of.",
-   "start": 3.859,
-   "end": 8.299,
+   "start": 4.609,
+   "end": 9.049,
    "wordStart": 3,
    "wordEnd": 15
   },
   {
    "text": "Own things. Build things.",
-   "start": 9.039,
-   "end": 11.219,
+   "start": 9.789,
+   "end": 11.969,
    "wordStart": 16,
    "wordEnd": 19
   },
   {
    "text": "Read every day.",
-   "start": 11.719,
-   "end": 12.96,
+   "start": 12.469,
+   "end": 13.71,
    "wordStart": 20,
    "wordEnd": 22
   },
   {
    "text": "Protect your attention.",
-   "start": 13.439,
-   "end": 14.819,
+   "start": 14.189,
+   "end": 15.569,
    "wordStart": 23,
    "wordEnd": 25
   },
   {
    "text": "Play long games.",
-   "start": 15.239,
-   "end": 16.799,
+   "start": 15.989,
+   "end": 17.549,
    "wordStart": 26,
    "wordEnd": 28
   },
   {
    "text": "Leave things better.",
-   "start": 17.26,
-   "end": 18.559,
+   "start": 18.01,
+   "end": 19.309,
    "wordStart": 29,
    "wordEnd": 31
   },
   {
    "text": "Keep your word.",
-   "start": 19.18,
-   "end": 20.399,
+   "start": 19.93,
+   "end": 21.149,
    "wordStart": 32,
    "wordEnd": 34
   },
   {
    "text": "Keep learning.",
-   "start": 20.939,
-   "end": 21.973,
+   "start": 21.689,
+   "end": 22.723,
    "wordStart": 35,
    "wordEnd": 36
   }
  ],
  "edge_lead_s": 0.5,
- "pad_lead_s": 0.5,
- "pad_trail_s": 0.75
+ "pad_lead_s": 1.25,
+ "pad_trail_s": 1.75
 }

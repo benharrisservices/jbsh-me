@@ -55,7 +55,7 @@ export function narrationCueSrc(chapterId: string): string {
 }
 
 /** Consistent narration tempo across intro and chapters. */
-export const NARRATION_PLAYBACK_RATE = 1.2;
+export const NARRATION_PLAYBACK_RATE = 1.0;
 
 /** Apply playback rate with pitch preservation where supported. */
 export function applyNarrationPlaybackRate(audio: HTMLAudioElement): void {

@@ -45,7 +45,7 @@ interface AudioContextValue {
 const AudioCtx = createContext<AudioContextValue | undefined>(undefined);
 
 /** Brief pause after `ended` before replacing src (trail silence already in file). */
-const CHAPTER_END_SAFETY_MS = 120;
+const CHAPTER_END_SAFETY_MS = 150;
 
 function scrollToChapter(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -76,6 +76,8 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
   const advancingRef = useRef(false);
   const pendingStartRef = useRef(false);
   const startGenRef = useRef(0);
+  const advanceFromEndedRef = useRef<() => void>(() => {});
+  const endedBoundRef = useRef(false);
 
   const live = playing || prerolling;
   const { levels, resumeContext } = useAudioAnalyser(audioEl, live);
@@ -90,7 +92,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
   }, [playing]);
 
   /**
-   * Reliable start: metadata/canplay → rate 1.2 → currentTime 0 →
+   * Reliable start: metadata/canplay → rate 1.0 → currentTime 0 →
    * AudioContext → one rAF → play. Never seek after play begins.
    * No artificial preroll — opening silence lives in the MP3.
    * When media is already ready, keep awaits minimal so play() stays
@@ -149,9 +151,37 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       if (gen === startGenRef.current) {
         setPlaying(false);
         setPrerolling(false);
+        advancingRef.current = false;
       }
     }
   }, [resumeContext]);
+
+  const advanceFromEnded = useCallback(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+    if (advancingRef.current) return;
+    setPlaying(false);
+    const endedId = audio.dataset.chapterId || activeIdRef.current;
+    const nextId = getNextAudioChapterId(endedId);
+    if (!nextId) {
+      setReachedEnd(true);
+      return;
+    }
+    advancingRef.current = true;
+    void (async () => {
+      await delay(CHAPTER_END_SAFETY_MS);
+      // Always advance to the track after the one that just ended.
+      // Scroll-spy is blocked by advancingRef during this window.
+      resumeOnLoadRef.current = true;
+      setReady(false);
+      setActiveChapterId(nextId);
+      scrollToChapter(nextId);
+    })();
+  }, []);
+
+  useEffect(() => {
+    advanceFromEndedRef.current = advanceFromEnded;
+  }, [advanceFromEnded]);
 
   useEffect(() => {
     const audio = audioEl;
@@ -180,36 +210,20 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       setReady(false);
       setPlaying(false);
       setPrerolling(false);
+      advancingRef.current = false;
       resumeOnLoadRef.current = false;
       pendingStartRef.current = false;
     };
     const onPlay = () => {
       applyNarrationPlaybackRate(audio);
+      advancingRef.current = false;
       setPlaying(true);
       setPrerolling(false);
     };
     const onPause = () => setPlaying(false);
 
-    const onEnd = () => {
-      setPlaying(false);
-      const nextId = getNextAudioChapterId(activeIdRef.current);
-      if (!nextId) {
-        setReachedEnd(true);
-        return;
-      }
-
-      // Auto-advance only after genuine ended + brief safety margin.
-      const gen = startGenRef.current;
-      void (async () => {
-        await delay(CHAPTER_END_SAFETY_MS);
-        if (gen !== startGenRef.current) return;
-        advancingRef.current = true;
-        resumeOnLoadRef.current = true;
-        setReady(false);
-        setActiveChapterId(nextId);
-        scrollToChapter(nextId);
-      })();
-    };
+    // Keep addEventListener as a backup; primary path is audio.onended.
+    const onEnd = () => advanceFromEnded();
 
     audio.addEventListener("loadedmetadata", onLoaded);
     audio.addEventListener("canplay", onLoaded);
@@ -226,7 +240,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       audio.removeEventListener("play", onPlay);
       audio.removeEventListener("pause", onPause);
     };
-  }, [audioEl, startPlaybackReady]);
+  }, [audioEl, startPlaybackReady, advanceFromEnded]);
 
   // Pause when parked on the silent hero (before narration starts).
   useEffect(() => {
@@ -253,7 +267,6 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     if (!advancingRef.current && !pendingStartRef.current) {
       resumeOnLoadRef.current = wasPlayingRef.current;
     }
-    advancingRef.current = false;
 
     startGenRef.current += 1;
     setPrerolling(false);
@@ -265,6 +278,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     audio.load();
     if (!resumeOnLoadRef.current && !pendingStartRef.current) {
       setPlaying(false);
+      advancingRef.current = false;
     }
   }, [activeChapterId, audioEl, startPlaybackReady]);
 
@@ -308,6 +322,9 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
   );
 
   const setActiveChapter = useCallback((id: string) => {
+    // Scroll spy must not steal the chapter during auto-advance or playback.
+    if (advancingRef.current) return;
+    if (wasPlayingRef.current && id !== activeIdRef.current) return;
     setActiveChapterId((prev) => (prev === id ? prev : id));
   }, []);
 
@@ -372,11 +389,16 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       <audio
         ref={(el) => {
           audioRef.current = el;
-          if (el) applyNarrationPlaybackRate(el);
-          // Defer to avoid sync setState-in-render from ref callback churn.
-          if (el !== audioEl) {
-            queueMicrotask(() => setAudioEl(el));
+          if (el) {
+            applyNarrationPlaybackRate(el);
+            if (!endedBoundRef.current) {
+              endedBoundRef.current = true;
+              el.addEventListener("ended", () => {
+                advanceFromEndedRef.current();
+              });
+            }
           }
+          setAudioEl((prev) => (prev === el ? prev : el));
         }}
         preload="auto"
         className="hidden"

@@ -1,7 +1,7 @@
 {
  "id": "health",
  "audio": "/audio/health.mp3",
- "duration": 24.63,
+ "duration": 26.342,
  "loudness": {
   "integrated_lufs": -16.92,
   "true_peak_dbtp": -2.06,
@@ -12,318 +12,318 @@
  "words": [
   {
    "word": "You",
-   "start": 0.619,
-   "end": 0.64
+   "start": 1.369,
+   "end": 1.39
   },
   {
    "word": "cannot",
-   "start": 0.659,
-   "end": 1.0
+   "start": 1.409,
+   "end": 1.75
   },
   {
    "word": "build",
-   "start": 1.099,
-   "end": 1.399
+   "start": 1.849,
+   "end": 2.149
   },
   {
    "word": "from",
-   "start": 1.5,
-   "end": 1.6
+   "start": 2.25,
+   "end": 2.35
   },
   {
    "word": "a",
-   "start": 1.659,
-   "end": 1.679
+   "start": 2.409,
+   "end": 2.429
   },
   {
    "word": "body",
-   "start": 1.779,
-   "end": 2.259
+   "start": 2.529,
+   "end": 3.009
   },
   {
    "word": "that",
-   "start": 2.279,
-   "end": 2.419
+   "start": 3.029,
+   "end": 3.169
   },
   {
    "word": "is",
-   "start": 2.459,
-   "end": 2.579
+   "start": 3.209,
+   "end": 3.329
   },
   {
    "word": "failing.",
-   "start": 2.68,
-   "end": 3.099
+   "start": 3.43,
+   "end": 3.849
   },
   {
    "word": "Health",
-   "start": 4.0,
-   "end": 4.559
+   "start": 4.75,
+   "end": 5.309
   },
   {
    "word": "compounds",
-   "start": 4.619,
-   "end": 5.239
+   "start": 5.369,
+   "end": 5.989
   },
   {
    "word": "both",
-   "start": 5.299,
-   "end": 5.48
+   "start": 6.049,
+   "end": 6.23
   },
   {
    "word": "ways.",
-   "start": 5.579,
-   "end": 5.88
+   "start": 6.329,
+   "end": 6.63
   },
   {
    "word": "You",
-   "start": 6.44,
-   "end": 6.559
+   "start": 7.19,
+   "end": 7.309
   },
   {
    "word": "do",
-   "start": 6.599,
-   "end": 6.739
+   "start": 7.349,
+   "end": 7.489
   },
   {
    "word": "not",
-   "start": 6.779,
-   "end": 6.98
+   "start": 7.529,
+   "end": 7.73
   },
   {
    "word": "need",
-   "start": 7.059,
-   "end": 7.239
+   "start": 7.809,
+   "end": 7.989
   },
   {
    "word": "to",
-   "start": 7.299,
-   "end": 7.399
+   "start": 8.049,
+   "end": 8.149
   },
   {
    "word": "be",
-   "start": 7.42,
-   "end": 7.48
+   "start": 8.17,
+   "end": 8.23
   },
   {
    "word": "an",
-   "start": 7.519,
-   "end": 7.599
+   "start": 8.269,
+   "end": 8.349
   },
   {
    "word": "athlete.",
-   "start": 7.699,
-   "end": 8.119
+   "start": 8.449,
+   "end": 8.869
   },
   {
    "word": "You",
-   "start": 8.76,
-   "end": 8.88
+   "start": 9.51,
+   "end": 9.63
   },
   {
    "word": "need",
-   "start": 8.96,
-   "end": 9.399
+   "start": 9.71,
+   "end": 10.149
   },
   {
    "word": "consistency.",
-   "start": 9.479,
-   "end": 10.399
+   "start": 10.229,
+   "end": 11.149
   },
   {
    "word": "Walk.",
-   "start": 11.3,
-   "end": 11.639
+   "start": 12.05,
+   "end": 12.389
   },
   {
    "word": "Lift",
-   "start": 12.38,
-   "end": 12.659
+   "start": 13.13,
+   "end": 13.409
   },
   {
    "word": "something",
-   "start": 12.719,
-   "end": 13.02
+   "start": 13.469,
+   "end": 13.77
   },
   {
    "word": "heavy.",
-   "start": 13.079,
-   "end": 13.38
+   "start": 13.829,
+   "end": 14.13
   },
   {
    "word": "Eat",
-   "start": 14.119,
-   "end": 14.299
+   "start": 14.869,
+   "end": 15.049
   },
   {
    "word": "real",
-   "start": 14.559,
-   "end": 14.779
+   "start": 15.309,
+   "end": 15.529
   },
   {
    "word": "food.",
-   "start": 14.96,
-   "end": 15.279
+   "start": 15.71,
+   "end": 16.029
   },
   {
    "word": "Guard",
-   "start": 16.159,
-   "end": 16.5
+   "start": 16.909,
+   "end": 17.25
   },
   {
    "word": "your",
-   "start": 16.739,
-   "end": 16.86
+   "start": 17.489,
+   "end": 17.61
   },
   {
    "word": "sleep.",
-   "start": 17.0,
-   "end": 17.339
+   "start": 17.75,
+   "end": 18.089
   },
   {
    "word": "Everything",
-   "start": 18.359,
-   "end": 18.859
+   "start": 19.109,
+   "end": 19.609
   },
   {
    "word": "runs",
-   "start": 18.94,
-   "end": 19.26
+   "start": 19.69,
+   "end": 20.01
   },
   {
    "word": "on",
-   "start": 19.299,
-   "end": 19.42
+   "start": 20.049,
+   "end": 20.17
   },
   {
    "word": "rest.",
-   "start": 19.52,
-   "end": 19.859
+   "start": 20.27,
+   "end": 20.609
   },
   {
    "word": "Your",
-   "start": 20.439,
-   "end": 20.62
+   "start": 21.189,
+   "end": 21.37
   },
   {
    "word": "body",
-   "start": 20.699,
-   "end": 21.1
+   "start": 21.449,
+   "end": 21.85
   },
   {
    "word": "is",
-   "start": 21.159,
-   "end": 21.279
+   "start": 21.909,
+   "end": 22.029
   },
   {
    "word": "the",
-   "start": 21.34,
-   "end": 21.5
+   "start": 22.09,
+   "end": 22.25
   },
   {
    "word": "only",
-   "start": 21.579,
-   "end": 21.819
+   "start": 22.329,
+   "end": 22.569
   },
   {
    "word": "place",
-   "start": 21.939,
-   "end": 22.639
+   "start": 22.689,
+   "end": 23.389
   },
   {
    "word": "you",
-   "start": 22.779,
-   "end": 22.879
+   "start": 23.529,
+   "end": 23.629
   },
   {
    "word": "have",
-   "start": 23.039,
-   "end": 23.299
+   "start": 23.789,
+   "end": 24.049
   },
   {
    "word": "to",
-   "start": 23.359,
-   "end": 23.42
+   "start": 24.109,
+   "end": 24.17
   },
   {
    "word": "live.",
-   "start": 23.539,
-   "end": 23.799
+   "start": 24.289,
+   "end": 24.549
   }
  ],
  "lines": [
   {
    "text": "You cannot build from a body that is failing.",
-   "start": 0.619,
-   "end": 3.099,
+   "start": 1.369,
+   "end": 3.849,
    "wordStart": 0,
    "wordEnd": 8
   },
   {
    "text": "Health compounds both ways.",
-   "start": 4.0,
-   "end": 5.88,
+   "start": 4.75,
+   "end": 6.63,
    "wordStart": 9,
    "wordEnd": 12
   },
   {
    "text": "You do not need to be an athlete.",
-   "start": 6.44,
-   "end": 8.119,
+   "start": 7.19,
+   "end": 8.869,
    "wordStart": 13,
    "wordEnd": 20
   },
   {
    "text": "You need consistency.",
-   "start": 8.76,
-   "end": 10.399,
+   "start": 9.51,
+   "end": 11.149,
    "wordStart": 21,
    "wordEnd": 23
   },
   {
    "text": "Walk.",
-   "start": 11.3,
-   "end": 11.639,
+   "start": 12.05,
+   "end": 12.389,
    "wordStart": 24,
    "wordEnd": 24
   },
   {
    "text": "Lift something heavy.",
-   "start": 12.38,
-   "end": 13.38,
+   "start": 13.13,
+   "end": 14.13,
    "wordStart": 25,
    "wordEnd": 27
   },
   {
    "text": "Eat real food.",
-   "start": 14.119,
-   "end": 15.279,
+   "start": 14.869,
+   "end": 16.029,
    "wordStart": 28,
    "wordEnd": 30
   },
   {
    "text": "Guard your sleep.",
-   "start": 16.159,
-   "end": 17.339,
+   "start": 16.909,
+   "end": 18.089,
    "wordStart": 31,
    "wordEnd": 33
   },
   {
    "text": "Everything runs on rest.",
-   "start": 18.359,
-   "end": 19.859,
+   "start": 19.109,
+   "end": 20.609,
    "wordStart": 34,
    "wordEnd": 37
   },
   {
    "text": "Your body is the only place you have to live.",
-   "start": 20.439,
-   "end": 23.88,
+   "start": 21.189,
+   "end": 24.63,
    "wordStart": 38,
    "wordEnd": 47
   }
  ],
  "edge_lead_s": 0.5,
- "pad_lead_s": 0.5,
- "pad_trail_s": 0.75
+ "pad_lead_s": 1.25,
+ "pad_trail_s": 1.75
 }

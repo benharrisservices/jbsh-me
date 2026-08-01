@@ -1,7 +1,7 @@
 {
  "id": "welcome",
  "audio": "/audio/welcome.mp3",
- "duration": 19.714,
+ "duration": 21.428,
  "loudness": {
   "integrated_lufs": -16.94,
   "true_peak_dbtp": -1.92,
@@ -12,324 +12,324 @@
  "words": [
   {
    "word": "Hello",
-   "start": 0.619,
-   "end": 0.779
+   "start": 1.369,
+   "end": 1.529
   },
   {
    "word": "James.",
-   "start": 0.899,
-   "end": 1.299
+   "start": 1.649,
+   "end": 2.049
   },
   {
    "word": "If",
-   "start": 2.139,
-   "end": 2.239
+   "start": 2.889,
+   "end": 2.989
   },
   {
    "word": "you're",
-   "start": 2.279,
-   "end": 2.419
+   "start": 3.029,
+   "end": 3.169
   },
   {
    "word": "seeing",
-   "start": 2.479,
-   "end": 2.699
+   "start": 3.229,
+   "end": 3.449
   },
   {
    "word": "this,",
-   "start": 2.739,
-   "end": 2.979
+   "start": 3.489,
+   "end": 3.729
   },
   {
    "word": "your",
-   "start": 3.139,
-   "end": 3.239
+   "start": 3.889,
+   "end": 3.989
   },
   {
    "word": "brother",
-   "start": 3.32,
-   "end": 3.6
+   "start": 4.07,
+   "end": 4.35
   },
   {
    "word": "believes",
-   "start": 3.659,
-   "end": 3.979
+   "start": 4.409,
+   "end": 4.729
   },
   {
    "word": "something",
-   "start": 4.019,
-   "end": 4.299
+   "start": 4.769,
+   "end": 5.049
   },
   {
    "word": "about",
-   "start": 4.379,
-   "end": 4.619
+   "start": 5.129,
+   "end": 5.369
   },
   {
    "word": "you.",
-   "start": 4.679,
-   "end": 4.799
+   "start": 5.429,
+   "end": 5.549
   },
   {
    "word": "That",
-   "start": 5.359,
-   "end": 5.459
+   "start": 6.109,
+   "end": 6.209
   },
   {
    "word": "you",
-   "start": 5.5,
-   "end": 5.56
+   "start": 6.25,
+   "end": 6.31
   },
   {
    "word": "were",
-   "start": 5.58,
-   "end": 5.659
+   "start": 6.33,
+   "end": 6.409
   },
   {
    "word": "never",
-   "start": 5.699,
-   "end": 5.919
+   "start": 6.449,
+   "end": 6.669
   },
   {
    "word": "meant",
-   "start": 5.98,
-   "end": 6.199
+   "start": 6.73,
+   "end": 6.949
   },
   {
    "word": "for",
-   "start": 6.259,
-   "end": 6.319
+   "start": 7.009,
+   "end": 7.069
   },
   {
    "word": "an",
-   "start": 6.359,
-   "end": 6.419
+   "start": 7.109,
+   "end": 7.169
   },
   {
    "word": "ordinary",
-   "start": 6.56,
-   "end": 6.939
+   "start": 7.31,
+   "end": 7.689
   },
   {
    "word": "life.",
-   "start": 6.999,
-   "end": 7.279
+   "start": 7.749,
+   "end": 8.029
   },
   {
    "word": "This",
-   "start": 8.119,
-   "end": 8.279
+   "start": 8.869,
+   "end": 9.029
   },
   {
    "word": "is",
-   "start": 8.339,
-   "end": 8.479
+   "start": 9.089,
+   "end": 9.229
   },
   {
    "word": "not",
-   "start": 8.56,
-   "end": 8.779
+   "start": 9.31,
+   "end": 9.529
   },
   {
    "word": "really",
-   "start": 8.879,
-   "end": 9.079
+   "start": 9.629,
+   "end": 9.829
   },
   {
    "word": "a",
-   "start": 9.139,
-   "end": 9.179
+   "start": 9.889,
+   "end": 9.929
   },
   {
    "word": "website.",
-   "start": 9.239,
-   "end": 9.739
+   "start": 9.989,
+   "end": 10.489
   },
   {
    "word": "It's",
-   "start": 10.279,
-   "end": 10.42
+   "start": 11.029,
+   "end": 11.17
   },
   {
    "word": "a",
-   "start": 10.459,
-   "end": 10.52
+   "start": 11.209,
+   "end": 11.27
   },
   {
    "word": "gift.",
-   "start": 10.6,
-   "end": 10.959
+   "start": 11.35,
+   "end": 11.709
   },
   {
    "word": "A",
-   "start": 11.619,
-   "end": 11.659
+   "start": 12.369,
+   "end": 12.409
   },
   {
    "word": "few",
-   "start": 11.719,
-   "end": 11.9
+   "start": 12.469,
+   "end": 12.65
   },
   {
    "word": "keys.",
-   "start": 11.98,
-   "end": 12.539
+   "start": 12.73,
+   "end": 13.289
   },
   {
    "word": "A",
-   "start": 12.799,
-   "end": 12.859
+   "start": 13.549,
+   "end": 13.609
   },
   {
    "word": "few",
-   "start": 12.94,
-   "end": 13.06
+   "start": 13.69,
+   "end": 13.81
   },
   {
    "word": "ideas.",
-   "start": 13.179,
-   "end": 13.719
+   "start": 13.929,
+   "end": 14.469
   },
   {
    "word": "A",
-   "start": 14.44,
-   "end": 14.48
+   "start": 15.19,
+   "end": 15.23
   },
   {
    "word": "reminder",
-   "start": 14.539,
-   "end": 14.959
+   "start": 15.289,
+   "end": 15.709
   },
   {
    "word": "that",
-   "start": 14.98,
-   "end": 15.079
+   "start": 15.73,
+   "end": 15.829
   },
   {
    "word": "the",
-   "start": 15.119,
-   "end": 15.179
+   "start": 15.869,
+   "end": 15.929
   },
   {
    "word": "future",
-   "start": 15.319,
-   "end": 15.6
+   "start": 16.069,
+   "end": 16.35
   },
   {
    "word": "belongs",
-   "start": 15.679,
-   "end": 15.999
+   "start": 16.429,
+   "end": 16.749
   },
   {
    "word": "to",
-   "start": 16.039,
-   "end": 16.1
+   "start": 16.789,
+   "end": 16.85
   },
   {
    "word": "people",
-   "start": 16.199,
-   "end": 16.499
+   "start": 16.949,
+   "end": 17.249
   },
   {
    "word": "willing",
-   "start": 16.659,
-   "end": 16.919
+   "start": 17.409,
+   "end": 17.669
   },
   {
    "word": "to",
-   "start": 16.959,
-   "end": 17.02
+   "start": 17.709,
+   "end": 17.77
   },
   {
    "word": "build",
-   "start": 17.12,
-   "end": 17.319
+   "start": 17.87,
+   "end": 18.069
   },
   {
    "word": "it.",
-   "start": 17.379,
-   "end": 17.539
+   "start": 18.129,
+   "end": 18.289
   },
   {
    "word": "Welcome.",
-   "start": 18.6,
-   "end": 18.879
+   "start": 19.35,
+   "end": 19.629
   }
  ],
  "lines": [
   {
    "text": "Hello James.",
-   "start": 0.619,
-   "end": 1.299,
+   "start": 1.369,
+   "end": 2.049,
    "wordStart": 0,
    "wordEnd": 1
   },
   {
    "text": "If you're seeing this,",
-   "start": 2.139,
-   "end": 2.979,
+   "start": 2.889,
+   "end": 3.729,
    "wordStart": 2,
    "wordEnd": 5
   },
   {
    "text": "your brother believes something about you.",
-   "start": 3.139,
-   "end": 4.799,
+   "start": 3.889,
+   "end": 5.549,
    "wordStart": 6,
    "wordEnd": 11
   },
   {
    "text": "That you were never meant for an ordinary life.",
-   "start": 5.359,
-   "end": 7.279,
+   "start": 6.109,
+   "end": 8.029,
    "wordStart": 12,
    "wordEnd": 20
   },
   {
    "text": "This is not really a website.",
-   "start": 8.119,
-   "end": 9.739,
+   "start": 8.869,
+   "end": 10.489,
    "wordStart": 21,
    "wordEnd": 26
   },
   {
    "text": "It's a gift.",
-   "start": 10.279,
-   "end": 10.959,
+   "start": 11.029,
+   "end": 11.709,
    "wordStart": 27,
    "wordEnd": 29
   },
   {
    "text": "A few keys.",
-   "start": 11.619,
-   "end": 12.539,
+   "start": 12.369,
+   "end": 13.289,
    "wordStart": 30,
    "wordEnd": 32
   },
   {
    "text": "A few ideas.",
-   "start": 12.799,
-   "end": 13.719,
+   "start": 13.549,
+   "end": 14.469,
    "wordStart": 33,
    "wordEnd": 35
   },
   {
    "text": "A reminder that the future belongs to people willing to build it.",
-   "start": 14.44,
-   "end": 17.539,
+   "start": 15.19,
+   "end": 18.289,
    "wordStart": 36,
    "wordEnd": 47
   },
   {
    "text": "Welcome.",
-   "start": 18.6,
-   "end": 18.964,
+   "start": 19.35,
+   "end": 19.714,
    "wordStart": 48,
    "wordEnd": 48
   }
  ],
- "lead_in_s": 0.6,
+ "lead_in_s": 1.35,
  "edge_lead_s": 0.6,
- "pad_lead_s": 0.0,
- "pad_trail_s": 0.75
+ "pad_lead_s": 0.75,
+ "pad_trail_s": 1.75
 }

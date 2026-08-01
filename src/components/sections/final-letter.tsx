@@ -7,7 +7,6 @@ import { useChapterCues } from "@/hooks/use-chapter-cues";
 import { finalLetter } from "@/content/letter";
 import {
   hasProductionLineCues,
-  revealedLineIndex,
   softActiveIndex,
 } from "@/lib/cues";
 import { cn } from "@/lib/utils";
@@ -25,11 +24,6 @@ export function FinalLetterSection() {
     if (!isActive || !hasProductionLineCues(cues)) return -1;
     return softActiveIndex(cues.lines ?? [], currentTime);
   }, [isActive, cues, currentTime]);
-
-  const revealIndex = useMemo(() => {
-    if (!isActive || !hasProductionLineCues(cues)) return lines.length - 1;
-    return revealedLineIndex(cues, currentTime);
-  }, [isActive, cues, currentTime, lines.length]);
 
   // The closing screen is a deliberate, once-only moment. It may be reached
   // two ways: by scrolling to the end of the letter, or by the narration
@@ -67,31 +61,26 @@ export function FinalLetterSection() {
           </motion.header>
 
           <div className="space-y-6">
-            <AnimatePresence initial={false}>
-              {lines.map((line, i) => {
-                if (isActive && i > revealIndex) return null;
-                const isLineActive = isActive && i === activeIndex;
-                const isPast = isActive && activeIndex >= 0 && i < activeIndex;
-                return (
-                  <motion.p
-                    key={i}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{
-                      opacity: isLineActive ? 1 : isPast ? 0.32 : isActive ? 0.7 : 0.7,
-                    }}
-                    transition={{ duration: 0.55, ease: [0.25, 0.1, 0.25, 1] }}
-                    className={cn(
-                      "text-lg leading-relaxed font-light tracking-tight md:text-xl md:leading-relaxed",
-                      isLineActive && "text-foreground",
-                      isPast && "text-foreground/40",
-                      !isLineActive && !isPast && "text-foreground/70",
-                    )}
-                  >
-                    {line}
-                  </motion.p>
-                );
-              })}
-            </AnimatePresence>
+            {lines.map((line, i) => {
+              const isLineActive = isActive && i === activeIndex;
+              const isPast = isActive && activeIndex >= 0 && i < activeIndex;
+              const isUpcoming = isActive && activeIndex >= 0 && i > activeIndex;
+              return (
+                <p
+                  key={`letter-line-${i}`}
+                  className={cn(
+                    "text-lg leading-relaxed font-light tracking-tight transition-colors duration-150 md:text-xl md:leading-relaxed",
+                    !isActive && "text-foreground/70",
+                    isLineActive && "text-foreground",
+                    isPast && "text-foreground/45",
+                    isUpcoming && "text-foreground/40",
+                    isActive && activeIndex < 0 && "text-foreground/70",
+                  )}
+                >
+                  {line}
+                </p>
+              );
+            })}
           </div>
 
           {/* Only a genuine scroll to the very end reveals the closing. */}

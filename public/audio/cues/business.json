@@ -1,7 +1,7 @@
 {
  "id": "business",
  "audio": "/audio/business.mp3",
- "duration": 29.932,
+ "duration": 31.655,
  "loudness": {
   "integrated_lufs": -16.93,
   "true_peak_dbtp": -1.8,
@@ -12,383 +12,383 @@
  "words": [
   {
    "word": "You",
-   "start": 0.579,
-   "end": 0.679
+   "start": 1.329,
+   "end": 1.429
   },
   {
    "word": "understand",
-   "start": 0.799,
-   "end": 1.6
+   "start": 1.549,
+   "end": 2.35
   },
   {
    "word": "infrastructure.",
-   "start": 1.839,
-   "end": 2.619
+   "start": 2.589,
+   "end": 3.369
   },
   {
    "word": "That",
-   "start": 3.419,
-   "end": 3.639
+   "start": 4.169,
+   "end": 4.389
   },
   {
    "word": "is",
-   "start": 3.679,
-   "end": 3.799
+   "start": 4.429,
+   "end": 4.549
   },
   {
    "word": "worth",
-   "start": 3.879,
-   "end": 4.159
+   "start": 4.629,
+   "end": 4.909
   },
   {
    "word": "more",
-   "start": 4.279,
-   "end": 4.419
+   "start": 5.029,
+   "end": 5.169
   },
   {
    "word": "than",
-   "start": 4.48,
-   "end": 4.559
+   "start": 5.23,
+   "end": 5.309
   },
   {
    "word": "you",
-   "start": 4.619,
-   "end": 4.759
+   "start": 5.369,
+   "end": 5.509
   },
   {
    "word": "think.",
-   "start": 4.819,
-   "end": 5.119
+   "start": 5.569,
+   "end": 5.869
   },
   {
    "word": "The",
-   "start": 5.98,
-   "end": 6.079
+   "start": 6.73,
+   "end": 6.829
   },
   {
    "word": "gap",
-   "start": 6.159,
-   "end": 6.359
+   "start": 6.909,
+   "end": 7.109
   },
   {
    "word": "between",
-   "start": 6.519,
-   "end": 6.859
+   "start": 7.269,
+   "end": 7.609
   },
   {
    "word": "idea",
-   "start": 7.0,
-   "end": 7.559
+   "start": 7.75,
+   "end": 8.309
   },
   {
    "word": "and",
-   "start": 7.739,
-   "end": 7.879
+   "start": 8.489,
+   "end": 8.629
   },
   {
    "word": "built",
-   "start": 7.98,
-   "end": 8.299
+   "start": 8.73,
+   "end": 9.049
   },
   {
    "word": "has",
-   "start": 8.5,
-   "end": 8.619
+   "start": 9.25,
+   "end": 9.369
   },
   {
    "word": "closed.",
-   "start": 8.739,
-   "end": 9.199
+   "start": 9.489,
+   "end": 9.949
   },
   {
    "word": "You",
-   "start": 10.219,
-   "end": 10.279
+   "start": 10.969,
+   "end": 11.029
   },
   {
    "word": "do",
-   "start": 10.319,
-   "end": 10.38
+   "start": 11.069,
+   "end": 11.13
   },
   {
    "word": "not",
-   "start": 10.439,
-   "end": 10.539
+   "start": 11.189,
+   "end": 11.289
   },
   {
    "word": "have",
-   "start": 10.599,
-   "end": 10.699
+   "start": 11.349,
+   "end": 11.449
   },
   {
    "word": "to",
-   "start": 10.739,
-   "end": 10.82
+   "start": 11.489,
+   "end": 11.57
   },
   {
    "word": "quit",
-   "start": 10.939,
-   "end": 11.199
+   "start": 11.689,
+   "end": 11.949
   },
   {
    "word": "tomorrow.",
-   "start": 11.34,
-   "end": 11.84
+   "start": 12.09,
+   "end": 12.59
   },
   {
    "word": "Start",
-   "start": 12.539,
-   "end": 12.819
+   "start": 13.289,
+   "end": 13.569
   },
   {
    "word": "something",
-   "start": 12.859,
-   "end": 13.159
+   "start": 13.609,
+   "end": 13.909
   },
   {
    "word": "small",
-   "start": 13.299,
-   "end": 13.699
+   "start": 14.049,
+   "end": 14.449
   },
   {
    "word": "on",
-   "start": 13.779,
-   "end": 13.859
+   "start": 14.529,
+   "end": 14.609
   },
   {
    "word": "the",
-   "start": 13.899,
-   "end": 13.96
+   "start": 14.649,
+   "end": 14.71
   },
   {
    "word": "side.",
-   "start": 14.079,
-   "end": 14.5
+   "start": 14.829,
+   "end": 15.25
   },
   {
    "word": "A",
-   "start": 15.159,
-   "end": 15.239
+   "start": 15.909,
+   "end": 15.989
   },
   {
    "word": "tool.",
-   "start": 15.319,
-   "end": 15.759
+   "start": 16.069,
+   "end": 16.509
   },
   {
    "word": "A",
-   "start": 16.119,
-   "end": 16.139
+   "start": 16.869,
+   "end": 16.889
   },
   {
    "word": "service.",
-   "start": 16.299,
-   "end": 16.799
+   "start": 17.049,
+   "end": 17.549
   },
   {
    "word": "A",
-   "start": 17.479,
-   "end": 17.5
+   "start": 18.229,
+   "end": 18.25
   },
   {
    "word": "name",
-   "start": 17.659,
-   "end": 18.079
+   "start": 18.409,
+   "end": 18.829
   },
   {
    "word": "people",
-   "start": 18.359,
-   "end": 18.559
+   "start": 19.109,
+   "end": 19.309
   },
   {
    "word": "trust.",
-   "start": 18.699,
-   "end": 19.139
+   "start": 19.449,
+   "end": 19.889
   },
   {
    "word": "Ownership",
-   "start": 20.199,
-   "end": 20.739
+   "start": 20.949,
+   "end": 21.489
   },
   {
    "word": "is",
-   "start": 21.0,
-   "end": 21.119
+   "start": 21.75,
+   "end": 21.869
   },
   {
    "word": "the",
-   "start": 21.199,
-   "end": 21.26
+   "start": 21.949,
+   "end": 22.01
   },
   {
    "word": "goal.",
-   "start": 21.34,
-   "end": 21.719
+   "start": 22.09,
+   "end": 22.469
   },
   {
    "word": "Not",
-   "start": 22.199,
-   "end": 22.42
+   "start": 22.949,
+   "end": 23.17
   },
   {
    "word": "employment.",
-   "start": 22.559,
-   "end": 23.18
+   "start": 23.309,
+   "end": 23.93
   },
   {
    "word": "Build",
-   "start": 24.019,
-   "end": 24.279
+   "start": 24.769,
+   "end": 25.029
   },
   {
    "word": "something",
-   "start": 24.359,
-   "end": 24.659
+   "start": 25.109,
+   "end": 25.409
   },
   {
    "word": "that",
-   "start": 24.699,
-   "end": 24.819
+   "start": 25.449,
+   "end": 25.569
   },
   {
    "word": "works",
-   "start": 24.959,
-   "end": 25.479
+   "start": 25.709,
+   "end": 26.229
   },
   {
    "word": "when",
-   "start": 25.559,
-   "end": 25.7
+   "start": 26.309,
+   "end": 26.45
   },
   {
    "word": "you",
-   "start": 25.76,
-   "end": 25.859
+   "start": 26.51,
+   "end": 26.609
   },
   {
    "word": "leave",
-   "start": 25.899,
-   "end": 26.059
+   "start": 26.649,
+   "end": 26.809
   },
   {
    "word": "the",
-   "start": 26.099,
-   "end": 26.18
+   "start": 26.849,
+   "end": 26.93
   },
   {
    "word": "room.",
-   "start": 26.239,
-   "end": 26.559
+   "start": 26.989,
+   "end": 27.309
   },
   {
    "word": "That",
-   "start": 27.42,
-   "end": 27.859
+   "start": 28.17,
+   "end": 28.609
   },
   {
    "word": "is",
-   "start": 27.92,
-   "end": 28.019
+   "start": 28.67,
+   "end": 28.769
   },
   {
    "word": "the",
-   "start": 28.059,
-   "end": 28.119
+   "start": 28.809,
+   "end": 28.869
   },
   {
    "word": "beginning",
-   "start": 28.159,
-   "end": 28.559
+   "start": 28.909,
+   "end": 29.309
   },
   {
    "word": "of",
-   "start": 28.599,
-   "end": 28.659
+   "start": 29.349,
+   "end": 29.409
   },
   {
    "word": "a",
-   "start": 28.699,
-   "end": 28.719
+   "start": 29.449,
+   "end": 29.469
   },
   {
    "word": "plan.",
-   "start": 28.819,
-   "end": 29.099
+   "start": 29.569,
+   "end": 29.849
   }
  ],
  "lines": [
   {
    "text": "You understand infrastructure.",
-   "start": 0.579,
-   "end": 2.619,
+   "start": 1.329,
+   "end": 3.369,
    "wordStart": 0,
    "wordEnd": 2
   },
   {
    "text": "That is worth more than you think.",
-   "start": 3.419,
-   "end": 5.119,
+   "start": 4.169,
+   "end": 5.869,
    "wordStart": 3,
    "wordEnd": 9
   },
   {
    "text": "The gap between idea and built has closed.",
-   "start": 5.98,
-   "end": 9.199,
+   "start": 6.73,
+   "end": 9.949,
    "wordStart": 10,
    "wordEnd": 17
   },
   {
    "text": "You do not have to quit tomorrow.",
-   "start": 10.219,
-   "end": 11.84,
+   "start": 10.969,
+   "end": 12.59,
    "wordStart": 18,
    "wordEnd": 24
   },
   {
    "text": "Start something small on the side.",
-   "start": 12.539,
-   "end": 14.5,
+   "start": 13.289,
+   "end": 15.25,
    "wordStart": 25,
    "wordEnd": 30
   },
   {
    "text": "A tool. A service. A name people trust.",
-   "start": 15.159,
-   "end": 19.139,
+   "start": 15.909,
+   "end": 19.889,
    "wordStart": 31,
    "wordEnd": 38
   },
   {
    "text": "Ownership is the goal.",
-   "start": 20.199,
-   "end": 21.719,
+   "start": 20.949,
+   "end": 22.469,
    "wordStart": 39,
    "wordEnd": 42
   },
   {
    "text": "Not employment.",
-   "start": 22.199,
-   "end": 23.18,
+   "start": 22.949,
+   "end": 23.93,
    "wordStart": 43,
    "wordEnd": 44
   },
   {
    "text": "Build something that works when you leave the room.",
-   "start": 24.019,
-   "end": 26.559,
+   "start": 24.769,
+   "end": 27.309,
    "wordStart": 45,
    "wordEnd": 53
   },
   {
    "text": "That is the beginning of a plan.",
-   "start": 27.42,
-   "end": 29.182,
+   "start": 28.17,
+   "end": 29.932,
    "wordStart": 54,
    "wordEnd": 60
   }
  ],
  "edge_lead_s": 0.5,
- "pad_lead_s": 0.5,
- "pad_trail_s": 0.75
+ "pad_lead_s": 1.25,
+ "pad_trail_s": 1.75
 }

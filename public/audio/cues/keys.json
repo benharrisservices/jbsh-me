@@ -1,7 +1,7 @@
 {
  "id": "keys",
  "audio": "/audio/keys.mp3",
- "duration": 7.049,
+ "duration": 8.768,
  "loudness": {
   "integrated_lufs": -16.95,
   "true_peak_dbtp": -2.25,
@@ -12,99 +12,99 @@
  "words": [
   {
    "word": "These",
-   "start": 0.559,
-   "end": 1.019
+   "start": 1.309,
+   "end": 1.769
   },
   {
    "word": "are",
-   "start": 1.06,
-   "end": 1.219
+   "start": 1.81,
+   "end": 1.969
   },
   {
    "word": "yours.",
-   "start": 1.259,
-   "end": 1.659
+   "start": 2.009,
+   "end": 2.409
   },
   {
    "word": "Set",
-   "start": 2.319,
-   "end": 2.539
+   "start": 3.069,
+   "end": 3.289
   },
   {
    "word": "up,",
-   "start": 2.619,
-   "end": 2.879
+   "start": 3.369,
+   "end": 3.629
   },
   {
    "word": "and",
-   "start": 2.919,
-   "end": 3.039
+   "start": 3.669,
+   "end": 3.789
   },
   {
    "word": "waiting.",
-   "start": 3.099,
-   "end": 3.439
+   "start": 3.849,
+   "end": 4.189
   },
   {
    "word": "A",
-   "start": 4.139,
-   "end": 4.159
+   "start": 4.889,
+   "end": 4.909
   },
   {
    "word": "brother",
-   "start": 4.24,
-   "end": 4.86
+   "start": 4.99,
+   "end": 5.61
   },
   {
    "word": "leaving",
-   "start": 4.9,
-   "end": 5.259
+   "start": 5.65,
+   "end": 6.009
   },
   {
    "word": "keys",
-   "start": 5.299,
-   "end": 5.739
+   "start": 6.049,
+   "end": 6.489
   },
   {
    "word": "under",
-   "start": 5.799,
-   "end": 5.98
+   "start": 6.549,
+   "end": 6.73
   },
   {
    "word": "the",
-   "start": 6.0,
-   "end": 6.039
+   "start": 6.75,
+   "end": 6.789
   },
   {
    "word": "mat.",
-   "start": 6.119,
-   "end": 6.219
+   "start": 6.869,
+   "end": 6.969
   }
  ],
  "lines": [
   {
    "text": "These are yours.",
-   "start": 0.559,
-   "end": 1.659,
+   "start": 1.309,
+   "end": 2.409,
    "wordStart": 0,
    "wordEnd": 2
   },
   {
    "text": "Set up, and waiting.",
-   "start": 2.319,
-   "end": 3.439,
+   "start": 3.069,
+   "end": 4.189,
    "wordStart": 3,
    "wordEnd": 6
   },
   {
    "text": "A brother leaving keys under the mat.",
-   "start": 4.139,
-   "end": 6.299,
+   "start": 4.889,
+   "end": 7.049,
    "wordStart": 7,
    "wordEnd": 13
   }
  ],
  "edge_lead_s": 0.5,
- "pad_lead_s": 0.5,
- "pad_trail_s": 0.75
+ "pad_lead_s": 1.25,
+ "pad_trail_s": 1.75
 }

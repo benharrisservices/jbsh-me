@@ -1,7 +1,7 @@
 {
  "id": "technology",
  "audio": "/audio/technology.mp3",
- "duration": 20.763,
+ "duration": 22.464,
  "loudness": {
   "integrated_lufs": -16.95,
   "true_peak_dbtp": -2.53,
@@ -12,252 +12,252 @@
  "words": [
   {
    "word": "You",
-   "start": 0.579,
-   "end": 0.719
+   "start": 1.329,
+   "end": 1.469
   },
   {
    "word": "already",
-   "start": 0.879,
-   "end": 1.279
+   "start": 1.629,
+   "end": 2.029
   },
   {
    "word": "live",
-   "start": 1.479,
-   "end": 1.939
+   "start": 2.229,
+   "end": 2.689
   },
   {
    "word": "inside",
-   "start": 2.0,
-   "end": 2.579
+   "start": 2.75,
+   "end": 3.329
   },
   {
    "word": "the",
-   "start": 2.619,
-   "end": 2.659
+   "start": 3.369,
+   "end": 3.409
   },
   {
    "word": "machine.",
-   "start": 2.7,
-   "end": 3.22
+   "start": 3.45,
+   "end": 3.97
   },
   {
    "word": "A",
-   "start": 4.24,
-   "end": 4.259
+   "start": 4.99,
+   "end": 5.009
   },
   {
    "word": "laptop",
-   "start": 4.339,
-   "end": 4.799
+   "start": 5.089,
+   "end": 5.549
   },
   {
    "word": "is",
-   "start": 4.86,
-   "end": 4.96
+   "start": 5.61,
+   "end": 5.71
   },
   {
    "word": "the",
-   "start": 5.0,
-   "end": 5.119
+   "start": 5.75,
+   "end": 5.869
   },
   {
    "word": "most",
-   "start": 5.159,
-   "end": 5.579
+   "start": 5.909,
+   "end": 6.329
   },
   {
    "word": "patient",
-   "start": 5.659,
-   "end": 6.119
+   "start": 6.409,
+   "end": 6.869
   },
   {
    "word": "partner",
-   "start": 6.159,
-   "end": 6.659
+   "start": 6.909,
+   "end": 7.409
   },
   {
    "word": "you",
-   "start": 6.739,
-   "end": 6.799
+   "start": 7.489,
+   "end": 7.549
   },
   {
    "word": "will",
-   "start": 6.839,
-   "end": 7.039
+   "start": 7.589,
+   "end": 7.789
   },
   {
    "word": "ever",
-   "start": 7.079,
-   "end": 7.319
+   "start": 7.829,
+   "end": 8.069
   },
   {
    "word": "have.",
-   "start": 7.42,
-   "end": 7.659
+   "start": 8.17,
+   "end": 8.409
   },
   {
    "word": "Learn",
-   "start": 8.359,
-   "end": 8.519
+   "start": 9.109,
+   "end": 9.269
   },
   {
    "word": "the",
-   "start": 8.579,
-   "end": 8.619
+   "start": 9.329,
+   "end": 9.369
   },
   {
    "word": "fundamentals.",
-   "start": 8.699,
-   "end": 9.439
+   "start": 9.449,
+   "end": 10.189
   },
   {
    "word": "They",
-   "start": 9.96,
-   "end": 10.079
+   "start": 10.71,
+   "end": 10.829
   },
   {
    "word": "outlast",
-   "start": 10.119,
-   "end": 10.719
+   "start": 10.869,
+   "end": 11.469
   },
   {
    "word": "every",
-   "start": 10.96,
-   "end": 11.239
+   "start": 11.71,
+   "end": 11.989
   },
   {
    "word": "framework.",
-   "start": 11.3,
-   "end": 11.859
+   "start": 12.05,
+   "end": 12.609
   },
   {
    "word": "Do",
-   "start": 12.979,
-   "end": 13.039
+   "start": 13.729,
+   "end": 13.789
   },
   {
    "word": "not",
-   "start": 13.099,
-   "end": 13.3
+   "start": 13.849,
+   "end": 14.05
   },
   {
    "word": "chase",
-   "start": 13.34,
-   "end": 13.739
+   "start": 14.09,
+   "end": 14.489
   },
   {
    "word": "every",
-   "start": 13.819,
-   "end": 14.099
+   "start": 14.569,
+   "end": 14.849
   },
   {
    "word": "trend.",
-   "start": 14.179,
-   "end": 14.559
+   "start": 14.929,
+   "end": 15.309
   },
   {
    "word": "Build",
-   "start": 15.259,
-   "end": 15.479
+   "start": 16.009,
+   "end": 16.229
   },
   {
    "word": "things",
-   "start": 15.539,
-   "end": 15.799
+   "start": 16.289,
+   "end": 16.549
   },
   {
    "word": "for",
-   "start": 15.859,
-   "end": 15.92
+   "start": 16.609,
+   "end": 16.67
   },
   {
    "word": "yourself.",
-   "start": 15.979,
-   "end": 16.52
+   "start": 16.729,
+   "end": 17.27
   },
   {
    "word": "Small",
-   "start": 17.459,
-   "end": 17.739
+   "start": 18.209,
+   "end": 18.489
   },
   {
    "word": "builds",
-   "start": 17.859,
-   "end": 18.44
+   "start": 18.609,
+   "end": 19.19
   },
   {
    "word": "teach",
-   "start": 18.52,
-   "end": 18.739
+   "start": 19.27,
+   "end": 19.489
   },
   {
    "word": "what",
-   "start": 18.799,
-   "end": 18.94
+   "start": 19.549,
+   "end": 19.69
   },
   {
    "word": "manuals",
-   "start": 19.059,
-   "end": 19.539
+   "start": 19.809,
+   "end": 20.289
   },
   {
    "word": "cannot.",
-   "start": 19.619,
-   "end": 19.94
+   "start": 20.369,
+   "end": 20.69
   }
  ],
  "lines": [
   {
    "text": "You already live inside the machine.",
-   "start": 0.579,
-   "end": 3.22,
+   "start": 1.329,
+   "end": 3.97,
    "wordStart": 0,
    "wordEnd": 5
   },
   {
    "text": "A laptop is the most patient partner you will ever have.",
-   "start": 4.24,
-   "end": 7.659,
+   "start": 4.99,
+   "end": 8.409,
    "wordStart": 6,
    "wordEnd": 16
   },
   {
    "text": "Learn the fundamentals.",
-   "start": 8.359,
-   "end": 9.439,
+   "start": 9.109,
+   "end": 10.189,
    "wordStart": 17,
    "wordEnd": 19
   },
   {
    "text": "They outlast every framework.",
-   "start": 9.96,
-   "end": 11.859,
+   "start": 10.71,
+   "end": 12.609,
    "wordStart": 20,
    "wordEnd": 23
   },
   {
    "text": "Do not chase every trend.",
-   "start": 12.979,
-   "end": 14.559,
+   "start": 13.729,
+   "end": 15.309,
    "wordStart": 24,
    "wordEnd": 28
   },
   {
    "text": "Build things for yourself.",
-   "start": 15.259,
-   "end": 16.52,
+   "start": 16.009,
+   "end": 17.27,
    "wordStart": 29,
    "wordEnd": 32
   },
   {
    "text": "Small builds teach what manuals cannot.",
-   "start": 17.459,
-   "end": 20.013,
+   "start": 18.209,
+   "end": 20.763,
    "wordStart": 33,
    "wordEnd": 38
   }
  ],
  "edge_lead_s": 0.5,
- "pad_lead_s": 0.5,
- "pad_trail_s": 0.75
+ "pad_lead_s": 1.25,
+ "pad_trail_s": 1.75
 }

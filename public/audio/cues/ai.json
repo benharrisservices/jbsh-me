@@ -1,7 +1,7 @@
 {
  "id": "ai",
  "audio": "/audio/ai.mp3",
- "duration": 27.399,
+ "duration": 29.104,
  "loudness": {
   "integrated_lufs": -16.95,
   "true_peak_dbtp": -1.93,
@@ -12,338 +12,338 @@
  "words": [
   {
    "word": "Something",
-   "start": 0.579,
-   "end": 1.06
+   "start": 1.329,
+   "end": 1.81
   },
   {
    "word": "has",
-   "start": 1.18,
-   "end": 1.339
+   "start": 1.93,
+   "end": 2.089
   },
   {
    "word": "changed.",
-   "start": 1.519,
-   "end": 2.199
+   "start": 2.269,
+   "end": 2.949
   },
   {
    "word": "One",
-   "start": 3.24,
-   "end": 3.379
+   "start": 3.99,
+   "end": 4.129
   },
   {
    "word": "person",
-   "start": 3.48,
-   "end": 3.859
+   "start": 4.23,
+   "end": 4.609
   },
   {
    "word": "can",
-   "start": 3.96,
-   "end": 4.079
+   "start": 4.71,
+   "end": 4.829
   },
   {
    "word": "now",
-   "start": 4.139,
-   "end": 4.299
+   "start": 4.889,
+   "end": 5.049
   },
   {
    "word": "build",
-   "start": 4.439,
-   "end": 4.739
+   "start": 5.189,
+   "end": 5.489
   },
   {
    "word": "what",
-   "start": 4.92,
-   "end": 5.079
+   "start": 5.67,
+   "end": 5.829
   },
   {
    "word": "once",
-   "start": 5.159,
-   "end": 5.42
+   "start": 5.909,
+   "end": 6.17
   },
   {
    "word": "took",
-   "start": 5.539,
-   "end": 5.659
+   "start": 6.289,
+   "end": 6.409
   },
   {
    "word": "a",
-   "start": 5.719,
-   "end": 5.739
+   "start": 6.469,
+   "end": 6.489
   },
   {
    "word": "team.",
-   "start": 5.9,
-   "end": 6.339
+   "start": 6.65,
+   "end": 7.089
   },
   {
    "word": "This",
-   "start": 7.319,
-   "end": 7.44
+   "start": 8.069,
+   "end": 8.19
   },
   {
    "word": "is",
-   "start": 7.5,
-   "end": 7.579
+   "start": 8.25,
+   "end": 8.329
   },
   {
    "word": "not",
-   "start": 7.639,
-   "end": 7.779
+   "start": 8.389,
+   "end": 8.529
   },
   {
    "word": "about",
-   "start": 7.859,
-   "end": 8.099
+   "start": 8.609,
+   "end": 8.849
   },
   {
    "word": "replacing",
-   "start": 8.159,
-   "end": 8.859
+   "start": 8.909,
+   "end": 9.609
   },
   {
    "word": "thought.",
-   "start": 9.0,
-   "end": 9.279
+   "start": 9.75,
+   "end": 10.029
   },
   {
    "word": "It",
-   "start": 9.92,
-   "end": 9.979
+   "start": 10.67,
+   "end": 10.729
   },
   {
    "word": "is",
-   "start": 10.019,
-   "end": 10.099
+   "start": 10.769,
+   "end": 10.849
   },
   {
    "word": "about",
-   "start": 10.179,
-   "end": 10.38
+   "start": 10.929,
+   "end": 11.13
   },
   {
    "word": "removing",
-   "start": 10.519,
-   "end": 10.939
+   "start": 11.269,
+   "end": 11.689
   },
   {
    "word": "friction.",
-   "start": 11.079,
-   "end": 11.559
+   "start": 11.829,
+   "end": 12.309
   },
   {
    "word": "You",
-   "start": 12.439,
-   "end": 12.619
+   "start": 13.189,
+   "end": 13.369
   },
   {
    "word": "think",
-   "start": 12.659,
-   "end": 12.92
+   "start": 13.409,
+   "end": 13.67
   },
   {
    "word": "in",
-   "start": 13.119,
-   "end": 13.219
+   "start": 13.869,
+   "end": 13.969
   },
   {
    "word": "systems.",
-   "start": 13.34,
-   "end": 13.92
+   "start": 14.09,
+   "end": 14.67
   },
   {
    "word": "Point",
-   "start": 14.639,
-   "end": 14.899
+   "start": 15.389,
+   "end": 15.649
   },
   {
    "word": "that",
-   "start": 14.96,
-   "end": 15.219
+   "start": 15.71,
+   "end": 15.969
   },
   {
    "word": "at",
-   "start": 15.699,
-   "end": 15.799
+   "start": 16.449,
+   "end": 16.549
   },
   {
    "word": "building.",
-   "start": 15.939,
-   "end": 16.439
+   "start": 16.689,
+   "end": 17.189
   },
   {
    "word": "The",
-   "start": 17.619,
-   "end": 17.68
+   "start": 18.369,
+   "end": 18.43
   },
   {
    "word": "ones",
-   "start": 17.739,
-   "end": 17.94
+   "start": 18.489,
+   "end": 18.69
   },
   {
    "word": "who",
-   "start": 17.979,
-   "end": 18.059
+   "start": 18.729,
+   "end": 18.809
   },
   {
    "word": "thrive",
-   "start": 18.159,
-   "end": 18.719
+   "start": 18.909,
+   "end": 19.469
   },
   {
    "word": "are",
-   "start": 18.879,
-   "end": 18.96
+   "start": 19.629,
+   "end": 19.71
   },
   {
    "word": "not",
-   "start": 19.059,
-   "end": 19.18
+   "start": 19.809,
+   "end": 19.93
   },
   {
    "word": "afraid.",
-   "start": 19.219,
-   "end": 19.779
+   "start": 19.969,
+   "end": 20.529
   },
   {
    "word": "They",
-   "start": 20.459,
-   "end": 20.659
+   "start": 21.209,
+   "end": 21.409
   },
   {
    "word": "pick",
-   "start": 20.739,
-   "end": 20.879
+   "start": 21.489,
+   "end": 21.629
   },
   {
    "word": "up",
-   "start": 20.959,
-   "end": 21.1
+   "start": 21.709,
+   "end": 21.85
   },
   {
    "word": "the",
-   "start": 21.159,
-   "end": 21.219
+   "start": 21.909,
+   "end": 21.969
   },
   {
    "word": "tools.",
-   "start": 21.319,
-   "end": 21.799
+   "start": 22.069,
+   "end": 22.549
   },
   {
    "word": "This",
-   "start": 22.719,
-   "end": 22.92
+   "start": 23.469,
+   "end": 23.67
   },
   {
    "word": "site",
-   "start": 23.0,
-   "end": 23.379
+   "start": 23.75,
+   "end": 24.129
   },
   {
    "word": "is",
-   "start": 23.459,
-   "end": 23.579
+   "start": 24.209,
+   "end": 24.329
   },
   {
    "word": "proof.",
-   "start": 23.719,
-   "end": 24.059
+   "start": 24.469,
+   "end": 24.809
   },
   {
    "word": "Made",
-   "start": 24.799,
-   "end": 25.159
+   "start": 25.549,
+   "end": 25.909
   },
   {
    "word": "in",
-   "start": 25.439,
-   "end": 25.579
+   "start": 26.189,
+   "end": 26.329
   },
   {
    "word": "one",
-   "start": 25.739,
-   "end": 26.0
+   "start": 26.489,
+   "end": 26.75
   },
   {
    "word": "sitting.",
-   "start": 26.26,
-   "end": 26.559
+   "start": 27.01,
+   "end": 27.309
   }
  ],
  "lines": [
   {
    "text": "Something has changed.",
-   "start": 0.579,
-   "end": 2.199,
+   "start": 1.329,
+   "end": 2.949,
    "wordStart": 0,
    "wordEnd": 2
   },
   {
    "text": "One person can now build what once took a team.",
-   "start": 3.24,
-   "end": 6.339,
+   "start": 3.99,
+   "end": 7.089,
    "wordStart": 3,
    "wordEnd": 12
   },
   {
    "text": "This is not about replacing thought.",
-   "start": 7.319,
-   "end": 9.279,
+   "start": 8.069,
+   "end": 10.029,
    "wordStart": 13,
    "wordEnd": 18
   },
   {
    "text": "It is about removing friction.",
-   "start": 9.92,
-   "end": 11.559,
+   "start": 10.67,
+   "end": 12.309,
    "wordStart": 19,
    "wordEnd": 23
   },
   {
    "text": "You think in systems.",
-   "start": 12.439,
-   "end": 13.92,
+   "start": 13.189,
+   "end": 14.67,
    "wordStart": 24,
    "wordEnd": 27
   },
   {
    "text": "Point that at building.",
-   "start": 14.639,
-   "end": 16.439,
+   "start": 15.389,
+   "end": 17.189,
    "wordStart": 28,
    "wordEnd": 31
   },
   {
    "text": "The ones who thrive are not afraid.",
-   "start": 17.619,
-   "end": 19.779,
+   "start": 18.369,
+   "end": 20.529,
    "wordStart": 32,
    "wordEnd": 38
   },
   {
    "text": "They pick up the tools.",
-   "start": 20.459,
-   "end": 21.799,
+   "start": 21.209,
+   "end": 22.549,
    "wordStart": 39,
    "wordEnd": 43
   },
   {
    "text": "This site is proof.",
-   "start": 22.719,
-   "end": 24.059,
+   "start": 23.469,
+   "end": 24.809,
    "wordStart": 44,
    "wordEnd": 47
   },
   {
    "text": "Made in one sitting.",
-   "start": 24.799,
-   "end": 26.649,
+   "start": 25.549,
+   "end": 27.399,
    "wordStart": 48,
    "wordEnd": 51
   }
  ],
  "edge_lead_s": 0.5,
- "pad_lead_s": 0.5,
- "pad_trail_s": 0.75
+ "pad_lead_s": 1.25,
+ "pad_trail_s": 1.75
 }
