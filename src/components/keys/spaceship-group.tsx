@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Check, Copy, Eye, EyeOff } from "lucide-react";
+import { Check, Copy } from "lucide-react";
 import type { SpaceshipCredentials } from "@/content/keys";
+import { useKeysVisible } from "@/components/keys/keys-visibility";
 import { cn } from "@/lib/utils";
 
 interface SpaceshipGroupProps {
@@ -12,12 +13,13 @@ interface SpaceshipGroupProps {
 }
 
 export function SpaceshipGroup({ credentials, index }: SpaceshipGroupProps) {
-  const [revealed, setRevealed] = useState(false);
+  const keysVisible = useKeysVisible();
   const [copiedField, setCopiedField] = useState<"username" | "password" | null>(
     null,
   );
 
   const handleCopy = async (field: "username" | "password", value: string) => {
+    if (!keysVisible) return;
     try {
       await navigator.clipboard.writeText(value);
       setCopiedField(field);
@@ -28,8 +30,16 @@ export function SpaceshipGroup({ credentials, index }: SpaceshipGroupProps) {
   };
 
   const fields = [
-    { key: "username" as const, label: "Username", value: credentials.username, secret: false },
-    { key: "password" as const, label: "Password", value: credentials.password, secret: true },
+    {
+      key: "username" as const,
+      label: "Username",
+      value: credentials.username,
+    },
+    {
+      key: "password" as const,
+      label: "Password",
+      value: credentials.password,
+    },
   ];
 
   return (
@@ -45,7 +55,7 @@ export function SpaceshipGroup({ credentials, index }: SpaceshipGroupProps) {
       </p>
       <div className="space-y-4">
         {fields.map((field) => {
-          const hidden = field.secret && !revealed;
+          const hidden = !keysVisible;
           const displayValue = hidden ? "••••••••" : field.value;
           const copied = copiedField === field.key;
 
@@ -68,23 +78,20 @@ export function SpaceshipGroup({ credentials, index }: SpaceshipGroupProps) {
                 </p>
               </div>
               <div className="flex shrink-0 items-center gap-1 opacity-60 transition-opacity group-hover:opacity-100">
-                {field.secret && (
-                  <button
-                    onClick={() => setRevealed(!revealed)}
-                    className="flex h-8 w-8 items-center justify-center rounded-full text-muted-foreground transition-colors hover:text-foreground"
-                    aria-label={revealed ? "Hide password" : "Reveal password"}
-                  >
-                    {revealed ? (
-                      <EyeOff className="h-3.5 w-3.5" />
-                    ) : (
-                      <Eye className="h-3.5 w-3.5" />
-                    )}
-                  </button>
-                )}
                 <button
-                  onClick={() => handleCopy(field.key, field.value)}
-                  className="flex h-8 w-8 items-center justify-center rounded-full text-muted-foreground transition-colors hover:text-foreground"
-                  aria-label={copied ? "Copied" : `Copy ${field.label}`}
+                  type="button"
+                  onClick={() => {
+                    void handleCopy(field.key, field.value);
+                  }}
+                  disabled={!keysVisible}
+                  className="flex h-8 w-8 items-center justify-center rounded-full text-muted-foreground transition-colors hover:text-foreground disabled:cursor-not-allowed disabled:opacity-30"
+                  aria-label={
+                    !keysVisible
+                      ? `Show keys before copying ${field.label}`
+                      : copied
+                        ? "Copied"
+                        : `Copy ${field.label}`
+                  }
                 >
                   <AnimatePresence mode="wait" initial={false}>
                     {copied ? (

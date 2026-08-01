@@ -23,6 +23,7 @@ import { FinalScreen } from "@/components/sections/final-screen";
 import { Navigation } from "@/components/site/navigation";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { EasterEggLayer } from "@/components/easter-eggs/easter-egg-layer";
+import { BackToRuleOne } from "@/components/site/back-to-rule-one";
 
 function MainContent() {
   useChapterScroll();
@@ -34,6 +35,7 @@ function MainContent() {
       <Navigation />
       <EasterEggLayer />
       <GlobalPlayer />
+      <BackToRuleOne />
 
       <main>
         <HeroSection />

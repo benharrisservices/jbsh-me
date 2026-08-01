@@ -96,7 +96,9 @@ export function useScrollSnap() {
       // own scroll before the next gesture advances.
       if (hasInternalScroll) {
         if (dir > 0)
-          return el.scrollTop + el.clientHeight < el.scrollHeight - 1;
+          // Require a firm end-of-content before advancing — avoids Toolkit
+          // snapping into Closing on a small residual wheel tick.
+          return el.scrollTop + el.clientHeight < el.scrollHeight - 24;
         return el.scrollTop > 1;
       }
 
@@ -157,7 +159,7 @@ export function useScrollSnap() {
           el.scrollHeight > el.clientHeight + 1;
         if (canInternal) {
           const atEnd =
-            el.scrollTop + el.clientHeight >= el.scrollHeight - 1;
+            el.scrollTop + el.clientHeight >= el.scrollHeight - 24;
           const atStart = el.scrollTop <= 1;
           if ((dir > 0 && !atEnd) || (dir < 0 && !atStart)) {
             e.preventDefault();

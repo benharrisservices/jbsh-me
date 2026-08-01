@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { useAudio } from "@/components/providers/audio-provider";
 import { useChapterCues } from "@/hooks/use-chapter-cues";
 import { Transcript } from "@/components/audio/transcript";
+import { SectionPlayButton } from "@/components/sections/section-play-button";
 
 interface NarratedSectionProps {
   id: string;
@@ -52,9 +53,12 @@ export function NarratedSection({
           <p className="mb-4 font-mono text-[10px] tracking-[0.35em] text-muted-foreground/80 uppercase">
             {number}
           </p>
-          <h2 className="font-serif text-4xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            {title}
-          </h2>
+          <div className="flex items-start justify-between gap-4">
+            <h2 className="font-serif text-4xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
+              {title}
+            </h2>
+            <SectionPlayButton sectionId={id} title={title} />
+          </div>
           {subtitle && (
             <p className="mt-3 text-base font-light tracking-wide text-muted-foreground/80 md:text-lg">
               {subtitle}

@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Check, Copy, Eye, EyeOff } from "lucide-react";
+import { Check, Copy } from "lucide-react";
 import type { CredentialItem } from "@/content/keys";
+import { useKeysVisible } from "@/components/keys/keys-visibility";
 import { cn } from "@/lib/utils";
 
 interface CredentialCardProps {
@@ -12,13 +13,14 @@ interface CredentialCardProps {
 }
 
 export function CredentialCard({ credential, index }: CredentialCardProps) {
-  const [revealed, setRevealed] = useState(false);
+  const keysVisible = useKeysVisible();
   const [copied, setCopied] = useState(false);
 
-  const hidden = credential.secret && !revealed;
+  const hidden = !keysVisible;
   const displayValue = hidden ? "••••••••" : credential.value;
 
   const handleCopy = async () => {
+    if (!keysVisible) return;
     try {
       await navigator.clipboard.writeText(credential.value);
       setCopied(true);
@@ -51,23 +53,20 @@ export function CredentialCard({ credential, index }: CredentialCardProps) {
       </div>
 
       <div className="flex shrink-0 items-center gap-1 opacity-60 transition-opacity group-hover:opacity-100">
-        {credential.secret && (
-          <button
-            onClick={() => setRevealed(!revealed)}
-            className="flex h-8 w-8 items-center justify-center rounded-full text-muted-foreground transition-colors hover:text-foreground"
-            aria-label={revealed ? "Hide password" : "Reveal password"}
-          >
-            {revealed ? (
-              <EyeOff className="h-3.5 w-3.5" />
-            ) : (
-              <Eye className="h-3.5 w-3.5" />
-            )}
-          </button>
-        )}
         <button
-          onClick={handleCopy}
-          className="flex h-8 w-8 items-center justify-center rounded-full text-muted-foreground transition-colors hover:text-foreground"
-          aria-label={copied ? "Copied" : `Copy ${credential.label}`}
+          type="button"
+          onClick={() => {
+            void handleCopy();
+          }}
+          disabled={!keysVisible}
+          className="flex h-8 w-8 items-center justify-center rounded-full text-muted-foreground transition-colors hover:text-foreground disabled:cursor-not-allowed disabled:opacity-30"
+          aria-label={
+            !keysVisible
+              ? `Show keys before copying ${credential.label}`
+              : copied
+                ? "Copied"
+                : `Copy ${credential.label}`
+          }
         >
           <AnimatePresence mode="wait" initial={false}>
             {copied ? (

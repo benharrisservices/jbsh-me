@@ -45,6 +45,11 @@ interface AudioContextValue {
   unlockPlayer: () => void;
   /** Hero primary action: start Health narration (continuous journey). */
   startNarration: () => void;
+  /**
+   * Title control: load + play a narrated section from the start.
+   * Does not enable continuous journey; preserves it if already active.
+   */
+  playSection: (id: string) => Promise<void>;
 }
 
 const AudioCtx = createContext<AudioContextValue | undefined>(undefined);
@@ -82,6 +87,8 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
   const pendingStartRef = useRef(false);
   const prerollingRef = useRef(false);
   const narrationStartedRef = useRef(false);
+  /** True after hero Start — auto-advance through the journey. Manual title play alone leaves this false. */
+  const continuousJourneyRef = useRef(false);
   const startGenRef = useRef(0);
   const advanceFromEndedRef = useRef<() => void>(() => {});
   const endedBoundRef = useRef(false);
@@ -173,6 +180,13 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     if (advancingRef.current) return;
     setPlaying(false);
     const endedId = audio.dataset.chapterId || activeIdRef.current;
+
+    // Manual title replay: stop after this section unless the continuous journey is active.
+    if (!continuousJourneyRef.current) {
+      if (endedId === "toolkit") setReachedEnd(true);
+      return;
+    }
+
     const nextId = getNextAudioChapterId(endedId);
     if (!nextId) {
       setReachedEnd(true);
@@ -234,6 +248,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       setPlaying(true);
       setPrerolling(false);
       setReady(true);
+      setPlayerVisible(true);
     };
     const onPause = () => setPlaying(false);
     const onEnd = () => advanceFromEnded();
@@ -304,6 +319,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     // Do not await before pause/play — keep this on the user-gesture turn.
     void resumeContext();
     applyNarrationPlaybackRate(audio);
+    setPlayerVisible(true);
 
     if (!audio.paused && !audio.ended) {
       startGenRef.current += 1;
@@ -361,6 +377,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
 
   const startNarration = useCallback(() => {
     if (narrationStarted) return;
+    continuousJourneyRef.current = true;
     setNarrationStarted(true);
     setPlayerVisible(true);
     pendingStartRef.current = true;
@@ -390,6 +407,48 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     setActiveChapterId(startId);
   }, [narrationStarted, startPlaybackReady, resumeContext]);
 
+  /**
+   * Manual section title play: load cues + audio for `id`, start at 0 / 1.0×.
+   * Does not enable continuous journey (and does not disable it if already on).
+   */
+  const playSection = useCallback(
+    async (id: string) => {
+      if (!getChapter(id)?.hasAudio) return;
+      const audio = audioRef.current;
+      if (!audio) return;
+
+      setNarrationStarted(true);
+      setPlayerVisible(true);
+      if (id === "toolkit") setReachedEnd(false);
+
+      void resumeContext();
+      advancingRef.current = false;
+      await ensureChapterCues(id).catch(() => null);
+
+      const src = getChapterAudioSrc(id);
+      const current = audio.getAttribute("src") ?? "";
+      const alreadyThis =
+        activeIdRef.current === id && current.endsWith(src);
+
+      if (alreadyThis) {
+        applyNarrationPlaybackRate(audio);
+        pendingStartRef.current = false;
+        resumeOnLoadRef.current = false;
+        await startPlaybackReady();
+        return;
+      }
+
+      pendingStartRef.current = true;
+      resumeOnLoadRef.current = true;
+      startGenRef.current += 1;
+      setPrerolling(false);
+      audio.pause();
+      audio.dataset.chapterId = id;
+      setActiveChapterId(id);
+    },
+    [resumeContext, startPlaybackReady],
+  );
+
   const progress = duration > 0 ? currentTime / duration : 0;
 
   return (
@@ -414,6 +473,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
         setActiveChapter,
         unlockPlayer,
         startNarration,
+        playSection,
       }}
     >
       <audio
