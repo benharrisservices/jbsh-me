@@ -14,7 +14,7 @@ import {
   getChapterTitle,
   getNextAudioChapterId,
 } from "@/content/sections";
-import { NARRATION_PREROLL_MS, waitForAudioCanPlay } from "@/lib/audio";
+import { NARRATION_PREROLL_MS, applyNarrationPlaybackRate, waitForAudioCanPlay } from "@/lib/audio";
 import { useAudioAnalyser } from "@/hooks/use-audio-analyser";
 
 interface AudioContextValue {
@@ -89,6 +89,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       if (gen !== prerollGenRef.current) return;
       await resumeContext();
       if (gen !== prerollGenRef.current) return;
+      applyNarrationPlaybackRate(audio);
 
       audio.currentTime = 0;
       setCurrentTime(0);
@@ -98,6 +99,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       if (gen !== prerollGenRef.current) return;
 
       await resumeContext();
+      applyNarrationPlaybackRate(audio);
       audio.currentTime = 0;
       setCurrentTime(0);
       await audio.play();
@@ -115,6 +117,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       setDuration(Number.isFinite(audio.duration) ? audio.duration : 0);
       setReady(true);
       setMissing(false);
+      applyNarrationPlaybackRate(audio);
 
       if (pendingPrerollRef.current) {
         pendingPrerollRef.current = false;
@@ -125,6 +128,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
 
       if (resumeOnLoadRef.current) {
         resumeOnLoadRef.current = false;
+        applyNarrationPlaybackRate(audio);
         void audio.play().catch(() => setPlaying(false));
       }
     };
@@ -206,6 +210,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     setPrerolling(false);
     audio.pause();
     audio.src = src;
+    applyNarrationPlaybackRate(audio);
     audio.load();
     setCurrentTime(0);
     if (!resumeOnLoadRef.current && !pendingPrerollRef.current) {
@@ -229,6 +234,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
         audio.currentTime = 0;
         setCurrentTime(0);
       }
+      applyNarrationPlaybackRate(audio);
       if (atStart) {
         void playFromStartWithPreroll();
       } else {
@@ -313,6 +319,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       <audio
         ref={(el) => {
           audioRef.current = el;
+          if (el) applyNarrationPlaybackRate(el);
           setAudioEl(el);
         }}
         preload="auto"

@@ -3,11 +3,11 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Pause, Play } from "lucide-react";
-import { Transcript } from "@/components/audio/transcript";
+import { IntroLines } from "@/components/welcome/intro-lines";
 import { ReactiveWaveform } from "@/components/audio/reactive-waveform";
 import {
-  NARRATION_PREROLL_MS,
   WELCOME_NARRATION_ID,
+  applyNarrationPlaybackRate,
   narrationAudioSrc,
   waitForAudioCanPlay,
 } from "@/lib/audio";
@@ -28,26 +28,27 @@ function formatTime(seconds: number): string {
 
 /**
  * Cinematic welcome intro — separate from the main site.
- * Cue-driven line reveal, 1.5s pre-roll, bottom-right visualizer.
+ * One-line cue-driven reveal, file-level lead-in, bottom-right visualizer.
  */
 export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
   const [audioEl, setAudioEl] = useState<HTMLAudioElement | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [mediaReady, setMediaReady] = useState(false);
   const [started, setStarted] = useState(false);
-  const [prerolling, setPrerolling] = useState(false);
   const [playing, setPlaying] = useState(false);
   const [isExiting, setIsExiting] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const startingRef = useRef(false);
+  const exitingRef = useRef(false);
   const { cues } = useChapterCues(WELCOME_NARRATION_ID);
   const src = narrationAudioSrc(WELCOME_NARRATION_ID);
 
-  const live = playing || prerolling;
-  const { levels, resumeContext } = useAudioAnalyser(audioEl, live);
+  const { levels, resumeContext } = useAudioAnalyser(audioEl, playing);
 
   const finish = useCallback(() => {
+    if (exitingRef.current) return;
+    exitingRef.current = true;
     setIsExiting(true);
     setTimeout(onComplete, 1500);
   }, [onComplete]);
@@ -60,19 +61,18 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
       if (Number.isFinite(audio.duration) && audio.duration > 0.5) {
         setDuration(audio.duration);
         setMediaReady(true);
+        applyNarrationPlaybackRate(audio);
       }
     };
     const onError = () => setTimeout(finish, 1200);
     const onTime = () => setCurrentTime(audio.currentTime);
-    const onPlay = () => {
-      setPlaying(true);
-      setPrerolling(false);
-    };
+    const onPlay = () => setPlaying(true);
     const onPause = () => setPlaying(false);
     const onEnd = () => {
       setPlaying(false);
-      setTimeout(finish, 1600);
+      setTimeout(finish, 1200);
     };
+    const onRate = () => applyNarrationPlaybackRate(audio);
 
     audio.addEventListener("error", onError);
     audio.addEventListener("loadedmetadata", onLoaded);
@@ -81,7 +81,9 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
     audio.addEventListener("play", onPlay);
     audio.addEventListener("pause", onPause);
     audio.addEventListener("ended", onEnd);
+    audio.addEventListener("ratechange", onRate);
     audio.preload = "auto";
+    applyNarrationPlaybackRate(audio);
     audio.src = src;
     audio.load();
 
@@ -93,33 +95,31 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
       audio.removeEventListener("play", onPlay);
       audio.removeEventListener("pause", onPause);
       audio.removeEventListener("ended", onEnd);
+      audio.removeEventListener("ratechange", onRate);
     };
   }, [src, finish]);
 
   const startIntro = useCallback(async () => {
     const audio = audioRef.current;
-    if (!audio || startingRef.current || isExiting) return;
+    if (!audio || startingRef.current || exitingRef.current) return;
     startingRef.current = true;
     setStarted(true);
 
     try {
       await waitForAudioCanPlay(audio);
       await resumeContext();
+      applyNarrationPlaybackRate(audio);
+      // Exact start — file already contains ~600ms digital silence lead-in.
       audio.currentTime = 0;
       setCurrentTime(0);
-      setPrerolling(true);
-      await new Promise((r) => setTimeout(r, NARRATION_PREROLL_MS));
-      if (isExiting) return;
       await resumeContext();
-      audio.currentTime = 0;
-      setCurrentTime(0);
+      applyNarrationPlaybackRate(audio);
       await audio.play();
     } catch {
       startingRef.current = false;
-      setPrerolling(false);
       setStarted(false);
     }
-  }, [resumeContext, isExiting]);
+  }, [resumeContext]);
 
   const toggle = useCallback(async () => {
     const audio = audioRef.current;
@@ -128,6 +128,7 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
       return;
     }
     await resumeContext();
+    applyNarrationPlaybackRate(audio);
     if (audio.paused) {
       const atStart =
         audio.ended ||
@@ -136,7 +137,6 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
           audio.currentTime >= audio.duration - 0.05);
       if (atStart) {
         startingRef.current = false;
-        setPrerolling(false);
         void startIntro();
         return;
       }
@@ -149,12 +149,12 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
   const seek = useCallback(
     (fraction: number) => {
       const audio = audioRef.current;
-      if (!audio || !duration || prerolling) return;
+      if (!audio || !duration) return;
       const clamped = Math.min(Math.max(fraction, 0), 1);
       audio.currentTime = clamped * duration;
       setCurrentTime(audio.currentTime);
     },
-    [duration, prerolling],
+    [duration],
   );
 
   const progress = duration > 0 ? currentTime / duration : 0;
@@ -181,20 +181,15 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/20" />
 
           <motion.div
-            className="max-w-lg px-8"
+            className="w-full max-w-lg px-8"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.25 }}
           >
-            <Transcript
+            <IntroLines
               lines={[...welcomeLines]}
               currentTime={currentTime}
               cues={cues}
-              progress={progress}
-              playing={playing}
-              active
-              progressive
-              className="text-center [&_p]:text-white/80"
             />
           </motion.div>
 
@@ -233,7 +228,7 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
                   className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-white/70 transition-colors hover:text-white"
                   aria-label={playing ? "Pause welcome" : "Play welcome"}
                 >
-                  {playing || prerolling ? (
+                  {playing ? (
                     <Pause className="h-3 w-3" />
                   ) : (
                     <Play className="h-3 w-3 translate-x-[0.5px]" />
@@ -249,7 +244,7 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
                 <ReactiveWaveform
                   levels={levels}
                   progress={progress}
-                  playing={live}
+                  playing={playing}
                   onSeek={seek}
                   onDark
                   className="w-16 sm:w-20"

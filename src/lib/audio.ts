@@ -55,10 +55,31 @@ export function narrationCueSrc(chapterId: string): string {
 }
 
 /**
- * Deliberate silence before the first phoneme on explicit user starts.
- * Not applied to automatic chapter advances.
+ * Deliberate silence before the first phoneme on explicit chapter starts.
+ * Not applied to automatic chapter advances. Welcome uses file-level lead-in.
  */
 export const NARRATION_PREROLL_MS = 1500;
+
+/** Consistent narration tempo across intro and chapters. */
+export const NARRATION_PLAYBACK_RATE = 1.2;
+
+/** Apply playback rate with pitch preservation where supported. */
+export function applyNarrationPlaybackRate(audio: HTMLAudioElement): void {
+  audio.playbackRate = NARRATION_PLAYBACK_RATE;
+  try {
+    // Safari / Chromium
+    (audio as HTMLMediaElement & { preservesPitch?: boolean }).preservesPitch =
+      true;
+    (
+      audio as HTMLMediaElement & { mozPreservesPitch?: boolean }
+    ).mozPreservesPitch = true;
+    (
+      audio as HTMLMediaElement & { webkitPreservesPitch?: boolean }
+    ).webkitPreservesPitch = true;
+  } catch {
+    // Older engines may reject these properties.
+  }
+}
 
 /** Wait until the media element can start playback cleanly. */
 export function waitForAudioCanPlay(
