@@ -1,0 +1,112 @@
+{
+ "id": "projects",
+ "audio": "/audio/projects.mp3",
+ "duration": 7.497,
+ "loudness": {
+  "integrated_lufs": -16.94,
+  "true_peak_dbtp": -3.59,
+  "lra": 2.6
+ },
+ "wordCount": 15,
+ "lineCount": 3,
+ "words": [
+  {
+   "word": "Some",
+   "start": 0.079,
+   "end": 0.18
+  },
+  {
+   "word": "of",
+   "start": 0.219,
+   "end": 0.299
+  },
+  {
+   "word": "these",
+   "start": 0.399,
+   "end": 0.68
+  },
+  {
+   "word": "exist.",
+   "start": 0.819,
+   "end": 1.5
+  },
+  {
+   "word": "Some",
+   "start": 2.079,
+   "end": 2.559
+  },
+  {
+   "word": "are",
+   "start": 2.639,
+   "end": 2.839
+  },
+  {
+   "word": "invitations.",
+   "start": 2.939,
+   "end": 3.759
+  },
+  {
+   "word": "The",
+   "start": 4.38,
+   "end": 4.46
+  },
+  {
+   "word": "only",
+   "start": 4.579,
+   "end": 4.799
+  },
+  {
+   "word": "missing",
+   "start": 4.92,
+   "end": 5.239
+  },
+  {
+   "word": "variable",
+   "start": 5.339,
+   "end": 5.879
+  },
+  {
+   "word": "is",
+   "start": 6.359,
+   "end": 6.48
+  },
+  {
+   "word": "when",
+   "start": 6.579,
+   "end": 6.859
+  },
+  {
+   "word": "you",
+   "start": 6.94,
+   "end": 7.019
+  },
+  {
+   "word": "start.",
+   "start": 7.159,
+   "end": 7.419
+  }
+ ],
+ "lines": [
+  {
+   "text": "Some of these exist.",
+   "start": 0.079,
+   "end": 1.5,
+   "wordStart": 0,
+   "wordEnd": 3
+  },
+  {
+   "text": "Some are invitations.",
+   "start": 2.079,
+   "end": 3.759,
+   "wordStart": 4,
+   "wordEnd": 6
+  },
+  {
+   "text": "The only missing variable is when you start.",
+   "start": 4.38,
+   "end": 7.497,
+   "wordStart": 7,
+   "wordEnd": 14
+  }
+ ]
+}

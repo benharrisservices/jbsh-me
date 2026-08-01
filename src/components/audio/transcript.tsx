@@ -10,7 +10,6 @@ import {
   hasProductionLineCues,
   hasProductionWordCues,
 } from "@/lib/cues";
-import { estimatedLineIndex } from "@/lib/transcript-timing-estimated";
 
 interface TranscriptProps {
   lines: string[];
@@ -18,7 +17,7 @@ interface TranscriptProps {
   currentTime?: number;
   /** Production cue JSON; when valid, drives all highlighting. */
   cues?: ChapterCues | null;
-  /** 0–1 fallback progress when cues are absent. */
+  /** 0–1 progress (kept for callers; highlighting uses cue timing only). */
   progress: number;
   playing: boolean;
   active?: boolean;
@@ -29,7 +28,6 @@ export function Transcript({
   lines,
   currentTime = 0,
   cues,
-  progress,
   playing,
   active = true,
   className,
@@ -39,11 +37,9 @@ export function Transcript({
   const useWords = useProduction && hasProductionWordCues(cues);
 
   const activeIndex = useMemo(() => {
-    if (!active) return -1;
-    if (useProduction && cues) return activeLineIndex(cues, currentTime);
-    if (progress <= 0 && !playing) return -1;
-    return estimatedLineIndex(lines, progress);
-  }, [active, useProduction, cues, currentTime, lines, progress, playing]);
+    if (!active || !useProduction || !cues) return -1;
+    return activeLineIndex(cues, currentTime);
+  }, [active, useProduction, cues, currentTime]);
 
   const activeWord = useMemo(() => {
     if (!useWords || !cues || currentTime <= 0) return -1;

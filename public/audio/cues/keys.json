@@ -1,0 +1,107 @@
+{
+ "id": "keys",
+ "audio": "/audio/keys.mp3",
+ "duration": 5.799,
+ "loudness": {
+  "integrated_lufs": -16.95,
+  "true_peak_dbtp": -2.25,
+  "lra": 0.3
+ },
+ "wordCount": 14,
+ "lineCount": 3,
+ "words": [
+  {
+   "word": "These",
+   "start": 0.059,
+   "end": 0.519
+  },
+  {
+   "word": "are",
+   "start": 0.56,
+   "end": 0.719
+  },
+  {
+   "word": "yours.",
+   "start": 0.759,
+   "end": 1.159
+  },
+  {
+   "word": "Set",
+   "start": 1.819,
+   "end": 2.039
+  },
+  {
+   "word": "up,",
+   "start": 2.119,
+   "end": 2.379
+  },
+  {
+   "word": "and",
+   "start": 2.419,
+   "end": 2.539
+  },
+  {
+   "word": "waiting.",
+   "start": 2.599,
+   "end": 2.939
+  },
+  {
+   "word": "A",
+   "start": 3.639,
+   "end": 3.659
+  },
+  {
+   "word": "brother",
+   "start": 3.74,
+   "end": 4.36
+  },
+  {
+   "word": "leaving",
+   "start": 4.4,
+   "end": 4.759
+  },
+  {
+   "word": "keys",
+   "start": 4.799,
+   "end": 5.239
+  },
+  {
+   "word": "under",
+   "start": 5.299,
+   "end": 5.48
+  },
+  {
+   "word": "the",
+   "start": 5.5,
+   "end": 5.539
+  },
+  {
+   "word": "mat.",
+   "start": 5.619,
+   "end": 5.719
+  }
+ ],
+ "lines": [
+  {
+   "text": "These are yours.",
+   "start": 0.059,
+   "end": 1.159,
+   "wordStart": 0,
+   "wordEnd": 2
+  },
+  {
+   "text": "Set up, and waiting.",
+   "start": 1.819,
+   "end": 2.939,
+   "wordStart": 3,
+   "wordEnd": 6
+  },
+  {
+   "text": "A brother leaving keys under the mat.",
+   "start": 3.639,
+   "end": 5.799,
+   "wordStart": 7,
+   "wordEnd": 13
+  }
+ ]
+}

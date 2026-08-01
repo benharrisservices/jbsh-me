@@ -1,0 +1,331 @@
+{
+ "id": "welcome",
+ "audio": "/audio/welcome.mp3",
+ "duration": 18.364,
+ "loudness": {
+  "integrated_lufs": -16.94,
+  "true_peak_dbtp": -1.92,
+  "lra": 4.8
+ },
+ "wordCount": 49,
+ "lineCount": 10,
+ "words": [
+  {
+   "word": "Hello",
+   "start": 0.019,
+   "end": 0.179
+  },
+  {
+   "word": "James.",
+   "start": 0.299,
+   "end": 0.699
+  },
+  {
+   "word": "If",
+   "start": 1.539,
+   "end": 1.639
+  },
+  {
+   "word": "you're",
+   "start": 1.679,
+   "end": 1.819
+  },
+  {
+   "word": "seeing",
+   "start": 1.879,
+   "end": 2.099
+  },
+  {
+   "word": "this,",
+   "start": 2.139,
+   "end": 2.379
+  },
+  {
+   "word": "your",
+   "start": 2.539,
+   "end": 2.639
+  },
+  {
+   "word": "brother",
+   "start": 2.72,
+   "end": 3.0
+  },
+  {
+   "word": "believes",
+   "start": 3.059,
+   "end": 3.379
+  },
+  {
+   "word": "something",
+   "start": 3.419,
+   "end": 3.699
+  },
+  {
+   "word": "about",
+   "start": 3.779,
+   "end": 4.019
+  },
+  {
+   "word": "you.",
+   "start": 4.079,
+   "end": 4.199
+  },
+  {
+   "word": "That",
+   "start": 4.759,
+   "end": 4.859
+  },
+  {
+   "word": "you",
+   "start": 4.9,
+   "end": 4.96
+  },
+  {
+   "word": "were",
+   "start": 4.98,
+   "end": 5.059
+  },
+  {
+   "word": "never",
+   "start": 5.099,
+   "end": 5.319
+  },
+  {
+   "word": "meant",
+   "start": 5.38,
+   "end": 5.599
+  },
+  {
+   "word": "for",
+   "start": 5.659,
+   "end": 5.719
+  },
+  {
+   "word": "an",
+   "start": 5.759,
+   "end": 5.819
+  },
+  {
+   "word": "ordinary",
+   "start": 5.96,
+   "end": 6.339
+  },
+  {
+   "word": "life.",
+   "start": 6.399,
+   "end": 6.679
+  },
+  {
+   "word": "This",
+   "start": 7.519,
+   "end": 7.679
+  },
+  {
+   "word": "is",
+   "start": 7.739,
+   "end": 7.879
+  },
+  {
+   "word": "not",
+   "start": 7.96,
+   "end": 8.179
+  },
+  {
+   "word": "really",
+   "start": 8.279,
+   "end": 8.479
+  },
+  {
+   "word": "a",
+   "start": 8.539,
+   "end": 8.579
+  },
+  {
+   "word": "website.",
+   "start": 8.639,
+   "end": 9.139
+  },
+  {
+   "word": "It's",
+   "start": 9.679,
+   "end": 9.82
+  },
+  {
+   "word": "a",
+   "start": 9.859,
+   "end": 9.92
+  },
+  {
+   "word": "gift.",
+   "start": 10.0,
+   "end": 10.359
+  },
+  {
+   "word": "A",
+   "start": 11.019,
+   "end": 11.059
+  },
+  {
+   "word": "few",
+   "start": 11.119,
+   "end": 11.3
+  },
+  {
+   "word": "keys.",
+   "start": 11.38,
+   "end": 11.939
+  },
+  {
+   "word": "A",
+   "start": 12.199,
+   "end": 12.259
+  },
+  {
+   "word": "few",
+   "start": 12.34,
+   "end": 12.46
+  },
+  {
+   "word": "ideas.",
+   "start": 12.579,
+   "end": 13.119
+  },
+  {
+   "word": "A",
+   "start": 13.84,
+   "end": 13.88
+  },
+  {
+   "word": "reminder",
+   "start": 13.939,
+   "end": 14.359
+  },
+  {
+   "word": "that",
+   "start": 14.38,
+   "end": 14.479
+  },
+  {
+   "word": "the",
+   "start": 14.519,
+   "end": 14.579
+  },
+  {
+   "word": "future",
+   "start": 14.719,
+   "end": 15.0
+  },
+  {
+   "word": "belongs",
+   "start": 15.079,
+   "end": 15.399
+  },
+  {
+   "word": "to",
+   "start": 15.439,
+   "end": 15.5
+  },
+  {
+   "word": "people",
+   "start": 15.599,
+   "end": 15.899
+  },
+  {
+   "word": "willing",
+   "start": 16.059,
+   "end": 16.319
+  },
+  {
+   "word": "to",
+   "start": 16.359,
+   "end": 16.42
+  },
+  {
+   "word": "build",
+   "start": 16.52,
+   "end": 16.719
+  },
+  {
+   "word": "it.",
+   "start": 16.779,
+   "end": 16.939
+  },
+  {
+   "word": "Welcome.",
+   "start": 18.0,
+   "end": 18.279
+  }
+ ],
+ "lines": [
+  {
+   "text": "Hello James.",
+   "start": 0.019,
+   "end": 0.699,
+   "wordStart": 0,
+   "wordEnd": 1
+  },
+  {
+   "text": "If you're seeing this,",
+   "start": 1.539,
+   "end": 2.379,
+   "wordStart": 2,
+   "wordEnd": 5
+  },
+  {
+   "text": "your brother believes something about you.",
+   "start": 2.539,
+   "end": 4.199,
+   "wordStart": 6,
+   "wordEnd": 11
+  },
+  {
+   "text": "That you were never meant for an ordinary life.",
+   "start": 4.759,
+   "end": 6.679,
+   "wordStart": 12,
+   "wordEnd": 20
+  },
+  {
+   "text": "This is not really a website.",
+   "start": 7.519,
+   "end": 9.139,
+   "wordStart": 21,
+   "wordEnd": 26
+  },
+  {
+   "text": "It's a gift.",
+   "start": 9.679,
+   "end": 10.359,
+   "wordStart": 27,
+   "wordEnd": 29
+  },
+  {
+   "text": "A few keys.",
+   "start": 11.019,
+   "end": 11.939,
+   "wordStart": 30,
+   "wordEnd": 32
+  },
+  {
+   "text": "A few ideas.",
+   "start": 12.199,
+   "end": 13.119,
+   "wordStart": 33,
+   "wordEnd": 35
+  },
+  {
+   "text": "A reminder that the future belongs to people willing to build it.",
+   "start": 13.84,
+   "end": 16.939,
+   "wordStart": 36,
+   "wordEnd": 47
+  },
+  {
+   "text": "Welcome.",
+   "start": 18.0,
+   "end": 18.364,
+   "wordStart": 48,
+   "wordEnd": 48
+  }
+ ]
+}

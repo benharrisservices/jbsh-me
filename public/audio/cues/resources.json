@@ -1,0 +1,92 @@
+{
+ "id": "resources",
+ "audio": "/audio/resources.mp3",
+ "duration": 6.452,
+ "loudness": {
+  "integrated_lufs": -16.82,
+  "true_peak_dbtp": -1.4,
+  "lra": 2.9
+ },
+ "wordCount": 11,
+ "lineCount": 3,
+ "words": [
+  {
+   "word": "Starting",
+   "start": 0.099,
+   "end": 0.479
+  },
+  {
+   "word": "points.",
+   "start": 0.5,
+   "end": 0.859
+  },
+  {
+   "word": "Not",
+   "start": 1.259,
+   "end": 1.599
+  },
+  {
+   "word": "prescriptions.",
+   "start": 1.62,
+   "end": 2.319
+  },
+  {
+   "word": "Follow",
+   "start": 3.099,
+   "end": 3.46
+  },
+  {
+   "word": "what",
+   "start": 3.48,
+   "end": 3.679
+  },
+  {
+   "word": "interests",
+   "start": 3.74,
+   "end": 4.319
+  },
+  {
+   "word": "you.",
+   "start": 4.4,
+   "end": 5.219
+  },
+  {
+   "word": "Ignore",
+   "start": 5.319,
+   "end": 5.96
+  },
+  {
+   "word": "the",
+   "start": 6.0,
+   "end": 6.099
+  },
+  {
+   "word": "rest.",
+   "start": 6.139,
+   "end": 6.359
+  }
+ ],
+ "lines": [
+  {
+   "text": "Starting points.",
+   "start": 0.099,
+   "end": 0.859,
+   "wordStart": 0,
+   "wordEnd": 1
+  },
+  {
+   "text": "Not prescriptions.",
+   "start": 1.259,
+   "end": 2.319,
+   "wordStart": 2,
+   "wordEnd": 3
+  },
+  {
+   "text": "Follow what interests you. Ignore the rest.",
+   "start": 3.099,
+   "end": 6.452,
+   "wordStart": 4,
+   "wordEnd": 10
+  }
+ ]
+}

@@ -1,0 +1,391 @@
+{
+ "id": "business",
+ "audio": "/audio/business.mp3",
+ "duration": 28.682,
+ "loudness": {
+  "integrated_lufs": -16.93,
+  "true_peak_dbtp": -1.8,
+  "lra": 4.1
+ },
+ "wordCount": 61,
+ "lineCount": 10,
+ "words": [
+  {
+   "word": "You",
+   "start": 0.079,
+   "end": 0.179
+  },
+  {
+   "word": "understand",
+   "start": 0.299,
+   "end": 1.1
+  },
+  {
+   "word": "infrastructure.",
+   "start": 1.339,
+   "end": 2.119
+  },
+  {
+   "word": "That",
+   "start": 2.919,
+   "end": 3.139
+  },
+  {
+   "word": "is",
+   "start": 3.179,
+   "end": 3.299
+  },
+  {
+   "word": "worth",
+   "start": 3.379,
+   "end": 3.659
+  },
+  {
+   "word": "more",
+   "start": 3.779,
+   "end": 3.919
+  },
+  {
+   "word": "than",
+   "start": 3.98,
+   "end": 4.059
+  },
+  {
+   "word": "you",
+   "start": 4.119,
+   "end": 4.259
+  },
+  {
+   "word": "think.",
+   "start": 4.319,
+   "end": 4.619
+  },
+  {
+   "word": "The",
+   "start": 5.48,
+   "end": 5.579
+  },
+  {
+   "word": "gap",
+   "start": 5.659,
+   "end": 5.859
+  },
+  {
+   "word": "between",
+   "start": 6.019,
+   "end": 6.359
+  },
+  {
+   "word": "idea",
+   "start": 6.5,
+   "end": 7.059
+  },
+  {
+   "word": "and",
+   "start": 7.239,
+   "end": 7.379
+  },
+  {
+   "word": "built",
+   "start": 7.48,
+   "end": 7.799
+  },
+  {
+   "word": "has",
+   "start": 8.0,
+   "end": 8.119
+  },
+  {
+   "word": "closed.",
+   "start": 8.239,
+   "end": 8.699
+  },
+  {
+   "word": "You",
+   "start": 9.719,
+   "end": 9.779
+  },
+  {
+   "word": "do",
+   "start": 9.819,
+   "end": 9.88
+  },
+  {
+   "word": "not",
+   "start": 9.939,
+   "end": 10.039
+  },
+  {
+   "word": "have",
+   "start": 10.099,
+   "end": 10.199
+  },
+  {
+   "word": "to",
+   "start": 10.239,
+   "end": 10.32
+  },
+  {
+   "word": "quit",
+   "start": 10.439,
+   "end": 10.699
+  },
+  {
+   "word": "tomorrow.",
+   "start": 10.84,
+   "end": 11.34
+  },
+  {
+   "word": "Start",
+   "start": 12.039,
+   "end": 12.319
+  },
+  {
+   "word": "something",
+   "start": 12.359,
+   "end": 12.659
+  },
+  {
+   "word": "small",
+   "start": 12.799,
+   "end": 13.199
+  },
+  {
+   "word": "on",
+   "start": 13.279,
+   "end": 13.359
+  },
+  {
+   "word": "the",
+   "start": 13.399,
+   "end": 13.46
+  },
+  {
+   "word": "side.",
+   "start": 13.579,
+   "end": 14.0
+  },
+  {
+   "word": "A",
+   "start": 14.659,
+   "end": 14.739
+  },
+  {
+   "word": "tool.",
+   "start": 14.819,
+   "end": 15.259
+  },
+  {
+   "word": "A",
+   "start": 15.619,
+   "end": 15.639
+  },
+  {
+   "word": "service.",
+   "start": 15.799,
+   "end": 16.299
+  },
+  {
+   "word": "A",
+   "start": 16.979,
+   "end": 17.0
+  },
+  {
+   "word": "name",
+   "start": 17.159,
+   "end": 17.579
+  },
+  {
+   "word": "people",
+   "start": 17.859,
+   "end": 18.059
+  },
+  {
+   "word": "trust.",
+   "start": 18.199,
+   "end": 18.639
+  },
+  {
+   "word": "Ownership",
+   "start": 19.699,
+   "end": 20.239
+  },
+  {
+   "word": "is",
+   "start": 20.5,
+   "end": 20.619
+  },
+  {
+   "word": "the",
+   "start": 20.699,
+   "end": 20.76
+  },
+  {
+   "word": "goal.",
+   "start": 20.84,
+   "end": 21.219
+  },
+  {
+   "word": "Not",
+   "start": 21.699,
+   "end": 21.92
+  },
+  {
+   "word": "employment.",
+   "start": 22.059,
+   "end": 22.68
+  },
+  {
+   "word": "Build",
+   "start": 23.519,
+   "end": 23.779
+  },
+  {
+   "word": "something",
+   "start": 23.859,
+   "end": 24.159
+  },
+  {
+   "word": "that",
+   "start": 24.199,
+   "end": 24.319
+  },
+  {
+   "word": "works",
+   "start": 24.459,
+   "end": 24.979
+  },
+  {
+   "word": "when",
+   "start": 25.059,
+   "end": 25.2
+  },
+  {
+   "word": "you",
+   "start": 25.26,
+   "end": 25.359
+  },
+  {
+   "word": "leave",
+   "start": 25.399,
+   "end": 25.559
+  },
+  {
+   "word": "the",
+   "start": 25.599,
+   "end": 25.68
+  },
+  {
+   "word": "room.",
+   "start": 25.739,
+   "end": 26.059
+  },
+  {
+   "word": "That",
+   "start": 26.92,
+   "end": 27.359
+  },
+  {
+   "word": "is",
+   "start": 27.42,
+   "end": 27.519
+  },
+  {
+   "word": "the",
+   "start": 27.559,
+   "end": 27.619
+  },
+  {
+   "word": "beginning",
+   "start": 27.659,
+   "end": 28.059
+  },
+  {
+   "word": "of",
+   "start": 28.099,
+   "end": 28.159
+  },
+  {
+   "word": "a",
+   "start": 28.199,
+   "end": 28.219
+  },
+  {
+   "word": "plan.",
+   "start": 28.319,
+   "end": 28.599
+  }
+ ],
+ "lines": [
+  {
+   "text": "You understand infrastructure.",
+   "start": 0.079,
+   "end": 2.119,
+   "wordStart": 0,
+   "wordEnd": 2
+  },
+  {
+   "text": "That is worth more than you think.",
+   "start": 2.919,
+   "end": 4.619,
+   "wordStart": 3,
+   "wordEnd": 9
+  },
+  {
+   "text": "The gap between idea and built has closed.",
+   "start": 5.48,
+   "end": 8.699,
+   "wordStart": 10,
+   "wordEnd": 17
+  },
+  {
+   "text": "You do not have to quit tomorrow.",
+   "start": 9.719,
+   "end": 11.34,
+   "wordStart": 18,
+   "wordEnd": 24
+  },
+  {
+   "text": "Start something small on the side.",
+   "start": 12.039,
+   "end": 14.0,
+   "wordStart": 25,
+   "wordEnd": 30
+  },
+  {
+   "text": "A tool. A service. A name people trust.",
+   "start": 14.659,
+   "end": 18.639,
+   "wordStart": 31,
+   "wordEnd": 38
+  },
+  {
+   "text": "Ownership is the goal.",
+   "start": 19.699,
+   "end": 21.219,
+   "wordStart": 39,
+   "wordEnd": 42
+  },
+  {
+   "text": "Not employment.",
+   "start": 21.699,
+   "end": 22.68,
+   "wordStart": 43,
+   "wordEnd": 44
+  },
+  {
+   "text": "Build something that works when you leave the room.",
+   "start": 23.519,
+   "end": 26.059,
+   "wordStart": 45,
+   "wordEnd": 53
+  },
+  {
+   "text": "That is the beginning of a plan.",
+   "start": 26.92,
+   "end": 28.682,
+   "wordStart": 54,
+   "wordEnd": 60
+  }
+ ]
+}

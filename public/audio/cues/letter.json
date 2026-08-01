@@ -1,0 +1,762 @@
+{
+ "id": "letter",
+ "audio": "/audio/letter.mp3",
+ "duration": 60.003,
+ "loudness": {
+  "integrated_lufs": -16.95,
+  "true_peak_dbtp": -1.91,
+  "lra": 5.4
+ },
+ "wordCount": 131,
+ "lineCount": 13,
+ "words": [
+  {
+   "word": "James,",
+   "start": 0.019,
+   "end": 0.519
+  },
+  {
+   "word": "I",
+   "start": 1.299,
+   "end": 1.459
+  },
+  {
+   "word": "put",
+   "start": 1.5,
+   "end": 1.639
+  },
+  {
+   "word": "off",
+   "start": 1.699,
+   "end": 1.899
+  },
+  {
+   "word": "writing",
+   "start": 1.959,
+   "end": 2.259
+  },
+  {
+   "word": "this.",
+   "start": 2.319,
+   "end": 2.559
+  },
+  {
+   "word": "Not",
+   "start": 3.259,
+   "end": 3.48
+  },
+  {
+   "word": "because",
+   "start": 3.519,
+   "end": 3.779
+  },
+  {
+   "word": "I",
+   "start": 3.899,
+   "end": 3.959
+  },
+  {
+   "word": "had",
+   "start": 4.019,
+   "end": 4.159
+  },
+  {
+   "word": "nothing",
+   "start": 4.219,
+   "end": 4.46
+  },
+  {
+   "word": "to",
+   "start": 4.519,
+   "end": 4.619
+  },
+  {
+   "word": "say.",
+   "start": 4.699,
+   "end": 5.0
+  },
+  {
+   "word": "Because",
+   "start": 5.639,
+   "end": 5.859
+  },
+  {
+   "word": "I",
+   "start": 5.98,
+   "end": 6.0
+  },
+  {
+   "word": "wanted",
+   "start": 6.119,
+   "end": 6.339
+  },
+  {
+   "word": "to",
+   "start": 6.379,
+   "end": 6.46
+  },
+  {
+   "word": "get",
+   "start": 6.5,
+   "end": 6.599
+  },
+  {
+   "word": "it",
+   "start": 6.639,
+   "end": 6.739
+  },
+  {
+   "word": "right.",
+   "start": 6.859,
+   "end": 7.159
+  },
+  {
+   "word": "You",
+   "start": 8.0,
+   "end": 8.239
+  },
+  {
+   "word": "are",
+   "start": 8.319,
+   "end": 8.519
+  },
+  {
+   "word": "capable",
+   "start": 8.599,
+   "end": 9.079
+  },
+  {
+   "word": "of",
+   "start": 9.139,
+   "end": 9.239
+  },
+  {
+   "word": "more",
+   "start": 9.38,
+   "end": 9.719
+  },
+  {
+   "word": "than",
+   "start": 9.92,
+   "end": 10.039
+  },
+  {
+   "word": "where",
+   "start": 10.119,
+   "end": 10.319
+  },
+  {
+   "word": "you",
+   "start": 10.42,
+   "end": 10.519
+  },
+  {
+   "word": "are.",
+   "start": 10.659,
+   "end": 10.939
+  },
+  {
+   "word": "I",
+   "start": 11.719,
+   "end": 11.739
+  },
+  {
+   "word": "do",
+   "start": 11.819,
+   "end": 11.92
+  },
+  {
+   "word": "not",
+   "start": 11.96,
+   "end": 12.199
+  },
+  {
+   "word": "say",
+   "start": 12.259,
+   "end": 12.439
+  },
+  {
+   "word": "that",
+   "start": 12.5,
+   "end": 12.719
+  },
+  {
+   "word": "to",
+   "start": 12.759,
+   "end": 12.899
+  },
+  {
+   "word": "cheer",
+   "start": 12.979,
+   "end": 13.199
+  },
+  {
+   "word": "you",
+   "start": 13.279,
+   "end": 13.419
+  },
+  {
+   "word": "on.",
+   "start": 13.519,
+   "end": 13.759
+  },
+  {
+   "word": "I",
+   "start": 14.659,
+   "end": 14.759
+  },
+  {
+   "word": "say",
+   "start": 14.839,
+   "end": 14.979
+  },
+  {
+   "word": "it",
+   "start": 15.039,
+   "end": 15.159
+  },
+  {
+   "word": "because",
+   "start": 15.219,
+   "end": 15.639
+  },
+  {
+   "word": "I",
+   "start": 15.859,
+   "end": 15.899
+  },
+  {
+   "word": "have",
+   "start": 15.96,
+   "end": 16.079
+  },
+  {
+   "word": "watched",
+   "start": 16.219,
+   "end": 16.6
+  },
+  {
+   "word": "you.",
+   "start": 16.68,
+   "end": 16.859
+  },
+  {
+   "word": "You",
+   "start": 17.699,
+   "end": 17.779
+  },
+  {
+   "word": "do",
+   "start": 17.819,
+   "end": 17.899
+  },
+  {
+   "word": "not",
+   "start": 17.959,
+   "end": 18.1
+  },
+  {
+   "word": "need",
+   "start": 18.199,
+   "end": 18.359
+  },
+  {
+   "word": "to",
+   "start": 18.399,
+   "end": 18.459
+  },
+  {
+   "word": "become",
+   "start": 18.52,
+   "end": 19.0
+  },
+  {
+   "word": "someone",
+   "start": 19.239,
+   "end": 19.5
+  },
+  {
+   "word": "else.",
+   "start": 19.6,
+   "end": 19.899
+  },
+  {
+   "word": "You",
+   "start": 20.639,
+   "end": 20.699
+  },
+  {
+   "word": "need",
+   "start": 20.779,
+   "end": 20.899
+  },
+  {
+   "word": "to",
+   "start": 20.939,
+   "end": 20.979
+  },
+  {
+   "word": "become",
+   "start": 21.039,
+   "end": 21.42
+  },
+  {
+   "word": "more",
+   "start": 21.799,
+   "end": 22.139
+  },
+  {
+   "word": "of",
+   "start": 22.399,
+   "end": 22.519
+  },
+  {
+   "word": "yourself.",
+   "start": 22.6,
+   "end": 23.239
+  },
+  {
+   "word": "You",
+   "start": 24.399,
+   "end": 24.559
+  },
+  {
+   "word": "will",
+   "start": 24.619,
+   "end": 24.84
+  },
+  {
+   "word": "get",
+   "start": 24.92,
+   "end": 25.119
+  },
+  {
+   "word": "things",
+   "start": 25.18,
+   "end": 25.519
+  },
+  {
+   "word": "wrong.",
+   "start": 25.619,
+   "end": 26.0
+  },
+  {
+   "word": "I",
+   "start": 26.739,
+   "end": 26.859
+  },
+  {
+   "word": "have.",
+   "start": 26.959,
+   "end": 27.219
+  },
+  {
+   "word": "The",
+   "start": 27.84,
+   "end": 27.899
+  },
+  {
+   "word": "mistakes",
+   "start": 27.939,
+   "end": 28.399
+  },
+  {
+   "word": "that",
+   "start": 28.439,
+   "end": 28.559
+  },
+  {
+   "word": "matter",
+   "start": 28.68,
+   "end": 29.139
+  },
+  {
+   "word": "are",
+   "start": 29.199,
+   "end": 29.279
+  },
+  {
+   "word": "the",
+   "start": 29.319,
+   "end": 29.399
+  },
+  {
+   "word": "times",
+   "start": 29.479,
+   "end": 29.76
+  },
+  {
+   "word": "you",
+   "start": 29.84,
+   "end": 29.979
+  },
+  {
+   "word": "knew",
+   "start": 30.079,
+   "end": 30.239
+  },
+  {
+   "word": "better",
+   "start": 30.299,
+   "end": 30.859
+  },
+  {
+   "word": "and",
+   "start": 30.939,
+   "end": 31.039
+  },
+  {
+   "word": "did",
+   "start": 31.139,
+   "end": 31.34
+  },
+  {
+   "word": "nothing.",
+   "start": 31.379,
+   "end": 31.799
+  },
+  {
+   "word": "Stay",
+   "start": 32.919,
+   "end": 33.119
+  },
+  {
+   "word": "curious.",
+   "start": 33.2,
+   "end": 33.699
+  },
+  {
+   "word": "Stay",
+   "start": 34.5,
+   "end": 34.759
+  },
+  {
+   "word": "kind.",
+   "start": 34.899,
+   "end": 35.419
+  },
+  {
+   "word": "Answer",
+   "start": 36.119,
+   "end": 36.7
+  },
+  {
+   "word": "the",
+   "start": 36.759,
+   "end": 36.819
+  },
+  {
+   "word": "people",
+   "start": 36.939,
+   "end": 37.259
+  },
+  {
+   "word": "who",
+   "start": 37.319,
+   "end": 37.459
+  },
+  {
+   "word": "love",
+   "start": 37.52,
+   "end": 37.7
+  },
+  {
+   "word": "you.",
+   "start": 37.759,
+   "end": 37.979
+  },
+  {
+   "word": "Time",
+   "start": 38.7,
+   "end": 39.259
+  },
+  {
+   "word": "is",
+   "start": 39.34,
+   "end": 39.479
+  },
+  {
+   "word": "the",
+   "start": 39.54,
+   "end": 39.659
+  },
+  {
+   "word": "one",
+   "start": 39.739,
+   "end": 39.939
+  },
+  {
+   "word": "thing",
+   "start": 40.0,
+   "end": 40.219
+  },
+  {
+   "word": "you",
+   "start": 40.279,
+   "end": 40.419
+  },
+  {
+   "word": "cannot",
+   "start": 40.5,
+   "end": 40.979
+  },
+  {
+   "word": "earn",
+   "start": 41.04,
+   "end": 41.319
+  },
+  {
+   "word": "back.",
+   "start": 41.379,
+   "end": 41.739
+  },
+  {
+   "word": "Spend",
+   "start": 42.599,
+   "end": 42.879
+  },
+  {
+   "word": "it",
+   "start": 42.939,
+   "end": 43.059
+  },
+  {
+   "word": "like",
+   "start": 43.379,
+   "end": 43.54
+  },
+  {
+   "word": "you",
+   "start": 43.599,
+   "end": 43.739
+  },
+  {
+   "word": "mean",
+   "start": 43.799,
+   "end": 43.939
+  },
+  {
+   "word": "it.",
+   "start": 43.979,
+   "end": 44.139
+  },
+  {
+   "word": "I",
+   "start": 45.2,
+   "end": 45.299
+  },
+  {
+   "word": "built",
+   "start": 45.379,
+   "end": 45.619
+  },
+  {
+   "word": "this",
+   "start": 45.7,
+   "end": 45.959
+  },
+  {
+   "word": "because",
+   "start": 46.059,
+   "end": 46.579
+  },
+  {
+   "word": "I",
+   "start": 46.919,
+   "end": 47.0
+  },
+  {
+   "word": "believe",
+   "start": 47.039,
+   "end": 47.34
+  },
+  {
+   "word": "in",
+   "start": 47.399,
+   "end": 47.5
+  },
+  {
+   "word": "you.",
+   "start": 47.579,
+   "end": 47.759
+  },
+  {
+   "word": "The",
+   "start": 48.559,
+   "end": 48.639
+  },
+  {
+   "word": "real",
+   "start": 48.799,
+   "end": 49.379
+  },
+  {
+   "word": "you.",
+   "start": 49.479,
+   "end": 49.799
+  },
+  {
+   "word": "Not",
+   "start": 50.419,
+   "end": 50.559
+  },
+  {
+   "word": "the",
+   "start": 50.619,
+   "end": 50.68
+  },
+  {
+   "word": "tidy",
+   "start": 50.779,
+   "end": 51.059
+  },
+  {
+   "word": "version.",
+   "start": 51.139,
+   "end": 51.559
+  },
+  {
+   "word": "Start.",
+   "start": 52.799,
+   "end": 53.239
+  },
+  {
+   "word": "Love,",
+   "start": 54.419,
+   "end": 55.259
+  },
+  {
+   "word": "Ben",
+   "start": 55.319,
+   "end": 55.699
+  },
+  {
+   "word": "Now",
+   "start": 56.84,
+   "end": 57.0
+  },
+  {
+   "word": "close",
+   "start": 57.059,
+   "end": 57.319
+  },
+  {
+   "word": "this",
+   "start": 57.379,
+   "end": 57.539
+  },
+  {
+   "word": "tab.",
+   "start": 57.619,
+   "end": 58.02
+  },
+  {
+   "word": "Go",
+   "start": 58.919,
+   "end": 59.18
+  },
+  {
+   "word": "build",
+   "start": 59.239,
+   "end": 59.559
+  },
+  {
+   "word": "something.",
+   "start": 59.619,
+   "end": 59.919
+  }
+ ],
+ "lines": [
+  {
+   "text": "James,",
+   "start": 0.019,
+   "end": 0.519,
+   "wordStart": 0,
+   "wordEnd": 0
+  },
+  {
+   "text": "I put off writing this. Not because I had nothing to say. Because I wanted to get it right.",
+   "start": 1.299,
+   "end": 7.159,
+   "wordStart": 1,
+   "wordEnd": 19
+  },
+  {
+   "text": "You are capable of more than where you are. I do not say that to cheer you on. I say it because I have watched you.",
+   "start": 8.0,
+   "end": 16.859,
+   "wordStart": 20,
+   "wordEnd": 45
+  },
+  {
+   "text": "You do not need to become someone else. You need to become more of yourself.",
+   "start": 17.699,
+   "end": 23.239,
+   "wordStart": 46,
+   "wordEnd": 60
+  },
+  {
+   "text": "You will get things wrong. I have. The mistakes that matter are the times you knew better and did nothing.",
+   "start": 24.399,
+   "end": 31.799,
+   "wordStart": 61,
+   "wordEnd": 80
+  },
+  {
+   "text": "Stay curious. Stay kind. Answer the people who love you.",
+   "start": 32.919,
+   "end": 37.979,
+   "wordStart": 81,
+   "wordEnd": 90
+  },
+  {
+   "text": "Time is the one thing you cannot earn back. Spend it like you mean it.",
+   "start": 38.7,
+   "end": 44.139,
+   "wordStart": 91,
+   "wordEnd": 105
+  },
+  {
+   "text": "I built this because I believe in you. The real you. Not the tidy version.",
+   "start": 45.2,
+   "end": 51.559,
+   "wordStart": 106,
+   "wordEnd": 120
+  },
+  {
+   "text": "Start.",
+   "start": 52.799,
+   "end": 53.239,
+   "wordStart": 121,
+   "wordEnd": 121
+  },
+  {
+   "text": "Love,",
+   "start": 54.419,
+   "end": 55.259,
+   "wordStart": 122,
+   "wordEnd": 122
+  },
+  {
+   "text": "Ben",
+   "start": 55.319,
+   "end": 55.699,
+   "wordStart": 123,
+   "wordEnd": 123
+  },
+  {
+   "text": "Now close this tab.",
+   "start": 56.84,
+   "end": 58.02,
+   "wordStart": 124,
+   "wordEnd": 127
+  },
+  {
+   "text": "Go build something.",
+   "start": 58.919,
+   "end": 60.003,
+   "wordStart": 128,
+   "wordEnd": 130
+  }
+ ]
+}

@@ -9,20 +9,16 @@ import {
 } from "@/lib/audio";
 import { welcomeLines } from "@/content/welcome";
 import { useChapterCues } from "@/hooks/use-chapter-cues";
-import { WelcomeTimedFallback } from "@/components/welcome/welcome-timed-fallback";
 
 interface WelcomeExperienceProps {
   onComplete: () => void;
 }
 
-type WelcomeMode = "probing" | "audio" | "timed";
-
 /**
- * Welcome intro: production audio + cues when welcome.mp3 exists,
- * otherwise isolated timed fallback.
+ * Welcome intro: production audio + cue-driven transcript.
  */
 export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
-  const [mode, setMode] = useState<WelcomeMode>("probing");
+  const [ready, setReady] = useState(false);
   const [isExiting, setIsExiting] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [playing, setPlaying] = useState(false);
@@ -40,16 +36,19 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
     const audio = audioRef.current;
     if (!audio) return;
 
-    const onCanPlay = () => setMode("audio");
-    const onError = () => setMode("timed");
     const onLoaded = () => {
       if (Number.isFinite(audio.duration) && audio.duration > 0.5) {
         setDuration(audio.duration);
-        setMode("audio");
-        void audio.play().catch(() => setMode("timed"));
-      } else {
-        setMode("timed");
+        setReady(true);
+        void audio.play().catch(() => {
+          // Autoplay blocked — still show transcript; user can wait or refresh.
+          setReady(true);
+        });
       }
+    };
+    const onError = () => {
+      // Production welcome.mp3 is required; fail closed to site after a beat.
+      setTimeout(finish, 1200);
     };
     const onTime = () => setCurrentTime(audio.currentTime);
     const onPlay = () => setPlaying(true);
@@ -59,7 +58,6 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
       setTimeout(finish, 2000);
     };
 
-    audio.addEventListener("canplaythrough", onCanPlay);
     audio.addEventListener("error", onError);
     audio.addEventListener("loadedmetadata", onLoaded);
     audio.addEventListener("timeupdate", onTime);
@@ -69,13 +67,7 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
     audio.src = src;
     audio.load();
 
-    const probeTimer = setTimeout(() => {
-      if (audio.error || audio.readyState < 2) setMode("timed");
-    }, 4000);
-
     return () => {
-      clearTimeout(probeTimer);
-      audio.removeEventListener("canplaythrough", onCanPlay);
       audio.removeEventListener("error", onError);
       audio.removeEventListener("loadedmetadata", onLoaded);
       audio.removeEventListener("timeupdate", onTime);
@@ -84,10 +76,6 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
       audio.removeEventListener("ended", onEnd);
     };
   }, [src, finish]);
-
-  if (mode === "timed") {
-    return <WelcomeTimedFallback onComplete={onComplete} />;
-  }
 
   const progress = duration > 0 ? currentTime / duration : 0;
 
@@ -104,24 +92,22 @@ export function WelcomeExperience({ onComplete }: WelcomeExperienceProps) {
           <audio ref={audioRef} preload="auto" className="hidden" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/20" />
 
-          {(mode === "audio" || mode === "probing") && (
-            <motion.div
-              className="max-w-lg px-8"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: mode === "audio" ? 1 : 0 }}
-              transition={{ duration: 1, delay: 0.3 }}
-            >
-              <Transcript
-                lines={[...welcomeLines]}
-                currentTime={currentTime}
-                cues={cues}
-                progress={progress}
-                playing={playing}
-                active={mode === "audio"}
-                className="text-center [&_p]:text-white/80"
-              />
-            </motion.div>
-          )}
+          <motion.div
+            className="max-w-lg px-8"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: ready ? 1 : 0 }}
+            transition={{ duration: 1, delay: 0.3 }}
+          >
+            <Transcript
+              lines={[...welcomeLines]}
+              currentTime={currentTime}
+              cues={cues}
+              progress={progress}
+              playing={playing}
+              active={ready}
+              className="text-center [&_p]:text-white/80"
+            />
+          </motion.div>
         </motion.div>
       ) : (
         <motion.div

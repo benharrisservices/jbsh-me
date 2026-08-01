@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import type { ChapterCues, TimingSource } from "@/lib/cues";
-import { hasProductionLineCues } from "@/lib/cues";
+import { hasProductionLineCues, normalizeChapterCues } from "@/lib/cues";
 import { narrationCueSrc } from "@/lib/audio";
 
 const cache = new Map<string, ChapterCues | null>();
@@ -32,7 +32,7 @@ export interface ChapterCueState {
 
 /**
  * Loads production cue JSON for a chapter. Cached for the session.
- * Returns timingSource 'estimated' when cues are missing or invalid.
+ * Returns timingSource 'unavailable' when cues are missing or invalid.
  */
 export function useChapterCues(chapterId: string): ChapterCueState {
   const [state, setState] = useState(() => initialState(chapterId));
@@ -61,8 +61,8 @@ export function useChapterCues(chapterId: string): ChapterCueState {
         if (!res.ok) {
           throw new Error(`Cue load failed (${res.status})`);
         }
-        const data = (await res.json()) as ChapterCues;
-        if (data.status === "unavailable") {
+        const data = normalizeChapterCues(await res.json());
+        if (!data || data.status === "unavailable" || !hasProductionLineCues(data)) {
           cache.set(chapterId, null);
           setState((prev) =>
             prev.chapterId === chapterId
@@ -70,7 +70,7 @@ export function useChapterCues(chapterId: string): ChapterCueState {
                   ...prev,
                   cues: null,
                   loading: false,
-                  error: data.reason ?? "Production cues unavailable",
+                  error: data?.reason ?? "Production cues unavailable",
                 }
               : prev,
           );
@@ -105,7 +105,7 @@ export function useChapterCues(chapterId: string): ChapterCueState {
 
   const timingSource: TimingSource = hasProductionLineCues(state.cues)
     ? "production"
-    : "estimated";
+    : "unavailable";
 
   return {
     cues: state.cues,

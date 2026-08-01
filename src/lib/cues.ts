@@ -20,15 +20,100 @@ export interface ChapterCues {
   source?: string;
   status?: string;
   reason?: string;
+  id?: string;
+  audio?: string;
+  duration?: number;
   words?: CueWord[];
   lines?: CueLine[];
   coverage?: { ok?: boolean };
 }
 
-export type TimingSource = "production" | "estimated";
+export type TimingSource = "production" | "unavailable";
+
+type RawCueWord = {
+  text?: string;
+  word?: string;
+  start?: number;
+  end?: number;
+  loss?: number;
+};
+
+type RawCueLine = {
+  text?: string;
+  start?: number;
+  end?: number;
+  word_start?: number;
+  word_end?: number;
+  wordStart?: number;
+  wordEnd?: number;
+};
+
+type RawChapterCues = Omit<ChapterCues, "words" | "lines"> & {
+  words?: RawCueWord[];
+  lines?: RawCueLine[];
+};
+
+/**
+ * Normalize production cue JSON into the app's canonical shape.
+ * Accepts either { text } or { word }, and word_start/wordStart aliases.
+ * Does not mutate the source file.
+ */
+export function normalizeChapterCues(raw: RawChapterCues | null | undefined): ChapterCues | null {
+  if (!raw) return null;
+
+  const words = (raw.words ?? [])
+    .map((w) => {
+      const text = (w.text ?? w.word ?? "").trim();
+      if (
+        !text ||
+        typeof w.start !== "number" ||
+        typeof w.end !== "number" ||
+        !(w.end > w.start)
+      ) {
+        return null;
+      }
+      return {
+        text,
+        start: w.start,
+        end: w.end,
+        ...(typeof w.loss === "number" ? { loss: w.loss } : {}),
+      } satisfies CueWord;
+    })
+    .filter((w): w is CueWord => w != null);
+
+  const lines = (raw.lines ?? [])
+    .map((l) => {
+      if (
+        typeof l.text !== "string" ||
+        typeof l.start !== "number" ||
+        typeof l.end !== "number" ||
+        !(l.end > l.start)
+      ) {
+        return null;
+      }
+      const word_start = l.word_start ?? l.wordStart;
+      const word_end = l.word_end ?? l.wordEnd;
+      return {
+        text: l.text,
+        start: l.start,
+        end: l.end,
+        ...(typeof word_start === "number" ? { word_start } : {}),
+        ...(typeof word_end === "number" ? { word_end } : {}),
+      } satisfies CueLine;
+    })
+    .filter((l): l is CueLine => l != null);
+
+  return {
+    ...raw,
+    words,
+    lines,
+  };
+}
 
 /** True when cue JSON contains usable line timings (not a failure stub). */
-export function hasProductionLineCues(cues: ChapterCues | null | undefined): cues is ChapterCues {
+export function hasProductionLineCues(
+  cues: ChapterCues | null | undefined,
+): cues is ChapterCues {
   if (!cues || cues.status === "unavailable") return false;
   const lines = cues.lines;
   if (!lines?.length) return false;
@@ -40,12 +125,16 @@ export function hasProductionLineCues(cues: ChapterCues | null | undefined): cue
   );
 }
 
-export function hasProductionWordCues(cues: ChapterCues | null | undefined): boolean {
+export function hasProductionWordCues(
+  cues: ChapterCues | null | undefined,
+): boolean {
   if (!hasProductionLineCues(cues)) return false;
   const words = cues.words;
   if (!words?.length) return false;
   return words.every(
     (w) =>
+      typeof w.text === "string" &&
+      w.text.length > 0 &&
       typeof w.start === "number" &&
       typeof w.end === "number" &&
       w.end > w.start,

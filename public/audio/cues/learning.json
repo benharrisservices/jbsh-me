@@ -1,0 +1,361 @@
+{
+ "id": "learning",
+ "audio": "/audio/learning.mp3",
+ "duration": 25.652,
+ "loudness": {
+  "integrated_lufs": -16.94,
+  "true_peak_dbtp": -2.49,
+  "lra": 3.7
+ },
+ "wordCount": 55,
+ "lineCount": 10,
+ "words": [
+  {
+   "word": "You",
+   "start": 0.079,
+   "end": 0.219
+  },
+  {
+   "word": "already",
+   "start": 0.319,
+   "end": 0.74
+  },
+  {
+   "word": "know",
+   "start": 0.799,
+   "end": 1.039
+  },
+  {
+   "word": "how",
+   "start": 1.279,
+   "end": 1.439
+  },
+  {
+   "word": "to",
+   "start": 1.519,
+   "end": 1.62
+  },
+  {
+   "word": "learn.",
+   "start": 1.659,
+   "end": 1.979
+  },
+  {
+   "word": "You",
+   "start": 2.639,
+   "end": 2.74
+  },
+  {
+   "word": "sit",
+   "start": 2.859,
+   "end": 2.98
+  },
+  {
+   "word": "with",
+   "start": 3.019,
+   "end": 3.099
+  },
+  {
+   "word": "a",
+   "start": 3.159,
+   "end": 3.259
+  },
+  {
+   "word": "problem",
+   "start": 3.299,
+   "end": 3.879
+  },
+  {
+   "word": "until",
+   "start": 3.919,
+   "end": 4.139
+  },
+  {
+   "word": "it",
+   "start": 4.179,
+   "end": 4.4
+  },
+  {
+   "word": "gives",
+   "start": 4.48,
+   "end": 4.739
+  },
+  {
+   "word": "in.",
+   "start": 4.819,
+   "end": 5.059
+  },
+  {
+   "word": "Read",
+   "start": 5.9,
+   "end": 6.299
+  },
+  {
+   "word": "every",
+   "start": 6.379,
+   "end": 6.579
+  },
+  {
+   "word": "day.",
+   "start": 6.679,
+   "end": 7.0
+  },
+  {
+   "word": "Ideas",
+   "start": 7.759,
+   "end": 8.139
+  },
+  {
+   "word": "are",
+   "start": 8.179,
+   "end": 8.26
+  },
+  {
+   "word": "the",
+   "start": 8.3,
+   "end": 8.439
+  },
+  {
+   "word": "cheapest",
+   "start": 8.5,
+   "end": 8.88
+  },
+  {
+   "word": "leverage",
+   "start": 8.979,
+   "end": 9.399
+  },
+  {
+   "word": "there",
+   "start": 9.5,
+   "end": 9.679
+  },
+  {
+   "word": "is.",
+   "start": 9.76,
+   "end": 10.059
+  },
+  {
+   "word": "One",
+   "start": 10.899,
+   "end": 11.019
+  },
+  {
+   "word": "book",
+   "start": 11.139,
+   "end": 11.519
+  },
+  {
+   "word": "can",
+   "start": 11.559,
+   "end": 11.72
+  },
+  {
+   "word": "reframe",
+   "start": 11.779,
+   "end": 12.239
+  },
+  {
+   "word": "a",
+   "start": 12.3,
+   "end": 12.38
+  },
+  {
+   "word": "decade.",
+   "start": 12.439,
+   "end": 12.96
+  },
+  {
+   "word": "Read",
+   "start": 14.0,
+   "end": 14.239
+  },
+  {
+   "word": "outside",
+   "start": 14.319,
+   "end": 14.839
+  },
+  {
+   "word": "your",
+   "start": 14.92,
+   "end": 15.079
+  },
+  {
+   "word": "field.",
+   "start": 15.139,
+   "end": 15.5
+  },
+  {
+   "word": "The",
+   "start": 16.18,
+   "end": 16.26
+  },
+  {
+   "word": "best",
+   "start": 16.299,
+   "end": 16.539
+  },
+  {
+   "word": "engineers",
+   "start": 16.639,
+   "end": 17.159
+  },
+  {
+   "word": "are",
+   "start": 17.199,
+   "end": 17.34
+  },
+  {
+   "word": "curious",
+   "start": 17.459,
+   "end": 18.02
+  },
+  {
+   "word": "about",
+   "start": 18.1,
+   "end": 18.319
+  },
+  {
+   "word": "everything.",
+   "start": 18.5,
+   "end": 18.939
+  },
+  {
+   "word": "Write",
+   "start": 19.899,
+   "end": 20.139
+  },
+  {
+   "word": "things",
+   "start": 20.199,
+   "end": 20.44
+  },
+  {
+   "word": "down.",
+   "start": 20.479,
+   "end": 20.899
+  },
+  {
+   "word": "Teach",
+   "start": 21.639,
+   "end": 22.02
+  },
+  {
+   "word": "what",
+   "start": 22.26,
+   "end": 22.42
+  },
+  {
+   "word": "you",
+   "start": 22.479,
+   "end": 22.6
+  },
+  {
+   "word": "learn.",
+   "start": 22.639,
+   "end": 23.019
+  },
+  {
+   "word": "Stay",
+   "start": 24.019,
+   "end": 24.18
+  },
+  {
+   "word": "humble",
+   "start": 24.299,
+   "end": 24.559
+  },
+  {
+   "word": "enough",
+   "start": 24.619,
+   "end": 24.939
+  },
+  {
+   "word": "to",
+   "start": 24.959,
+   "end": 25.059
+  },
+  {
+   "word": "be",
+   "start": 25.079,
+   "end": 25.159
+  },
+  {
+   "word": "wrong.",
+   "start": 25.26,
+   "end": 25.539
+  }
+ ],
+ "lines": [
+  {
+   "text": "You already know how to learn.",
+   "start": 0.079,
+   "end": 1.979,
+   "wordStart": 0,
+   "wordEnd": 5
+  },
+  {
+   "text": "You sit with a problem until it gives in.",
+   "start": 2.639,
+   "end": 5.059,
+   "wordStart": 6,
+   "wordEnd": 14
+  },
+  {
+   "text": "Read every day.",
+   "start": 5.9,
+   "end": 7.0,
+   "wordStart": 15,
+   "wordEnd": 17
+  },
+  {
+   "text": "Ideas are the cheapest leverage there is.",
+   "start": 7.759,
+   "end": 10.059,
+   "wordStart": 18,
+   "wordEnd": 24
+  },
+  {
+   "text": "One book can reframe a decade.",
+   "start": 10.899,
+   "end": 12.96,
+   "wordStart": 25,
+   "wordEnd": 30
+  },
+  {
+   "text": "Read outside your field.",
+   "start": 14.0,
+   "end": 15.5,
+   "wordStart": 31,
+   "wordEnd": 34
+  },
+  {
+   "text": "The best engineers are curious about everything.",
+   "start": 16.18,
+   "end": 18.939,
+   "wordStart": 35,
+   "wordEnd": 41
+  },
+  {
+   "text": "Write things down.",
+   "start": 19.899,
+   "end": 20.899,
+   "wordStart": 42,
+   "wordEnd": 44
+  },
+  {
+   "text": "Teach what you learn.",
+   "start": 21.639,
+   "end": 23.019,
+   "wordStart": 45,
+   "wordEnd": 48
+  },
+  {
+   "text": "Stay humble enough to be wrong.",
+   "start": 24.019,
+   "end": 25.652,
+   "wordStart": 49,
+   "wordEnd": 54
+  }
+ ]
+}

@@ -1,0 +1,271 @@
+{
+ "id": "principles",
+ "audio": "/audio/principles.mp3",
+ "duration": 21.473,
+ "loudness": {
+  "integrated_lufs": -16.95,
+  "true_peak_dbtp": -1.64,
+  "lra": 3.0
+ },
+ "wordCount": 37,
+ "lineCount": 10,
+ "words": [
+  {
+   "word": "Not",
+   "start": 0.019,
+   "end": 0.199
+  },
+  {
+   "word": "rules.",
+   "start": 0.519,
+   "end": 1.039
+  },
+  {
+   "word": "Orientations.",
+   "start": 1.62,
+   "end": 2.639
+  },
+  {
+   "word": "The",
+   "start": 3.359,
+   "end": 3.48
+  },
+  {
+   "word": "patterns",
+   "start": 3.519,
+   "end": 4.099
+  },
+  {
+   "word": "I",
+   "start": 4.42,
+   "end": 4.44
+  },
+  {
+   "word": "noticed",
+   "start": 4.48,
+   "end": 4.92
+  },
+  {
+   "word": "in",
+   "start": 4.98,
+   "end": 5.139
+  },
+  {
+   "word": "people",
+   "start": 5.199,
+   "end": 5.519
+  },
+  {
+   "word": "who",
+   "start": 5.599,
+   "end": 5.799
+  },
+  {
+   "word": "built",
+   "start": 5.859,
+   "end": 6.099
+  },
+  {
+   "word": "lives",
+   "start": 6.279,
+   "end": 6.759
+  },
+  {
+   "word": "they",
+   "start": 6.92,
+   "end": 6.98
+  },
+  {
+   "word": "were",
+   "start": 7.059,
+   "end": 7.219
+  },
+  {
+   "word": "proud",
+   "start": 7.259,
+   "end": 7.519
+  },
+  {
+   "word": "of.",
+   "start": 7.619,
+   "end": 7.799
+  },
+  {
+   "word": "Own",
+   "start": 8.539,
+   "end": 8.76
+  },
+  {
+   "word": "things.",
+   "start": 8.899,
+   "end": 9.3
+  },
+  {
+   "word": "Build",
+   "start": 9.76,
+   "end": 10.099
+  },
+  {
+   "word": "things.",
+   "start": 10.34,
+   "end": 10.719
+  },
+  {
+   "word": "Read",
+   "start": 11.219,
+   "end": 11.599
+  },
+  {
+   "word": "every",
+   "start": 11.899,
+   "end": 12.1
+  },
+  {
+   "word": "day.",
+   "start": 12.199,
+   "end": 12.46
+  },
+  {
+   "word": "Protect",
+   "start": 12.939,
+   "end": 13.38
+  },
+  {
+   "word": "your",
+   "start": 13.579,
+   "end": 13.699
+  },
+  {
+   "word": "attention.",
+   "start": 13.819,
+   "end": 14.319
+  },
+  {
+   "word": "Play",
+   "start": 14.739,
+   "end": 15.199
+  },
+  {
+   "word": "long",
+   "start": 15.339,
+   "end": 15.619
+  },
+  {
+   "word": "games.",
+   "start": 15.779,
+   "end": 16.299
+  },
+  {
+   "word": "Leave",
+   "start": 16.76,
+   "end": 16.959
+  },
+  {
+   "word": "things",
+   "start": 17.119,
+   "end": 17.479
+  },
+  {
+   "word": "better.",
+   "start": 17.68,
+   "end": 18.059
+  },
+  {
+   "word": "Keep",
+   "start": 18.68,
+   "end": 18.92
+  },
+  {
+   "word": "your",
+   "start": 19.159,
+   "end": 19.399
+  },
+  {
+   "word": "word.",
+   "start": 19.439,
+   "end": 19.899
+  },
+  {
+   "word": "Keep",
+   "start": 20.439,
+   "end": 20.699
+  },
+  {
+   "word": "learning.",
+   "start": 21.02,
+   "end": 21.379
+  }
+ ],
+ "lines": [
+  {
+   "text": "Not rules.",
+   "start": 0.019,
+   "end": 1.039,
+   "wordStart": 0,
+   "wordEnd": 1
+  },
+  {
+   "text": "Orientations.",
+   "start": 1.62,
+   "end": 2.639,
+   "wordStart": 2,
+   "wordEnd": 2
+  },
+  {
+   "text": "The patterns I noticed in people who built lives they were proud of.",
+   "start": 3.359,
+   "end": 7.799,
+   "wordStart": 3,
+   "wordEnd": 15
+  },
+  {
+   "text": "Own things. Build things.",
+   "start": 8.539,
+   "end": 10.719,
+   "wordStart": 16,
+   "wordEnd": 19
+  },
+  {
+   "text": "Read every day.",
+   "start": 11.219,
+   "end": 12.46,
+   "wordStart": 20,
+   "wordEnd": 22
+  },
+  {
+   "text": "Protect your attention.",
+   "start": 12.939,
+   "end": 14.319,
+   "wordStart": 23,
+   "wordEnd": 25
+  },
+  {
+   "text": "Play long games.",
+   "start": 14.739,
+   "end": 16.299,
+   "wordStart": 26,
+   "wordEnd": 28
+  },
+  {
+   "text": "Leave things better.",
+   "start": 16.76,
+   "end": 18.059,
+   "wordStart": 29,
+   "wordEnd": 31
+  },
+  {
+   "text": "Keep your word.",
+   "start": 18.68,
+   "end": 19.899,
+   "wordStart": 32,
+   "wordEnd": 34
+  },
+  {
+   "text": "Keep learning.",
+   "start": 20.439,
+   "end": 21.473,
+   "wordStart": 35,
+   "wordEnd": 36
+  }
+ ]
+}
